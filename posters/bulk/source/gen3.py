@@ -57,7 +57,14 @@ CSS = """
 html,body{width:1080px;height:1350px;overflow:hidden}
 body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
 .p{position:relative;width:1080px;height:1350px;overflow:hidden;color:var(--ink);
-  background:radial-gradient(ellipse 75% 60% at 50% var(--gy,48%),var(--bg2) 0%,var(--bg) 62%)}
+  --shapebg:linear-gradient(165deg,color-mix(in srgb,var(--shape) 78%,#fff) 0%,var(--shape) 42%,color-mix(in srgb,var(--shape) 80%,#000) 100%);
+  background:
+   radial-gradient(ellipse 55% 42% at 50% var(--gy,46%),color-mix(in srgb,var(--bg2) 85%,#fff) 0%,transparent 72%),
+   linear-gradient(180deg,transparent 0%,transparent 66%,rgba(0,0,0,.13) 100%),
+   radial-gradient(ellipse 80% 65% at 50% 48%,var(--bg2) 0%,var(--bg) 64%)}
+.vig{position:absolute;inset:0;z-index:44;pointer-events:none;background:radial-gradient(ellipse 88% 78% at 50% 46%,transparent 58%,rgba(0,0,0,.30) 100%)}
+.light{position:absolute;z-index:2;pointer-events:none;left:140px;top:120px;width:800px;height:800px;border-radius:50%;
+  background:radial-gradient(circle,rgba(255,255,255,.22) 0%,rgba(255,255,255,0) 62%);mix-blend-mode:soft-light}
 .grain{position:absolute;inset:0;z-index:50;pointer-events:none;opacity:.16;mix-blend-mode:overlay;
   background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .5  0 0 0 0 .5  0 0 0 0 .5  0 0 0 1.4 -.2'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
 .mast{position:absolute;top:100px;left:72px;right:72px;z-index:30;display:flex;align-items:center;justify-content:space-between}
@@ -67,29 +74,34 @@ body{font-family:'Montserrat',sans-serif;-webkit-font-smoothing:antialiased}
 .mast .side span{display:inline-block;padding:7px 12px;border:1.5px solid var(--ink);border-radius:99px;letter-spacing:.24em}
 .rule{position:absolute;left:72px;right:72px;top:152px;height:2px;background:var(--ink);opacity:.5;z-index:30}
 .word{position:absolute;left:0;right:0;text-align:center;font-family:'Playfair Display',serif;font-weight:900;
-  color:var(--word);line-height:.8;white-space:nowrap;z-index:3;letter-spacing:-.015em}
+  color:var(--word);line-height:.8;white-space:nowrap;z-index:3;letter-spacing:-.015em;
+  filter:drop-shadow(0 16px 20px rgba(0,0,0,.20)) drop-shadow(0 3px 3px rgba(0,0,0,.12))}
 .word.gold{background:linear-gradient(180deg,#F6DE9A 0%,#D9B25F 45%,#9C7426 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
 .prod{position:absolute;z-index:10}
 .prod img{width:100%;height:100%;object-fit:contain;object-position:50% 100%;
-  filter:drop-shadow(0 30px 34px rgba(0,0,0,.42)) drop-shadow(0 8px 10px rgba(0,0,0,.28))}
-.cshadow{position:absolute;z-index:9;border-radius:50%;background:radial-gradient(ellipse at center,rgba(0,0,0,.5) 0%,rgba(0,0,0,0) 70%)}
+  filter:drop-shadow(0 46px 42px rgba(0,0,0,.34)) drop-shadow(0 16px 16px rgba(0,0,0,.26)) drop-shadow(0 3px 3px rgba(0,0,0,.22))}
+.cshadow{position:absolute;z-index:9;border-radius:50%;background:radial-gradient(ellipse at center,rgba(0,0,0,.45) 0%,rgba(0,0,0,0) 70%);filter:blur(4px)}
+.cshadow.t{background:radial-gradient(ellipse at center,rgba(0,0,0,.55) 0%,rgba(0,0,0,0) 65%);filter:blur(2px)}
 .copy{position:absolute;left:72px;bottom:196px;z-index:30;max-width:800px}
 .kick{font-weight:700;font-size:16px;letter-spacing:.34em;display:flex;align-items:center;gap:16px}
 .kick:before{content:"";width:44px;height:2.5px;background:var(--ink)}
-.head{font-family:'Playfair Display',serif;font-style:italic;font-weight:600;font-size:80px;line-height:1;margin:12px 0 12px;white-space:nowrap;letter-spacing:-.015em}
+.head{font-family:'Playfair Display',serif;font-style:italic;font-weight:600;font-size:80px;line-height:1;margin:12px 0 12px;white-space:nowrap;letter-spacing:-.015em;
+  text-shadow:0 6px 18px rgba(0,0,0,.16)}
 .head b{color:var(--word);font-weight:800}
 .desc{font-size:21px;font-weight:500;letter-spacing:.01em}
 .cta{position:absolute;left:72px;right:72px;bottom:104px;z-index:30;display:flex;justify-content:space-between;align-items:center}
 .cta .btn{background:var(--btn);color:var(--btnink);font-weight:800;font-size:19px;letter-spacing:.24em;padding:19px 34px 18px 38px;border-radius:99px;
-  box-shadow:0 10px 22px rgba(0,0,0,.22)}
+  box-shadow:0 14px 26px rgba(0,0,0,.28),inset 0 2px 0 rgba(255,255,255,.28),inset 0 -3px 0 rgba(0,0,0,.12)}
 .cta .r{font-weight:700;font-size:14px;letter-spacing:.24em;text-align:right;line-height:1.6}
 .chip{position:absolute;right:72px;bottom:200px;z-index:31;width:132px;background:#FFFCF6;padding:8px 8px 0;
-  box-shadow:0 16px 28px rgba(0,0,0,.32);transform:rotate(4deg)}
+  box-shadow:0 22px 34px rgba(0,0,0,.36),0 4px 8px rgba(0,0,0,.2);transform:rotate(4deg)}
 .chip .sw{height:108px}
 .chip .t1{font-size:8.5px;font-weight:700;letter-spacing:.24em;color:#1a1a1a;padding:9px 0 2px}
 .chip .t2{font-size:11.5px;font-weight:700;letter-spacing:.12em;color:#1a1a1a;padding-bottom:10px;text-transform:uppercase;line-height:1.25}
 .star{position:absolute;z-index:20}
 .shape{position:absolute;z-index:1}
+div.shape{box-shadow:0 40px 70px rgba(0,0,0,.26),0 10px 20px rgba(0,0,0,.14),inset 0 3px 0 rgba(255,255,255,.30),inset 0 -50px 90px rgba(0,0,0,.14)}
+svg.shape{filter:drop-shadow(0 30px 40px rgba(0,0,0,.24)) drop-shadow(0 6px 10px rgba(0,0,0,.14))}
 """
 
 FIT_JS = """
@@ -115,13 +127,14 @@ def product(img, x, top, w, h, shadow=None, style=""):
     s = ""
     if shadow:
         sw, sy = shadow
-        s = f'<div class="cshadow" style="left:{x + w/2 - sw/2}px;top:{sy}px;width:{sw}px;height:{sw*0.12}px"></div>'
+        s = (f'<div class="cshadow" style="left:{x + w/2 - sw*0.6}px;top:{sy - sw*0.03}px;width:{sw*1.2}px;height:{sw*0.18}px"></div>'
+             f'<div class="cshadow t" style="left:{x + w/2 - sw*0.38}px;top:{sy + sw*0.01}px;width:{sw*0.76}px;height:{sw*0.07}px"></div>')
     return s + (f'<div class="prod" style="left:{x}px;top:{top}px;width:{w}px;height:{h}px;{style}">'
                 f'<img src="file://{CUT}/{img}.png"></div>')
 
 
 def common(c):
-    return (f'<div class="grain"></div>'
+    return (f'<div class="grain"></div><div class="vig"></div><div class="light"></div>'
             f'<div class="mast"><div class="side">{c.get("left","NEW IN")}</div><div class="brand">OUTLOOK STYLES</div>'
             f'<div class="side r"><span>{c["cat"]}</span></div></div><div class="rule"></div>'
             f'<div class="cta"><div class="btn">DM TO ORDER &nbsp;&rarr;</div>'
@@ -145,7 +158,7 @@ def chip(c):
 def v_spotlight(c, p):
     """BAGS: big pop word on top, filled arch behind product."""
     arch = (f'<div class="shape" style="left:{540-c.get("aw",340)}px;top:{c.get("atop",330)}px;width:{2*c.get("aw",340)}px;height:{1030-c.get("atop",330)}px;'
-            f'border-radius:{c.get("aw",340)}px {c.get("aw",340)}px 0 0;background:var(--shape)"></div>')
+            f'border-radius:{c.get("aw",340)}px {c.get("aw",340)}px 0 0;background:var(--shapebg)"></div>')
     return (arch + word_div(c["word"], c.get("wordtop", 172), p=p) + product(c["img"], *c["box"], shadow=c.get("shadow"))
             + star(850, 360, 48, p["acc"]) + star(200, 640, 30, p["acc"]))
 
@@ -163,7 +176,7 @@ def v_stacked(c, p):
 def v_vertical(c, p):
     """BOTTOMS & DRESSES: giant vertical pop word left, rounded panel + tall product right."""
     panel = (f'<div class="shape" style="left:{c.get("px",420)}px;top:200px;width:{c.get("pw",560)}px;height:800px;'
-             f'border-radius:280px 280px 24px 24px;background:var(--shape)"></div>')
+             f'border-radius:280px 280px 24px 24px;background:var(--shapebg)"></div>')
     word = (f'<div class="word" data-fitw="{c.get("vlen",800)}" style="left:auto;right:auto;top:0;transform-origin:0 0;'
             f'transform:translate({c.get("vx",66)}px,{c.get("vy",1000)}px) rotate(-90deg);text-align:left;line-height:.78">{c["word"]}</div>')
     tag = (f'<div style="position:absolute;z-index:3;left:{c.get("tagx",332)}px;top:205px;font-weight:700;font-size:13px;'
@@ -187,7 +200,7 @@ def v_wide(c, p):
     """SUNGLASSES: contrasting sun disc, pop word, product + reflection."""
     x, top, w, h = c["box"]
     disc = (f'<div class="shape" style="left:{540-c.get("dr",320)}px;top:{c.get("disctop",330)}px;width:{2*c.get("dr",320)}px;'
-            f'height:{2*c.get("dr",320)}px;border-radius:50%;background:var(--shape)"></div>')
+            f'height:{2*c.get("dr",320)}px;border-radius:50%;background:var(--shapebg)"></div>')
     refl = (f'<div class="prod" style="left:{x}px;top:{top+h-6}px;width:{w}px;height:{h}px;transform:scaleY(-1);opacity:.22;'
             f'-webkit-mask-image:linear-gradient(to top,rgba(0,0,0,.9),transparent 55%)"><img src="file://{CUT}/{c["img"]}.png" style="filter:none"></div>')
     return (disc + word_div(c["word"], c.get("wordtop", 172), p=p) + refl + product(c["img"], x, top, w, h)
@@ -197,7 +210,7 @@ def v_wide(c, p):
 def v_details(c, p):
     """FLATS & JEWELLERY: medallion + callouts."""
     r, mt = c.get("mr", 340), c.get("mtop", 300)
-    med = (f'<div class="shape" style="left:{540-r}px;top:{mt}px;width:{2*r}px;height:{2*r}px;border-radius:50%;background:var(--shape);'
+    med = (f'<div class="shape" style="left:{540-r}px;top:{mt}px;width:{2*r}px;height:{2*r}px;border-radius:50%;background:var(--shapebg);'
            f'box-shadow:0 0 0 3px var(--acc),0 0 0 18px transparent,0 0 0 20px color-mix(in srgb,var(--acc) 45%,transparent)"></div>')
     svg, labels = '<svg style="position:absolute;left:0;top:0;z-index:25" width="1080" height="1350">', ""
     for (dx, dy, lx, ly, txt, al) in c["calls"]:
@@ -242,7 +255,7 @@ def pill(txt, x, y, align="left", w=300):
 def v_outfit(c, p):
     """STYLE IT: top (left) + bottom (right), both big, with labels."""
     out = word_div(c["word"], c.get("wordtop", 172), p=p)
-    out += f'<div class="shape" style="left:40px;top:330px;width:1000px;height:660px;border-radius:330px 330px 30px 30px;background:var(--shape);opacity:.55"></div>'
+    out += f'<div class="shape" style="left:40px;top:330px;width:1000px;height:660px;border-radius:330px 330px 30px 30px;background:var(--shapebg);opacity:.55"></div>'
     (tx, tt, tw, th), (bx, bt, bw, bh) = c["tbox"], c["bbox"]
     out += product(c["bimg"], bx, bt, bw, bh, shadow=[bw * .8, bt + bh - 16])
     out += product(c["timg"], tx, tt, tw, th, shadow=[tw * .7, tt + th - 16])

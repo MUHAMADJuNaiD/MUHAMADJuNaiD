@@ -4,7 +4,7 @@ function walk(d){return fs.readdirSync(d,{withFileTypes:true}).flatMap(e=>e.isDi
 (async () => {
   const [htmlDir, outDir, only] = process.argv.slice(2);
   const b = await chromium.launch({ args: ['--allow-file-access-from-files'] });
-  const pg = await b.newPage({ viewport: { width: 1080, height: 1350 } });
+  const pg = await b.newPage({ viewport: { width: 1080, height: 1350 }, deviceScaleFactor: Number(process.env.DSF || 2) });
   let n=0;
   for (const f of walk(htmlDir).sort()) {
     const rel = path.relative(htmlDir, f);

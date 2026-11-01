@@ -1,6 +1,6 @@
 # Outlook Styles – Bulk posters ("Colour Pop" theme)
 
-181 Instagram posters, 4:5 (1080 × 1350), high-quality JPG. Every poster follows the approved v3 "Colour Pop" theme. Only products with a clean cut-out are used.
+181 Instagram posters, 4:5, **2160 × 2700 px (2K+)**, JPG quality 95 with full 4:4:4 colour and 300 dpi (about 1–2 MB each). See `before-after.jpg` for the quality jump. Every poster follows the approved v3 "Colour Pop" theme. Only products with a clean cut-out are used.
 
 | Folder | Posters | What's inside |
 | --- | --- | --- |
@@ -19,6 +19,16 @@
 - `captions.md` / `captions.csv` – a ready caption for every poster (Roman Urdu + English, hashtags, no price)
 - `overview/` – contact sheets of every poster for quick review
 - `source/` – generator and catalog (`catalog.py` holds all the copy, `bulk.py` picks the colours and layouts)
+
+## HD upgrade (v2 of bulk)
+
+- **Render:** every poster is rendered at 2× (2160 × 2700) so text, shapes and photos stay sharp on any phone.
+- **Product photos:** AI upscaled with Real-ESRGAN (realesr-general-x4v3, run locally through ONNX). Then 35% of the AI result is blended with 65% of a sharpened Lanczos upscale. The AI gives clean edges, prints and stitching, and the blend keeps the real knit and leather texture so nothing looks plastic.
+- **Depth:**
+  - key light behind the product, a studio floor sweep and a soft vignette
+  - 3D arches, panels and discs with a gradient, highlight edge, inner shade and drop shadow
+  - three-layer product shadows plus a double contact shadow
+  - lifted big word and headline, and raised button and colour chip
 
 ## What was done to the photos
 
