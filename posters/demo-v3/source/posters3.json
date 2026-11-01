@@ -1,0 +1,502 @@
+[
+ {
+  "slug": "01-bag-cherry-saddle",
+  "variant": "spotlight",
+  "pal": "pink-cherry",
+  "cat": "HANDBAGS",
+  "img": "212",
+  "word": "CHERRY",
+  "box": [
+   287,
+   226,
+   506,
+   760
+  ],
+  "shadow": [
+   380,
+   962
+  ],
+  "aw": 330,
+  "atop": 330,
+  "kicker": "THE SADDLE BAG",
+  "head": "Cherry <b>on top.</b>",
+  "desc": "Glossy red leather, sculpted gold hardware.",
+  "chip": [
+   "Cherry Red",
+   "#B01C25"
+  ]
+ },
+ {
+  "slug": "02-bag-crystal-hobo",
+  "variant": "spotlight",
+  "pal": "cobalt-ice",
+  "cat": "HANDBAGS",
+  "img": "106",
+  "word": "SHINE",
+  "box": [
+   216,
+   350,
+   648,
+   618
+  ],
+  "shadow": [
+   560,
+   958
+  ],
+  "aw": 340,
+  "atop": 330,
+  "kicker": "THE CRYSTAL HOBO",
+  "head": "Mini bag, <b>big mood.</b>",
+  "desc": "Hand-set crystal mesh with a knotted handle.",
+  "chip": [
+   "Silver Crystal",
+   "#C9CDD3"
+  ]
+ },
+ {
+  "slug": "03-top-campus-sweatshirt",
+  "variant": "stacked",
+  "pal": "red-varsity",
+  "cat": "SWEATSHIRTS",
+  "img": "36",
+  "word": "CAMPUS",
+  "box": [
+   218,
+   290,
+   644,
+   695
+  ],
+  "shadow": [
+   520,
+   965
+  ],
+  "kicker": "THE COLLEGE SWEATSHIRT",
+  "head": "Campus <b>core.</b>",
+  "desc": "Soft-brushed fleece, relaxed oversized fit.",
+  "chip": [
+   "Heather Grey",
+   "#A9AAAD"
+  ]
+ },
+ {
+  "slug": "04-winter-leather-jacket",
+  "variant": "stacked",
+  "pal": "butter-rust",
+  "cat": "WINTERWEAR",
+  "img": "49",
+  "word": "WINTER",
+  "box": [
+   241,
+   262,
+   599,
+   725
+  ],
+  "shadow": [
+   500,
+   968
+  ],
+  "kicker": "THE LEATHER JACKET",
+  "head": "Built for <b>the cold.</b>",
+  "desc": "Quilted leather-look with a plush faux-fur collar.",
+  "chip": [
+   "Cocoa Brown",
+   "#4A2E22"
+  ]
+ },
+ {
+  "slug": "05-winter-gloss-puffer",
+  "variant": "stacked",
+  "pal": "lime-violet",
+  "cat": "WINTERWEAR",
+  "img": "0",
+  "word": "GLOSS",
+  "box": [
+   237,
+   282,
+   607,
+   705
+  ],
+  "shadow": [
+   540,
+   968
+  ],
+  "kicker": "THE GLOSS PUFFER",
+  "head": "Shine on, <b>winter.</b>",
+  "desc": "High-shine quilted puffer with a stand collar.",
+  "chip": [
+   "Gloss Black",
+   "#121214"
+  ]
+ },
+ {
+  "slug": "06-blouse-satin-wrap",
+  "variant": "stacked",
+  "pal": "wine-blush",
+  "cat": "BLOUSES",
+  "img": "7",
+  "word": "SATIN",
+  "box": [
+   246,
+   285,
+   588,
+   700
+  ],
+  "shadow": [
+   480,
+   968
+  ],
+  "kicker": "THE WRAP BLOUSE",
+  "head": "Soft glam, <b>all day.</b>",
+  "desc": "Liquid satin with a draped wrap front.",
+  "chip": [
+   "Blush Satin",
+   "#D9B6B0"
+  ]
+ },
+ {
+  "slug": "07-bottom-pleated-skirt",
+  "variant": "vertical",
+  "pal": "champagne-ink",
+  "cat": "BOTTOMS",
+  "img": "164",
+  "word": "GOLDEN",
+  "vtag": "PLEATS &middot; GOLD CHAIN",
+  "box": [
+   470,
+   182,
+   470,
+   805
+  ],
+  "shadow": [
+   360,
+   968
+  ],
+  "kicker": "THE PLEATED SKIRT",
+  "head": "Golden, <b>always.</b>",
+  "desc": "Flowing black pleats with a gold chain belt.",
+  "chip": [
+   "Jet Black",
+   "#16161A"
+  ]
+ },
+ {
+  "slug": "08-bottom-wide-leg-denim",
+  "variant": "vertical",
+  "pal": "orange-navy",
+  "cat": "BOTTOMS",
+  "img": "55",
+  "word": "DENIM",
+  "vtag": "HIGH RISE &middot; WIDE LEG",
+  "box": [
+   470,
+   182,
+   470,
+   805
+  ],
+  "shadow": [
+   360,
+   970
+  ],
+  "kicker": "THE WIDE-LEG JEANS",
+  "head": "Find <b>your fit.</b>",
+  "desc": "High-rise, mid-wash, full-length wide leg.",
+  "chip": [
+   "Mid Wash",
+   "#4D6E96"
+  ]
+ },
+ {
+  "slug": "09-dress-blue-floral-maxi",
+  "variant": "vertical",
+  "pal": "sun-cobalt",
+  "cat": "DRESSES",
+  "img": "293",
+  "word": "BLOOM",
+  "vtag": "FLORAL &middot; MAXI",
+  "box": [
+   470,
+   172,
+   470,
+   815
+  ],
+  "shadow": [
+   300,
+   970
+  ],
+  "kicker": "THE FLORAL MAXI",
+  "head": "Full <b>bloom.</b>",
+  "desc": "Cobalt florals, smocked bodice, flowing sleeves.",
+  "chip": [
+   "Cobalt Bloom",
+   "#2848C8"
+  ]
+ },
+ {
+  "slug": "10-eid-embroidered-coord",
+  "variant": "jharoka",
+  "pal": "ivory-emerald",
+  "cat": "EID EDIT",
+  "img": "197",
+  "word": "FESTIVE",
+  "archtop": 322,
+  "archh": 668,
+  "box": [
+   292,
+   252,
+   496,
+   735
+  ],
+  "shadow": [
+   400,
+   968
+  ],
+  "kicker": "THE EMBROIDERED CO-ORD",
+  "head": "Made for <b>Eid.</b>",
+  "desc": "Navy two-piece with embroidered panels and cuffs.",
+  "chip": [
+   "Midnight Navy",
+   "#1F2A4A"
+  ]
+ },
+ {
+  "slug": "11-shades-sunset",
+  "variant": "wide",
+  "pal": "tangerine",
+  "cat": "SUNGLASSES",
+  "img": "292",
+  "word": "SHADES",
+  "dr": 300,
+  "disctop": 350,
+  "box": [
+   70,
+   540,
+   940,
+   306
+  ],
+  "kicker": "THE SUNSET FRAME",
+  "head": "Stay <b>shady.</b>",
+  "desc": "Sharp black frame with sunset-gradient lenses.",
+  "chip": [
+   "Sunset Fade",
+   "linear-gradient(#7E6FB0,#F2A65A)"
+  ]
+ },
+ {
+  "slug": "12-shades-trio-edit",
+  "variant": "trio",
+  "pal": "pink-yellow",
+  "cat": "SUNGLASSES",
+  "word": "SUN",
+  "left": "THE EDIT",
+  "items": [
+   [
+    "305",
+    70,
+    280,
+    640,
+    254,
+    "THE TORTOISE",
+    770,
+    360,
+    "left"
+   ],
+   [
+    "264",
+    370,
+    520,
+    640,
+    220,
+    "THE AVIATOR",
+    72,
+    600,
+    "right"
+   ],
+   [
+    "303",
+    100,
+    745,
+    640,
+    240,
+    "THE ROUND",
+    770,
+    840,
+    "left"
+   ]
+  ],
+  "kicker": "THE SHADES EDIT",
+  "head": "Shades <b>season.</b>",
+  "desc": "Three frames, three moods. Which one is you?"
+ },
+ {
+  "slug": "13-flats-tan-thong",
+  "variant": "details",
+  "pal": "teal-blush",
+  "cat": "FLATS",
+  "img": "185",
+  "word": "STEP",
+  "mr": 330,
+  "mtop": 300,
+  "box": [
+   280,
+   360,
+   520,
+   552
+  ],
+  "shadow": [
+   480,
+   900
+  ],
+  "calls": [
+   [
+    386,
+    647,
+    72,
+    560,
+    "GOLD-TONE<br>MEDALLION",
+    "l"
+   ],
+   [
+    731,
+    536,
+    1008,
+    470,
+    "SIGNATURE<br>STRAP",
+    "r"
+   ],
+   [
+    372,
+    880,
+    72,
+    860,
+    "CUSHIONED<br>SOLE",
+    "l"
+   ]
+  ],
+  "kicker": "THE EVERYDAY FLATS",
+  "head": "Step into <b>elegance.</b>",
+  "desc": "Tan leather-look flats with a gold-tone medallion.",
+  "chip": [
+   "Classic Tan",
+   "#C27A3E"
+  ]
+ },
+ {
+  "slug": "14-jewellery-star-locket",
+  "variant": "details",
+  "pal": "black-gold",
+  "cat": "JEWELLERY",
+  "img": "8",
+  "word": "STAR",
+  "mr": 320,
+  "mtop": 380,
+  "box": [
+   350,
+   240,
+   380,
+   745
+  ],
+  "calls": [
+   [
+    540,
+    735,
+    1008,
+    650,
+    "STARBURST<br>PENDANT",
+    "r"
+   ],
+   [
+    512,
+    935,
+    72,
+    900,
+    "PEARL<br>DROPS",
+    "l"
+   ],
+   [
+    452,
+    520,
+    72,
+    500,
+    "FINE GOLD-TONE<br>CHAIN",
+    "l"
+   ]
+  ],
+  "kicker": "THE STAR LOCKET",
+  "head": "All in the <b>details.</b>",
+  "desc": "Gold-tone starburst pendant with pearl drops.",
+  "chip": [
+   "Polished Gold",
+   "#CFA75A"
+  ]
+ },
+ {
+  "slug": "15-brand-manifesto",
+  "variant": "manifesto",
+  "pal": "cherry-brand",
+  "cat": "THE BRAND",
+  "left": "SINCE 2025",
+  "lines": [
+   [
+    "Style that",
+    230,
+    132,
+    "font-style:italic;font-weight:600"
+   ],
+   [
+    "speaks",
+    370,
+    262,
+    "font-weight:900;color:var(--word);letter-spacing:-.02em"
+   ],
+   [
+    "before you do.",
+    618,
+    120,
+    "font-style:italic;font-weight:600"
+   ],
+   [
+    "WOMEN&rsquo;S WESTERN WEAR &middot; HANDBAGS &middot; SHADES &middot; FLATS",
+    775,
+    15,
+    "font-family:Montserrat;font-weight:700;letter-spacing:.3em"
+   ]
+  ],
+  "strip": [
+   [
+    "212",
+    72,
+    840,
+    150,
+    190
+   ],
+   [
+    "36",
+    250,
+    850,
+    190,
+    180
+   ],
+   [
+    "292",
+    452,
+    950,
+    200,
+    65
+   ],
+   [
+    "106",
+    668,
+    865,
+    170,
+    165
+   ],
+   [
+    "185",
+    858,
+    860,
+    150,
+    170
+   ]
+  ]
+ }
+]
