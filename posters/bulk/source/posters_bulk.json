@@ -1,0 +1,4935 @@
+[
+ {
+  "slug": "tops-winterwear/001-layer",
+  "variant": "stacked",
+  "pal": "sky-red",
+  "cat": "KNITWEAR",
+  "img": "1",
+  "word": "LAYER",
+  "box": [
+   275,
+   235,
+   530,
+   750
+  ],
+  "kicker": "THE KNIT VEST",
+  "head": "Layer <b>it up.</b>",
+  "desc": "Sleeveless ribbed knit with a roll neck.",
+  "chip": [
+   "Olive",
+   "#504328"
+  ],
+  "shadow": [
+   397.5,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/004-classic",
+  "variant": "stacked",
+  "pal": "pink-cherry",
+  "cat": "WINTERWEAR",
+  "img": "4",
+  "word": "CLASSIC",
+  "box": [
+   354,
+   235,
+   373,
+   750
+  ],
+  "kicker": "THE CHECK TRENCH",
+  "head": "Timeless <b>check.</b>",
+  "desc": "Belted double-breasted coat in a heritage check.",
+  "chip": [
+   "Heritage Check",
+   "#483D36"
+  ],
+  "shadow": [
+   279.75,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/006-cozy",
+  "variant": "stacked",
+  "pal": "mint-burgundy",
+  "cat": "SWEATSHIRTS",
+  "img": "6",
+  "word": "COZY",
+  "box": [
+   279,
+   235,
+   522,
+   750
+  ],
+  "kicker": "THE ZIP HOODIE",
+  "head": "Zip it, <b>love it.</b>",
+  "desc": "Full-zip hoodie with contrast trim.",
+  "chip": [
+   "Maroon",
+   "#6D1D2B"
+  ],
+  "shadow": [
+   391.5,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/009-tweed",
+  "variant": "stacked",
+  "pal": "navy-butter",
+  "cat": "WINTERWEAR",
+  "img": "9",
+  "word": "TWEED",
+  "box": [
+   186,
+   235,
+   708,
+   750
+  ],
+  "kicker": "THE TWEED JACKET",
+  "head": "Old money <b>energy.</b>",
+  "desc": "Textured tweed with a cream yoke and zip.",
+  "chip": [
+   "Grey Tweed",
+   "#8D8B84"
+  ],
+  "shadow": [
+   531.0,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/011-easy",
+  "variant": "stacked",
+  "pal": "ivory-emerald",
+  "cat": "SWEATSHIRTS",
+  "img": "11",
+  "word": "EASY",
+  "box": [
+   270,
+   235,
+   540,
+   750
+  ],
+  "kicker": "THE CROPPED ZIP",
+  "head": "Easy <b>does it.</b>",
+  "desc": "Cropped zip-up hoodie in soft fleece.",
+  "chip": [
+   "Stone Grey",
+   "#707071"
+  ],
+  "shadow": [
+   405.0,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/012-soft",
+  "variant": "stacked",
+  "pal": "cobalt-ice",
+  "cat": "KNITWEAR",
+  "img": "12",
+  "word": "SOFT",
+  "box": [
+   264,
+   235,
+   552,
+   750
+  ],
+  "kicker": "THE FLUFFY KNIT",
+  "head": "Soft <b>as a cloud.</b>",
+  "desc": "Plush brushed knit with a notch neckline.",
+  "chip": [
+   "Snow White",
+   "#D0CFC7"
+  ],
+  "shadow": [
+   414.0,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/014-street",
+  "variant": "stacked",
+  "pal": "butter-rust",
+  "cat": "SWEATSHIRTS",
+  "img": "14",
+  "word": "STREET",
+  "box": [
+   247,
+   235,
+   586,
+   750
+  ],
+  "kicker": "THE HALF-ZIP HOODIE",
+  "head": "Street <b>ready.</b>",
+  "desc": "Half-zip hoodie with a kangaroo pocket.",
+  "chip": [
+   "Jet Black",
+   "#1A1A1A"
+  ],
+  "shadow": [
+   439.5,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/015-varsity",
+  "variant": "stacked",
+  "pal": "choc-peach",
+  "cat": "SWEATSHIRTS",
+  "img": "15",
+  "word": "VARSITY",
+  "box": [
+   253,
+   235,
+   575,
+   750
+  ],
+  "kicker": "THE GRAPHIC HOODIE",
+  "head": "Sporty <b>in pink.</b>",
+  "desc": "Fleece hoodie with a navy varsity print.",
+  "chip": [
+   "Blush Pink",
+   "#D7A8A6"
+  ],
+  "shadow": [
+   431.25,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/016-stories",
+  "variant": "stacked",
+  "pal": "lime-violet",
+  "cat": "SWEATSHIRTS",
+  "img": "16",
+  "word": "STORIES",
+  "box": [
+   258,
+   235,
+   565,
+   750
+  ],
+  "kicker": "THE SLOGAN HOODIE",
+  "head": "Good <b>stories.</b>",
+  "desc": "Bright red hoodie with a statement slogan.",
+  "chip": [
+   "Poppy Red",
+   "#C22424"
+  ],
+  "shadow": [
+   423.75,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/017-sage",
+  "variant": "stacked",
+  "pal": "navy-butter",
+  "cat": "SWEATSHIRTS",
+  "img": "17",
+  "word": "SAGE",
+  "box": [
+   229,
+   235,
+   622,
+   750
+  ],
+  "kicker": "THE SAGE SWEATSHIRT",
+  "head": "Calm <b>&amp; cosy.</b>",
+  "desc": "Relaxed crew-neck with a script print.",
+  "chip": [
+   "Sage Green",
+   "#818D6B"
+  ],
+  "shadow": [
+   466.5,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/019-warm",
+  "variant": "stacked",
+  "pal": "champagne-ink",
+  "cat": "WINTERWEAR",
+  "img": "19",
+  "word": "WARM",
+  "box": [
+   244,
+   235,
+   592,
+   750
+  ],
+  "kicker": "THE MATTE PUFFER",
+  "head": "Stay <b>warm.</b>",
+  "desc": "Matte quilted puffer with zip pockets.",
+  "chip": [
+   "Matte Black",
+   "#252525"
+  ],
+  "shadow": [
+   444.0,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/020-preppy",
+  "variant": "stacked",
+  "pal": "sand-cobalt",
+  "cat": "KNITWEAR",
+  "img": "20",
+  "word": "PREPPY",
+  "box": [
+   331,
+   235,
+   419,
+   750
+  ],
+  "kicker": "THE PREPPY VEST",
+  "head": "Prep <b>school.</b>",
+  "desc": "Houndstooth knit vest with varsity trim.",
+  "chip": [
+   "Houndstooth",
+   "#5E5D5D"
+  ],
+  "shadow": [
+   314.25,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/021-sleek",
+  "variant": "stacked",
+  "pal": "orange-navy",
+  "cat": "SWEATSHIRTS",
+  "img": "21",
+  "word": "SLEEK",
+  "box": [
+   326,
+   235,
+   429,
+   750
+  ],
+  "kicker": "THE RIBBED ZIP",
+  "head": "Sleek <b>&amp; simple.</b>",
+  "desc": "Fitted rib-knit with a full zip front.",
+  "chip": [
+   "Black",
+   "#1B1B1B"
+  ],
+  "shadow": [
+   321.75,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/022-sunny",
+  "variant": "stacked",
+  "pal": "teal-blush",
+  "cat": "KNITWEAR",
+  "img": "22",
+  "word": "SUNNY",
+  "box": [
+   283,
+   235,
+   515,
+   750
+  ],
+  "kicker": "THE CABLE VEST",
+  "head": "Hello, <b>sunshine.</b>",
+  "desc": "Cable-knit V-neck vest in bright yellow.",
+  "chip": [
+   "Sunshine Yellow",
+   "#EFBE13"
+  ],
+  "shadow": [
+   386.25,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/024-sporty",
+  "variant": "stacked",
+  "pal": "wine-blush",
+  "cat": "WINTERWEAR",
+  "img": "24",
+  "word": "SPORTY",
+  "box": [
+   254,
+   235,
+   572,
+   750
+  ],
+  "kicker": "THE TRACK JACKET",
+  "head": "Sporty <b>spice.</b>",
+  "desc": "Zip track jacket with side stripes.",
+  "chip": [
+   "Baby Blue",
+   "#88B4D2"
+  ],
+  "shadow": [
+   429.0,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/025-cheri",
+  "variant": "stacked",
+  "pal": "forest-pink",
+  "cat": "SWEATSHIRTS",
+  "img": "25",
+  "word": "CHERI",
+  "box": [
+   212,
+   235,
+   657,
+   750
+  ],
+  "kicker": "THE SCRIPT SWEATSHIRT",
+  "head": "Mon <b>ch&eacute;ri.</b>",
+  "desc": "Soft crew-neck with a French script print.",
+  "chip": [
+   "Dusty Rose",
+   "#C8A799"
+  ],
+  "shadow": [
+   492.75,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/027-dreamy",
+  "variant": "stacked",
+  "pal": "olive-orange",
+  "cat": "SWEATSHIRTS",
+  "img": "27",
+  "word": "DREAMY",
+  "box": [
+   294,
+   235,
+   492,
+   750
+  ],
+  "kicker": "THE TIE-DYE HOODIE",
+  "head": "Pink <b>dreams.</b>",
+  "desc": "Cropped tie-dye hoodie with a butterfly patch.",
+  "chip": [
+   "Candy Pink",
+   "#E2B0BA"
+  ],
+  "shadow": [
+   369.0,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/028-chill",
+  "variant": "stacked",
+  "pal": "sun-cobalt",
+  "cat": "WINTERWEAR",
+  "img": "28",
+  "word": "CHILL",
+  "box": [
+   250,
+   235,
+   581,
+   750
+  ],
+  "kicker": "THE GREY PUFFER",
+  "head": "Chill <b>mode.</b>",
+  "desc": "Chevron-quilted puffer with a high collar.",
+  "chip": [
+   "Cloud Grey",
+   "#6B6B6B"
+  ],
+  "shadow": [
+   435.75,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/029-bomber",
+  "variant": "stacked",
+  "pal": "lilac-plum",
+  "cat": "WINTERWEAR",
+  "img": "29",
+  "word": "BOMBER",
+  "box": [
+   256,
+   235,
+   568,
+   750
+  ],
+  "kicker": "THE LEATHER BOMBER",
+  "head": "Bold <b>in green.</b>",
+  "desc": "Leather-look bomber with ribbed trims.",
+  "chip": [
+   "Bottle Green",
+   "#26433E"
+  ],
+  "shadow": [
+   426.0,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/030-knit",
+  "variant": "stacked",
+  "pal": "black-gold",
+  "cat": "KNITWEAR",
+  "img": "30",
+  "word": "KNIT",
+  "box": [
+   267,
+   235,
+   547,
+   750
+  ],
+  "kicker": "THE CABLE CARDIGAN",
+  "head": "Knit <b>picked.</b>",
+  "desc": "Chunky cable cardigan with wooden buttons.",
+  "chip": [
+   "Dove Grey",
+   "#7B7E86"
+  ],
+  "shadow": [
+   410.25,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/031-cobalt",
+  "variant": "stacked",
+  "pal": "sand-cobalt",
+  "cat": "WINTERWEAR",
+  "img": "31",
+  "word": "COBALT",
+  "box": [
+   231,
+   235,
+   618,
+   750
+  ],
+  "kicker": "THE COLLAR JACKET",
+  "head": "Blue <b>crush.</b>",
+  "desc": "Structured jacket with a rounded collar.",
+  "chip": [
+   "Cobalt",
+   "#295BA7"
+  ],
+  "shadow": [
+   463.5,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/032-edge",
+  "variant": "stacked",
+  "pal": "tangerine",
+  "cat": "WINTERWEAR",
+  "img": "32",
+  "word": "EDGE",
+  "box": [
+   208,
+   235,
+   665,
+   750
+  ],
+  "kicker": "THE MOTO JACKET",
+  "head": "On <b>the edge.</b>",
+  "desc": "Leather-look jacket with white side stripes.",
+  "chip": [
+   "Black &amp; White",
+   "#353336"
+  ],
+  "shadow": [
+   498.75,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/033-retro",
+  "variant": "stacked",
+  "pal": "sky-red",
+  "cat": "KNITWEAR",
+  "img": "33",
+  "word": "RETRO",
+  "box": [
+   287,
+   235,
+   506,
+   750
+  ],
+  "kicker": "THE STRIPE POLO",
+  "head": "Retro <b>stripes.</b>",
+  "desc": "Cropped polo knit with cream stripes.",
+  "chip": [
+   "Chocolate",
+   "#683F2B"
+  ],
+  "shadow": [
+   379.5,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/034-comfy",
+  "variant": "stacked",
+  "pal": "wine-blush",
+  "cat": "SWEATSHIRTS",
+  "img": "34",
+  "word": "COMFY",
+  "box": [
+   248,
+   235,
+   584,
+   750
+  ],
+  "kicker": "THE HENLEY HOODIE",
+  "head": "Comfy <b>Sundays.</b>",
+  "desc": "Button-neck hoodie in heather fleece.",
+  "chip": [
+   "Heather Grey",
+   "#A3A3A3"
+  ],
+  "shadow": [
+   438.0,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/039-iconic",
+  "variant": "stacked",
+  "pal": "choc-peach",
+  "cat": "KNITWEAR",
+  "img": "39",
+  "word": "ICONIC",
+  "box": [
+   248,
+   235,
+   584,
+   750
+  ],
+  "kicker": "THE HOUNDSTOOTH KNIT",
+  "head": "Instant <b>icon.</b>",
+  "desc": "Classic houndstooth crew-neck sweater.",
+  "chip": [
+   "Houndstooth",
+   "#BCB5AD"
+  ],
+  "shadow": [
+   438.0,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/040-blush",
+  "variant": "stacked",
+  "pal": "forest-pink",
+  "cat": "KNITWEAR",
+  "img": "40",
+  "word": "BLUSH",
+  "box": [
+   343,
+   235,
+   395,
+   750
+  ],
+  "kicker": "THE LONG VEST",
+  "head": "Blush <b>crush.</b>",
+  "desc": "Longline knit vest in soft blush.",
+  "chip": [
+   "Blush",
+   "#C5ABA1"
+  ],
+  "shadow": [
+   296.25,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/041-coral",
+  "variant": "stacked",
+  "pal": "mint-burgundy",
+  "cat": "WINTERWEAR",
+  "img": "41",
+  "word": "CORAL",
+  "box": [
+   210,
+   235,
+   661,
+   750
+  ],
+  "kicker": "THE LIGHT PUFFER",
+  "head": "Light <b>&amp; bright.</b>",
+  "desc": "Lightweight quilted puffer in coral.",
+  "chip": [
+   "Coral",
+   "#C3544D"
+  ],
+  "shadow": [
+   495.75,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/045-stripes",
+  "variant": "stacked",
+  "pal": "ivory-emerald",
+  "cat": "SWEATSHIRTS",
+  "img": "45",
+  "word": "STRIPES",
+  "box": [
+   303,
+   235,
+   474,
+   750
+  ],
+  "kicker": "THE STRIPE HOODIE",
+  "head": "Earn <b>your stripes.</b>",
+  "desc": "Red and white striped zip hoodie.",
+  "chip": [
+   "Red Stripe",
+   "#681A1E"
+  ],
+  "shadow": [
+   355.5,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/046-tie-up",
+  "variant": "stacked",
+  "pal": "butter-rust",
+  "cat": "KNITWEAR",
+  "img": "46",
+  "word": "TIE-UP",
+  "box": [
+   306,
+   235,
+   469,
+   750
+  ],
+  "kicker": "THE STRIPE KNIT",
+  "head": "Tie <b>it your way.</b>",
+  "desc": "Striped V-neck knit with side ties.",
+  "chip": [
+   "Grey Stripe",
+   "#444443"
+  ],
+  "shadow": [
+   351.75,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/058-hoodie",
+  "variant": "stacked",
+  "pal": "pink-yellow",
+  "cat": "SWEATSHIRTS",
+  "img": "58",
+  "word": "HOODIE",
+  "box": [
+   256,
+   235,
+   569,
+   750
+  ],
+  "kicker": "THE CLASSIC HOODIE",
+  "head": "Your <b>everyday.</b>",
+  "desc": "Classic pullover hoodie in black fleece.",
+  "chip": [
+   "Black",
+   "#1D1D1D"
+  ],
+  "shadow": [
+   426.75,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/059-calm",
+  "variant": "stacked",
+  "pal": "teal-blush",
+  "cat": "KNITWEAR",
+  "img": "59",
+  "word": "CALM",
+  "box": [
+   284,
+   235,
+   513,
+   750
+  ],
+  "kicker": "THE CREW SWEATER",
+  "head": "Quiet <b>luxury.</b>",
+  "desc": "Soft crew-neck sweater in oatmeal grey.",
+  "chip": [
+   "Oatmeal",
+   "#B0AAA2"
+  ],
+  "shadow": [
+   384.75,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/060-zip",
+  "variant": "stacked",
+  "pal": "navy-butter",
+  "cat": "SWEATSHIRTS",
+  "img": "60",
+  "word": "ZIP",
+  "box": [
+   307,
+   235,
+   466,
+   750
+  ],
+  "kicker": "THE FLEECE ZIP",
+  "head": "Zip <b>&amp; go.</b>",
+  "desc": "Fleece zip hoodie with contrast pockets.",
+  "chip": [
+   "Grey Marl",
+   "#858585"
+  ],
+  "shadow": [
+   349.5,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/061-layers",
+  "variant": "stacked",
+  "pal": "lime-violet",
+  "cat": "KNITWEAR",
+  "img": "61",
+  "word": "LAYERS",
+  "box": [
+   280,
+   235,
+   520,
+   750
+  ],
+  "kicker": "THE LAYERED KNIT",
+  "head": "Smart <b>layers.</b>",
+  "desc": "Knit vest over cream sleeves, varsity trim.",
+  "chip": [
+   "Grey &amp; Cream",
+   "#676865"
+  ],
+  "shadow": [
+   390.0,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/062-polished",
+  "variant": "stacked",
+  "pal": "champagne-ink",
+  "cat": "WINTERWEAR",
+  "img": "62",
+  "word": "POLISHED",
+  "box": [
+   196,
+   235,
+   689,
+   750
+  ],
+  "kicker": "THE NAVY JACKET",
+  "head": "Polished, <b>always.</b>",
+  "desc": "Collarless jacket with pearl-look buttons.",
+  "chip": [
+   "Navy",
+   "#23272F"
+  ],
+  "shadow": [
+   516.75,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/064-latte",
+  "variant": "stacked",
+  "pal": "red-varsity",
+  "cat": "SWEATSHIRTS",
+  "img": "64",
+  "word": "LATTE",
+  "box": [
+   294,
+   235,
+   493,
+   750
+  ],
+  "kicker": "THE KNIT HOODIE",
+  "head": "Latte <b>season.</b>",
+  "desc": "Cropped zip knit hoodie in soft beige.",
+  "chip": [
+   "Latte",
+   "#B6A18C"
+  ],
+  "shadow": [
+   369.75,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/069-forest",
+  "variant": "stacked",
+  "pal": "pink-cherry",
+  "cat": "KNITWEAR",
+  "img": "69",
+  "word": "FOREST",
+  "box": [
+   292,
+   235,
+   496,
+   750
+  ],
+  "kicker": "THE FUNNEL NECK",
+  "head": "Into <b>the green.</b>",
+  "desc": "Oversized half-zip with a funnel neck.",
+  "chip": [
+   "Forest Green",
+   "#243B3F"
+  ],
+  "shadow": [
+   372.0,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/070-sweet",
+  "variant": "stacked",
+  "pal": "sun-cobalt",
+  "cat": "KNITWEAR",
+  "img": "70",
+  "word": "SWEET",
+  "box": [
+   308,
+   235,
+   464,
+   750
+  ],
+  "kicker": "THE CONTRAST CARDIGAN",
+  "head": "Sweet <b>&amp; sharp.</b>",
+  "desc": "Black cardigan with cream and pink trims.",
+  "chip": [
+   "Black &amp; Cream",
+   "#191919"
+  ],
+  "shadow": [
+   348.0,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/071-team",
+  "variant": "stacked",
+  "pal": "mint-burgundy",
+  "cat": "SWEATSHIRTS",
+  "img": "71",
+  "word": "TEAM",
+  "box": [
+   229,
+   235,
+   622,
+   750
+  ],
+  "kicker": "THE ATHLETIC HOODIE",
+  "head": "Team <b>player.</b>",
+  "desc": "Red hoodie with a varsity graphic.",
+  "chip": [
+   "Varsity Red",
+   "#9A2D2F"
+  ],
+  "shadow": [
+   466.5,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/108-artsy",
+  "variant": "stacked",
+  "pal": "lime-violet",
+  "cat": "KNITWEAR",
+  "img": "108",
+  "word": "ARTSY",
+  "box": [
+   223,
+   235,
+   635,
+   750
+  ],
+  "kicker": "THE ABSTRACT KNIT",
+  "head": "Wear <b>art.</b>",
+  "desc": "Chunky knit with an abstract pattern.",
+  "chip": [
+   "Charcoal &amp; Cream",
+   "#1A1A1A"
+  ],
+  "shadow": [
+   476.25,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/113-block",
+  "variant": "stacked",
+  "pal": "lilac-plum",
+  "cat": "SWEATSHIRTS",
+  "img": "113",
+  "word": "BLOCK",
+  "box": [
+   281,
+   235,
+   518,
+   750
+  ],
+  "kicker": "THE COLOUR-BLOCK HOODIE",
+  "head": "Block <b>party.</b>",
+  "desc": "Cropped colour-block hoodie with a zip.",
+  "chip": [
+   "Navy &amp; Red",
+   "#1A1A22"
+  ],
+  "shadow": [
+   388.5,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/114-move",
+  "variant": "stacked",
+  "pal": "black-gold",
+  "cat": "SWEATSHIRTS",
+  "img": "114",
+  "word": "MOVE",
+  "box": [
+   240,
+   235,
+   600,
+   750
+  ],
+  "kicker": "THE CROPPED HALF-ZIP",
+  "head": "On <b>the move.</b>",
+  "desc": "Cropped half-zip sweatshirt in grey.",
+  "chip": [
+   "Light Grey",
+   "#828281"
+  ],
+  "shadow": [
+   450.0,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/116-paris",
+  "variant": "stacked",
+  "pal": "sand-cobalt",
+  "cat": "SWEATSHIRTS",
+  "img": "116",
+  "word": "PARIS",
+  "box": [
+   214,
+   235,
+   653,
+   750
+  ],
+  "kicker": "THE PARIS SWEATSHIRT",
+  "head": "Bonjour, <b>Paris.</b>",
+  "desc": "Cobalt crew-neck with an outline print.",
+  "chip": [
+   "Cobalt Blue",
+   "#214F9F"
+  ],
+  "shadow": [
+   489.75,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/117-mood",
+  "variant": "stacked",
+  "pal": "orange-navy",
+  "cat": "SWEATSHIRTS",
+  "img": "117",
+  "word": "MOOD",
+  "box": [
+   308,
+   235,
+   464,
+   750
+  ],
+  "kicker": "THE OVERSIZED HOODIE",
+  "head": "Oversized <b>mood.</b>",
+  "desc": "Roomy pullover hoodie in black.",
+  "chip": [
+   "Black",
+   "#191919"
+  ],
+  "shadow": [
+   348.0,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/118-rock",
+  "variant": "stacked",
+  "pal": "tangerine",
+  "cat": "SWEATSHIRTS",
+  "img": "118",
+  "word": "ROCK",
+  "box": [
+   284,
+   235,
+   513,
+   750
+  ],
+  "kicker": "THE BACK-PRINT HOODIE",
+  "head": "Rock <b>on.</b>",
+  "desc": "Black hoodie with a bold back graphic.",
+  "chip": [
+   "Black",
+   "#1C1C1C"
+  ],
+  "shadow": [
+   384.75,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/122-pure",
+  "variant": "stacked",
+  "pal": "cobalt-ice",
+  "cat": "SWEATSHIRTS",
+  "img": "122",
+  "word": "PURE",
+  "box": [
+   269,
+   235,
+   543,
+   750
+  ],
+  "kicker": "THE WHITE HOODIE",
+  "head": "Clean <b>slate.</b>",
+  "desc": "Soft white hoodie with a kangaroo pocket.",
+  "chip": [
+   "Off White",
+   "#A9A9A4"
+  ],
+  "shadow": [
+   407.25,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/146-wild",
+  "variant": "stacked",
+  "pal": "ivory-emerald",
+  "cat": "KNITWEAR",
+  "img": "146",
+  "word": "WILD",
+  "box": [
+   225,
+   235,
+   630,
+   750
+  ],
+  "kicker": "THE LEOPARD KNIT",
+  "head": "Wild <b>at heart.</b>",
+  "desc": "Fluffy leopard-print knit sweater.",
+  "chip": [
+   "Leopard",
+   "#2D2A27"
+  ],
+  "shadow": [
+   472.5,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/215-cute",
+  "variant": "stacked",
+  "pal": "olive-orange",
+  "cat": "KNITWEAR",
+  "img": "215",
+  "word": "CUTE",
+  "box": [
+   343,
+   235,
+   394,
+   750
+  ],
+  "kicker": "THE GINGHAM CARDIGAN",
+  "head": "Cute <b>check.</b>",
+  "desc": "Cropped cardigan in pink gingham knit.",
+  "chip": [
+   "Pink Gingham",
+   "#E0BCC1"
+  ],
+  "shadow": [
+   295.5,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/263-simple",
+  "variant": "stacked",
+  "pal": "wine-blush",
+  "cat": "KNITWEAR",
+  "img": "263",
+  "word": "SIMPLE",
+  "box": [
+   286,
+   235,
+   508,
+   750
+  ],
+  "kicker": "THE CREW CARDIGAN",
+  "head": "Simply <b>soft.</b>",
+  "desc": "Fine-knit cardigan with pearl buttons.",
+  "chip": [
+   "Pearl Grey",
+   "#AAAAAA"
+  ],
+  "shadow": [
+   381.0,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/267-city",
+  "variant": "stacked",
+  "pal": "choc-peach",
+  "cat": "SWEATSHIRTS",
+  "img": "267",
+  "word": "CITY",
+  "box": [
+   258,
+   235,
+   564,
+   750
+  ],
+  "kicker": "THE CITY HOODIE",
+  "head": "City <b>girl.</b>",
+  "desc": "Blush hoodie with a New York print.",
+  "chip": [
+   "Blush Pink",
+   "#C09E9D"
+  ],
+  "shadow": [
+   423.0,
+   967
+  ]
+ },
+ {
+  "slug": "tops-winterwear/268-check",
+  "variant": "stacked",
+  "pal": "navy-butter",
+  "cat": "KNITWEAR",
+  "img": "268",
+  "word": "CHECK",
+  "box": [
+   254,
+   235,
+   572,
+   750
+  ],
+  "kicker": "THE CHECKER CARDIGAN",
+  "head": "Check<b>mate.</b>",
+  "desc": "Chunky checkerboard knit cardigan.",
+  "chip": [
+   "Caramel Check",
+   "#AF805A"
+  ],
+  "shadow": [
+   429.0,
+   967
+  ]
+ },
+ {
+  "slug": "blouses-shirts/038-artful",
+  "variant": "stacked",
+  "pal": "fuchsia-lime",
+  "cat": "BLOUSES",
+  "img": "38",
+  "word": "ARTFUL",
+  "box": [
+   221,
+   235,
+   638,
+   750
+  ],
+  "kicker": "THE PRINT BLAZER",
+  "head": "Statement <b>blazer.</b>",
+  "desc": "Monochrome floral blazer, relaxed fit.",
+  "chip": [
+   "Ink &amp; Ivory",
+   "#B3AFAC"
+  ],
+  "shadow": [
+   478.5,
+   967
+  ]
+ },
+ {
+  "slug": "blouses-shirts/047-camel",
+  "variant": "stacked",
+  "pal": "teal-blush",
+  "cat": "BLOUSES",
+  "img": "47",
+  "word": "CAMEL",
+  "box": [
+   269,
+   235,
+   542,
+   750
+  ],
+  "kicker": "THE PIPED TOP",
+  "head": "Camel <b>crush.</b>",
+  "desc": "Boxy short-sleeve top with black piping.",
+  "chip": [
+   "Camel",
+   "#C09363"
+  ],
+  "shadow": [
+   406.5,
+   967
+  ]
+ },
+ {
+  "slug": "blouses-shirts/056-shirted",
+  "variant": "stacked",
+  "pal": "forest-pink",
+  "cat": "BLOUSES",
+  "img": "56",
+  "word": "SHIRTED",
+  "box": [
+   260,
+   235,
+   560,
+   750
+  ],
+  "kicker": "THE STRIPE SHIRT",
+  "head": "Crisp <b>&amp; cool.</b>",
+  "desc": "Relaxed button-down in sand stripes.",
+  "chip": [
+   "Sand Stripe",
+   "#BDA68E"
+  ],
+  "shadow": [
+   420.0,
+   967
+  ]
+ },
+ {
+  "slug": "blouses-shirts/057-noir",
+  "variant": "stacked",
+  "pal": "pink-yellow",
+  "cat": "BLOUSES",
+  "img": "57",
+  "word": "NOIR",
+  "box": [
+   273,
+   235,
+   535,
+   750
+  ],
+  "kicker": "THE PRINT SHIRT",
+  "head": "After <b>dark.</b>",
+  "desc": "Oversized black shirt with a tonal print.",
+  "chip": [
+   "Noir",
+   "#2A2A2A"
+  ],
+  "shadow": [
+   401.25,
+   967
+  ]
+ },
+ {
+  "slug": "blouses-shirts/063-gold",
+  "variant": "stacked",
+  "pal": "sky-red",
+  "cat": "BLOUSES",
+  "img": "63",
+  "word": "GOLD",
+  "box": [
+   291,
+   235,
+   499,
+   750
+  ],
+  "kicker": "THE GOLD STRIPE SHIRT",
+  "head": "Gold <b>rush.</b>",
+  "desc": "Fluid shirt with gold and black stripes.",
+  "chip": [
+   "Gold &amp; Black",
+   "#1F1813"
+  ],
+  "shadow": [
+   374.25,
+   967
+  ]
+ },
+ {
+  "slug": "blouses-shirts/067-wine",
+  "variant": "stacked",
+  "pal": "lilac-plum",
+  "cat": "BLOUSES",
+  "img": "67",
+  "word": "WINE",
+  "box": [
+   304,
+   235,
+   472,
+   750
+  ],
+  "kicker": "THE FITTED TOP",
+  "head": "Wine <b>o&rsquo;clock.</b>",
+  "desc": "Cropped fitted top in deep maroon.",
+  "chip": [
+   "Wine",
+   "#6C2A3A"
+  ],
+  "shadow": [
+   354.0,
+   967
+  ]
+ },
+ {
+  "slug": "blouses-shirts/072-flora",
+  "variant": "stacked",
+  "pal": "terracotta-cream",
+  "cat": "BLOUSES",
+  "img": "72",
+  "word": "FLORA",
+  "box": [
+   221,
+   235,
+   638,
+   750
+  ],
+  "kicker": "THE FLORAL BLOUSE",
+  "head": "Fresh <b>florals.</b>",
+  "desc": "Relaxed shirt in a wildflower print.",
+  "chip": [
+   "Wildflower",
+   "#C0BEB2"
+  ],
+  "shadow": [
+   478.5,
+   967
+  ]
+ },
+ {
+  "slug": "blouses-shirts/073-bold",
+  "variant": "stacked",
+  "pal": "sun-cobalt",
+  "cat": "BLOUSES",
+  "img": "73",
+  "word": "BOLD",
+  "box": [
+   250,
+   235,
+   580,
+   750
+  ],
+  "kicker": "THE PATCHWORK SHIRT",
+  "head": "Be <b>bold.</b>",
+  "desc": "Silky shirt in a warm patchwork print.",
+  "chip": [
+   "Sunset Patchwork",
+   "#652B1E"
+  ],
+  "shadow": [
+   435.0,
+   967
+  ]
+ },
+ {
+  "slug": "blouses-shirts/121-essential",
+  "variant": "stacked",
+  "pal": "pink-cherry",
+  "cat": "BLOUSES",
+  "img": "121",
+  "word": "ESSENTIAL",
+  "box": [
+   304,
+   235,
+   472,
+   750
+  ],
+  "kicker": "THE RUFFLE TOP",
+  "head": "Little black <b>top.</b>",
+  "desc": "Fitted top with fluttered shoulders.",
+  "chip": [
+   "Black",
+   "#1E1E1E"
+  ],
+  "shadow": [
+   354.0,
+   967
+  ]
+ },
+ {
+  "slug": "blouses-shirts/124-nautical",
+  "variant": "stacked",
+  "pal": "butter-rust",
+  "cat": "BLOUSES",
+  "img": "124",
+  "word": "NAUTICAL",
+  "box": [
+   261,
+   235,
+   559,
+   750
+  ],
+  "kicker": "THE STRIPE OVERSHIRT",
+  "head": "Sail <b>away.</b>",
+  "desc": "Open-front overshirt in bold navy stripes.",
+  "chip": [
+   "Navy Stripe",
+   "#191A2D"
+  ],
+  "shadow": [
+   419.25,
+   967
+  ]
+ },
+ {
+  "slug": "blouses-shirts/127-mocha",
+  "variant": "stacked",
+  "pal": "champagne-ink",
+  "cat": "BLOUSES",
+  "img": "127",
+  "word": "MOCHA",
+  "box": [
+   330,
+   235,
+   420,
+   750
+  ],
+  "kicker": "THE TIE BLOUSE",
+  "head": "Mocha <b>mood.</b>",
+  "desc": "Satin-feel blouse with a lace-up neckline.",
+  "chip": [
+   "Mocha",
+   "#703930"
+  ],
+  "shadow": [
+   315.0,
+   967
+  ]
+ },
+ {
+  "slug": "blouses-shirts/128-fierce",
+  "variant": "stacked",
+  "pal": "mint-burgundy",
+  "cat": "BLOUSES",
+  "img": "128",
+  "word": "FIERCE",
+  "box": [
+   228,
+   235,
+   625,
+   750
+  ],
+  "kicker": "THE LEOPARD BLOUSE",
+  "head": "Fierce <b>&amp; feminine.</b>",
+  "desc": "Leopard blouse with ruffle trims.",
+  "chip": [
+   "Leopard",
+   "#806957"
+  ],
+  "shadow": [
+   468.75,
+   967
+  ]
+ },
+ {
+  "slug": "blouses-shirts/132-lace",
+  "variant": "stacked",
+  "pal": "tangerine",
+  "cat": "BLOUSES",
+  "img": "132",
+  "word": "LACE",
+  "box": [
+   188,
+   235,
+   704,
+   750
+  ],
+  "kicker": "THE LACE SHIRT",
+  "head": "Lace <b>affair.</b>",
+  "desc": "Short-sleeve navy lace shirt with pearl trim.",
+  "chip": [
+   "Navy Lace",
+   "#33354B"
+  ],
+  "shadow": [
+   528.0,
+   967
+  ]
+ },
+ {
+  "slug": "blouses-shirts/133-minimal",
+  "variant": "stacked",
+  "pal": "pink-yellow",
+  "cat": "BLOUSES",
+  "img": "133",
+  "word": "MINIMAL",
+  "box": [
+   317,
+   235,
+   447,
+   750
+  ],
+  "kicker": "THE LAYERED TOP",
+  "head": "Less <b>is more.</b>",
+  "desc": "Double-layer sleeveless top in charcoal.",
+  "chip": [
+   "Charcoal",
+   "#2B2D32"
+  ],
+  "shadow": [
+   335.25,
+   967
+  ]
+ },
+ {
+  "slug": "blouses-shirts/136-boho",
+  "variant": "stacked",
+  "pal": "sun-cobalt",
+  "cat": "BLOUSES",
+  "img": "136",
+  "word": "BOHO",
+  "box": [
+   301,
+   235,
+   479,
+   750
+  ],
+  "kicker": "THE CROCHET TOP",
+  "head": "Boho <b>days.</b>",
+  "desc": "Sheer navy crochet top with side ties.",
+  "chip": [
+   "Navy",
+   "#34374F"
+  ],
+  "shadow": [
+   359.25,
+   967
+  ]
+ },
+ {
+  "slug": "blouses-shirts/138-sheer",
+  "variant": "stacked",
+  "pal": "cobalt-ice",
+  "cat": "BLOUSES",
+  "img": "138",
+  "word": "SHEER",
+  "box": [
+   222,
+   235,
+   636,
+   750
+  ],
+  "kicker": "THE ORGANZA JACKET",
+  "head": "Peachy <b>keen.</b>",
+  "desc": "Sheer organza jacket with puff sleeves.",
+  "chip": [
+   "Peach",
+   "#E0BAAB"
+  ],
+  "shadow": [
+   477.0,
+   967
+  ]
+ },
+ {
+  "slug": "blouses-shirts/141-royal",
+  "variant": "stacked",
+  "pal": "champagne-ink",
+  "cat": "BLOUSES",
+  "img": "141",
+  "word": "ROYAL",
+  "box": [
+   241,
+   235,
+   599,
+   750
+  ],
+  "kicker": "THE CHAIN BLOUSE",
+  "head": "Royal <b>blue.</b>",
+  "desc": "Blue blouse with chain and print detail.",
+  "chip": [
+   "Royal Blue",
+   "#1F4A98"
+  ],
+  "shadow": [
+   449.25,
+   967
+  ]
+ },
+ {
+  "slug": "blouses-shirts/161-bubbly",
+  "variant": "stacked",
+  "pal": "navy-butter",
+  "cat": "BLOUSES",
+  "img": "161",
+  "word": "BUBBLY",
+  "box": [
+   205,
+   235,
+   670,
+   750
+  ],
+  "kicker": "THE BUBBLE TOP",
+  "head": "Bubbly <b>vibes.</b>",
+  "desc": "Off-shoulder top with bubble texture.",
+  "chip": [
+   "Peach",
+   "#C57458"
+  ],
+  "shadow": [
+   502.5,
+   967
+  ]
+ },
+ {
+  "slug": "blouses-shirts/198-dreamy",
+  "variant": "stacked",
+  "pal": "choc-peach",
+  "cat": "BLOUSES",
+  "img": "198",
+  "word": "DREAMY",
+  "box": [
+   260,
+   235,
+   560,
+   750
+  ],
+  "kicker": "THE CHIFFON BLOUSE",
+  "head": "Dreamy <b>chiffon.</b>",
+  "desc": "Smocked chiffon blouse with a lace front.",
+  "chip": [
+   "Apricot",
+   "#B67863"
+  ],
+  "shadow": [
+   420.0,
+   967
+  ]
+ },
+ {
+  "slug": "blouses-shirts/204-tied",
+  "variant": "stacked",
+  "pal": "orange-navy",
+  "cat": "BLOUSES",
+  "img": "204",
+  "word": "TIED",
+  "box": [
+   246,
+   235,
+   589,
+   750
+  ],
+  "kicker": "THE TIE-FRONT SHIRT",
+  "head": "Tied <b>up nicely.</b>",
+  "desc": "Black shirt with a knotted hem.",
+  "chip": [
+   "Black",
+   "#2C262B"
+  ],
+  "shadow": [
+   441.75,
+   967
+  ]
+ },
+ {
+  "slug": "blouses-shirts/270-azure",
+  "variant": "stacked",
+  "pal": "sand-cobalt",
+  "cat": "BLOUSES",
+  "img": "270",
+  "word": "AZURE",
+  "box": [
+   249,
+   235,
+   582,
+   750
+  ],
+  "kicker": "THE FLUID SHIRT",
+  "head": "Feeling <b>blue.</b>",
+  "desc": "Fluid long-sleeve shirt in azure.",
+  "chip": [
+   "Azure",
+   "#2258AD"
+  ],
+  "shadow": [
+   436.5,
+   967
+  ]
+ },
+ {
+  "slug": "blouses-shirts/273-caramel",
+  "variant": "stacked",
+  "pal": "black-gold",
+  "cat": "BLOUSES",
+  "img": "273",
+  "word": "CARAMEL",
+  "box": [
+   235,
+   235,
+   611,
+   750
+  ],
+  "kicker": "THE SMOCKED BLOUSE",
+  "head": "Caramel <b>glow.</b>",
+  "desc": "Satin blouse with lace inset, smocked waist.",
+  "chip": [
+   "Caramel",
+   "#A17853"
+  ],
+  "shadow": [
+   458.25,
+   967
+  ]
+ },
+ {
+  "slug": "blouses-shirts/301-lemon",
+  "variant": "stacked",
+  "pal": "wine-blush",
+  "cat": "BLOUSES",
+  "img": "301",
+  "word": "LEMON",
+  "box": [
+   206,
+   235,
+   669,
+   750
+  ],
+  "kicker": "THE LEMON TOP",
+  "head": "Lemon <b>drop.</b>",
+  "desc": "Off-shoulder bubble-texture top.",
+  "chip": [
+   "Lemon",
+   "#C6962B"
+  ],
+  "shadow": [
+   501.75,
+   967
+  ]
+ },
+ {
+  "slug": "blouses-shirts/330-shape",
+  "variant": "stacked",
+  "pal": "terracotta-cream",
+  "cat": "BLOUSES",
+  "img": "330",
+  "word": "SHAPE",
+  "box": [
+   286,
+   235,
+   509,
+   750
+  ],
+  "kicker": "THE RUCHED BLOUSE",
+  "head": "Shape <b>it up.</b>",
+  "desc": "Short-sleeve blouse with ruched sides.",
+  "chip": [
+   "Black",
+   "#060606"
+  ],
+  "shadow": [
+   381.75,
+   967
+  ]
+ },
+ {
+  "slug": "bottoms/010-cocoa",
+  "variant": "vertical",
+  "pal": "sky-red",
+  "cat": "BOTTOMS",
+  "img": "10",
+  "word": "COCOA",
+  "box": [
+   552,
+   180,
+   307,
+   805
+  ],
+  "kicker": "THE JOGGERS",
+  "head": "Lounge <b>luxe.</b>",
+  "desc": "Cuffed joggers in cocoa fleece.",
+  "chip": [
+   "Cocoa",
+   "#6C4D39"
+  ],
+  "shadow": [
+   245.60000000000002,
+   969
+  ],
+  "vtag": "JOGGERS"
+ },
+ {
+  "slug": "bottoms/043-straight",
+  "variant": "vertical",
+  "pal": "ivory-emerald",
+  "cat": "BOTTOMS",
+  "img": "43",
+  "word": "STRAIGHT",
+  "box": [
+   496,
+   180,
+   418,
+   805
+  ],
+  "kicker": "THE STRAIGHT JEANS",
+  "head": "Straight <b>talk.</b>",
+  "desc": "High-rise straight-leg in mid wash.",
+  "chip": [
+   "Mid Wash",
+   "#344C66"
+  ],
+  "shadow": [
+   334.40000000000003,
+   969
+  ],
+  "vtag": "STRAIGHT JEANS"
+ },
+ {
+  "slug": "bottoms/044-olive",
+  "variant": "vertical",
+  "pal": "pink-cherry",
+  "cat": "BOTTOMS",
+  "img": "44",
+  "word": "OLIVE",
+  "box": [
+   511,
+   180,
+   388,
+   805
+  ],
+  "kicker": "THE OLIVE TROUSERS",
+  "head": "Olive <b>you.</b>",
+  "desc": "Wide-leg trousers in olive twill.",
+  "chip": [
+   "Olive",
+   "#5A5130"
+  ],
+  "shadow": [
+   310.40000000000003,
+   969
+  ],
+  "vtag": "OLIVE TROUSERS"
+ },
+ {
+  "slug": "bottoms/050-flare",
+  "variant": "vertical",
+  "pal": "butter-rust",
+  "cat": "BOTTOMS",
+  "img": "50",
+  "word": "FLARE",
+  "box": [
+   567,
+   180,
+   277,
+   805
+  ],
+  "kicker": "THE FLARE JEANS",
+  "head": "Flare <b>for drama.</b>",
+  "desc": "Dark-wash flares with a high rise.",
+  "chip": [
+   "Dark Wash",
+   "#15263E"
+  ],
+  "shadow": [
+   221.60000000000002,
+   969
+  ],
+  "vtag": "FLARE JEANS"
+ },
+ {
+  "slug": "bottoms/051-track",
+  "variant": "vertical",
+  "pal": "tangerine",
+  "cat": "BOTTOMS",
+  "img": "51",
+  "word": "TRACK",
+  "box": [
+   572,
+   180,
+   266,
+   805
+  ],
+  "kicker": "THE TRACK FLARES",
+  "head": "Fast <b>track.</b>",
+  "desc": "Flared track pants with side stripes.",
+  "chip": [
+   "Racing Green",
+   "#183332"
+  ],
+  "shadow": [
+   212.8,
+   969
+  ],
+  "vtag": "TRACK FLARES"
+ },
+ {
+  "slug": "bottoms/052-sky",
+  "variant": "vertical",
+  "pal": "red-varsity",
+  "cat": "BOTTOMS",
+  "img": "52",
+  "word": "SKY",
+  "box": [
+   502,
+   180,
+   407,
+   805
+  ],
+  "kicker": "THE WIDE-LEG JEANS",
+  "head": "Sky <b>high.</b>",
+  "desc": "Light-wash wide-leg jeans.",
+  "chip": [
+   "Light Wash",
+   "#7A8C98"
+  ],
+  "shadow": [
+   325.6,
+   969
+  ],
+  "vtag": "WIDE-LEG JEANS"
+ },
+ {
+  "slug": "bottoms/053-cargo",
+  "variant": "vertical",
+  "pal": "fuchsia-lime",
+  "cat": "BOTTOMS",
+  "img": "53",
+  "word": "CARGO",
+  "box": [
+   544,
+   180,
+   323,
+   805
+  ],
+  "kicker": "THE CARGO JOGGERS",
+  "head": "Pocket <b>full.</b>",
+  "desc": "Black joggers with a cargo pocket.",
+  "chip": [
+   "Black",
+   "#1B1B1B"
+  ],
+  "shadow": [
+   258.40000000000003,
+   969
+  ],
+  "vtag": "CARGO JOGGERS"
+ },
+ {
+  "slug": "bottoms/054-tailored",
+  "variant": "vertical",
+  "pal": "olive-orange",
+  "cat": "BOTTOMS",
+  "img": "54",
+  "word": "TAILORED",
+  "box": [
+   500,
+   180,
+   410,
+   805
+  ],
+  "kicker": "THE TAILORED TROUSERS",
+  "head": "Pretty <b>in pink.</b>",
+  "desc": "Pleated wide trousers in soft blush.",
+  "chip": [
+   "Ballet Pink",
+   "#D0C1C0"
+  ],
+  "shadow": [
+   328.0,
+   969
+  ],
+  "vtag": "TAILORED TROUSERS"
+ },
+ {
+  "slug": "bottoms/074-candy",
+  "variant": "vertical",
+  "pal": "teal-blush",
+  "cat": "BOTTOMS",
+  "img": "74",
+  "word": "CANDY",
+  "box": [
+   542,
+   180,
+   326,
+   805
+  ],
+  "kicker": "THE PINK CARGO",
+  "head": "Candy <b>cargo.</b>",
+  "desc": "Fleece cargo joggers in pink.",
+  "chip": [
+   "Candy Pink",
+   "#DC8385"
+  ],
+  "shadow": [
+   260.8,
+   969
+  ],
+  "vtag": "PINK CARGO"
+ },
+ {
+  "slug": "bottoms/075-classic",
+  "variant": "vertical",
+  "pal": "choc-peach",
+  "cat": "BOTTOMS",
+  "img": "75",
+  "word": "CLASSIC",
+  "box": [
+   541,
+   180,
+   328,
+   805
+  ],
+  "kicker": "THE CLASSIC JEANS",
+  "head": "Forever <b>classic.</b>",
+  "desc": "Light-wash straight-leg jeans.",
+  "chip": [
+   "Vintage Blue",
+   "#809AAD"
+  ],
+  "shadow": [
+   262.40000000000003,
+   969
+  ],
+  "vtag": "CLASSIC JEANS"
+ },
+ {
+  "slug": "bottoms/076-chain",
+  "variant": "vertical",
+  "pal": "lime-violet",
+  "cat": "BOTTOMS",
+  "img": "76",
+  "word": "CHAIN",
+  "box": [
+   539,
+   180,
+   332,
+   805
+  ],
+  "kicker": "THE CHAIN JOGGERS",
+  "head": "Chain <b>reaction.</b>",
+  "desc": "Black joggers with chain and button trim.",
+  "chip": [
+   "Black",
+   "#212121"
+  ],
+  "shadow": [
+   265.6,
+   969
+  ],
+  "vtag": "CHAIN JOGGERS"
+ },
+ {
+  "slug": "bottoms/077-mauve",
+  "variant": "vertical",
+  "pal": "sun-cobalt",
+  "cat": "BOTTOMS",
+  "img": "77",
+  "word": "MAUVE",
+  "box": [
+   557,
+   180,
+   296,
+   805
+  ],
+  "kicker": "THE LOUNGE PANTS",
+  "head": "Lazy <b>days.</b>",
+  "desc": "Wide lounge pants in washed mauve.",
+  "chip": [
+   "Mauve",
+   "#6F5A5B"
+  ],
+  "shadow": [
+   236.8,
+   969
+  ],
+  "vtag": "LOUNGE PANTS"
+ },
+ {
+  "slug": "bottoms/078-utility",
+  "variant": "vertical",
+  "pal": "forest-pink",
+  "cat": "BOTTOMS",
+  "img": "78",
+  "word": "UTILITY",
+  "box": [
+   538,
+   180,
+   334,
+   805
+  ],
+  "kicker": "THE CARGO JEANS",
+  "head": "Utility <b>chic.</b>",
+  "desc": "Light-wash denim with cargo pockets.",
+  "chip": [
+   "Ice Blue",
+   "#8B9BA6"
+  ],
+  "shadow": [
+   267.2,
+   969
+  ],
+  "vtag": "CARGO JEANS"
+ },
+ {
+  "slug": "bottoms/079-night",
+  "variant": "vertical",
+  "pal": "pink-yellow",
+  "cat": "BOTTOMS",
+  "img": "79",
+  "word": "NIGHT",
+  "box": [
+   546,
+   180,
+   318,
+   805
+  ],
+  "kicker": "THE BLACK BOOTCUT",
+  "head": "Night <b>out.</b>",
+  "desc": "Washed black bootcut jeans.",
+  "chip": [
+   "Washed Black",
+   "#242323"
+  ],
+  "shadow": [
+   254.4,
+   969
+  ],
+  "vtag": "BLACK BOOTCUT"
+ },
+ {
+  "slug": "bottoms/080-indigo",
+  "variant": "vertical",
+  "pal": "orange-navy",
+  "cat": "BOTTOMS",
+  "img": "80",
+  "word": "INDIGO",
+  "box": [
+   493,
+   180,
+   425,
+   805
+  ],
+  "kicker": "THE STITCH JEANS",
+  "head": "Deep <b>indigo.</b>",
+  "desc": "Wide-leg dark denim, contrast stitching.",
+  "chip": [
+   "Indigo",
+   "#1A1E27"
+  ],
+  "shadow": [
+   340.0,
+   969
+  ],
+  "vtag": "STITCH JEANS"
+ },
+ {
+  "slug": "bottoms/081-smoke",
+  "variant": "vertical",
+  "pal": "lilac-plum",
+  "cat": "BOTTOMS",
+  "img": "81",
+  "word": "SMOKE",
+  "box": [
+   517,
+   180,
+   376,
+   805
+  ],
+  "kicker": "THE GREY JEANS",
+  "head": "Smoke <b>show.</b>",
+  "desc": "Wide-leg jeans in a smoke-grey wash.",
+  "chip": [
+   "Smoke Grey",
+   "#2A2A2A"
+  ],
+  "shadow": [
+   300.8,
+   969
+  ],
+  "vtag": "GREY JEANS"
+ },
+ {
+  "slug": "bottoms/083-breeze",
+  "variant": "vertical",
+  "pal": "black-gold",
+  "cat": "BOTTOMS",
+  "img": "83",
+  "word": "BREEZE",
+  "box": [
+   511,
+   180,
+   389,
+   805
+  ],
+  "kicker": "THE BLEACH JEANS",
+  "head": "Easy <b>breezy.</b>",
+  "desc": "Relaxed wide-leg in bleach blue.",
+  "chip": [
+   "Bleach Blue",
+   "#7B8D99"
+  ],
+  "shadow": [
+   311.20000000000005,
+   969
+  ],
+  "vtag": "BLEACH JEANS"
+ },
+ {
+  "slug": "bottoms/084-sand",
+  "variant": "vertical",
+  "pal": "cobalt-ice",
+  "cat": "BOTTOMS",
+  "img": "84",
+  "word": "SAND",
+  "box": [
+   548,
+   180,
+   314,
+   805
+  ],
+  "kicker": "THE CUFFED TROUSERS",
+  "head": "Sand <b>dunes.</b>",
+  "desc": "Drawstring trousers with turn-up cuffs.",
+  "chip": [
+   "Sand",
+   "#A79178"
+  ],
+  "shadow": [
+   251.20000000000002,
+   969
+  ],
+  "vtag": "CUFFED TROUSERS"
+ },
+ {
+  "slug": "bottoms/086-blue",
+  "variant": "vertical",
+  "pal": "sand-cobalt",
+  "cat": "BOTTOMS",
+  "img": "86",
+  "word": "BLUE",
+  "box": [
+   553,
+   180,
+   305,
+   805
+  ],
+  "kicker": "THE TRUE BLUE JEANS",
+  "head": "Born <b>in blue.</b>",
+  "desc": "Classic straight jeans in true blue.",
+  "chip": [
+   "True Blue",
+   "#284464"
+  ],
+  "shadow": [
+   244.0,
+   969
+  ],
+  "vtag": "TRUE BLUE JEANS"
+ },
+ {
+  "slug": "bottoms/087-scarlet",
+  "variant": "vertical",
+  "pal": "mint-burgundy",
+  "cat": "BOTTOMS",
+  "img": "87",
+  "word": "SCARLET",
+  "box": [
+   549,
+   180,
+   312,
+   805
+  ],
+  "kicker": "THE RED CARGO",
+  "head": "Scarlet <b>street.</b>",
+  "desc": "Red cargo trousers with flap pockets.",
+  "chip": [
+   "Scarlet",
+   "#A8292E"
+  ],
+  "shadow": [
+   249.60000000000002,
+   969
+  ],
+  "vtag": "RED CARGO"
+ },
+ {
+  "slug": "bottoms/088-seventies",
+  "variant": "vertical",
+  "pal": "ivory-emerald",
+  "cat": "BOTTOMS",
+  "img": "88",
+  "word": "SEVENTIES",
+  "box": [
+   531,
+   180,
+   348,
+   805
+  ],
+  "kicker": "THE SEVENTIES FLARE",
+  "head": "Seventies <b>flare.</b>",
+  "desc": "Mid-wash flares with a fitted thigh.",
+  "chip": [
+   "Mid Blue",
+   "#2C415C"
+  ],
+  "shadow": [
+   278.40000000000003,
+   969
+  ],
+  "vtag": "SEVENTIES FLARE"
+ },
+ {
+  "slug": "bottoms/089-edgy",
+  "variant": "vertical",
+  "pal": "pink-cherry",
+  "cat": "BOTTOMS",
+  "img": "89",
+  "word": "EDGY",
+  "box": [
+   526,
+   180,
+   359,
+   805
+  ],
+  "kicker": "THE PANEL TROUSERS",
+  "head": "Edgy <b>lines.</b>",
+  "desc": "Wide trousers with contrast side panels.",
+  "chip": [
+   "Black &amp; Grey",
+   "#3A3A3B"
+  ],
+  "shadow": [
+   287.2,
+   969
+  ],
+  "vtag": "PANEL TROUSERS"
+ },
+ {
+  "slug": "bottoms/092-groovy",
+  "variant": "vertical",
+  "pal": "champagne-ink",
+  "cat": "BOTTOMS",
+  "img": "92",
+  "word": "GROOVY",
+  "box": [
+   550,
+   180,
+   310,
+   805
+  ],
+  "kicker": "THE STRETCH FLARE",
+  "head": "Groovy, <b>baby.</b>",
+  "desc": "Stretch flare jeans in classic blue.",
+  "chip": [
+   "Classic Blue",
+   "#2C4662"
+  ],
+  "shadow": [
+   248.0,
+   969
+  ],
+  "vtag": "STRETCH FLARE"
+ },
+ {
+  "slug": "bottoms/093-wide",
+  "variant": "vertical",
+  "pal": "lime-violet",
+  "cat": "BOTTOMS",
+  "img": "93",
+  "word": "WIDE",
+  "box": [
+   506,
+   180,
+   399,
+   805
+  ],
+  "kicker": "THE WIDE JEANS",
+  "head": "Go <b>wide.</b>",
+  "desc": "High-rise wide jeans in mid blue.",
+  "chip": [
+   "Mid Blue",
+   "#4E687F"
+  ],
+  "shadow": [
+   319.20000000000005,
+   969
+  ],
+  "vtag": "WIDE JEANS"
+ },
+ {
+  "slug": "bottoms/095-flow",
+  "variant": "vertical",
+  "pal": "navy-butter",
+  "cat": "BOTTOMS",
+  "img": "95",
+  "word": "FLOW",
+  "box": [
+   518,
+   180,
+   375,
+   805
+  ],
+  "kicker": "THE WIDE TROUSERS",
+  "head": "Go <b>with the flow.</b>",
+  "desc": "Fluid wide-leg trousers in dove grey.",
+  "chip": [
+   "Dove Grey",
+   "#888088"
+  ],
+  "shadow": [
+   300.0,
+   969
+  ],
+  "vtag": "WIDE TROUSERS"
+ },
+ {
+  "slug": "bottoms/109-espresso",
+  "variant": "vertical",
+  "pal": "sky-red",
+  "cat": "BOTTOMS",
+  "img": "109",
+  "word": "ESPRESSO",
+  "box": [
+   564,
+   180,
+   282,
+   805
+  ],
+  "kicker": "THE STRAIGHT TROUSERS",
+  "head": "Espresso <b>shot.</b>",
+  "desc": "Straight trousers in espresso brown.",
+  "chip": [
+   "Espresso",
+   "#3F342E"
+  ],
+  "shadow": [
+   225.60000000000002,
+   969
+  ],
+  "vtag": "STRAIGHT TROUSERS"
+ },
+ {
+  "slug": "bottoms/110-sailor",
+  "variant": "vertical",
+  "pal": "terracotta-cream",
+  "cat": "BOTTOMS",
+  "img": "110",
+  "word": "SAILOR",
+  "box": [
+   565,
+   180,
+   281,
+   805
+  ],
+  "kicker": "THE SAILOR TROUSERS",
+  "head": "Ahoy, <b>chic.</b>",
+  "desc": "High-waist wide trousers, gold buttons.",
+  "chip": [
+   "Black",
+   "#1D1D1D"
+  ],
+  "shadow": [
+   224.8,
+   969
+  ],
+  "vtag": "SAILOR TROUSERS"
+ },
+ {
+  "slug": "bottoms/111-palazzo",
+  "variant": "vertical",
+  "pal": "butter-rust",
+  "cat": "BOTTOMS",
+  "img": "111",
+  "word": "PALAZZO",
+  "box": [
+   543,
+   180,
+   324,
+   805
+  ],
+  "kicker": "THE PALAZZO",
+  "head": "Palazzo, <b>please.</b>",
+  "desc": "Flowing wide-leg palazzo pants.",
+  "chip": [
+   "Black",
+   "#232325"
+  ],
+  "shadow": [
+   259.2,
+   969
+  ],
+  "vtag": "PALAZZO"
+ },
+ {
+  "slug": "bottoms/112-parachute",
+  "variant": "vertical",
+  "pal": "fuchsia-lime",
+  "cat": "BOTTOMS",
+  "img": "112",
+  "word": "PARACHUTE",
+  "box": [
+   538,
+   180,
+   334,
+   805
+  ],
+  "kicker": "THE PARACHUTE PANTS",
+  "head": "Drop <b>in.</b>",
+  "desc": "Wide parachute cargos with toggles.",
+  "chip": [
+   "Black",
+   "#1D1D1D"
+  ],
+  "shadow": [
+   267.2,
+   969
+  ],
+  "vtag": "PARACHUTE PANTS"
+ },
+ {
+  "slug": "bottoms/130-fuchsia",
+  "variant": "vertical",
+  "pal": "mint-burgundy",
+  "cat": "BOTTOMS",
+  "img": "130",
+  "word": "FUCHSIA",
+  "box": [
+   534,
+   180,
+   342,
+   805
+  ],
+  "kicker": "THE FUCHSIA PANTS",
+  "head": "Hot <b>pink.</b>",
+  "desc": "Relaxed wide trousers in fuchsia.",
+  "chip": [
+   "Fuchsia",
+   "#932142"
+  ],
+  "shadow": [
+   273.6,
+   969
+  ],
+  "vtag": "FUCHSIA PANTS"
+ },
+ {
+  "slug": "bottoms/131-race",
+  "variant": "vertical",
+  "pal": "lilac-plum",
+  "cat": "BOTTOMS",
+  "img": "131",
+  "word": "RACE",
+  "box": [
+   557,
+   180,
+   296,
+   805
+  ],
+  "kicker": "THE TRACK PANTS",
+  "head": "Race <b>day.</b>",
+  "desc": "Track pants with side piping.",
+  "chip": [
+   "Brick Red",
+   "#7E2831"
+  ],
+  "shadow": [
+   236.8,
+   969
+  ],
+  "vtag": "TRACK PANTS"
+ },
+ {
+  "slug": "bottoms/134-everyday",
+  "variant": "vertical",
+  "pal": "orange-navy",
+  "cat": "BOTTOMS",
+  "img": "134",
+  "word": "EVERYDAY",
+  "box": [
+   547,
+   180,
+   316,
+   805
+  ],
+  "kicker": "THE EVERYDAY TROUSERS",
+  "head": "Every <b>single day.</b>",
+  "desc": "Straight-leg trousers in black.",
+  "chip": [
+   "Black",
+   "#1E1E1E"
+  ],
+  "shadow": [
+   252.8,
+   969
+  ],
+  "vtag": "EVERYDAY TROUSERS"
+ },
+ {
+  "slug": "bottoms/139-ivory",
+  "variant": "vertical",
+  "pal": "red-varsity",
+  "cat": "SKIRTS",
+  "img": "139",
+  "word": "IVORY",
+  "box": [
+   533,
+   180,
+   345,
+   805
+  ],
+  "kicker": "THE WHITE PLEATS",
+  "head": "Ivory <b>dreams.</b>",
+  "desc": "White pleated maxi with a gold chain belt.",
+  "chip": [
+   "Ivory",
+   "#E6E7E6"
+  ],
+  "shadow": [
+   276.0,
+   969
+  ],
+  "vtag": "WHITE PLEATS"
+ },
+ {
+  "slug": "bottoms/140-champagne",
+  "variant": "vertical",
+  "pal": "black-gold",
+  "cat": "SKIRTS",
+  "img": "140",
+  "word": "CHAMPAGNE",
+  "box": [
+   544,
+   180,
+   322,
+   805
+  ],
+  "kicker": "THE SATIN PLEATS",
+  "head": "Pop <b>the champagne.</b>",
+  "desc": "Satin-sheen pleated maxi skirt.",
+  "chip": [
+   "Champagne",
+   "#8E7258"
+  ],
+  "shadow": [
+   257.6,
+   969
+  ],
+  "vtag": "SATIN PLEATS"
+ },
+ {
+  "slug": "bottoms/205-leopard",
+  "variant": "vertical",
+  "pal": "wine-blush",
+  "cat": "BOTTOMS",
+  "img": "205",
+  "word": "LEOPARD",
+  "box": [
+   547,
+   180,
+   316,
+   805
+  ],
+  "kicker": "THE LEOPARD TROUSERS",
+  "head": "Spot <b>on.</b>",
+  "desc": "Wide trousers in snow-leopard print.",
+  "chip": [
+   "Snow Leopard",
+   "#78726B"
+  ],
+  "shadow": [
+   252.8,
+   969
+  ],
+  "vtag": "LEOPARD TROUSERS"
+ },
+ {
+  "slug": "bottoms/311-ombre",
+  "variant": "vertical",
+  "pal": "ivory-emerald",
+  "cat": "BOTTOMS",
+  "img": "311",
+  "word": "OMBRE",
+  "box": [
+   549,
+   180,
+   312,
+   805
+  ],
+  "kicker": "THE OMBRE JEANS",
+  "head": "Fade <b>into you.</b>",
+  "desc": "Wide jeans with an ombre wash.",
+  "chip": [
+   "Ombre Blue",
+   "#1D4485"
+  ],
+  "shadow": [
+   249.60000000000002,
+   969
+  ],
+  "vtag": "OMBRE JEANS"
+ },
+ {
+  "slug": "bottoms/312-twist",
+  "variant": "vertical",
+  "pal": "choc-peach",
+  "cat": "BOTTOMS",
+  "img": "312",
+  "word": "TWIST",
+  "box": [
+   455,
+   262,
+   500,
+   723
+  ],
+  "kicker": "THE CROSSOVER JEANS",
+  "head": "Twist <b>it.</b>",
+  "desc": "Crossover-waist straight jeans.",
+  "chip": [
+   "Mid Blue",
+   "#5D80B5"
+  ],
+  "shadow": [
+   400.0,
+   969
+  ],
+  "vtag": "CROSSOVER JEANS"
+ },
+ {
+  "slug": "coords-dresses/119-matchy",
+  "variant": "vertical",
+  "pal": "sand-cobalt",
+  "cat": "CO-ORDS",
+  "img": "119",
+  "word": "MATCHY",
+  "box": [
+   545,
+   180,
+   320,
+   805
+  ],
+  "kicker": "THE TRACKSUIT",
+  "head": "Match <b>made.</b>",
+  "desc": "Zip hoodie and joggers in olive.",
+  "chip": [
+   "Olive",
+   "#7C7F67"
+  ],
+  "shadow": [
+   256.0,
+   969
+  ],
+  "vtag": "TRACKSUIT"
+ },
+ {
+  "slug": "coords-dresses/120-lounge",
+  "variant": "vertical",
+  "pal": "teal-blush",
+  "cat": "CO-ORDS",
+  "img": "120",
+  "word": "LOUNGE",
+  "box": [
+   557,
+   180,
+   296,
+   805
+  ],
+  "kicker": "THE LOUNGE SET",
+  "head": "Lounge <b>in style.</b>",
+  "desc": "Hooded zip and joggers in sand.",
+  "chip": [
+   "Sand",
+   "#CDB59D"
+  ],
+  "shadow": [
+   236.8,
+   969
+  ],
+  "vtag": "LOUNGE SET"
+ },
+ {
+  "slug": "coords-dresses/125-cream",
+  "variant": "vertical",
+  "pal": "forest-pink",
+  "cat": "CO-ORDS",
+  "img": "125",
+  "word": "CREAM",
+  "box": [
+   549,
+   180,
+   312,
+   805
+  ],
+  "kicker": "THE KNIT SET",
+  "head": "Cream <b>of the crop.</b>",
+  "desc": "Ivory knit maxi set with striped trims.",
+  "chip": [
+   "Ivory",
+   "#C2BEAF"
+  ],
+  "shadow": [
+   249.60000000000002,
+   969
+  ],
+  "vtag": "KNIT SET"
+ },
+ {
+  "slug": "coords-dresses/126-elegant",
+  "variant": "vertical",
+  "pal": "tangerine",
+  "cat": "CO-ORDS",
+  "img": "126",
+  "word": "ELEGANT",
+  "box": [
+   479,
+   180,
+   452,
+   805
+  ],
+  "kicker": "THE LONG SHIRT",
+  "head": "Quietly <b>elegant.</b>",
+  "desc": "Black long shirt with printed cuffs.",
+  "chip": [
+   "Black",
+   "#1B1B1B"
+  ],
+  "shadow": [
+   361.6,
+   969
+  ],
+  "vtag": "LONG SHIRT"
+ },
+ {
+  "slug": "coords-dresses/129-smart",
+  "variant": "vertical",
+  "pal": "pink-yellow",
+  "cat": "CO-ORDS",
+  "img": "129",
+  "word": "SMART",
+  "box": [
+   554,
+   180,
+   303,
+   805
+  ],
+  "kicker": "THE PINAFORE SET",
+  "head": "Smart <b>girl.</b>",
+  "desc": "Waistcoat, maxi skirt and white shirt.",
+  "chip": [
+   "Black &amp; White",
+   "#111111"
+  ],
+  "shadow": [
+   242.4,
+   969
+  ],
+  "vtag": "PINAFORE SET"
+ },
+ {
+  "slug": "coords-dresses/135-one",
+  "variant": "vertical",
+  "pal": "terracotta-cream",
+  "cat": "DRESSES",
+  "img": "135",
+  "word": "ONE",
+  "box": [
+   618,
+   180,
+   174,
+   805
+  ],
+  "kicker": "THE JUMPSUIT",
+  "head": "One <b>&amp; done.</b>",
+  "desc": "Sleek sleeveless jumpsuit in black.",
+  "chip": [
+   "Black",
+   "#262626"
+  ],
+  "shadow": [
+   139.20000000000002,
+   969
+  ],
+  "vtag": "JUMPSUIT"
+ },
+ {
+  "slug": "coords-dresses/137-peach",
+  "variant": "vertical",
+  "pal": "olive-orange",
+  "cat": "DRESSES",
+  "img": "137",
+  "word": "PEACH",
+  "box": [
+   574,
+   180,
+   263,
+   805
+  ],
+  "kicker": "THE PEACH MAXI",
+  "head": "Peaches <b>&amp; cream.</b>",
+  "desc": "Sleeveless maxi with a drawstring waist.",
+  "chip": [
+   "Peach",
+   "#C88E76"
+  ],
+  "shadow": [
+   210.4,
+   969
+  ],
+  "vtag": "PEACH MAXI"
+ },
+ {
+  "slug": "coords-dresses/147-rose",
+  "variant": "vertical",
+  "pal": "cobalt-ice",
+  "cat": "DRESSES",
+  "img": "147",
+  "word": "ROSE",
+  "box": [
+   562,
+   180,
+   287,
+   805
+  ],
+  "kicker": "THE SHIRT DRESS",
+  "head": "Rose <b>tinted.</b>",
+  "desc": "Belted maxi shirt dress in dusty rose.",
+  "chip": [
+   "Dusty Rose",
+   "#B08783"
+  ],
+  "shadow": [
+   229.60000000000002,
+   969
+  ],
+  "vtag": "SHIRT DRESS"
+ },
+ {
+  "slug": "coords-dresses/188-white",
+  "variant": "vertical",
+  "pal": "red-varsity",
+  "cat": "CO-ORDS",
+  "img": "188",
+  "word": "WHITE",
+  "box": [
+   457,
+   180,
+   496,
+   805
+  ],
+  "kicker": "THE WHITE SHIRT",
+  "head": "White <b>noise.</b>",
+  "desc": "Textured long shirt in crisp white.",
+  "chip": [
+   "White",
+   "#DADAD9"
+  ],
+  "shadow": [
+   396.8,
+   969
+  ],
+  "vtag": "WHITE SHIRT"
+ },
+ {
+  "slug": "coords-dresses/189-crisp",
+  "variant": "vertical",
+  "pal": "fuchsia-lime",
+  "cat": "CO-ORDS",
+  "img": "189",
+  "word": "CRISP",
+  "box": [
+   534,
+   180,
+   342,
+   805
+  ],
+  "kicker": "THE WHITE CO-ORD",
+  "head": "Crisp <b>in white.</b>",
+  "desc": "Textured shirt and trouser set.",
+  "chip": [
+   "White",
+   "#DBDBDA"
+  ],
+  "shadow": [
+   273.6,
+   969
+  ],
+  "vtag": "WHITE CO-ORD"
+ },
+ {
+  "slug": "coords-dresses/201-boss",
+  "variant": "vertical",
+  "pal": "pink-cherry",
+  "cat": "CO-ORDS",
+  "img": "201",
+  "word": "BOSS",
+  "box": [
+   555,
+   180,
+   300,
+   805
+  ],
+  "kicker": "THE PINSTRIPE SET",
+  "head": "Boss <b>mode.</b>",
+  "desc": "Pinstripe shirt and trouser set.",
+  "chip": [
+   "Pinstripe",
+   "#161616"
+  ],
+  "shadow": [
+   240.0,
+   969
+  ],
+  "vtag": "PINSTRIPE SET"
+ },
+ {
+  "slug": "coords-dresses/272-navy",
+  "variant": "vertical",
+  "pal": "sun-cobalt",
+  "cat": "CO-ORDS",
+  "img": "272",
+  "word": "NAVY",
+  "box": [
+   517,
+   180,
+   377,
+   805
+  ],
+  "kicker": "THE NAVY CO-ORD",
+  "head": "Navy <b>days.</b>",
+  "desc": "Short-sleeve zip top with wide trousers.",
+  "chip": [
+   "Navy",
+   "#22294E"
+  ],
+  "shadow": [
+   301.6,
+   969
+  ],
+  "vtag": "NAVY CO-ORD"
+ },
+ {
+  "slug": "coords-dresses/276-zebra",
+  "variant": "vertical",
+  "pal": "sky-red",
+  "cat": "CO-ORDS",
+  "img": "276",
+  "word": "ZEBRA",
+  "box": [
+   532,
+   180,
+   346,
+   805
+  ],
+  "kicker": "THE ZEBRA SET",
+  "head": "Wild <b>stripes.</b>",
+  "desc": "Zebra-print top with caramel trousers.",
+  "chip": [
+   "Zebra &amp; Caramel",
+   "#7F593C"
+  ],
+  "shadow": [
+   276.8,
+   969
+  ],
+  "vtag": "ZEBRA SET"
+ },
+ {
+  "slug": "coords-dresses/277-electric",
+  "variant": "vertical",
+  "pal": "butter-rust",
+  "cat": "CO-ORDS",
+  "img": "277",
+  "word": "ELECTRIC",
+  "box": [
+   532,
+   180,
+   347,
+   805
+  ],
+  "kicker": "THE PRINT TIE SET",
+  "head": "Electric <b>blue.</b>",
+  "desc": "Blue print tie top with black trousers.",
+  "chip": [
+   "Electric Blue",
+   "#1C1C1C"
+  ],
+  "shadow": [
+   277.6,
+   969
+  ],
+  "vtag": "PRINT TIE SET"
+ },
+ {
+  "slug": "coords-dresses/297-rust",
+  "variant": "vertical",
+  "pal": "lime-violet",
+  "cat": "DRESSES",
+  "img": "297",
+  "word": "RUST",
+  "box": [
+   473,
+   180,
+   464,
+   805
+  ],
+  "kicker": "THE WRAP DRESS",
+  "head": "Rust <b>&amp; ready.</b>",
+  "desc": "Belted wrap dress in rust.",
+  "chip": [
+   "Rust",
+   "#8F4839"
+  ],
+  "shadow": [
+   371.20000000000005,
+   969
+  ],
+  "vtag": "WRAP DRESS"
+ },
+ {
+  "slug": "coords-dresses/315-romance",
+  "variant": "vertical",
+  "pal": "champagne-ink",
+  "cat": "DRESSES",
+  "img": "315",
+  "word": "ROMANCE",
+  "box": [
+   480,
+   180,
+   450,
+   805
+  ],
+  "kicker": "THE FLORAL WRAP",
+  "head": "Pure <b>romance.</b>",
+  "desc": "Black wrap dress with pink blooms.",
+  "chip": [
+   "Black &amp; Pink",
+   "#08080B"
+  ],
+  "shadow": [
+   360.0,
+   969
+  ],
+  "vtag": "FLORAL WRAP"
+ },
+ {
+  "slug": "eastern/190-grace",
+  "variant": "jharoka",
+  "pal": "tangerine",
+  "cat": "EID EDIT",
+  "img": "190",
+  "word": "GRACE",
+  "box": [
+   296,
+   250,
+   489,
+   735
+  ],
+  "kicker": "THE EMBROIDERED SET",
+  "head": "Grace <b>in black.</b>",
+  "desc": "Black co-ord with embroidered panels.",
+  "chip": [
+   "Black",
+   "#202020"
+  ],
+  "shadow": [
+   366.75,
+   967
+  ],
+  "archtop": 322,
+  "archh": 668
+ },
+ {
+  "slug": "eastern/271-heritage",
+  "variant": "jharoka",
+  "pal": "mint-burgundy",
+  "cat": "EID EDIT",
+  "img": "271",
+  "word": "HERITAGE",
+  "box": [
+   385,
+   250,
+   311,
+   735
+  ],
+  "kicker": "THE KURTA SET",
+  "head": "Rooted <b>in heritage.</b>",
+  "desc": "Cinnamon kurta set, embroidered hems.",
+  "chip": [
+   "Cinnamon",
+   "#754B39"
+  ],
+  "shadow": [
+   233.25,
+   967
+  ],
+  "archtop": 322,
+  "archh": 668
+ },
+ {
+  "slug": "eastern/274-print",
+  "variant": "jharoka",
+  "pal": "wine-blush",
+  "cat": "EID EDIT",
+  "img": "274",
+  "word": "PRINT",
+  "box": [
+   316,
+   250,
+   448,
+   735
+  ],
+  "kicker": "THE PRINTED TUNIC",
+  "head": "Print <b>perfect.</b>",
+  "desc": "Ivory printed tunic with trousers.",
+  "chip": [
+   "Ivory Print",
+   "#9A9895"
+  ],
+  "shadow": [
+   336.0,
+   967
+  ],
+  "archtop": 322,
+  "archh": 668
+ },
+ {
+  "slug": "eastern/275-monochrome",
+  "variant": "jharoka",
+  "pal": "lilac-plum",
+  "cat": "EID EDIT",
+  "img": "275",
+  "word": "MONOCHROME",
+  "box": [
+   316,
+   250,
+   449,
+   735
+  ],
+  "kicker": "THE MONO TUNIC",
+  "head": "Monochrome <b>magic.</b>",
+  "desc": "Black printed tunic with trousers.",
+  "chip": [
+   "Black Print",
+   "#202020"
+  ],
+  "shadow": [
+   336.75,
+   967
+  ],
+  "archtop": 322,
+  "archh": 668
+ },
+ {
+  "slug": "sunglasses/096-bold",
+  "variant": "wide",
+  "pal": "pink-yellow",
+  "cat": "SUNGLASSES",
+  "img": "96",
+  "word": "BOLD",
+  "box": [
+   70,
+   489,
+   940,
+   322
+  ],
+  "kicker": "THE SQUARE SHADES",
+  "head": "Bold <b>moves.</b>",
+  "desc": "Square frame with a metal brow bar.",
+  "chip": [
+   "Jet Black",
+   "#201D24"
+  ],
+  "dr": 300,
+  "disctop": 350
+ },
+ {
+  "slug": "sunglasses/100-pilot",
+  "variant": "wide",
+  "pal": "pink-cherry",
+  "cat": "SUNGLASSES",
+  "img": "100",
+  "word": "PILOT",
+  "box": [
+   70,
+   476,
+   940,
+   348
+  ],
+  "kicker": "THE PILOT",
+  "head": "Cleared <b>for takeoff.</b>",
+  "desc": "Gunmetal aviator with dark lenses.",
+  "chip": [
+   "Gunmetal",
+   "#3B312E"
+  ],
+  "dr": 300,
+  "disctop": 350
+ },
+ {
+  "slug": "sunglasses/264-aviator",
+  "variant": "wide",
+  "pal": "ivory-emerald",
+  "cat": "SUNGLASSES",
+  "img": "264",
+  "word": "AVIATOR",
+  "box": [
+   70,
+   489,
+   940,
+   323
+  ],
+  "kicker": "THE GOLD AVIATOR",
+  "head": "Stay <b>golden.</b>",
+  "desc": "Fine gold frame, gradient brown lenses.",
+  "chip": [
+   "Gold &amp; Brown",
+   "#8F6857"
+  ],
+  "dr": 300,
+  "disctop": 350
+ },
+ {
+  "slug": "sunglasses/303-round",
+  "variant": "wide",
+  "pal": "black-gold",
+  "cat": "SUNGLASSES",
+  "img": "303",
+  "word": "ROUND",
+  "box": [
+   70,
+   474,
+   940,
+   353
+  ],
+  "kicker": "THE ROUND",
+  "head": "Full <b>circle.</b>",
+  "desc": "Oval metal frame with smoke lenses.",
+  "chip": [
+   "Matte Black",
+   "#817F84"
+  ],
+  "dr": 300,
+  "disctop": 350
+ },
+ {
+  "slug": "sunglasses/305-tortoise",
+  "variant": "wide",
+  "pal": "sky-red",
+  "cat": "SUNGLASSES",
+  "img": "305",
+  "word": "TORTOISE",
+  "box": [
+   70,
+   463,
+   940,
+   374
+  ],
+  "kicker": "THE TORTOISE",
+  "head": "Retro <b>queen.</b>",
+  "desc": "Chunky oval frame in tortoiseshell.",
+  "chip": [
+   "Tortoise",
+   "#5A493F"
+  ],
+  "dr": 300,
+  "disctop": 350
+ },
+ {
+  "slug": "handbags/206-safari",
+  "variant": "spotlight",
+  "pal": "sand-cobalt",
+  "cat": "HANDBAGS",
+  "img": "206",
+  "word": "SAFARI",
+  "box": [
+   337,
+   320,
+   407,
+   660
+  ],
+  "kicker": "THE LEOPARD TOTE",
+  "head": "Safari <b>chic.</b>",
+  "desc": "Leopard-print tote with sturdy handles.",
+  "chip": [
+   "Leopard",
+   "#1A1718"
+  ],
+  "shadow": [
+   305.25,
+   960
+  ]
+ },
+ {
+  "slug": "handbags/210-sparkle",
+  "variant": "spotlight",
+  "pal": "lilac-plum",
+  "cat": "HANDBAGS",
+  "img": "210",
+  "word": "SPARKLE",
+  "box": [
+   190,
+   337,
+   700,
+   643
+  ],
+  "kicker": "THE KNOT BAG",
+  "head": "Red <b>alert.</b>",
+  "desc": "Crystal mesh hobo with a knot handle.",
+  "chip": [
+   "Ruby Red",
+   "#6C0613"
+  ],
+  "shadow": [
+   525.0,
+   960
+  ]
+ },
+ {
+  "slug": "handbags/214-luxe",
+  "variant": "spotlight",
+  "pal": "lime-violet",
+  "cat": "HANDBAGS",
+  "img": "214",
+  "word": "LUXE",
+  "box": [
+   247,
+   320,
+   587,
+   660
+  ],
+  "kicker": "THE CROC TOP-HANDLE",
+  "head": "Pure <b>luxe.</b>",
+  "desc": "Croc-embossed top-handle with gold lock.",
+  "chip": [
+   "Oxblood Croc",
+   "#4B1C1E"
+  ],
+  "shadow": [
+   440.25,
+   960
+  ]
+ },
+ {
+  "slug": "handbags/224-midnight",
+  "variant": "spotlight",
+  "pal": "orange-navy",
+  "cat": "HANDBAGS",
+  "img": "224",
+  "word": "MIDNIGHT",
+  "box": [
+   297,
+   320,
+   487,
+   660
+  ],
+  "kicker": "THE BOWLING BAG",
+  "head": "Midnight <b>run.</b>",
+  "desc": "Structured bowling bag in navy pebble.",
+  "chip": [
+   "Midnight Navy",
+   "#121A2C"
+  ],
+  "shadow": [
+   365.25,
+   960
+  ]
+ },
+ {
+  "slug": "outfits/style-it-01-class",
+  "variant": "outfit",
+  "pal": "navy-butter",
+  "cat": "STYLE IT",
+  "left": "THE LOOK",
+  "word": "CLASS",
+  "timg": "36",
+  "bimg": "52",
+  "tbox": [
+   65,
+   335,
+   470,
+   510
+  ],
+  "bbox": [
+   580,
+   235,
+   380,
+   750
+  ],
+  "tlabel": "SWEATSHIRT",
+  "blabel": "WIDE-LEG JEANS",
+  "plusx": 557,
+  "plusy": 620,
+  "kicker": "STYLE IT",
+  "head": "Class <b>act.</b>",
+  "desc": "College sweatshirt + light-wash wide-leg jeans."
+ },
+ {
+  "slug": "outfits/style-it-02-glam",
+  "variant": "outfit",
+  "pal": "red-varsity",
+  "cat": "STYLE IT",
+  "left": "THE LOOK",
+  "word": "GLAM",
+  "timg": "7",
+  "bimg": "164",
+  "tbox": [
+   85,
+   330,
+   430,
+   520
+  ],
+  "bbox": [
+   580,
+   235,
+   380,
+   750
+  ],
+  "tlabel": "SATIN BLOUSE",
+  "blabel": "PLEATED SKIRT",
+  "plusx": 547,
+  "plusy": 620,
+  "kicker": "STYLE IT",
+  "head": "Dinner <b>date.</b>",
+  "desc": "Satin wrap blouse + pleated chain skirt."
+ },
+ {
+  "slug": "outfits/style-it-03-office",
+  "variant": "outfit",
+  "pal": "ivory-emerald",
+  "cat": "STYLE IT",
+  "left": "THE LOOK",
+  "word": "OFFICE",
+  "timg": "39",
+  "bimg": "111",
+  "tbox": [
+   98,
+   330,
+   405,
+   520
+  ],
+  "bbox": [
+   619,
+   235,
+   302,
+   750
+  ],
+  "tlabel": "HOUNDSTOOTH KNIT",
+  "blabel": "PALAZZO",
+  "plusx": 561,
+  "plusy": 620,
+  "kicker": "STYLE IT",
+  "head": "Office <b>icon.</b>",
+  "desc": "Houndstooth knit + black palazzo pants."
+ },
+ {
+  "slug": "outfits/style-it-04-weekend",
+  "variant": "outfit",
+  "pal": "choc-peach",
+  "cat": "STYLE IT",
+  "left": "THE LOOK",
+  "word": "WEEKEND",
+  "timg": "72",
+  "bimg": "75",
+  "tbox": [
+   79,
+   330,
+   442,
+   520
+  ],
+  "bbox": [
+   618,
+   235,
+   305,
+   750
+  ],
+  "tlabel": "FLORAL SHIRT",
+  "blabel": "CLASSIC JEANS",
+  "plusx": 569,
+  "plusy": 620,
+  "kicker": "STYLE IT",
+  "head": "Weekend <b>mode.</b>",
+  "desc": "Wildflower shirt + straight-leg jeans."
+ },
+ {
+  "slug": "outfits/style-it-05-cozy",
+  "variant": "outfit",
+  "pal": "sun-cobalt",
+  "cat": "STYLE IT",
+  "left": "THE LOOK",
+  "word": "COZY",
+  "timg": "268",
+  "bimg": "92",
+  "tbox": [
+   102,
+   330,
+   397,
+   520
+  ],
+  "bbox": [
+   626,
+   235,
+   289,
+   750
+  ],
+  "tlabel": "CHECKER CARDIGAN",
+  "blabel": "FLARE JEANS",
+  "plusx": 562,
+  "plusy": 620,
+  "kicker": "STYLE IT",
+  "head": "Cozy <b>retro.</b>",
+  "desc": "Checker cardigan + classic flares."
+ },
+ {
+  "slug": "outfits/style-it-06-fresh",
+  "variant": "outfit",
+  "pal": "orange-navy",
+  "cat": "STYLE IT",
+  "left": "THE LOOK",
+  "word": "FRESH",
+  "timg": "141",
+  "bimg": "139",
+  "tbox": [
+   93,
+   330,
+   415,
+   520
+  ],
+  "bbox": [
+   610,
+   235,
+   321,
+   750
+  ],
+  "tlabel": "CHAIN BLOUSE",
+  "blabel": "WHITE PLEATS",
+  "plusx": 559,
+  "plusy": 620,
+  "kicker": "STYLE IT",
+  "head": "Fresh <b>start.</b>",
+  "desc": "Royal blue blouse + ivory pleated skirt."
+ },
+ {
+  "slug": "outfits/style-it-07-roar",
+  "variant": "outfit",
+  "pal": "teal-blush",
+  "cat": "STYLE IT",
+  "left": "THE LOOK",
+  "word": "ROAR",
+  "timg": "128",
+  "bimg": "110",
+  "tbox": [
+   84,
+   330,
+   433,
+   520
+  ],
+  "bbox": [
+   639,
+   235,
+   262,
+   750
+  ],
+  "tlabel": "LEOPARD BLOUSE",
+  "blabel": "SAILOR TROUSERS",
+  "plusx": 578,
+  "plusy": 620,
+  "kicker": "STYLE IT",
+  "head": "Hear <b>me roar.</b>",
+  "desc": "Leopard blouse + gold-button trousers."
+ },
+ {
+  "slug": "outfits/style-it-08-cold",
+  "variant": "outfit",
+  "pal": "butter-rust",
+  "cat": "STYLE IT",
+  "left": "THE LOOK",
+  "word": "COLD",
+  "timg": "28",
+  "bimg": "53",
+  "tbox": [
+   99,
+   330,
+   403,
+   520
+  ],
+  "bbox": [
+   620,
+   235,
+   301,
+   750
+  ],
+  "tlabel": "GREY PUFFER",
+  "blabel": "CARGO JOGGERS",
+  "plusx": 561,
+  "plusy": 620,
+  "kicker": "STYLE IT",
+  "head": "Cold <b>outside.</b>",
+  "desc": "Grey puffer + black cargo joggers."
+ },
+ {
+  "slug": "outfits/style-it-09-heiress",
+  "variant": "outfit",
+  "pal": "olive-orange",
+  "cat": "STYLE IT",
+  "left": "THE LOOK",
+  "word": "HEIRESS",
+  "timg": "9",
+  "bimg": "54",
+  "tbox": [
+   65,
+   341,
+   470,
+   498
+  ],
+  "bbox": [
+   579,
+   235,
+   382,
+   750
+  ],
+  "tlabel": "TWEED JACKET",
+  "blabel": "BLUSH TROUSERS",
+  "plusx": 557,
+  "plusy": 620,
+  "kicker": "STYLE IT",
+  "head": "Old <b>money.</b>",
+  "desc": "Tweed jacket + blush tailored trousers."
+ },
+ {
+  "slug": "outfits/style-it-10-pink",
+  "variant": "outfit",
+  "pal": "forest-pink",
+  "cat": "STYLE IT",
+  "left": "THE LOOK",
+  "word": "PINK",
+  "timg": "15",
+  "bimg": "74",
+  "tbox": [
+   101,
+   330,
+   399,
+   520
+  ],
+  "bbox": [
+   619,
+   235,
+   303,
+   750
+  ],
+  "tlabel": "GRAPHIC HOODIE",
+  "blabel": "PINK CARGO",
+  "plusx": 559,
+  "plusy": 620,
+  "kicker": "STYLE IT",
+  "head": "Think <b>pink.</b>",
+  "desc": "Graphic hoodie + candy cargo joggers."
+ },
+ {
+  "slug": "outfits/style-it-11-cool",
+  "variant": "outfit",
+  "pal": "champagne-ink",
+  "cat": "STYLE IT",
+  "left": "THE LOOK",
+  "word": "COOL",
+  "timg": "29",
+  "bimg": "80",
+  "tbox": [
+   103,
+   330,
+   394,
+   520
+  ],
+  "bbox": [
+   572,
+   235,
+   396,
+   750
+  ],
+  "tlabel": "LEATHER BOMBER",
+  "blabel": "INDIGO JEANS",
+  "plusx": 534,
+  "plusy": 620,
+  "kicker": "STYLE IT",
+  "head": "Effortlessly <b>cool.</b>",
+  "desc": "Leather-look bomber + indigo wide jeans."
+ },
+ {
+  "slug": "outfits/style-it-12-cafe",
+  "variant": "outfit",
+  "pal": "mint-burgundy",
+  "cat": "STYLE IT",
+  "left": "THE LOOK",
+  "word": "CAFE",
+  "timg": "33",
+  "bimg": "84",
+  "tbox": [
+   125,
+   330,
+   351,
+   520
+  ],
+  "bbox": [
+   624,
+   235,
+   292,
+   750
+  ],
+  "tlabel": "STRIPE POLO",
+  "blabel": "CUFFED TROUSERS",
+  "plusx": 550,
+  "plusy": 620,
+  "kicker": "STYLE IT",
+  "head": "Caf&eacute; <b>run.</b>",
+  "desc": "Stripe polo knit + sand cuffed trousers."
+ },
+ {
+  "slug": "outfits/style-it-13-soiree",
+  "variant": "outfit",
+  "pal": "cobalt-ice",
+  "cat": "STYLE IT",
+  "left": "THE LOOK",
+  "word": "SOIREE",
+  "timg": "198",
+  "bimg": "140",
+  "tbox": [
+   106,
+   330,
+   388,
+   520
+  ],
+  "bbox": [
+   620,
+   235,
+   300,
+   750
+  ],
+  "tlabel": "CHIFFON BLOUSE",
+  "blabel": "SATIN PLEATS",
+  "plusx": 557,
+  "plusy": 620,
+  "kicker": "STYLE IT",
+  "head": "Soir&eacute;e <b>ready.</b>",
+  "desc": "Chiffon blouse + satin pleated skirt."
+ },
+ {
+  "slug": "outfits/style-it-14-spotted",
+  "variant": "outfit",
+  "pal": "sand-cobalt",
+  "cat": "STYLE IT",
+  "left": "THE LOOK",
+  "word": "SPOTTED",
+  "timg": "204",
+  "bimg": "205",
+  "tbox": [
+   96,
+   330,
+   408,
+   520
+  ],
+  "bbox": [
+   623,
+   235,
+   295,
+   750
+  ],
+  "tlabel": "TIE-FRONT SHIRT",
+  "blabel": "LEOPARD TROUSERS",
+  "plusx": 563,
+  "plusy": 620,
+  "kicker": "STYLE IT",
+  "head": "Spot <b>the trend.</b>",
+  "desc": "Tie-front shirt + leopard trousers."
+ },
+ {
+  "slug": "outfits/style-it-15-bonjour",
+  "variant": "outfit",
+  "pal": "butter-rust",
+  "cat": "STYLE IT",
+  "left": "THE LOOK",
+  "word": "BONJOUR",
+  "timg": "116",
+  "bimg": "81",
+  "tbox": [
+   74,
+   330,
+   453,
+   520
+  ],
+  "bbox": [
+   595,
+   235,
+   351,
+   750
+  ],
+  "tlabel": "PARIS SWEATSHIRT",
+  "blabel": "GREY JEANS",
+  "plusx": 561,
+  "plusy": 620,
+  "kicker": "STYLE IT",
+  "head": "Very <b>Parisian.</b>",
+  "desc": "Paris sweatshirt + smoke-grey wide jeans."
+ },
+ {
+  "slug": "outfits/style-it-16-nights",
+  "variant": "outfit",
+  "pal": "terracotta-cream",
+  "cat": "STYLE IT",
+  "left": "THE LOOK",
+  "word": "NIGHTS",
+  "timg": "0",
+  "bimg": "79",
+  "tbox": [
+   78,
+   330,
+   445,
+   520
+  ],
+  "bbox": [
+   622,
+   235,
+   296,
+   750
+  ],
+  "tlabel": "GLOSS PUFFER",
+  "blabel": "BLACK BOOTCUT",
+  "plusx": 572,
+  "plusy": 620,
+  "kicker": "STYLE IT",
+  "head": "City <b>nights.</b>",
+  "desc": "Gloss puffer + washed black bootcut jeans."
+ },
+ {
+  "slug": "edits/pick-your-hoodie",
+  "variant": "row3",
+  "pal": "fuchsia-lime",
+  "cat": "THE EDIT",
+  "left": "THE EDIT",
+  "word": "HOODIE",
+  "items": [
+   [
+    "58",
+    60,
+    509,
+    300,
+    396
+   ],
+   [
+    "34",
+    390,
+    520,
+    300,
+    385
+   ],
+   [
+    "27",
+    720,
+    447,
+    300,
+    458
+   ]
+  ],
+  "labels": [
+   "BLACK",
+   "GREY",
+   "PINK"
+  ],
+  "kicker": "THE HOODIE EDIT",
+  "head": "Pick <b>your hoodie.</b>",
+  "desc": "Black, grey or pink. Comment your pick."
+ },
+ {
+  "slug": "edits/jeans-three-ways",
+  "variant": "row3",
+  "pal": "red-varsity",
+  "cat": "THE EDIT",
+  "left": "THE EDIT",
+  "word": "DENIM",
+  "items": [
+   [
+    "52",
+    69,
+    345,
+    283,
+    560
+   ],
+   [
+    "50",
+    444,
+    345,
+    192,
+    560
+   ],
+   [
+    "79",
+    760,
+    345,
+    221,
+    560
+   ]
+  ],
+  "labels": [
+   "WIDE",
+   "FLARE",
+   "BOOTCUT"
+  ],
+  "kicker": "THE DENIM EDIT",
+  "head": "Jeans, <b>three ways.</b>",
+  "desc": "Wide, flare or bootcut. Which fit is yours?"
+ },
+ {
+  "slug": "edits/puffer-season",
+  "variant": "row3",
+  "pal": "lime-violet",
+  "cat": "THE EDIT",
+  "left": "THE EDIT",
+  "word": "PUFFER",
+  "items": [
+   [
+    "0",
+    60,
+    554,
+    300,
+    351
+   ],
+   [
+    "28",
+    390,
+    518,
+    300,
+    387
+   ],
+   [
+    "41",
+    720,
+    565,
+    300,
+    340
+   ]
+  ],
+  "labels": [
+   "GLOSS",
+   "GREY",
+   "CORAL"
+  ],
+  "kicker": "THE PUFFER EDIT",
+  "head": "Puffer <b>season.</b>",
+  "desc": "Three puffers, zero cold days."
+ },
+ {
+  "slug": "edits/knit-picks",
+  "variant": "row3",
+  "pal": "navy-butter",
+  "cat": "THE EDIT",
+  "left": "THE EDIT",
+  "word": "KNITS",
+  "items": [
+   [
+    "30",
+    60,
+    494,
+    300,
+    411
+   ],
+   [
+    "39",
+    390,
+    520,
+    300,
+    385
+   ],
+   [
+    "268",
+    720,
+    512,
+    300,
+    393
+   ]
+  ],
+  "labels": [
+   "CABLE",
+   "HOUNDSTOOTH",
+   "CHECKER"
+  ],
+  "kicker": "THE KNIT EDIT",
+  "head": "Knit <b>picks.</b>",
+  "desc": "Three cosy knits for the cold months."
+ },
+ {
+  "slug": "edits/mini-bags",
+  "variant": "row3",
+  "pal": "sky-red",
+  "cat": "THE EDIT",
+  "left": "THE EDIT",
+  "word": "MINI",
+  "items": [
+   [
+    "106",
+    60,
+    617,
+    300,
+    288
+   ],
+   [
+    "210",
+    390,
+    630,
+    300,
+    275
+   ],
+   [
+    "212",
+    720,
+    455,
+    300,
+    450
+   ]
+  ],
+  "labels": [
+   "CRYSTAL",
+   "KNOT",
+   "SADDLE"
+  ],
+  "kicker": "THE BAG EDIT",
+  "head": "Mini bags, <b>big mood.</b>",
+  "desc": "Small bags that steal the whole look."
+ },
+ {
+  "slug": "edits/pick-your-frame",
+  "variant": "trio",
+  "pal": "sun-cobalt",
+  "cat": "THE EDIT",
+  "left": "THE EDIT",
+  "word": "FRAMES",
+  "items": [
+   [
+    "96",
+    70,
+    300,
+    640,
+    219,
+    "SQUARE",
+    770,
+    380,
+    "left"
+   ],
+   [
+    "303",
+    370,
+    530,
+    640,
+    240,
+    "ROUND",
+    72,
+    600,
+    "right"
+   ],
+   [
+    "100",
+    100,
+    750,
+    640,
+    237,
+    "PILOT",
+    770,
+    830,
+    "left"
+   ]
+  ],
+  "labels": [
+   "SQUARE",
+   "ROUND",
+   "PILOT"
+  ],
+  "kicker": "THE SHADES EDIT",
+  "head": "Pick <b>your frame.</b>",
+  "desc": "Square, round or pilot. Which one is you?"
+ },
+ {
+  "slug": "edits/paris-or-campus",
+  "variant": "duo",
+  "pal": "choc-peach",
+  "cat": "THIS OR THAT",
+  "left": "YOUR PICK",
+  "word": "THIS OR THAT",
+  "items": [
+   [
+    "116",
+    75,
+    411,
+    430,
+    494
+   ],
+   [
+    "36",
+    575,
+    438,
+    430,
+    467
+   ]
+  ],
+  "labels": [
+   "PARIS",
+   "CAMPUS"
+  ],
+  "kicker": "THIS OR THAT",
+  "head": "Paris <b>or campus?</b>",
+  "desc": "Comment your pick below."
+ },
+ {
+  "slug": "edits/day-or-night-dress",
+  "variant": "duo",
+  "pal": "terracotta-cream",
+  "cat": "THIS OR THAT",
+  "left": "YOUR PICK",
+  "word": "THIS OR THAT",
+  "items": [
+   [
+    "137",
+    192,
+    305,
+    196,
+    600
+   ],
+   [
+    "315",
+    623,
+    305,
+    335,
+    600
+   ]
+  ],
+  "labels": [
+   "DAY",
+   "NIGHT"
+  ],
+  "kicker": "THIS OR THAT",
+  "head": "Day <b>or night?</b>",
+  "desc": "Two dresses, one choice. Comment below."
+ },
+ {
+  "slug": "edits/gold-or-tortoise",
+  "variant": "duo",
+  "pal": "mint-burgundy",
+  "cat": "THIS OR THAT",
+  "left": "YOUR PICK",
+  "word": "THIS OR THAT",
+  "items": [
+   [
+    "264",
+    280,
+    330,
+    728,
+    250
+   ],
+   [
+    "305",
+    380,
+    640,
+    628,
+    250
+   ]
+  ],
+  "labels": [
+   "GOLD",
+   "TORTOISE"
+  ],
+  "kicker": "THIS OR THAT",
+  "head": "Gold <b>or tortoise?</b>",
+  "desc": "Which frame are you wearing first?",
+  "stack": true,
+  "orx": 200,
+  "ory": 600
+ },
+ {
+  "slug": "brand/how-to-order",
+  "variant": "manifesto",
+  "pal": "navy-butter",
+  "cat": "HOW TO ORDER",
+  "left": "EASY AS",
+  "lines": [
+   [
+    "Ordering is",
+    225,
+    124,
+    "font-style:italic;font-weight:600"
+   ],
+   [
+    "easy.",
+    352,
+    250,
+    "font-weight:900;color:var(--word);letter-spacing:-.02em"
+   ],
+   [
+    "&rarr;&nbsp; SEND US A DM ON INSTAGRAM",
+    640,
+    25,
+    "font-family:Montserrat;font-weight:800;letter-spacing:.12em"
+   ],
+   [
+    "&rarr;&nbsp; CONFIRM YOUR SIZE &amp; ADDRESS",
+    692,
+    25,
+    "font-family:Montserrat;font-weight:800;letter-spacing:.12em"
+   ],
+   [
+    "&rarr;&nbsp; DELIVERED TO YOUR DOOR",
+    744,
+    25,
+    "font-family:Montserrat;font-weight:800;letter-spacing:.12em;color:var(--word)"
+   ]
+  ],
+  "strip": [
+   [
+    "210",
+    72,
+    865,
+    160,
+    150
+   ],
+   [
+    "116",
+    255,
+    845,
+    180,
+    170
+   ],
+   [
+    "264",
+    455,
+    950,
+    190,
+    65
+   ],
+   [
+    "7",
+    670,
+    840,
+    160,
+    175
+   ],
+   [
+    "206",
+    858,
+    850,
+    150,
+    165
+   ]
+  ]
+ },
+ {
+  "slug": "handbags/bag-cherry-saddle",
+  "variant": "spotlight",
+  "pal": "pink-cherry",
+  "cat": "HANDBAGS",
+  "img": "212",
+  "word": "CHERRY",
+  "box": [
+   287,
+   226,
+   506,
+   760
+  ],
+  "shadow": [
+   380,
+   962
+  ],
+  "aw": 330,
+  "atop": 330,
+  "kicker": "THE SADDLE BAG",
+  "head": "Cherry <b>on top.</b>",
+  "desc": "Glossy red leather, sculpted gold hardware.",
+  "chip": [
+   "Cherry Red",
+   "#B01C25"
+  ]
+ },
+ {
+  "slug": "handbags/bag-crystal-hobo",
+  "variant": "spotlight",
+  "pal": "cobalt-ice",
+  "cat": "HANDBAGS",
+  "img": "106",
+  "word": "SHINE",
+  "box": [
+   216,
+   350,
+   648,
+   618
+  ],
+  "shadow": [
+   560,
+   958
+  ],
+  "aw": 340,
+  "atop": 330,
+  "kicker": "THE CRYSTAL HOBO",
+  "head": "Mini bag, <b>big mood.</b>",
+  "desc": "Hand-set crystal mesh with a knotted handle.",
+  "chip": [
+   "Silver Crystal",
+   "#C9CDD3"
+  ]
+ },
+ {
+  "slug": "tops-winterwear/top-campus-sweatshirt",
+  "variant": "stacked",
+  "pal": "red-varsity",
+  "cat": "SWEATSHIRTS",
+  "img": "36",
+  "word": "CAMPUS",
+  "box": [
+   218,
+   290,
+   644,
+   695
+  ],
+  "shadow": [
+   520,
+   965
+  ],
+  "kicker": "THE COLLEGE SWEATSHIRT",
+  "head": "Campus <b>core.</b>",
+  "desc": "Soft-brushed fleece, relaxed oversized fit.",
+  "chip": [
+   "Heather Grey",
+   "#A9AAAD"
+  ]
+ },
+ {
+  "slug": "tops-winterwear/winter-leather-jacket",
+  "variant": "stacked",
+  "pal": "butter-rust",
+  "cat": "WINTERWEAR",
+  "img": "49",
+  "word": "WINTER",
+  "box": [
+   241,
+   262,
+   599,
+   725
+  ],
+  "shadow": [
+   500,
+   968
+  ],
+  "kicker": "THE LEATHER JACKET",
+  "head": "Built for <b>the cold.</b>",
+  "desc": "Quilted leather-look with a plush faux-fur collar.",
+  "chip": [
+   "Cocoa Brown",
+   "#4A2E22"
+  ]
+ },
+ {
+  "slug": "tops-winterwear/winter-gloss-puffer",
+  "variant": "stacked",
+  "pal": "lime-violet",
+  "cat": "WINTERWEAR",
+  "img": "0",
+  "word": "GLOSS",
+  "box": [
+   237,
+   282,
+   607,
+   705
+  ],
+  "shadow": [
+   540,
+   968
+  ],
+  "kicker": "THE GLOSS PUFFER",
+  "head": "Shine on, <b>winter.</b>",
+  "desc": "High-shine quilted puffer with a stand collar.",
+  "chip": [
+   "Gloss Black",
+   "#121214"
+  ]
+ },
+ {
+  "slug": "blouses-shirts/blouse-satin-wrap",
+  "variant": "stacked",
+  "pal": "wine-blush",
+  "cat": "BLOUSES",
+  "img": "7",
+  "word": "SATIN",
+  "box": [
+   246,
+   285,
+   588,
+   700
+  ],
+  "shadow": [
+   480,
+   968
+  ],
+  "kicker": "THE WRAP BLOUSE",
+  "head": "Soft glam, <b>all day.</b>",
+  "desc": "Liquid satin with a draped wrap front.",
+  "chip": [
+   "Blush Satin",
+   "#D9B6B0"
+  ]
+ },
+ {
+  "slug": "bottoms/bottom-pleated-skirt",
+  "variant": "vertical",
+  "pal": "champagne-ink",
+  "cat": "BOTTOMS",
+  "img": "164",
+  "word": "GOLDEN",
+  "vtag": "PLEATS &middot; GOLD CHAIN",
+  "box": [
+   470,
+   182,
+   470,
+   805
+  ],
+  "shadow": [
+   360,
+   968
+  ],
+  "kicker": "THE PLEATED SKIRT",
+  "head": "Golden, <b>always.</b>",
+  "desc": "Flowing black pleats with a gold chain belt.",
+  "chip": [
+   "Jet Black",
+   "#16161A"
+  ]
+ },
+ {
+  "slug": "bottoms/bottom-wide-leg-denim",
+  "variant": "vertical",
+  "pal": "orange-navy",
+  "cat": "BOTTOMS",
+  "img": "55",
+  "word": "DENIM",
+  "vtag": "HIGH RISE &middot; WIDE LEG",
+  "box": [
+   470,
+   182,
+   470,
+   805
+  ],
+  "shadow": [
+   360,
+   970
+  ],
+  "kicker": "THE WIDE-LEG JEANS",
+  "head": "Find <b>your fit.</b>",
+  "desc": "High-rise, mid-wash, full-length wide leg.",
+  "chip": [
+   "Mid Wash",
+   "#4D6E96"
+  ]
+ },
+ {
+  "slug": "coords-dresses/dress-blue-floral-maxi",
+  "variant": "vertical",
+  "pal": "sun-cobalt",
+  "cat": "DRESSES",
+  "img": "293",
+  "word": "BLOOM",
+  "vtag": "FLORAL &middot; MAXI",
+  "box": [
+   470,
+   172,
+   470,
+   815
+  ],
+  "shadow": [
+   300,
+   970
+  ],
+  "kicker": "THE FLORAL MAXI",
+  "head": "Full <b>bloom.</b>",
+  "desc": "Cobalt florals, smocked bodice, flowing sleeves.",
+  "chip": [
+   "Cobalt Bloom",
+   "#2848C8"
+  ]
+ },
+ {
+  "slug": "eastern/eid-embroidered-coord",
+  "variant": "jharoka",
+  "pal": "ivory-emerald",
+  "cat": "EID EDIT",
+  "img": "197",
+  "word": "FESTIVE",
+  "archtop": 322,
+  "archh": 668,
+  "box": [
+   292,
+   252,
+   496,
+   735
+  ],
+  "shadow": [
+   400,
+   968
+  ],
+  "kicker": "THE EMBROIDERED CO-ORD",
+  "head": "Made for <b>Eid.</b>",
+  "desc": "Navy two-piece with embroidered panels and cuffs.",
+  "chip": [
+   "Midnight Navy",
+   "#1F2A4A"
+  ]
+ },
+ {
+  "slug": "sunglasses/shades-sunset",
+  "variant": "wide",
+  "pal": "tangerine",
+  "cat": "SUNGLASSES",
+  "img": "292",
+  "word": "SHADES",
+  "dr": 300,
+  "disctop": 350,
+  "box": [
+   70,
+   540,
+   940,
+   306
+  ],
+  "kicker": "THE SUNSET FRAME",
+  "head": "Stay <b>shady.</b>",
+  "desc": "Sharp black frame with sunset-gradient lenses.",
+  "chip": [
+   "Sunset Fade",
+   "linear-gradient(#7E6FB0,#F2A65A)"
+  ]
+ },
+ {
+  "slug": "edits/shades-trio-edit",
+  "variant": "trio",
+  "pal": "pink-yellow",
+  "cat": "SUNGLASSES",
+  "word": "SUN",
+  "left": "THE EDIT",
+  "items": [
+   [
+    "305",
+    70,
+    280,
+    640,
+    254,
+    "THE TORTOISE",
+    770,
+    360,
+    "left"
+   ],
+   [
+    "264",
+    370,
+    520,
+    640,
+    220,
+    "THE AVIATOR",
+    72,
+    600,
+    "right"
+   ],
+   [
+    "303",
+    100,
+    745,
+    640,
+    240,
+    "THE ROUND",
+    770,
+    840,
+    "left"
+   ]
+  ],
+  "kicker": "THE SHADES EDIT",
+  "head": "Shades <b>season.</b>",
+  "desc": "Three frames, three moods. Which one is you?"
+ },
+ {
+  "slug": "flats-jewellery/flats-tan-thong",
+  "variant": "details",
+  "pal": "teal-blush",
+  "cat": "FLATS",
+  "img": "185",
+  "word": "STEP",
+  "mr": 330,
+  "mtop": 300,
+  "box": [
+   280,
+   360,
+   520,
+   552
+  ],
+  "shadow": [
+   480,
+   900
+  ],
+  "calls": [
+   [
+    386,
+    647,
+    72,
+    560,
+    "GOLD-TONE<br>MEDALLION",
+    "l"
+   ],
+   [
+    731,
+    536,
+    1008,
+    470,
+    "SIGNATURE<br>STRAP",
+    "r"
+   ],
+   [
+    372,
+    880,
+    72,
+    860,
+    "CUSHIONED<br>SOLE",
+    "l"
+   ]
+  ],
+  "kicker": "THE EVERYDAY FLATS",
+  "head": "Step into <b>elegance.</b>",
+  "desc": "Tan leather-look flats with a gold-tone medallion.",
+  "chip": [
+   "Classic Tan",
+   "#C27A3E"
+  ]
+ },
+ {
+  "slug": "flats-jewellery/jewellery-star-locket",
+  "variant": "details",
+  "pal": "black-gold",
+  "cat": "JEWELLERY",
+  "img": "8",
+  "word": "STAR",
+  "mr": 320,
+  "mtop": 380,
+  "box": [
+   350,
+   240,
+   380,
+   745
+  ],
+  "calls": [
+   [
+    540,
+    735,
+    1008,
+    650,
+    "STARBURST<br>PENDANT",
+    "r"
+   ],
+   [
+    512,
+    935,
+    72,
+    900,
+    "PEARL<br>DROPS",
+    "l"
+   ],
+   [
+    452,
+    520,
+    72,
+    500,
+    "FINE GOLD-TONE<br>CHAIN",
+    "l"
+   ]
+  ],
+  "kicker": "THE STAR LOCKET",
+  "head": "All in the <b>details.</b>",
+  "desc": "Gold-tone starburst pendant with pearl drops.",
+  "chip": [
+   "Polished Gold",
+   "#CFA75A"
+  ]
+ },
+ {
+  "slug": "brand/brand-manifesto",
+  "variant": "manifesto",
+  "pal": "cherry-brand",
+  "cat": "THE BRAND",
+  "left": "SINCE 2025",
+  "lines": [
+   [
+    "Style that",
+    230,
+    132,
+    "font-style:italic;font-weight:600"
+   ],
+   [
+    "speaks",
+    370,
+    262,
+    "font-weight:900;color:var(--word);letter-spacing:-.02em"
+   ],
+   [
+    "before you do.",
+    618,
+    120,
+    "font-style:italic;font-weight:600"
+   ],
+   [
+    "WOMEN&rsquo;S WESTERN WEAR &middot; HANDBAGS &middot; SHADES &middot; FLATS",
+    775,
+    15,
+    "font-family:Montserrat;font-weight:700;letter-spacing:.3em"
+   ]
+  ],
+  "strip": [
+   [
+    "212",
+    72,
+    840,
+    150,
+    190
+   ],
+   [
+    "36",
+    250,
+    850,
+    190,
+    180
+   ],
+   [
+    "292",
+    452,
+    950,
+    200,
+    65
+   ],
+   [
+    "106",
+    668,
+    865,
+    170,
+    165
+   ],
+   [
+    "185",
+    858,
+    860,
+    150,
+    170
+   ]
+  ]
+ }
+]
