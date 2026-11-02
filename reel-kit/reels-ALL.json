@@ -1,0 +1,526 @@
+[
+ {
+  "name": "blouses-shirts-057-noir",
+  "product": "57",
+  "template": "hero2",
+  "hookLine": "AFTER DARK."
+ },
+ {
+  "name": "blouses-shirts-073-bold",
+  "product": "73",
+  "template": "hero2",
+  "hookLine": "BE BOLD."
+ },
+ {
+  "name": "blouses-shirts-121-essential",
+  "product": "121",
+  "template": "hero2",
+  "hookLine": "LITTLE BLACK TOP."
+ },
+ {
+  "name": "blouses-shirts-127-mocha",
+  "product": "127",
+  "template": "hero2",
+  "hookLine": "MOCHA MOOD."
+ },
+ {
+  "name": "blouses-shirts-136-boho",
+  "product": "136",
+  "template": "hero2",
+  "hookLine": "BOHO DAYS."
+ },
+ {
+  "name": "blouses-shirts-138-sheer",
+  "product": "138",
+  "template": "hero2",
+  "hookLine": "PEACHY KEEN."
+ },
+ {
+  "name": "blouses-shirts-141-royal",
+  "product": "141",
+  "template": "hero2",
+  "hookLine": "ROYAL BLUE."
+ },
+ {
+  "name": "blouses-shirts-204-tied",
+  "product": "204",
+  "template": "hero2",
+  "hookLine": "TIED UP NICELY."
+ },
+ {
+  "name": "blouses-shirts-270-azure",
+  "product": "270",
+  "template": "hero2",
+  "hookLine": "FEELING BLUE."
+ },
+ {
+  "name": "blouses-shirts-273-caramel",
+  "product": "273",
+  "template": "hero2",
+  "hookLine": "CARAMEL GLOW."
+ },
+ {
+  "name": "blouses-shirts-330-shape",
+  "product": "330",
+  "template": "hero2",
+  "hookLine": "SHAPE IT UP."
+ },
+ {
+  "name": "bottoms-043-straight",
+  "product": "43",
+  "template": "hero2",
+  "hookLine": "STRAIGHT TALK."
+ },
+ {
+  "name": "bottoms-044-olive",
+  "product": "44",
+  "template": "hero2",
+  "hookLine": "OLIVE YOU."
+ },
+ {
+  "name": "bottoms-051-track",
+  "product": "51",
+  "template": "hero2",
+  "hookLine": "FAST TRACK."
+ },
+ {
+  "name": "bottoms-052-sky",
+  "product": "52",
+  "template": "hero2",
+  "hookLine": "SKY HIGH."
+ },
+ {
+  "name": "bottoms-053-cargo",
+  "product": "53",
+  "template": "hero2",
+  "hookLine": "POCKET FULL."
+ },
+ {
+  "name": "bottoms-055-denim",
+  "product": "55",
+  "template": "hero2",
+  "hookLine": "FIND YOUR FIT."
+ },
+ {
+  "name": "bottoms-074-candy",
+  "product": "74",
+  "template": "hero2",
+  "hookLine": "CANDY CARGO."
+ },
+ {
+  "name": "bottoms-078-utility",
+  "product": "78",
+  "template": "hero2",
+  "hookLine": "UTILITY CHIC."
+ },
+ {
+  "name": "bottoms-080-indigo",
+  "product": "80",
+  "template": "hero2",
+  "hookLine": "DEEP INDIGO."
+ },
+ {
+  "name": "bottoms-084-sand",
+  "product": "84",
+  "template": "hero2",
+  "hookLine": "SAND DUNES."
+ },
+ {
+  "name": "bottoms-086-blue",
+  "product": "86",
+  "template": "hero2",
+  "hookLine": "BORN IN BLUE."
+ },
+ {
+  "name": "bottoms-092-groovy",
+  "product": "92",
+  "template": "hero2",
+  "hookLine": "GROOVY, BABY."
+ },
+ {
+  "name": "bottoms-093-wide",
+  "product": "93",
+  "template": "hero2",
+  "hookLine": "GO WIDE."
+ },
+ {
+  "name": "bottoms-111-palazzo",
+  "product": "111",
+  "template": "hero2",
+  "hookLine": "PALAZZO, PLEASE."
+ },
+ {
+  "name": "bottoms-112-parachute",
+  "product": "112",
+  "template": "hero2",
+  "hookLine": "DROP IN."
+ },
+ {
+  "name": "bottoms-130-fuchsia",
+  "product": "130",
+  "template": "hero2",
+  "hookLine": "HOT PINK."
+ },
+ {
+  "name": "bottoms-131-race",
+  "product": "131",
+  "template": "hero2",
+  "hookLine": "RACE DAY."
+ },
+ {
+  "name": "bottoms-134-everyday",
+  "product": "134",
+  "template": "hero2",
+  "hookLine": "EVERY SINGLE DAY."
+ },
+ {
+  "name": "bottoms-139-ivory",
+  "product": "139",
+  "template": "hero2",
+  "hookLine": "IVORY DREAMS."
+ },
+ {
+  "name": "bottoms-140-champagne",
+  "product": "140",
+  "template": "hero2",
+  "hookLine": "POP THE CHAMPAGNE."
+ },
+ {
+  "name": "bottoms-164-golden",
+  "product": "164",
+  "template": "hero2",
+  "hookLine": "GOLDEN, ALWAYS."
+ },
+ {
+  "name": "bottoms-311-ombre",
+  "product": "311",
+  "template": "hero2",
+  "hookLine": "FADE INTO YOU."
+ },
+ {
+  "name": "bottoms-312-twist",
+  "product": "312",
+  "template": "hero2",
+  "hookLine": "TWIST IT."
+ },
+ {
+  "name": "coords-dresses-119-matchy",
+  "product": "119",
+  "template": "hero2",
+  "hookLine": "MATCH MADE."
+ },
+ {
+  "name": "coords-dresses-120-lounge",
+  "product": "120",
+  "template": "hero2",
+  "hookLine": "LOUNGE IN STYLE."
+ },
+ {
+  "name": "coords-dresses-125-cream",
+  "product": "125",
+  "template": "hero2",
+  "hookLine": "CREAM OF THE CROP."
+ },
+ {
+  "name": "coords-dresses-126-elegant",
+  "product": "126",
+  "template": "hero2",
+  "hookLine": "QUIETLY ELEGANT."
+ },
+ {
+  "name": "coords-dresses-129-smart",
+  "product": "129",
+  "template": "hero2",
+  "hookLine": "SMART GIRL."
+ },
+ {
+  "name": "coords-dresses-135-one",
+  "product": "135",
+  "template": "hero2",
+  "hookLine": "ONE & DONE."
+ },
+ {
+  "name": "coords-dresses-137-peach",
+  "product": "137",
+  "template": "hero2",
+  "hookLine": "PEACHES & CREAM."
+ },
+ {
+  "name": "coords-dresses-147-rose",
+  "product": "147",
+  "template": "hero2",
+  "hookLine": "ROSE TINTED."
+ },
+ {
+  "name": "coords-dresses-188-white",
+  "product": "188",
+  "template": "hero2",
+  "hookLine": "WHITE NOISE."
+ },
+ {
+  "name": "coords-dresses-189-crisp",
+  "product": "189",
+  "template": "hero2",
+  "hookLine": "CRISP IN WHITE."
+ },
+ {
+  "name": "coords-dresses-201-boss",
+  "product": "201",
+  "template": "hero2",
+  "hookLine": "BOSS MODE."
+ },
+ {
+  "name": "coords-dresses-272-navy",
+  "product": "272",
+  "template": "hero2",
+  "hookLine": "NAVY DAYS."
+ },
+ {
+  "name": "coords-dresses-276-zebra",
+  "product": "276",
+  "template": "hero2",
+  "hookLine": "WILD STRIPES."
+ },
+ {
+  "name": "coords-dresses-277-electric",
+  "product": "277",
+  "template": "hero2",
+  "hookLine": "ELECTRIC BLUE."
+ },
+ {
+  "name": "coords-dresses-293-bloom",
+  "product": "293",
+  "template": "hero2",
+  "hookLine": "FULL BLOOM."
+ },
+ {
+  "name": "coords-dresses-297-rust",
+  "product": "297",
+  "template": "hero2",
+  "hookLine": "RUST & READY."
+ },
+ {
+  "name": "coords-dresses-315-romance",
+  "product": "315",
+  "template": "hero2",
+  "hookLine": "PURE ROMANCE."
+ },
+ {
+  "name": "eastern-190-grace",
+  "product": "190",
+  "template": "hero2",
+  "hookLine": "GRACE IN BLACK."
+ },
+ {
+  "name": "eastern-197-festive",
+  "product": "197",
+  "template": "hero2",
+  "hookLine": "MADE FOR EID."
+ },
+ {
+  "name": "eastern-271-heritage",
+  "product": "271",
+  "template": "hero2",
+  "hookLine": "ROOTED IN HERITAGE."
+ },
+ {
+  "name": "eastern-274-print",
+  "product": "274",
+  "template": "hero2",
+  "hookLine": "PRINT PERFECT."
+ },
+ {
+  "name": "eastern-275-monochrome",
+  "product": "275",
+  "template": "hero2",
+  "hookLine": "MONOCHROME MAGIC."
+ },
+ {
+  "name": "flats-jewellery-008-star",
+  "product": "8",
+  "template": "hero2",
+  "hookLine": "ALL IN THE DETAILS."
+ },
+ {
+  "name": "flats-jewellery-185-step",
+  "product": "185",
+  "template": "hero2",
+  "hookLine": "STEP INTO ELEGANCE."
+ },
+ {
+  "name": "handbags-212-cherry",
+  "product": "212",
+  "template": "hero2",
+  "hookLine": "CHERRY ON TOP."
+ },
+ {
+  "name": "handbags-214-luxe",
+  "product": "214",
+  "template": "hero2",
+  "hookLine": "PURE LUXE."
+ },
+ {
+  "name": "handbags-224-midnight",
+  "product": "224",
+  "template": "hero2",
+  "hookLine": "MIDNIGHT RUN."
+ },
+ {
+  "name": "tops-winterwear-000-gloss",
+  "product": "0",
+  "template": "hero2",
+  "hookLine": "WINTER, BUT MAKE IT SHINE.",
+  "calls": [
+   {
+    "uv": [
+     0.5,
+     0.06
+    ],
+    "label": "STAND<br>COLLAR",
+    "side": "r"
+   },
+   {
+    "uv": [
+     0.33,
+     0.36
+    ],
+    "label": "HIGH-SHINE<br>FINISH",
+    "side": "l"
+   },
+   {
+    "uv": [
+     0.5,
+     0.55
+    ],
+    "label": "FULL ZIP<br>FRONT",
+    "side": "r"
+   },
+   {
+    "uv": [
+     0.2,
+     0.93
+    ],
+    "label": "DRAWCORD<br>HEM",
+    "side": "l"
+   }
+  ],
+  "palette": "lime-violet",
+  "override": {
+   "coverAt": 12.6
+  }
+ },
+ {
+  "name": "tops-winterwear-001-layer",
+  "product": "1",
+  "template": "hero2",
+  "hookLine": "LAYER IT UP."
+ },
+ {
+  "name": "tops-winterwear-004-classic",
+  "product": "4",
+  "template": "hero2",
+  "hookLine": "TIMELESS CHECK."
+ },
+ {
+  "name": "tops-winterwear-006-cozy",
+  "product": "6",
+  "template": "hero2",
+  "hookLine": "ZIP IT, LOVE IT."
+ },
+ {
+  "name": "tops-winterwear-011-easy",
+  "product": "11",
+  "template": "hero2",
+  "hookLine": "EASY DOES IT."
+ },
+ {
+  "name": "tops-winterwear-014-street",
+  "product": "14",
+  "template": "hero2",
+  "hookLine": "STREET READY."
+ },
+ {
+  "name": "tops-winterwear-015-varsity",
+  "product": "15",
+  "template": "hero2",
+  "hookLine": "SPORTY IN PINK."
+ },
+ {
+  "name": "tops-winterwear-017-sage",
+  "product": "17",
+  "template": "hero2",
+  "hookLine": "CALM & COSY."
+ },
+ {
+  "name": "tops-winterwear-021-sleek",
+  "product": "21",
+  "template": "hero2",
+  "hookLine": "SLEEK & SIMPLE."
+ },
+ {
+  "name": "tops-winterwear-024-sporty",
+  "product": "24",
+  "template": "hero2",
+  "hookLine": "SPORTY SPICE."
+ },
+ {
+  "name": "tops-winterwear-027-dreamy",
+  "product": "27",
+  "template": "hero2",
+  "hookLine": "PINK DREAMS."
+ },
+ {
+  "name": "tops-winterwear-028-chill",
+  "product": "28",
+  "template": "hero2",
+  "hookLine": "CHILL MODE."
+ },
+ {
+  "name": "tops-winterwear-034-comfy",
+  "product": "34",
+  "template": "hero2",
+  "hookLine": "COMFY SUNDAYS."
+ },
+ {
+  "name": "tops-winterwear-036-campus",
+  "product": "36",
+  "template": "hero2",
+  "hookLine": "CAMPUS CORE."
+ },
+ {
+  "name": "tops-winterwear-045-stripes",
+  "product": "45",
+  "template": "hero2",
+  "hookLine": "EARN YOUR STRIPES."
+ },
+ {
+  "name": "tops-winterwear-046-tie-up",
+  "product": "46",
+  "template": "hero2",
+  "hookLine": "TIE IT YOUR WAY."
+ },
+ {
+  "name": "tops-winterwear-060-zip",
+  "product": "60",
+  "template": "hero2",
+  "hookLine": "ZIP & GO."
+ },
+ {
+  "name": "tops-winterwear-061-layers",
+  "product": "61",
+  "template": "hero2",
+  "hookLine": "SMART LAYERS."
+ },
+ {
+  "name": "tops-winterwear-062-polished",
+  "product": "62",
+  "template": "hero2",
+  "hookLine": "POLISHED, ALWAYS."
+ },
+ {
+  "name": "tops-winterwear-069-forest",
+  "product": "69",
+  "template": "hero2",
+  "hookLine": "INTO THE GREEN."
+ }
+]
