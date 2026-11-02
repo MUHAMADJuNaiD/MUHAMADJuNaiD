@@ -213,7 +213,7 @@ async function build() {
     gold, new THREE.MeshStandardMaterial({ color: P.bg2, metalness: .1, roughness: .3 }), new THREE.MeshStandardMaterial({ color: P.ink, metalness: .3, roughness: .2 })];
   G.shapes = [];
   const spots = [[-2.3, 4.1, -1.5], [2.2, 3.7, -.8], [-1.7, .5, 1.6], [1.9, .45, 1.2], [-3.4, 2.2, -4], [3.3, 1.6, -3.5], [-1.2, 3.4, -5],
-    [1.5, 4.8, -4.5], [-2.6, 1.3, .2], [2.7, 2.6, -.4], [0, 5.6, -7], [-4.5, 3.8, -8], [4.6, 3.4, -7.5], [-1, -.0, 3.0], [1.1, .1, 3.3], [0.2, 4.6, -2.6]];
+    [1.5, 4.8, -4.5], [-2.6, 1.3, .2], [2.7, 2.6, -.4], [0, 5.6, -7], [-4.5, 3.8, -8], [4.6, 3.4, -7.5], [-2.3, .25, 2.4], [2.5, .35, 2.2], [0.2, 4.6, -2.6]];
   spots.forEach((p, i) => {
     const m = new THREE.Mesh(geos[i % geos.length], mats[(i * 3) % mats.length]);
     m.userData = { p: new THREE.Vector3(...p), ph: rand() * 6.28, sp: .4 + rand() * .6, s: .8 + rand() * .7, ax: new THREE.Vector3(rand() - .5, rand() - .5, rand() - .5).normalize() };
