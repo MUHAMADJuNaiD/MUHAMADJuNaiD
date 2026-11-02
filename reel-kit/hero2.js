@@ -89,12 +89,12 @@ function productMesh(tex, h, mirror) {
   const w = h * tex.image.width / tex.image.height;
   const geo = new THREE.PlaneGeometry(w, h); geo.translate(0, h / 2, 0);
   const mat = new THREE.MeshBasicMaterial({ map: tex, transparent: true, alphaTest: mirror ? 0 : .02, side: THREE.DoubleSide, toneMapped: false,
-    depthWrite: !mirror, opacity: mirror ? .3 : 1 });
+    depthWrite: !mirror, opacity: mirror ? .2 : 1 });
   mat.userData.shine = { value: -1 };
   mat.onBeforeCompile = sh => {
     sh.uniforms.uShine = mat.userData.shine;
     sh.fragmentShader = 'uniform float uShine;\n' + sh.fragmentShader.replace('#include <map_fragment>', mirror
-      ? `#include <map_fragment>\n diffuseColor.a *= 1.0 - smoothstep(0.0, 0.42, vMapUv.y);`
+      ? `#include <map_fragment>\n diffuseColor.a *= 1.0 - smoothstep(0.0, 0.3, vMapUv.y);`
       : `#include <map_fragment>
       float d = (vMapUv.x * .8 + (1.0 - vMapUv.y) * .6) - uShine;
       diffuseColor.rgb += (exp(-d * d * 260.0) * .55 + exp(-d * d * 30.0) * .12) * diffuseColor.a;`);
@@ -128,7 +128,7 @@ ov.innerHTML = `
  <svg id="lines" width="1440" height="2560" style="position:absolute;left:0;top:0"></svg>
  <div id="labels"></div>
  <div class="chip" id="chip"><div class="sw" style="background:${CFG.chip[1]}"></div><div class="t1">OUTLOOK STYLES</div><div class="t2">${CFG.chip[0]}</div></div>
- <div class="center" id="cmt" style="top:1790px"><span class="pill" style="background:${P.ink};color:#fff;font-size:32px;letter-spacing:.16em">${bubble(P.bg)}COMMENT &ldquo;<b style="color:${P.bg}">${COMMENT}</b>&rdquo; FOR DETAILS</span></div>
+ <div class="center" id="cmt" style="top:1790px"><span class="pill" style="background:${P.ink};color:#fff;font-size:32px;letter-spacing:.16em">${bubble(P.bg)}COMMENT&nbsp;<b style="color:${P.bg};font-size:38px">${COMMENT}</b>&nbsp;FOR DETAILS</span></div>
  <div id="end" style="position:absolute;inset:0">
    <div class="center" id="endKick" style="top:1572px;font-weight:700;font-size:26px;letter-spacing:.34em">${CFG.kick}</div>
    <div class="center head" id="endHead" style="top:1622px">${CFG.head}</div>
@@ -294,7 +294,7 @@ window.renderAt = (t) => {
     camera.position.set(cx, cyy, G.SD); camera.lookAt(cx, cyy, 0);
   } else if (t < T.low) {
     const k = eInOut(prog(t, T.drop, T.land + .3));
-    orbit(.05 * k, lerp(1.3, cy, k), 0, lerp(8.6, 7.6, k) * pz, lerp(0, .1, k) + .14 * prog(t, T.land, T.low), lerp(.1, .12, k));
+    orbit(.05 * k, lerp(1.3, cy, k), 0, lerp(8.4, 7.2, k) * pz, lerp(0, .1, k) + .14 * prog(t, T.land, T.low), lerp(.1, .12, k));
   } else if (t < MAC0) {
     const k = prog(t, T.low, MAC0);
     orbit(.05, cy + .15, 0, lerp(6.5, 5.9, k) * pz, lerp(-.42, -.22, k), -.14);
@@ -303,16 +303,16 @@ window.renderAt = (t) => {
     const c = CALLS[i] || { uv: [[.5, .12], [.4, .45], [.5, .85]][i] };
     const p = prodPoint(c.uv[0], c.uv[1], new THREE.Vector3());
     const yaw = (i % 2 ? .28 : -.28) * (1 - k * .5);
-    orbit(p.x, p.y - .16, p.z, lerp(3.3, 2.6, k), yaw, lerp(.06, -.02, k));
+    orbit(p.x, p.y - .16, p.z, lerp(4.3, 3.6, k), yaw, lerp(.06, -.02, k));
   } else if (t < T.kin) {
     const k = prog(t, T.spin, T.kin);
-    orbit(.05, cy, 0, lerp(7.2, 7.8, k) * pz, lerp(.35, -.2, eInOut(k)), .1);
+    orbit(.05, cy, 0, lerp(6.9, 7.4, k) * pz, lerp(.35, -.2, eInOut(k)), .1);
   } else if (inKin) {
     const k = prog(t, T.kin, T.blast);
-    orbit(0, cy, 0, lerp(8.4, 7.6, k) * pz, lerp(-.15, .15, k), .1 + .05 * k);
+    orbit(0, cy, 0, lerp(8.0, 7.3, k) * pz, lerp(-.15, .15, k), .1 + .05 * k);
   } else if (!inEnd) {
     const s = Math.floor((t - T.beats) / .5);           // a new camera angle on every beat
-    const shots = [[0, cy + .1, 0, 5.6, .32, -.14], [.05, cy, 0, 7.8, -.16, .12], [0, base + PH * .8, 0, 4.0, -.26, .04], [.05, cy, 0, 7.9, .2, .1]];
+    const shots = [[0, cy + .1, 0, 5.6, .32, -.14], [.05, cy, 0, 7.3, -.16, .12], [0, base + PH * .78, 0, 4.4, -.26, .04], [.05, cy, 0, 7.4, .2, .1]];
     const [x, y, z, d, yaw, pit] = shots[Math.min(3, s)]; const k = prog(t, T.beats + s * .5, T.beats + s * .5 + .5);
     orbit(x, y, z, d * (1 - .05 * k) * pz, yaw * (1 - .2 * k), pit);
   } else {
@@ -339,7 +339,7 @@ window.renderAt = (t) => {
   // ---------- hook word -> backdrop word
   G.word.visible = t >= T.hook && !inMac && !inKin;
   const hk = prog(t, T.hook, T.hook + .28), mv = eInOut(prog(t, T.drop, T.land + .1));
-  const hookW = .74 * visW(8.6), backW = .86 * visW(7.6 + 2.4);
+  const hookW = .74 * visW(8.6), backW = .86 * visW(7.2 + 2.4);
   const ws = lerp(hookW, backW, mv) / G.word.userData.w * (hk < 1 ? Math.max(.001, eBack(hk)) : 1);
   G.word.scale.setScalar(ws * lerp(1, .8, endK));
   G.word.position.set(0, lerp(1.62, base + PH * .93, mv) + endK * .1, lerp(0, -2.4, mv) - (1 - eOut(hk)) * 5);
@@ -349,7 +349,8 @@ window.renderAt = (t) => {
   const ringOn = t >= T.land && !inMac;
   G.ring.visible = ringOn;
   G.ring.position.set(0, base + PH * .42 * pS + (py - base), 0); G.ring.rotation.set(.3, 0, -.12);
-  G.ringIn.rotation.y = t * (inKin ? 2.4 : 1.1); G.ring.scale.setScalar(Math.max(.001, lerp(1, .8, endK) * (inKin ? 1.25 : 1)));
+  G.ringIn.rotation.y = t * (inKin ? 2.4 : 1.1); const ringEnd = 1 - eIn(prog(t, T.end, T.end + .35)); G.ring.visible = ringOn && ringEnd > .002;
+  G.ring.scale.setScalar(Math.max(.001, ringEnd * (inKin ? 1.25 : 1)));
   G.ringLetters.forEach((n, i) => n.scale.setScalar(Math.max(.001, eBack(prog(t, T.land + i * .012, T.land + i * .012 + .25)))));
 
   // ---------- kinetic headline
