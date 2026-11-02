@@ -58,3 +58,11 @@ The reels and covers appear in `out/`. Each reel is 1440×2560, 30 fps and Insta
 | `calls` | feature callouts: `{ "uv": [x, y], "label": "STAND<br>COLLAR", "side": "l" or "r" }` (x and y are 0–1 positions on the product photo) |
 | `template` | which template page to use (`hero` now; `hero2` once v2 is approved) |
 | `override` | any template setting, e.g. `{ "dur": 15, "word": "SHINE" }` |
+
+## Music + sound effects (automatic)
+
+Every reel is saved twice: `name.mp4` with background music and animation-synced sound effects, and `name-sfx-only.mp4` with only the sound effects, so you can add Instagram trending audio on top.
+
+- The music is picked automatically (luxe for dark palettes, soft for blouses, co-ords and Eid, house for everything else). To choose a track yourself, add `"music": "file.mp3"` from `audio/music/`.
+- `"music": false` gives sound effects only, and `"sound": false` gives a silent video.
+- The sounds come from `audio/` (original, copyright-free). The cue times live in `addaudio.js`.

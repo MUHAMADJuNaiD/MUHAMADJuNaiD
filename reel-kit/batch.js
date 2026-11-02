@@ -5,6 +5,7 @@
 const http = require('http'), fs = require('fs'), path = require('path');
 const { spawn } = require('child_process');
 const { chromium } = require('playwright');
+const { addAudio } = require('./addaudio');
 const ROOT = __dirname;
 const MIME = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.png': 'image/png',
   '.webp': 'image/webp', '.ttf': 'font/ttf', '.woff2': 'font/woff2' };
@@ -56,6 +57,7 @@ async function main() {
       if (!ff.stdin.write(buf)) await new Promise(res => ff.stdin.once('drain', res));
     }
     ff.stdin.end(); await new Promise(res => ff.on('close', res));
+    try { await addAudio(out, r, cfg, byId[String(r.product)]); } catch (e) { console.log('   sound skipped:', e.message); }
     // cover image from the middle of the reel
     await page.evaluate(t => window.renderAt(t), cfg.coverAt != null ? cfg.coverAt : cfg.dur * .72);
     await page.screenshot({ path: out.replace('.mp4', '-cover.jpg'), type: 'jpeg', quality: 95 });

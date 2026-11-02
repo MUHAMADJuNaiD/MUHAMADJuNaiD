@@ -1,28 +1,38 @@
-OUTLOOK STYLES REEL KIT - SHURU KAREIN (bina credits ke)
-=======================================================
+OUTLOOK STYLES REEL KIT v2 - SHURU KAREIN (bina credits ke)
+=========================================================
+Is folder mein: 160 HD products + data + template v1 (hero) aur v2 (hero2)
++ MUSIC aur SOUND EFFECTS (audio folder) - sab automatic lagte hain.
 
-EK DAFA SETUP (sirf pehli baar):
-  Windows:  "1-SETUP-WINDOWS.bat" pe double-click karein.
-            Agar wo kahe "dobara chalayein" to window band kar ke phir double-click karein.
-  Mac:      "1-SETUP-MAC.command" pe double-click karein
-            (agar Mac roke: right-click > Open > Open).
-  Internet chahiye. 10-20 minute lag sakte hain.
+EK DAFA SETUP (agar pehle kar chuke hain to dobara zaroorat nahi,
+sirf naya folder hai to "1-SETUP" phir chalayein):
+  Windows: "1-SETUP-WINDOWS.bat" double-click (agar kahe dobara chalayein, to dobara).
+  Mac:     "1-SETUP-MAC.command" double-click.
 
-REELS BANANA (har baar):
-  1) "reels.json" ko Notepad mein kholein. Har reel ki ek line:
-        { "product": "0" },
-        { "product": "212" },
-        { "product": "36" }
-     (aakhri line ke baad comma NAHI lagana. Brackets [ ] ke andar rakhein.)
-     Product number kahan se milega? posters/bulk folder mein poster ki file ka shuru wala number
-     (jaise "036-campus.jpg" = product 36), ya data/products.json mein "id".
-  2) Windows: "2-MAKE-REELS-WINDOWS.bat" double-click
-     Mac:     "2-MAKE-REELS-MAC.command" double-click
-  3) Reels "out" folder mein aa jayengi (MP4 + cover JPG). 2K, 30 fps, Instagram-ready.
-     Instagram pe trending audio khud lagayein.
+REELS BANANA:
+  1) "reels.json" Notepad mein kholein. Har reel ki ek line, misaal:
+     [
+       { "product": "0",   "template": "hero2" },
+       { "product": "212", "template": "hero2" },
+       { "product": "36",  "template": "hero2", "music": "02-luxe-night-120bpm.mp3" }
+     ]
+     - Aakhri line ke baad comma NAHI.
+     - Product number = poster file ka shuru wala number (posters/bulk/...  036-campus.jpg = 36),
+       ya data/products.json mein "id".
+  2) Windows: "2-MAKE-REELS-WINDOWS.bat"   |   Mac: "2-MAKE-REELS-MAC.command"
+  3) "out" folder mein har reel ki 3 files:
+       naam.mp4            -> music + sound effects ke saath (seedha post karein)
+       naam-sfx-only.mp4   -> sirf sound effects (Instagram pe trending gaana khud lagane ke liye)
+       naam-cover.jpg      -> cover / thumbnail
 
-TEZ MODE: agar computer mein graphics card hai to "2-MAKE-REELS-FAST-GPU-WINDOWS.bat" try karein.
+MUSIC:
+  - "music" na likhein to khud choose hota hai (product ke rang/category ke hisaab se).
+  - Apna music: royalty-free MP3 "audio/music" folder mein daalein aur naam "music" mein likhein.
+    (Pixabay Music / YouTube Audio Library - 120 BPM tracks best. Bollywood gaane NAHI.)
+  - Music bilkul nahi chahiye: "music": false   |   koi sound nahi: "sound": false
 
-MASLA AAYE TO: "out" folder khaali ho ya error aaye, to window ka screenshot le kar bhej dein.
-NOTE: Abhi template v1 hai. Naya v2 template (nayi session bana rahi hai) approve hone ke baad
-      sirf hero2.html aur hero2.js files is folder mein daalni hongi, aur reels.json mein "template": "hero2".
+OPTIONAL: "hookLine": "WINTER, BUT MAKE IT SHINE."   (hook ke neeche chhoti line)
+          "calls": [...]  feature callouts (reels.json ki gloss puffer misaal dekhein)
+
+TIME: ek reel ~8-10 min (graphics card ho to "2-MAKE-REELS-FAST-GPU-WINDOWS.bat" se tez).
+      20-30 reels ek saath likh kar raat ko chala dein.
+MASLA: error aaye to window ka screenshot bhej dein.
