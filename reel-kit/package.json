@@ -1,0 +1,8 @@
+{
+  "name": "outlook-styles-reel-kit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Render Outlook Styles 3D product reels in bulk from data/products.json",
+  "scripts": { "reels": "node batch.js reels.json out" },
+  "dependencies": { "three": "0.187.0", "opentype.js": "1.3.4", "playwright": "^1.48.0" }
+}

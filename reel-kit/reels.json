@@ -1,0 +1,9 @@
+[
+  { "name": "reel-gloss-puffer", "product": "0", "palette": "lime-violet",
+    "hookLine": "WINTER, BUT MAKE IT SHINE.",
+    "calls": [
+      { "uv": [0.5, 0.06], "label": "STAND<br>COLLAR", "side": "r" },
+      { "uv": [0.33, 0.36], "label": "HIGH-SHINE<br>FINISH", "side": "l" },
+      { "uv": [0.5, 0.55], "label": "FULL ZIP<br>FRONT", "side": "r" },
+      { "uv": [0.2, 0.93], "label": "DRAWCORD<br>HEM", "side": "l" } ] }
+]
