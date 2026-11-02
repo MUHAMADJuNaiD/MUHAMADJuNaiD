@@ -77,3 +77,9 @@ Build `reel-kit/hero2.html` + `hero2.js`, using the same config shape and the sa
 - One reel per grade-A product that passes a visual check. Junaid estimated 30–40 reels in total.
 - Later templates can reuse `combos`: Style It (top + bottom) and This or That.
 - Deliver the MP4 + cover per reel, plus a caption. Reuse the poster caption in `posters/bulk/captions.md`.
+
+## 6. Status (v2 built, waiting for Junaid's approval)
+
+- `reel-kit/hero2.html` + `hero2.js` = template v2 (14 s, 120 BPM). Use `"template": "hero2"` in `reels.json`; `override.coverAt` picks the cover frame.
+- Demo: `reels/demo-03-hero2-gloss-puffer/` (MP4, WITH-SOUND preview using audio/music/01, cover, safe-zone-check.jpg).
+- **Do not start bulk until Junaid approves this demo.**
