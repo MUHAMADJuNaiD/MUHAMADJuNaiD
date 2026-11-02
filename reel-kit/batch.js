@@ -17,10 +17,10 @@ function buildCfg(r) {
   const p = byId[String(r.product)]; if (!p) throw new Error('unknown product ' + r.product);
   const pal = PAL[r.palette || p.palette];
   return Object.assign({
-    img: p.img, h: 2.12, float: true, dur: 16,
+    img: p.img, h: 2.12, float: true, dur: r.template === 'hero2' ? 14 : 16,
     pal: { bg: pal.bg, bg2: pal.bg2, word: pal.word, ink: pal.ink, pod: pal.word, btnink: pal.btnink },
     cat: p.cat, word: p.word, hookLine: '', kick: p.kicker, head: p.head, desc: p.desc,
-    chip: p.chip || ['', pal.word], calls: [],
+    chip: p.chip || ['', pal.word], calls: [], comment: p.word,
   }, r.override || {}, r.calls ? { calls: r.calls } : {}, r.hookLine ? { hookLine: r.hookLine } : {});
 }
 
@@ -57,11 +57,12 @@ async function main() {
     }
     ff.stdin.end(); await new Promise(res => ff.on('close', res));
     // cover image from the middle of the reel
-    await page.evaluate(t => window.renderAt(t), cfg.dur * .72);
+    await page.evaluate(t => window.renderAt(t), cfg.coverAt != null ? cfg.coverAt : cfg.dur * .72);
     await page.screenshot({ path: out.replace('.mp4', '-cover.jpg'), type: 'jpeg', quality: 95 });
     await page.close();
     console.log(`done ${out}  (${((Date.now() - t0) / 1000).toFixed(0)} s)`);
   }
   await browser.close(); server.close();
 }
-main().catch(e => { console.error(e); process.exit(1); });
+module.exports = { buildCfg };
+if (require.main === module) main().catch(e => { console.error(e); process.exit(1); });
