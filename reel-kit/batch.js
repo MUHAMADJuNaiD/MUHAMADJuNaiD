@@ -41,6 +41,8 @@ async function main() {
   for (const r of reels) {
     const cfg = buildCfg(r), fps = 30, N = Math.round(fps * cfg.dur);
     const out = path.join(outDir, (r.name || `reel-${r.product}`) + '.mp4');
+    // resume: skip reels that are already finished (the cover is written last)
+    if (fs.existsSync(out) && fs.existsSync(out.replace('.mp4', '-cover.jpg'))) { console.log('skip (already done) ' + out); continue; }
     const page = await browser.newPage({ viewport: { width: 1440, height: 2560 } });
     await page.addInitScript(c => { window.REEL_CFG = c; }, cfg);
     page.on('pageerror', e => console.log('pageerror:', e.message));
