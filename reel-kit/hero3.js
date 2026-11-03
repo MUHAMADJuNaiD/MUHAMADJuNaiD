@@ -111,6 +111,8 @@ ov.innerHTML = `
    <div class="center" id="s4" style="top:2046px;font-weight:700;font-size:21px;letter-spacing:.3em">DELIVERY ALL OVER PAKISTAN${B.address ? ' &middot; ' + B.address.toUpperCase() : ''}</div>
  </div>
  <div id="dark"></div>
+ <div id="flash" style="position:absolute;inset:0;background:#fff;opacity:0"></div>
+ <div id="wipe" style="position:absolute;left:-30%;top:-10%;width:160%;height:120%;opacity:0"></div>
  <div class="center" id="tease" style="top:1760px;color:#fff;font-weight:700;font-size:30px;letter-spacing:.5em">SOMETHING NEW IS COMING</div>
  <div class="center" id="tease2" style="top:300px;color:#fff;font-weight:700;font-size:40px;letter-spacing:.42em;margin-right:-.42em">OUTLOOK STYLES</div>`;
 const $ = id => document.getElementById(id);
@@ -138,6 +140,15 @@ async function build() {
     s.userData = { x: (rand() - .5) * (front ? 4 : 7), y: rand() * 4.5, z: front ? 2 + rand() * 1.2 : -3 - rand() * 4, s: front ? .45 + rand() * .45 : .1 + rand() * .2, ph: rand() * 6.28 };
     scene.add(s); G.bokeh.push(s);
   }
+  G.rings = [0, 1].map(i => { const m = new THREE.Mesh(new THREE.TorusGeometry(i ? 2.15 : 1.85, i ? .012 : .02, 12, 220),
+    new THREE.MeshBasicMaterial({ color: i ? '#ffffff' : P.word, transparent: true, opacity: i ? .55 : .85 })); m.position.y = G.cy; scene.add(m); return m; });
+  G.shapes = [];
+  for (let i = 0; i < 9; i++) {
+    const geo = i % 3 === 0 ? new THREE.SphereGeometry(.09, 24, 16) : i % 3 === 1 ? new THREE.BoxGeometry(.13, .13, .13) : new THREE.OctahedronGeometry(.11);
+    const m = new THREE.Mesh(geo, new THREE.MeshLambertMaterial({ color: i % 2 ? P.word : '#ffffff', emissive: new THREE.Color(i % 2 ? P.word : '#ffffff'), emissiveIntensity: .25 }));
+    m.castShadow = true; m.userData = { a: i / 9 * 6.283, r: 1.9 + rand() * .7, y: (rand() - .5) * 2.2, sp: .35 + rand() * .3, s: .8 + rand() * .7 };
+    scene.add(m); G.shapes.push(m);
+  }
   window.READY = true;
 }
 
@@ -148,17 +159,31 @@ function toScreen(u, v) {
 }
 
 window.renderAt = (t) => {
-  // camera: fixed, product centred; only a very slow push-in for life
-  const dist = lerp(8.6, 8.15, eInOut(prog(t, 0, D)));
-  camera.position.set(0, G.cy, dist); camera.lookAt(0, G.cy, 0);
-  // product: no travel. Tiny breathing + a gentle turn while showing colour
+  // ---- camera shots (cuts hidden by flash / wipe / whip). Camera ALWAYS looks at the product centre.
+  let yaw, dist, ch;
+  if (t < T.lights) { const p = prog(t, 0, T.lights); yaw = lerp(-.35, -.12, eInOut(p)); dist = 9.6; ch = -.95; }
+  else if (t < T.lens) { const p = prog(t, T.lights, T.lens); yaw = lerp(-.2, .2, eInOut(p)); dist = lerp(9.0, 8.0, eInOut(p)); ch = lerp(-.25, .15, p); }
+  else if (t < T.lensEnd) { const i = Math.min(CALLS.length - 1, Math.floor((t - T.lens) / T.lensEach)), p = prog(t, T.lens + i * T.lensEach, T.lens + (i + 1) * T.lensEach);
+    yaw = (i % 2 ? .24 : -.24) * lerp(1, .75, eOut(p)); dist = lerp(7.3, 6.8, eOut(p)); ch = [.55, 0, -.5][i] || 0; }
+  else if (t < T.shop) { const p = prog(t, T.lensEnd, T.shop); yaw = lerp(.42, -.42, eInOut(p)); dist = 8.3; ch = lerp(1.25, .6, eInOut(p)); }
+  else { const p = prog(t, T.shop, D); yaw = lerp(-.12, .12, eInOut(p)); dist = lerp(9.4, 10.0, eOut(p)); ch = .15; }
+  camera.position.set(Math.sin(yaw) * dist, G.cy + ch, Math.cos(yaw) * dist); camera.lookAt(0, G.cy, 0);
+  // ---- product: spin-in on "lights on", follows the camera, pops on every cut
   const L = eOut(prog(t, T.lights, T.lights + .6));
   G.prod.material.userData.light.value = L;
   G.prod.material.userData.shine.value = t < T.lights + 1.6 ? lerp(-.4, 1.8, eInOut(prog(t, T.lights + .5, T.lights + 1.5)))
-                                       : lerp(-.4, 1.8, eInOut(prog(t, T.colour + .2, T.colour + 1.1)));
-  const breathe = 1 + .012 * Math.sin(t * 1.6), reveal = lerp(.96, 1, eOut(prog(t, T.lights, T.lights + .8)));
-  G.prod.scale.setScalar(breathe * reveal);
-  G.prod.rotation.y = .14 * Math.sin(Math.PI * prog(t, T.colour, T.shop)) ;
+                                       : lerp(-.4, 1.8, eInOut(prog(t, T.lensEnd + .2, T.lensEnd + 1.1)));
+  const spin = t < T.lights ? 0 : (1 - eBack(prog(t, T.lights, T.lights + .75))) * -.9;
+  const cutPop = [T.lights, T.lens, T.lens + T.lensEach, T.lens + 2 * T.lensEach, T.lensEnd, T.shop].reduce((m, c) => m + .05 * Math.exp(-Math.pow((t - c) * 9, 2)) * (t > c ? 1 : 0), 0);
+  const sc = lerp(.82, 1, eOut(prog(t, T.lights, T.lights + .8))) * (t >= T.shop ? lerp(1, .86, eOut(prog(t, T.shop, T.shop + .6))) : 1);
+  G.prod.scale.setScalar(sc * (1 + .012 * Math.sin(t * 1.6) + cutPop));
+  G.prod.rotation.y = (t < T.lights ? yaw * .95 + .08 * Math.sin(t * 1.2) : yaw * .7) + spin;
+  // ---- rings + floating shapes orbit the product (motion in every frame)
+  G.rings.forEach((r, i) => { r.visible = t > T.lights; r.rotation.set(1.28 + .1 * Math.sin(t * .7 + i), 0, t * (i ? -.5 : .35));
+    r.scale.setScalar(Math.max(.001, eBack(prog(t, T.lights + .1 + i * .15, T.lights + .7 + i * .15))) * (1 + .06 * Math.sin(t * 2 + i))); });
+  G.shapes.forEach(m => { const u = m.userData, a = u.a + t * u.sp; m.visible = t > T.lights;
+    m.position.set(Math.cos(a) * u.r, G.cy + u.y + .15 * Math.sin(t * 1.3 + u.a), Math.sin(a) * u.r); m.rotation.set(t * .8, t * 1.1, 0);
+    m.scale.setScalar(u.s * eOut(prog(t, T.lights + .2, T.lights + .8))); });
   // 3D word flips up behind once the lights are on
   const wk = prog(t, T.word, T.word + .55), we = eBack(wk);
   G.word.visible = wk > 0; G.word.rotation.x = (1 - we) * -1.5; G.word.scale.setScalar(Math.max(.001, G.word.userData.base * lerp(.7, 1, we)));
@@ -209,6 +234,15 @@ window.renderAt = (t) => {
     const pk = eBack(prog(t, T.shop + .7, T.shop + 1.1));
     $('s3').firstElementChild.style.transform = `scale(${Math.max(0, pk) * (t > T.shop + 1.3 ? 1 + .03 * Math.sin((t - T.shop) * Math.PI * 4) : 1)})`;
   }
+  // transitions
+  $('flash').style.opacity = .85 * Math.exp(-Math.pow((t - T.lights) * 7, 2)) * (t > T.lights - .1 ? 1 : 0);
+  let wk2 = null; for (const [c, dir] of [[T.lens, 1], [T.shop, -1]]) { const q = prog(t, c - .28, c + .28); if (q > 0 && q < 1) wk2 = [q, dir]; }
+  const wp = $('wipe');
+  if (wk2) { const [q, dir] = wk2; wp.style.opacity = 1; wp.style.background = `linear-gradient(${dir > 0 ? 100 : 80}deg, transparent 0%, ${P.word} 18%, ${P.word} 82%, transparent 100%)`;
+    wp.style.transform = `translateX(${dir * lerp(-110, 110, eInOut(q))}%) skewX(-12deg)`; } else wp.style.opacity = 0;
+  const whips = [T.lensEnd, T.lens + T.lensEach, T.lens + 2 * T.lensEach];
+  const blur = whips.reduce((m, c) => Math.max(m, 14 * Math.exp(-Math.pow((t - c) * 11, 2))), 0);
+  canvas.style.filter = blur > .3 ? `blur(${blur.toFixed(1)}px)` : 'none';
   renderer.render(scene, camera);
 };
 build().then(() => window.renderAt(0)).catch(e => { window.ERR = String(e && e.stack || e); });

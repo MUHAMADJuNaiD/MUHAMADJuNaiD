@@ -11,8 +11,8 @@ const CUES = {
     [10.6, 'whoosh', .6], [10.8, 'chime', .6], [11.0, 'pop', .7], [13.0, 'swoosh-reverse', .7], [13.75, 'pop', .9], [14.2, 'chime', .5]],
   // v3: few, different sounds - each used once, only on story beats
   hero3: (calls) => {
-    const lens = 4.3, c = [[0, 'riser', .32], [1.5, 'shimmer', .55], [2.15, 'boom-slam', .6], [lens, 'whoosh', .45],
-      [8.2, 'chime', .45], [10.4, 'swoosh-reverse', .5], [11.15, 'click', .7]];
+    const lens = 4.3, c = [[0, 'riser', .14], [1.5, 'shimmer', .22], [2.15, 'boom-slam', .22], [lens - .1, 'whoosh', .18],
+      [8.05, 'chime', .16], [10.3, 'swoosh-reverse', .18], [11.15, 'click', .25]];
     return c;
   },
   hero2: (calls) => {
@@ -49,7 +49,7 @@ async function mix(video, out, dur, cues, music) {
   });
   fl.push(`${sx.join('')}amix=inputs=${sx.length}:normalize=0,apad,atrim=0:${dur}[sfx]`);
   if (music) {
-    fl.push('[sfx]asplit[sa][sb]', '[m][sa]sidechaincompress=threshold=0.05:ratio=6:attack=5:release=250[duck]',
+    fl.push('[sfx]asplit[sa][sb]', '[m][sa]sidechaincompress=threshold=0.08:ratio=2.5:attack=10:release=300[duck]',
       `[duck][sb]amix=inputs=2:normalize=0,loudnorm=I=-14:TP=-1.5,atrim=0:${dur}[a]`);
   } else fl.push(`[sfx]loudnorm=I=-16:TP=-1.5,atrim=0:${dur}[a]`);
   await run(['-y', '-loglevel', 'error', ...inp, '-filter_complex', fl.join(';'), '-map', '0:v', '-map', '[a]',
