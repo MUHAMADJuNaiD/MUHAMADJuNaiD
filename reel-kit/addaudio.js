@@ -9,6 +9,12 @@ const CUES = {
   hero: [[0, 'riser', .5], [1.42, 'boom-slam', 1], [2.8, 'whoosh', .8], [3.35, 'pop', .9], [4.55, 'shimmer', .7],
     [6.6, 'whoosh', .6], [6.95, 'click', .8], [7.7, 'click', .8], [8.45, 'click', .8], [9.2, 'click', .8],
     [10.6, 'whoosh', .6], [10.8, 'chime', .6], [11.0, 'pop', .7], [13.0, 'swoosh-reverse', .7], [13.75, 'pop', .9], [14.2, 'chime', .5]],
+  // v3: few, different sounds - each used once, only on story beats
+  hero3: (calls) => {
+    const lens = 4.3, c = [[0, 'riser', .32], [1.5, 'shimmer', .55], [2.15, 'boom-slam', .6], [lens, 'whoosh', .45],
+      [8.2, 'chime', .45], [10.4, 'swoosh-reverse', .5], [11.15, 'click', .7]];
+    return c;
+  },
   hero2: (calls) => {
     const MAC0 = 4.0, MAC1 = 7.0, NM = Math.max(calls, 3), MDUR = (MAC1 - MAC0) / NM, c = [];
     c.push([0, 'riser', .45], [.8, 'whoosh', .7], [1.08, 'boom-slam', 1], [1.5, 'whoosh', .6], [2.0, 'pop', .9], [2.0, 'shimmer', .5], [3.0, 'whoosh', .55]);

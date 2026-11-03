@@ -19,7 +19,30 @@
     823
    ],
    "grade": "B",
-   "poster": "posters/bulk/blouses-shirts/blouse-satin-wrap.jpg"
+   "poster": "posters/bulk/blouses-shirts/blouse-satin-wrap.jpg",
+   "details": [
+    {
+     "uv": [
+      0.822,
+      0.298
+     ],
+     "label": "CUT & DRAPE"
+    },
+    {
+     "uv": [
+      0.662,
+      0.555
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.692,
+      0.732
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "38",
@@ -40,7 +63,30 @@
     793
    ],
    "grade": "B",
-   "poster": "posters/bulk/blouses-shirts/038-artful.jpg"
+   "poster": "posters/bulk/blouses-shirts/038-artful.jpg",
+   "details": [
+    {
+     "uv": [
+      0.585,
+      0.232
+     ],
+     "label": "CUT & DRAPE"
+    },
+    {
+     "uv": [
+      0.697,
+      0.36
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.7,
+      0.775
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "47",
@@ -61,7 +107,30 @@
     674
    ],
    "grade": "B",
-   "poster": "posters/bulk/blouses-shirts/047-camel.jpg"
+   "poster": "posters/bulk/blouses-shirts/047-camel.jpg",
+   "details": [
+    {
+     "uv": [
+      0.498,
+      0.25
+     ],
+     "label": "CUT & DRAPE"
+    },
+    {
+     "uv": [
+      0.516,
+      0.418
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.505,
+      0.812
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "56",
@@ -82,7 +151,30 @@
     808
    ],
    "grade": "B",
-   "poster": "posters/bulk/blouses-shirts/056-shirted.jpg"
+   "poster": "posters/bulk/blouses-shirts/056-shirted.jpg",
+   "details": [
+    {
+     "uv": [
+      0.602,
+      0.172
+     ],
+     "label": "CUT & DRAPE"
+    },
+    {
+     "uv": [
+      0.154,
+      0.368
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.177,
+      0.738
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "57",
@@ -103,7 +195,30 @@
     1085
    ],
    "grade": "A",
-   "poster": "posters/bulk/blouses-shirts/057-noir.jpg"
+   "poster": "posters/bulk/blouses-shirts/057-noir.jpg",
+   "details": [
+    {
+     "uv": [
+      0.493,
+      0.17
+     ],
+     "label": "CUT & DRAPE"
+    },
+    {
+     "uv": [
+      0.759,
+      0.54
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.818,
+      0.715
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "63",
@@ -124,7 +239,30 @@
     726
    ],
    "grade": "B",
-   "poster": "posters/bulk/blouses-shirts/063-gold.jpg"
+   "poster": "posters/bulk/blouses-shirts/063-gold.jpg",
+   "details": [
+    {
+     "uv": [
+      0.474,
+      0.168
+     ],
+     "label": "CUT & DRAPE"
+    },
+    {
+     "uv": [
+      0.361,
+      0.468
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.598,
+      0.94
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "67",
@@ -145,7 +283,30 @@
     822
    ],
    "grade": "B",
-   "poster": "posters/bulk/blouses-shirts/067-wine.jpg"
+   "poster": "posters/bulk/blouses-shirts/067-wine.jpg",
+   "details": [
+    {
+     "uv": [
+      0.474,
+      0.042
+     ],
+     "label": "CUT & DRAPE"
+    },
+    {
+     "uv": [
+      0.108,
+      0.53
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.08,
+      0.792
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "72",
@@ -166,7 +327,30 @@
     821
    ],
    "grade": "B",
-   "poster": "posters/bulk/blouses-shirts/072-flora.jpg"
+   "poster": "posters/bulk/blouses-shirts/072-flora.jpg",
+   "details": [
+    {
+     "uv": [
+      0.593,
+      0.098
+     ],
+     "label": "CUT & DRAPE"
+    },
+    {
+     "uv": [
+      0.634,
+      0.568
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.717,
+      0.742
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "73",
@@ -187,7 +371,30 @@
     932
    ],
    "grade": "A",
-   "poster": "posters/bulk/blouses-shirts/073-bold.jpg"
+   "poster": "posters/bulk/blouses-shirts/073-bold.jpg",
+   "details": [
+    {
+     "uv": [
+      0.261,
+      0.22
+     ],
+     "label": "CUT & DRAPE"
+    },
+    {
+     "uv": [
+      0.739,
+      0.418
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.306,
+      0.792
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "121",
@@ -208,7 +415,30 @@
     1159
    ],
    "grade": "A",
-   "poster": "posters/bulk/blouses-shirts/121-essential.jpg"
+   "poster": "posters/bulk/blouses-shirts/121-essential.jpg",
+   "details": [
+    {
+     "uv": [
+      0.516,
+      0.042
+     ],
+     "label": "CUT & DRAPE"
+    },
+    {
+     "uv": [
+      0.123,
+      0.385
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.929,
+      0.66
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "124",
@@ -229,7 +459,30 @@
     746
    ],
    "grade": "B",
-   "poster": "posters/bulk/blouses-shirts/124-nautical.jpg"
+   "poster": "posters/bulk/blouses-shirts/124-nautical.jpg",
+   "details": [
+    {
+     "uv": [
+      0.188,
+      0.242
+     ],
+     "label": "CUT & DRAPE"
+    },
+    {
+     "uv": [
+      0.289,
+      0.47
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.735,
+      0.898
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "127",
@@ -250,7 +503,30 @@
     1011
    ],
    "grade": "A",
-   "poster": "posters/bulk/blouses-shirts/127-mocha.jpg"
+   "poster": "posters/bulk/blouses-shirts/127-mocha.jpg",
+   "details": [
+    {
+     "uv": [
+      0.451,
+      0.04
+     ],
+     "label": "CUT & DRAPE"
+    },
+    {
+     "uv": [
+      0.143,
+      0.36
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.138,
+      0.692
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "128",
@@ -271,7 +547,30 @@
     627
    ],
    "grade": "B",
-   "poster": "posters/bulk/blouses-shirts/128-fierce.jpg"
+   "poster": "posters/bulk/blouses-shirts/128-fierce.jpg",
+   "details": [
+    {
+     "uv": [
+      0.27,
+      0.295
+     ],
+     "label": "CUT & DRAPE"
+    },
+    {
+     "uv": [
+      0.258,
+      0.6
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.24,
+      0.785
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "132",
@@ -292,7 +591,30 @@
     807
    ],
    "grade": "B",
-   "poster": "posters/bulk/blouses-shirts/132-lace.jpg"
+   "poster": "posters/bulk/blouses-shirts/132-lace.jpg",
+   "details": [
+    {
+     "uv": [
+      0.496,
+      0.102
+     ],
+     "label": "CUT & DRAPE"
+    },
+    {
+     "uv": [
+      0.613,
+      0.358
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.587,
+      0.928
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "133",
@@ -313,7 +635,30 @@
     766
    ],
    "grade": "B",
-   "poster": "posters/bulk/blouses-shirts/133-minimal.jpg"
+   "poster": "posters/bulk/blouses-shirts/133-minimal.jpg",
+   "details": [
+    {
+     "uv": [
+      0.105,
+      0.298
+     ],
+     "label": "CUT & DRAPE"
+    },
+    {
+     "uv": [
+      0.113,
+      0.615
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.13,
+      0.7
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "136",
@@ -334,7 +679,30 @@
     987
    ],
    "grade": "A",
-   "poster": "posters/bulk/blouses-shirts/136-boho.jpg"
+   "poster": "posters/bulk/blouses-shirts/136-boho.jpg",
+   "details": [
+    {
+     "uv": [
+      0.353,
+      0.212
+     ],
+     "label": "CUT & DRAPE"
+    },
+    {
+     "uv": [
+      0.357,
+      0.462
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.757,
+      0.84
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "138",
@@ -355,7 +723,30 @@
     1231
    ],
    "grade": "A",
-   "poster": "posters/bulk/blouses-shirts/138-sheer.jpg"
+   "poster": "posters/bulk/blouses-shirts/138-sheer.jpg",
+   "details": [
+    {
+     "uv": [
+      0.496,
+      0.125
+     ],
+     "label": "CUT & DRAPE"
+    },
+    {
+     "uv": [
+      0.723,
+      0.595
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.059,
+      0.905
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "141",
@@ -376,7 +767,30 @@
     1006
    ],
    "grade": "A",
-   "poster": "posters/bulk/blouses-shirts/141-royal.jpg"
+   "poster": "posters/bulk/blouses-shirts/141-royal.jpg",
+   "details": [
+    {
+     "uv": [
+      0.517,
+      0.04
+     ],
+     "label": "CUT & DRAPE"
+    },
+    {
+     "uv": [
+      0.809,
+      0.46
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.821,
+      0.658
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "161",
@@ -397,7 +811,30 @@
     578
    ],
    "grade": "B",
-   "poster": "posters/bulk/blouses-shirts/161-bubbly.jpg"
+   "poster": "posters/bulk/blouses-shirts/161-bubbly.jpg",
+   "details": [
+    {
+     "uv": [
+      0.253,
+      0.092
+     ],
+     "label": "CUT & DRAPE"
+    },
+    {
+     "uv": [
+      0.396,
+      0.595
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.433,
+      0.702
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "198",
@@ -418,7 +855,30 @@
     693
    ],
    "grade": "B",
-   "poster": "posters/bulk/blouses-shirts/198-dreamy.jpg"
+   "poster": "posters/bulk/blouses-shirts/198-dreamy.jpg",
+   "details": [
+    {
+     "uv": [
+      0.54,
+      0.098
+     ],
+     "label": "CUT & DRAPE"
+    },
+    {
+     "uv": [
+      0.49,
+      0.382
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.275,
+      0.742
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "204",
@@ -439,7 +899,30 @@
     856
    ],
    "grade": "A",
-   "poster": "posters/bulk/blouses-shirts/204-tied.jpg"
+   "poster": "posters/bulk/blouses-shirts/204-tied.jpg",
+   "details": [
+    {
+     "uv": [
+      0.503,
+      0.062
+     ],
+     "label": "CUT & DRAPE"
+    },
+    {
+     "uv": [
+      0.449,
+      0.615
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.443,
+      0.662
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "270",
@@ -460,7 +943,30 @@
     1048
    ],
    "grade": "A",
-   "poster": "posters/bulk/blouses-shirts/270-azure.jpg"
+   "poster": "posters/bulk/blouses-shirts/270-azure.jpg",
+   "details": [
+    {
+     "uv": [
+      0.494,
+      0.04
+     ],
+     "label": "CUT & DRAPE"
+    },
+    {
+     "uv": [
+      0.819,
+      0.505
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.813,
+      0.658
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "273",
@@ -481,7 +987,30 @@
     1028
    ],
    "grade": "A",
-   "poster": "posters/bulk/blouses-shirts/273-caramel.jpg"
+   "poster": "posters/bulk/blouses-shirts/273-caramel.jpg",
+   "details": [
+    {
+     "uv": [
+      0.535,
+      0.18
+     ],
+     "label": "CUT & DRAPE"
+    },
+    {
+     "uv": [
+      0.511,
+      0.385
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.566,
+      0.8
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "301",
@@ -502,7 +1031,30 @@
     594
    ],
    "grade": "B",
-   "poster": "posters/bulk/blouses-shirts/301-lemon.jpg"
+   "poster": "posters/bulk/blouses-shirts/301-lemon.jpg",
+   "details": [
+    {
+     "uv": [
+      0.261,
+      0.095
+     ],
+     "label": "CUT & DRAPE"
+    },
+    {
+     "uv": [
+      0.476,
+      0.615
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.431,
+      0.702
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "330",
@@ -523,7 +1075,30 @@
     983
    ],
    "grade": "A",
-   "poster": "posters/bulk/blouses-shirts/330-shape.jpg"
+   "poster": "posters/bulk/blouses-shirts/330-shape.jpg",
+   "details": [
+    {
+     "uv": [
+      0.507,
+      0.28
+     ],
+     "label": "CUT & DRAPE"
+    },
+    {
+     "uv": [
+      0.849,
+      0.485
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.838,
+      0.69
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "10",
@@ -544,7 +1119,30 @@
     458
    ],
    "grade": "B",
-   "poster": "posters/bulk/bottoms/010-cocoa.jpg"
+   "poster": "posters/bulk/bottoms/010-cocoa.jpg",
+   "details": [
+    {
+     "uv": [
+      0.464,
+      0.3
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.902,
+      0.507
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.856,
+      0.76
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "43",
@@ -565,7 +1163,30 @@
     1111
    ],
    "grade": "A",
-   "poster": "posters/bulk/bottoms/043-straight.jpg"
+   "poster": "posters/bulk/bottoms/043-straight.jpg",
+   "details": [
+    {
+     "uv": [
+      0.346,
+      0.055
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.466,
+      0.36
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.601,
+      0.765
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "44",
@@ -586,7 +1207,30 @@
     1050
    ],
    "grade": "A",
-   "poster": "posters/bulk/bottoms/044-olive.jpg"
+   "poster": "posters/bulk/bottoms/044-olive.jpg",
+   "details": [
+    {
+     "uv": [
+      0.505,
+      0.045
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.5,
+      0.37
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.062,
+      0.888
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "50",
@@ -607,7 +1251,30 @@
     772
    ],
    "grade": "B",
-   "poster": "posters/bulk/bottoms/050-flare.jpg"
+   "poster": "posters/bulk/bottoms/050-flare.jpg",
+   "details": [
+    {
+     "uv": [
+      0.255,
+      0.055
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.606,
+      0.398
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.416,
+      0.918
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "51",
@@ -628,7 +1295,30 @@
     1058
    ],
    "grade": "A",
-   "poster": "posters/bulk/bottoms/051-track.jpg"
+   "poster": "posters/bulk/bottoms/051-track.jpg",
+   "details": [
+    {
+     "uv": [
+      0.864,
+      0.132
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.788,
+      0.468
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.795,
+      0.712
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "52",
@@ -649,7 +1339,30 @@
     1307
    ],
    "grade": "A",
-   "poster": "posters/bulk/bottoms/052-sky.jpg"
+   "poster": "posters/bulk/bottoms/052-sky.jpg",
+   "details": [
+    {
+     "uv": [
+      0.559,
+      0.045
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.485,
+      0.38
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.926,
+      0.95
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "53",
@@ -670,7 +1383,30 @@
     1042
    ],
    "grade": "A",
-   "poster": "posters/bulk/bottoms/053-cargo.jpg"
+   "poster": "posters/bulk/bottoms/053-cargo.jpg",
+   "details": [
+    {
+     "uv": [
+      0.9,
+      0.298
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.938,
+      0.428
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.688,
+      0.938
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "54",
@@ -691,7 +1427,30 @@
     452
    ],
    "grade": "B",
-   "poster": "posters/bulk/bottoms/054-tailored.jpg"
+   "poster": "posters/bulk/bottoms/054-tailored.jpg",
+   "details": [
+    {
+     "uv": [
+      0.515,
+      0.045
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.475,
+      0.36
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.368,
+      0.862
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "55",
@@ -712,7 +1471,30 @@
     1040
    ],
    "grade": "A",
-   "poster": "posters/bulk/bottoms/bottom-wide-leg-denim.jpg"
+   "poster": "posters/bulk/bottoms/bottom-wide-leg-denim.jpg",
+   "details": [
+    {
+     "uv": [
+      0.343,
+      0.055
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.441,
+      0.385
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.936,
+      0.945
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "74",
@@ -733,7 +1515,30 @@
     1147
    ],
    "grade": "A",
-   "poster": "posters/bulk/bottoms/074-candy.jpg"
+   "poster": "posters/bulk/bottoms/074-candy.jpg",
+   "details": [
+    {
+     "uv": [
+      0.478,
+      0.085
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.925,
+      0.372
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.161,
+      0.948
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "75",
@@ -754,7 +1559,30 @@
     602
    ],
    "grade": "B",
-   "poster": "posters/bulk/bottoms/075-classic.jpg"
+   "poster": "posters/bulk/bottoms/075-classic.jpg",
+   "details": [
+    {
+     "uv": [
+      0.509,
+      0.072
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.429,
+      0.372
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.374,
+      0.665
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "76",
@@ -775,7 +1603,30 @@
     649
    ],
    "grade": "B",
-   "poster": "posters/bulk/bottoms/076-chain.jpg"
+   "poster": "posters/bulk/bottoms/076-chain.jpg",
+   "details": [
+    {
+     "uv": [
+      0.805,
+      0.232
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.933,
+      0.385
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.841,
+      0.88
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "77",
@@ -796,7 +1647,30 @@
     769
    ],
    "grade": "B",
-   "poster": "posters/bulk/bottoms/077-mauve.jpg"
+   "poster": "posters/bulk/bottoms/077-mauve.jpg",
+   "details": [
+    {
+     "uv": [
+      0.626,
+      0.098
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.483,
+      0.398
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.918,
+      0.875
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "78",
@@ -817,7 +1691,30 @@
     1028
    ],
    "grade": "A",
-   "poster": "posters/bulk/bottoms/078-utility.jpg"
+   "poster": "posters/bulk/bottoms/078-utility.jpg",
+   "details": [
+    {
+     "uv": [
+      0.506,
+      0.048
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.488,
+      0.368
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.054,
+      0.952
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "79",
@@ -838,7 +1735,30 @@
     578
    ],
    "grade": "B",
-   "poster": "posters/bulk/bottoms/079-night.jpg"
+   "poster": "posters/bulk/bottoms/079-night.jpg",
+   "details": [
+    {
+     "uv": [
+      0.51,
+      0.04
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.414,
+      0.365
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.618,
+      0.932
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "80",
@@ -859,7 +1779,30 @@
     999
    ],
    "grade": "A",
-   "poster": "posters/bulk/bottoms/080-indigo.jpg"
+   "poster": "posters/bulk/bottoms/080-indigo.jpg",
+   "details": [
+    {
+     "uv": [
+      0.332,
+      0.065
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.346,
+      0.36
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.175,
+      0.952
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "81",
@@ -880,7 +1823,30 @@
     796
    ],
    "grade": "B",
-   "poster": "posters/bulk/bottoms/081-smoke.jpg"
+   "poster": "posters/bulk/bottoms/081-smoke.jpg",
+   "details": [
+    {
+     "uv": [
+      0.497,
+      0.04
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.861,
+      0.415
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.941,
+      0.952
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "83",
@@ -901,7 +1867,30 @@
     839
    ],
    "grade": "B",
-   "poster": "posters/bulk/bottoms/083-breeze.jpg"
+   "poster": "posters/bulk/bottoms/083-breeze.jpg",
+   "details": [
+    {
+     "uv": [
+      0.508,
+      0.065
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.503,
+      0.392
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.062,
+      0.945
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "84",
@@ -922,7 +1911,30 @@
     1036
    ],
    "grade": "A",
-   "poster": "posters/bulk/bottoms/084-sand.jpg"
+   "poster": "posters/bulk/bottoms/084-sand.jpg",
+   "details": [
+    {
+     "uv": [
+      0.455,
+      0.042
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.564,
+      0.375
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.878,
+      0.93
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "86",
@@ -943,7 +1955,30 @@
     1073
    ],
    "grade": "A",
-   "poster": "posters/bulk/bottoms/086-blue.jpg"
+   "poster": "posters/bulk/bottoms/086-blue.jpg",
+   "details": [
+    {
+     "uv": [
+      0.669,
+      0.05
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.914,
+      0.55
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.364,
+      0.952
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "87",
@@ -964,7 +1999,30 @@
     662
    ],
    "grade": "B",
-   "poster": "posters/bulk/bottoms/087-scarlet.jpg"
+   "poster": "posters/bulk/bottoms/087-scarlet.jpg",
+   "details": [
+    {
+     "uv": [
+      0.477,
+      0.265
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.226,
+      0.372
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.897,
+      0.708
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "88",
@@ -985,7 +2043,30 @@
     542
    ],
    "grade": "B",
-   "poster": "posters/bulk/bottoms/088-seventies.jpg"
+   "poster": "posters/bulk/bottoms/088-seventies.jpg",
+   "details": [
+    {
+     "uv": [
+      0.517,
+      0.042
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.378,
+      0.602
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.401,
+      0.92
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "89",
@@ -1006,7 +2087,30 @@
     441
    ],
    "grade": "B",
-   "poster": "posters/bulk/bottoms/089-edgy.jpg"
+   "poster": "posters/bulk/bottoms/089-edgy.jpg",
+   "details": [
+    {
+     "uv": [
+      0.793,
+      0.125
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.156,
+      0.36
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.145,
+      0.8
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "92",
@@ -1027,7 +2131,30 @@
     1006
    ],
    "grade": "A",
-   "poster": "posters/bulk/bottoms/092-groovy.jpg"
+   "poster": "posters/bulk/bottoms/092-groovy.jpg",
+   "details": [
+    {
+     "uv": [
+      0.26,
+      0.068
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.357,
+      0.59
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.935,
+      0.952
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "93",
@@ -1048,7 +2175,30 @@
     910
    ],
    "grade": "A",
-   "poster": "posters/bulk/bottoms/093-wide.jpg"
+   "poster": "posters/bulk/bottoms/093-wide.jpg",
+   "details": [
+    {
+     "uv": [
+      0.672,
+      0.098
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.49,
+      0.395
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.606,
+      0.785
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "95",
@@ -1069,7 +2219,30 @@
     637
    ],
    "grade": "B",
-   "poster": "posters/bulk/bottoms/095-flow.jpg"
+   "poster": "posters/bulk/bottoms/095-flow.jpg",
+   "details": [
+    {
+     "uv": [
+      0.5,
+      0.298
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.5,
+      0.425
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.871,
+      0.682
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "109",
@@ -1090,7 +2263,30 @@
     612
    ],
    "grade": "B",
-   "poster": "posters/bulk/bottoms/109-espresso.jpg"
+   "poster": "posters/bulk/bottoms/109-espresso.jpg",
+   "details": [
+    {
+     "uv": [
+      0.686,
+      0.065
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.443,
+      0.36
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.836,
+      0.82
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "110",
@@ -1111,7 +2307,30 @@
     681
    ],
    "grade": "B",
-   "poster": "posters/bulk/bottoms/110-sailor.jpg"
+   "poster": "posters/bulk/bottoms/110-sailor.jpg",
+   "details": [
+    {
+     "uv": [
+      0.729,
+      0.06
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.429,
+      0.42
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.921,
+      0.89
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "111",
@@ -1132,7 +2351,30 @@
     1087
    ],
    "grade": "A",
-   "poster": "posters/bulk/bottoms/111-palazzo.jpg"
+   "poster": "posters/bulk/bottoms/111-palazzo.jpg",
+   "details": [
+    {
+     "uv": [
+      0.404,
+      0.052
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.124,
+      0.37
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.907,
+      0.658
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "112",
@@ -1153,7 +2395,30 @@
     1361
    ],
    "grade": "A",
-   "poster": "posters/bulk/bottoms/112-parachute.jpg"
+   "poster": "posters/bulk/bottoms/112-parachute.jpg",
+   "details": [
+    {
+     "uv": [
+      0.467,
+      0.31
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.842,
+      0.392
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.685,
+      0.918
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "130",
@@ -1174,7 +2439,30 @@
     1085
    ],
    "grade": "A",
-   "poster": "posters/bulk/bottoms/130-fuchsia.jpg"
+   "poster": "posters/bulk/bottoms/130-fuchsia.jpg",
+   "details": [
+    {
+     "uv": [
+      0.559,
+      0.05
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.488,
+      0.408
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.1,
+      0.71
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "131",
@@ -1195,7 +2483,30 @@
     1380
    ],
    "grade": "A",
-   "poster": "posters/bulk/bottoms/131-race.jpg"
+   "poster": "posters/bulk/bottoms/131-race.jpg",
+   "details": [
+    {
+     "uv": [
+      0.469,
+      0.268
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.592,
+      0.44
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.116,
+      0.78
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "134",
@@ -1216,7 +2527,30 @@
     1104
    ],
    "grade": "A",
-   "poster": "posters/bulk/bottoms/134-everyday.jpg"
+   "poster": "posters/bulk/bottoms/134-everyday.jpg",
+   "details": [
+    {
+     "uv": [
+      0.159,
+      0.07
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.554,
+      0.418
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.089,
+      0.675
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "139",
@@ -1237,7 +2571,30 @@
     1348
    ],
    "grade": "A",
-   "poster": "posters/bulk/bottoms/139-ivory.jpg"
+   "poster": "posters/bulk/bottoms/139-ivory.jpg",
+   "details": [
+    {
+     "uv": [
+      0.749,
+      0.052
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.117,
+      0.358
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.094,
+      0.672
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "140",
@@ -1258,7 +2615,30 @@
     1078
    ],
    "grade": "A",
-   "poster": "posters/bulk/bottoms/140-champagne.jpg"
+   "poster": "posters/bulk/bottoms/140-champagne.jpg",
+   "details": [
+    {
+     "uv": [
+      0.219,
+      0.085
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.169,
+      0.36
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.788,
+      0.818
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "164",
@@ -1279,7 +2659,30 @@
     1018
    ],
    "grade": "A",
-   "poster": "posters/bulk/bottoms/bottom-pleated-skirt.jpg"
+   "poster": "posters/bulk/bottoms/bottom-pleated-skirt.jpg",
+   "details": [
+    {
+     "uv": [
+      0.498,
+      0.04
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.483,
+      0.432
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.458,
+      0.932
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "205",
@@ -1300,7 +2703,30 @@
     757
    ],
    "grade": "B",
-   "poster": "posters/bulk/bottoms/205-leopard.jpg"
+   "poster": "posters/bulk/bottoms/205-leopard.jpg",
+   "details": [
+    {
+     "uv": [
+      0.726,
+      0.2
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.382,
+      0.41
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.796,
+      0.838
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "311",
@@ -1321,7 +2747,30 @@
     3200
    ],
    "grade": "A",
-   "poster": "posters/bulk/bottoms/311-ombre.jpg"
+   "poster": "posters/bulk/bottoms/311-ombre.jpg",
+   "details": [
+    {
+     "uv": [
+      0.161,
+      0.085
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.477,
+      0.455
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.935,
+      0.942
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "312",
@@ -1342,7 +2791,30 @@
     3231
    ],
    "grade": "A",
-   "poster": "posters/bulk/bottoms/312-twist.jpg"
+   "poster": "posters/bulk/bottoms/312-twist.jpg",
+   "details": [
+    {
+     "uv": [
+      0.435,
+      0.298
+     ],
+     "label": "WAISTBAND"
+    },
+    {
+     "uv": [
+      0.793,
+      0.36
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.5,
+      0.868
+     ],
+     "label": "HEM"
+    }
+   ]
   },
   {
    "id": "119",
@@ -1363,7 +2835,30 @@
     1276
    ],
    "grade": "A",
-   "poster": "posters/bulk/coords-dresses/119-matchy.jpg"
+   "poster": "posters/bulk/coords-dresses/119-matchy.jpg",
+   "details": [
+    {
+     "uv": [
+      0.459,
+      0.19
+     ],
+     "label": "CUT"
+    },
+    {
+     "uv": [
+      0.522,
+      0.482
+     ],
+     "label": "FABRIC & PRINT"
+    },
+    {
+     "uv": [
+      0.711,
+      0.948
+     ],
+     "label": "LENGTH"
+    }
+   ]
   },
   {
    "id": "120",
@@ -1384,7 +2879,30 @@
     906
    ],
    "grade": "A",
-   "poster": "posters/bulk/coords-dresses/120-lounge.jpg"
+   "poster": "posters/bulk/coords-dresses/120-lounge.jpg",
+   "details": [
+    {
+     "uv": [
+      0.463,
+      0.268
+     ],
+     "label": "CUT"
+    },
+    {
+     "uv": [
+      0.463,
+      0.57
+     ],
+     "label": "FABRIC & PRINT"
+    },
+    {
+     "uv": [
+      0.721,
+      0.952
+     ],
+     "label": "LENGTH"
+    }
+   ]
   },
   {
    "id": "125",
@@ -1405,7 +2923,30 @@
     885
    ],
    "grade": "A",
-   "poster": "posters/bulk/coords-dresses/125-cream.jpg"
+   "poster": "posters/bulk/coords-dresses/125-cream.jpg",
+   "details": [
+    {
+     "uv": [
+      0.675,
+      0.19
+     ],
+     "label": "CUT"
+    },
+    {
+     "uv": [
+      0.747,
+      0.388
+     ],
+     "label": "FABRIC & PRINT"
+    },
+    {
+     "uv": [
+      0.526,
+      0.935
+     ],
+     "label": "LENGTH"
+    }
+   ]
   },
   {
    "id": "126",
@@ -1426,7 +2967,30 @@
     1340
    ],
    "grade": "A",
-   "poster": "posters/bulk/coords-dresses/126-elegant.jpg"
+   "poster": "posters/bulk/coords-dresses/126-elegant.jpg",
+   "details": [
+    {
+     "uv": [
+      0.446,
+      0.135
+     ],
+     "label": "CUT"
+    },
+    {
+     "uv": [
+      0.536,
+      0.438
+     ],
+     "label": "FABRIC & PRINT"
+    },
+    {
+     "uv": [
+      0.866,
+      0.718
+     ],
+     "label": "LENGTH"
+    }
+   ]
   },
   {
    "id": "129",
@@ -1447,7 +3011,30 @@
     871
    ],
    "grade": "A",
-   "poster": "posters/bulk/coords-dresses/129-smart.jpg"
+   "poster": "posters/bulk/coords-dresses/129-smart.jpg",
+   "details": [
+    {
+     "uv": [
+      0.543,
+      0.235
+     ],
+     "label": "CUT"
+    },
+    {
+     "uv": [
+      0.159,
+      0.49
+     ],
+     "label": "FABRIC & PRINT"
+    },
+    {
+     "uv": [
+      0.212,
+      0.698
+     ],
+     "label": "LENGTH"
+    }
+   ]
   },
   {
    "id": "135",
@@ -1468,7 +3055,30 @@
     1093
    ],
    "grade": "A",
-   "poster": "posters/bulk/coords-dresses/135-one.jpg"
+   "poster": "posters/bulk/coords-dresses/135-one.jpg",
+   "details": [
+    {
+     "uv": [
+      0.198,
+      0.04
+     ],
+     "label": "CUT"
+    },
+    {
+     "uv": [
+      0.523,
+      0.575
+     ],
+     "label": "FABRIC & PRINT"
+    },
+    {
+     "uv": [
+      0.535,
+      0.66
+     ],
+     "label": "LENGTH"
+    }
+   ]
   },
   {
    "id": "137",
@@ -1489,7 +3099,30 @@
     1013
    ],
    "grade": "A",
-   "poster": "posters/bulk/coords-dresses/137-peach.jpg"
+   "poster": "posters/bulk/coords-dresses/137-peach.jpg",
+   "details": [
+    {
+     "uv": [
+      0.454,
+      0.298
+     ],
+     "label": "CUT"
+    },
+    {
+     "uv": [
+      0.515,
+      0.392
+     ],
+     "label": "FABRIC & PRINT"
+    },
+    {
+     "uv": [
+      0.9,
+      0.72
+     ],
+     "label": "LENGTH"
+    }
+   ]
   },
   {
    "id": "147",
@@ -1510,7 +3143,30 @@
     895
    ],
    "grade": "A",
-   "poster": "posters/bulk/coords-dresses/147-rose.jpg"
+   "poster": "posters/bulk/coords-dresses/147-rose.jpg",
+   "details": [
+    {
+     "uv": [
+      0.739,
+      0.195
+     ],
+     "label": "CUT"
+    },
+    {
+     "uv": [
+      0.148,
+      0.438
+     ],
+     "label": "FABRIC & PRINT"
+    },
+    {
+     "uv": [
+      0.5,
+      0.658
+     ],
+     "label": "LENGTH"
+    }
+   ]
   },
   {
    "id": "188",
@@ -1531,7 +3187,30 @@
     1108
    ],
    "grade": "A",
-   "poster": "posters/bulk/coords-dresses/188-white.jpg"
+   "poster": "posters/bulk/coords-dresses/188-white.jpg",
+   "details": [
+    {
+     "uv": [
+      0.206,
+      0.218
+     ],
+     "label": "CUT"
+    },
+    {
+     "uv": [
+      0.838,
+      0.362
+     ],
+     "label": "FABRIC & PRINT"
+    },
+    {
+     "uv": [
+      0.482,
+      0.918
+     ],
+     "label": "LENGTH"
+    }
+   ]
   },
   {
    "id": "189",
@@ -1552,7 +3231,30 @@
     1084
    ],
    "grade": "A",
-   "poster": "posters/bulk/coords-dresses/189-crisp.jpg"
+   "poster": "posters/bulk/coords-dresses/189-crisp.jpg",
+   "details": [
+    {
+     "uv": [
+      0.529,
+      0.09
+     ],
+     "label": "CUT"
+    },
+    {
+     "uv": [
+      0.724,
+      0.36
+     ],
+     "label": "FABRIC & PRINT"
+    },
+    {
+     "uv": [
+      0.429,
+      0.88
+     ],
+     "label": "LENGTH"
+    }
+   ]
   },
   {
    "id": "201",
@@ -1573,7 +3275,30 @@
     971
    ],
    "grade": "A",
-   "poster": "posters/bulk/coords-dresses/201-boss.jpg"
+   "poster": "posters/bulk/coords-dresses/201-boss.jpg",
+   "details": [
+    {
+     "uv": [
+      0.55,
+      0.135
+     ],
+     "label": "CUT"
+    },
+    {
+     "uv": [
+      0.242,
+      0.365
+     ],
+     "label": "FABRIC & PRINT"
+    },
+    {
+     "uv": [
+      0.174,
+      0.728
+     ],
+     "label": "LENGTH"
+    }
+   ]
   },
   {
    "id": "272",
@@ -1594,7 +3319,30 @@
     1083
    ],
    "grade": "A",
-   "poster": "posters/bulk/coords-dresses/272-navy.jpg"
+   "poster": "posters/bulk/coords-dresses/272-navy.jpg",
+   "details": [
+    {
+     "uv": [
+      0.5,
+      0.092
+     ],
+     "label": "CUT"
+    },
+    {
+     "uv": [
+      0.202,
+      0.358
+     ],
+     "label": "FABRIC & PRINT"
+    },
+    {
+     "uv": [
+      0.516,
+      0.658
+     ],
+     "label": "LENGTH"
+    }
+   ]
   },
   {
    "id": "276",
@@ -1615,7 +3363,30 @@
     1080
    ],
    "grade": "A",
-   "poster": "posters/bulk/coords-dresses/276-zebra.jpg"
+   "poster": "posters/bulk/coords-dresses/276-zebra.jpg",
+   "details": [
+    {
+     "uv": [
+      0.855,
+      0.228
+     ],
+     "label": "CUT"
+    },
+    {
+     "uv": [
+      0.558,
+      0.415
+     ],
+     "label": "FABRIC & PRINT"
+    },
+    {
+     "uv": [
+      0.488,
+      0.708
+     ],
+     "label": "LENGTH"
+    }
+   ]
   },
   {
    "id": "277",
@@ -1636,7 +3407,30 @@
     1028
    ],
    "grade": "A",
-   "poster": "posters/bulk/coords-dresses/277-electric.jpg"
+   "poster": "posters/bulk/coords-dresses/277-electric.jpg",
+   "details": [
+    {
+     "uv": [
+      0.837,
+      0.255
+     ],
+     "label": "CUT"
+    },
+    {
+     "uv": [
+      0.43,
+      0.415
+     ],
+     "label": "FABRIC & PRINT"
+    },
+    {
+     "uv": [
+      0.494,
+      0.658
+     ],
+     "label": "LENGTH"
+    }
+   ]
   },
   {
    "id": "293",
@@ -1657,7 +3451,30 @@
     3502
    ],
    "grade": "A",
-   "poster": "posters/bulk/coords-dresses/dress-blue-floral-maxi.jpg"
+   "poster": "posters/bulk/coords-dresses/dress-blue-floral-maxi.jpg",
+   "details": [
+    {
+     "uv": [
+      0.366,
+      0.17
+     ],
+     "label": "CUT"
+    },
+    {
+     "uv": [
+      0.404,
+      0.415
+     ],
+     "label": "FABRIC & PRINT"
+    },
+    {
+     "uv": [
+      0.323,
+      0.945
+     ],
+     "label": "LENGTH"
+    }
+   ]
   },
   {
    "id": "297",
@@ -1678,7 +3495,30 @@
     1041
    ],
    "grade": "A",
-   "poster": "posters/bulk/coords-dresses/297-rust.jpg"
+   "poster": "posters/bulk/coords-dresses/297-rust.jpg",
+   "details": [
+    {
+     "uv": [
+      0.517,
+      0.145
+     ],
+     "label": "CUT"
+    },
+    {
+     "uv": [
+      0.104,
+      0.362
+     ],
+     "label": "FABRIC & PRINT"
+    },
+    {
+     "uv": [
+      0.5,
+      0.658
+     ],
+     "label": "LENGTH"
+    }
+   ]
   },
   {
    "id": "315",
@@ -1699,7 +3539,30 @@
     3682
    ],
    "grade": "A",
-   "poster": "posters/bulk/coords-dresses/315-romance.jpg"
+   "poster": "posters/bulk/coords-dresses/315-romance.jpg",
+   "details": [
+    {
+     "uv": [
+      0.179,
+      0.335
+     ],
+     "label": "CUT"
+    },
+    {
+     "uv": [
+      0.619,
+      0.63
+     ],
+     "label": "FABRIC & PRINT"
+    },
+    {
+     "uv": [
+      0.448,
+      0.695
+     ],
+     "label": "LENGTH"
+    }
+   ]
   },
   {
    "id": "190",
@@ -1720,7 +3583,30 @@
     1062
    ],
    "grade": "A",
-   "poster": "posters/bulk/eastern/190-grace.jpg"
+   "poster": "posters/bulk/eastern/190-grace.jpg",
+   "details": [
+    {
+     "uv": [
+      0.429,
+      0.198
+     ],
+     "label": "EMBROIDERY"
+    },
+    {
+     "uv": [
+      0.083,
+      0.39
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.665,
+      0.952
+     ],
+     "label": "FINISHING"
+    }
+   ]
   },
   {
    "id": "197",
@@ -1741,7 +3627,30 @@
     1062
    ],
    "grade": "A",
-   "poster": "posters/bulk/eastern/eid-embroidered-coord.jpg"
+   "poster": "posters/bulk/eastern/eid-embroidered-coord.jpg",
+   "details": [
+    {
+     "uv": [
+      0.433,
+      0.178
+     ],
+     "label": "EMBROIDERY"
+    },
+    {
+     "uv": [
+      0.914,
+      0.392
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.299,
+      0.952
+     ],
+     "label": "FINISHING"
+    }
+   ]
   },
   {
    "id": "271",
@@ -1762,7 +3671,30 @@
     1049
    ],
    "grade": "A",
-   "poster": "posters/bulk/eastern/271-heritage.jpg"
+   "poster": "posters/bulk/eastern/271-heritage.jpg",
+   "details": [
+    {
+     "uv": [
+      0.467,
+      0.098
+     ],
+     "label": "EMBROIDERY"
+    },
+    {
+     "uv": [
+      0.207,
+      0.612
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.154,
+      0.95
+     ],
+     "label": "FINISHING"
+    }
+   ]
   },
   {
    "id": "274",
@@ -1783,7 +3715,30 @@
     872
    ],
    "grade": "A",
-   "poster": "posters/bulk/eastern/274-print.jpg"
+   "poster": "posters/bulk/eastern/274-print.jpg",
+   "details": [
+    {
+     "uv": [
+      0.799,
+      0.258
+     ],
+     "label": "EMBROIDERY"
+    },
+    {
+     "uv": [
+      0.516,
+      0.54
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.5,
+      0.658
+     ],
+     "label": "FINISHING"
+    }
+   ]
   },
   {
    "id": "275",
@@ -1804,7 +3759,30 @@
     873
    ],
    "grade": "A",
-   "poster": "posters/bulk/eastern/275-monochrome.jpg"
+   "poster": "posters/bulk/eastern/275-monochrome.jpg",
+   "details": [
+    {
+     "uv": [
+      0.799,
+      0.255
+     ],
+     "label": "EMBROIDERY"
+    },
+    {
+     "uv": [
+      0.516,
+      0.54
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.5,
+      0.665
+     ],
+     "label": "FINISHING"
+    }
+   ]
   },
   {
    "id": "8",
@@ -1825,7 +3803,30 @@
     1648
    ],
    "grade": "A",
-   "poster": "posters/bulk/flats-jewellery/jewellery-star-locket.jpg"
+   "poster": "posters/bulk/flats-jewellery/jewellery-star-locket.jpg",
+   "details": [
+    {
+     "uv": [
+      0.0,
+      0.038
+     ],
+     "label": "DETAIL"
+    },
+    {
+     "uv": [
+      0.529,
+      0.612
+     ],
+     "label": "FINISH"
+    },
+    {
+     "uv": [
+      0.659,
+      0.752
+     ],
+     "label": "SHAPE"
+    }
+   ]
   },
   {
    "id": "185",
@@ -1846,7 +3847,30 @@
     1024
    ],
    "grade": "A",
-   "poster": "posters/bulk/flats-jewellery/flats-tan-thong.jpg"
+   "poster": "posters/bulk/flats-jewellery/flats-tan-thong.jpg",
+   "details": [
+    {
+     "uv": [
+      0.82,
+      0.282
+     ],
+     "label": "DETAIL"
+    },
+    {
+     "uv": [
+      0.149,
+      0.535
+     ],
+     "label": "FINISH"
+    },
+    {
+     "uv": [
+      0.212,
+      0.655
+     ],
+     "label": "SHAPE"
+    }
+   ]
   },
   {
    "id": "106",
@@ -1867,7 +3891,30 @@
     760
    ],
    "grade": "B",
-   "poster": "posters/bulk/handbags/bag-crystal-hobo.jpg"
+   "poster": "posters/bulk/handbags/bag-crystal-hobo.jpg",
+   "details": [
+    {
+     "uv": [
+      0.165,
+      0.288
+     ],
+     "label": "SHAPE"
+    },
+    {
+     "uv": [
+      0.93,
+      0.608
+     ],
+     "label": "FINISH"
+    },
+    {
+     "uv": [
+      0.862,
+      0.805
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "206",
@@ -1888,7 +3935,30 @@
     710
    ],
    "grade": "B",
-   "poster": "posters/bulk/handbags/206-safari.jpg"
+   "poster": "posters/bulk/handbags/206-safari.jpg",
+   "details": [
+    {
+     "uv": [
+      0.68,
+      0.092
+     ],
+     "label": "SHAPE"
+    },
+    {
+     "uv": [
+      0.749,
+      0.562
+     ],
+     "label": "FINISH"
+    },
+    {
+     "uv": [
+      0.911,
+      0.748
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "210",
@@ -1909,7 +3979,30 @@
     722
    ],
    "grade": "B",
-   "poster": "posters/bulk/handbags/210-sparkle.jpg"
+   "poster": "posters/bulk/handbags/210-sparkle.jpg",
+   "details": [
+    {
+     "uv": [
+      0.198,
+      0.185
+     ],
+     "label": "SHAPE"
+    },
+    {
+     "uv": [
+      0.342,
+      0.59
+     ],
+     "label": "FINISH"
+    },
+    {
+     "uv": [
+      0.41,
+      0.652
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "212",
@@ -1930,7 +4023,30 @@
     887
    ],
    "grade": "A",
-   "poster": "posters/bulk/handbags/bag-cherry-saddle.jpg"
+   "poster": "posters/bulk/handbags/bag-cherry-saddle.jpg",
+   "details": [
+    {
+     "uv": [
+      0.165,
+      0.312
+     ],
+     "label": "SHAPE"
+    },
+    {
+     "uv": [
+      0.936,
+      0.522
+     ],
+     "label": "FINISH"
+    },
+    {
+     "uv": [
+      0.128,
+      0.712
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "214",
@@ -1951,7 +4067,30 @@
     995
    ],
    "grade": "A",
-   "poster": "posters/bulk/handbags/214-luxe.jpg"
+   "poster": "posters/bulk/handbags/214-luxe.jpg",
+   "details": [
+    {
+     "uv": [
+      0.733,
+      0.295
+     ],
+     "label": "SHAPE"
+    },
+    {
+     "uv": [
+      0.663,
+      0.372
+     ],
+     "label": "FINISH"
+    },
+    {
+     "uv": [
+      0.581,
+      0.655
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "224",
@@ -1972,7 +4111,30 @@
     1404
    ],
    "grade": "A",
-   "poster": "posters/bulk/handbags/224-midnight.jpg"
+   "poster": "posters/bulk/handbags/224-midnight.jpg",
+   "details": [
+    {
+     "uv": [
+      0.322,
+      0.118
+     ],
+     "label": "SHAPE"
+    },
+    {
+     "uv": [
+      0.936,
+      0.612
+     ],
+     "label": "FINISH"
+    },
+    {
+     "uv": [
+      0.597,
+      0.662
+     ],
+     "label": "DETAILS"
+    }
+   ]
   },
   {
    "id": "96",
@@ -1993,7 +4155,30 @@
     283
    ],
    "grade": "B",
-   "poster": "posters/bulk/sunglasses/096-bold.jpg"
+   "poster": "posters/bulk/sunglasses/096-bold.jpg",
+   "details": [
+    {
+     "uv": [
+      0.308,
+      0.066
+     ],
+     "label": "FRAME"
+    },
+    {
+     "uv": [
+      0.428,
+      0.511
+     ],
+     "label": "LENS"
+    },
+    {
+     "uv": [
+      0.86,
+      0.869
+     ],
+     "label": "TEMPLE"
+    }
+   ]
   },
   {
    "id": "100",
@@ -2014,7 +4199,30 @@
     299
    ],
    "grade": "B",
-   "poster": "posters/bulk/sunglasses/100-pilot.jpg"
+   "poster": "posters/bulk/sunglasses/100-pilot.jpg",
+   "details": [
+    {
+     "uv": [
+      0.628,
+      0.081
+     ],
+     "label": "FRAME"
+    },
+    {
+     "uv": [
+      0.43,
+      0.507
+     ],
+     "label": "LENS"
+    },
+    {
+     "uv": [
+      0.098,
+      0.818
+     ],
+     "label": "TEMPLE"
+    }
+   ]
   },
   {
    "id": "264",
@@ -2035,7 +4243,30 @@
     288
    ],
    "grade": "B",
-   "poster": "posters/bulk/sunglasses/264-aviator.jpg"
+   "poster": "posters/bulk/sunglasses/264-aviator.jpg",
+   "details": [
+    {
+     "uv": [
+      0.038,
+      0.226
+     ],
+     "label": "FRAME"
+    },
+    {
+     "uv": [
+      0.4,
+      0.46
+     ],
+     "label": "LENS"
+    },
+    {
+     "uv": [
+      0.532,
+      0.92
+     ],
+     "label": "TEMPLE"
+    }
+   ]
   },
   {
    "id": "292",
@@ -2056,7 +4287,30 @@
     203
    ],
    "grade": "B",
-   "poster": "posters/bulk/sunglasses/shades-sunset.jpg"
+   "poster": "posters/bulk/sunglasses/shades-sunset.jpg",
+   "details": [
+    {
+     "uv": [
+      0.285,
+      0.177
+     ],
+     "label": "FRAME"
+    },
+    {
+     "uv": [
+      0.76,
+      0.446
+     ],
+     "label": "LENS"
+    },
+    {
+     "uv": [
+      0.382,
+      0.638
+     ],
+     "label": "TEMPLE"
+    }
+   ]
   },
   {
    "id": "303",
@@ -2077,7 +4331,30 @@
     232
    ],
    "grade": "B",
-   "poster": "posters/bulk/sunglasses/303-round.jpg"
+   "poster": "posters/bulk/sunglasses/303-round.jpg",
+   "details": [
+    {
+     "uv": [
+      0.202,
+      0.147
+     ],
+     "label": "FRAME"
+    },
+    {
+     "uv": [
+      0.705,
+      0.493
+     ],
+     "label": "LENS"
+    },
+    {
+     "uv": [
+      0.348,
+      0.647
+     ],
+     "label": "TEMPLE"
+    }
+   ]
   },
   {
    "id": "305",
@@ -2098,7 +4375,30 @@
     227
    ],
    "grade": "B",
-   "poster": "posters/bulk/sunglasses/305-tortoise.jpg"
+   "poster": "posters/bulk/sunglasses/305-tortoise.jpg",
+   "details": [
+    {
+     "uv": [
+      0.502,
+      0.132
+     ],
+     "label": "FRAME"
+    },
+    {
+     "uv": [
+      0.778,
+      0.591
+     ],
+     "label": "LENS"
+    },
+    {
+     "uv": [
+      0.43,
+      0.811
+     ],
+     "label": "TEMPLE"
+    }
+   ]
   },
   {
    "id": "0",
@@ -2119,7 +4419,30 @@
     968
    ],
    "grade": "A",
-   "poster": "posters/bulk/tops-winterwear/winter-gloss-puffer.jpg"
+   "poster": "posters/bulk/tops-winterwear/winter-gloss-puffer.jpg",
+   "details": [
+    {
+     "uv": [
+      0.497,
+      0.298
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.494,
+      0.395
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.117,
+      0.658
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "1",
@@ -2140,7 +4463,30 @@
     863
    ],
    "grade": "A",
-   "poster": "posters/bulk/tops-winterwear/001-layer.jpg"
+   "poster": "posters/bulk/tops-winterwear/001-layer.jpg",
+   "details": [
+    {
+     "uv": [
+      0.447,
+      0.065
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.128,
+      0.57
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.241,
+      0.838
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "4",
@@ -2161,7 +4507,30 @@
     960
    ],
    "grade": "A",
-   "poster": "posters/bulk/tops-winterwear/004-classic.jpg"
+   "poster": "posters/bulk/tops-winterwear/004-classic.jpg",
+   "details": [
+    {
+     "uv": [
+      0.442,
+      0.048
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.623,
+      0.385
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.583,
+      0.675
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "6",
@@ -2182,7 +4551,30 @@
     971
    ],
    "grade": "A",
-   "poster": "posters/bulk/tops-winterwear/006-cozy.jpg"
+   "poster": "posters/bulk/tops-winterwear/006-cozy.jpg",
+   "details": [
+    {
+     "uv": [
+      0.392,
+      0.145
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.471,
+      0.358
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.511,
+      0.798
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "9",
@@ -2203,7 +4595,30 @@
     572
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/009-tweed.jpg"
+   "poster": "posters/bulk/tops-winterwear/009-tweed.jpg",
+   "details": [
+    {
+     "uv": [
+      0.317,
+      0.288
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.164,
+      0.44
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.437,
+      0.662
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "11",
@@ -2224,7 +4639,30 @@
     1001
    ],
    "grade": "A",
-   "poster": "posters/bulk/tops-winterwear/011-easy.jpg"
+   "poster": "posters/bulk/tops-winterwear/011-easy.jpg",
+   "details": [
+    {
+     "uv": [
+      0.503,
+      0.122
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.524,
+      0.518
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.062,
+      0.922
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "12",
@@ -2245,7 +4683,30 @@
     610
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/012-soft.jpg"
+   "poster": "posters/bulk/tops-winterwear/012-soft.jpg",
+   "details": [
+    {
+     "uv": [
+      0.493,
+      0.078
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.156,
+      0.575
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.806,
+      0.665
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "14",
@@ -2266,7 +4727,30 @@
     971
    ],
    "grade": "A",
-   "poster": "posters/bulk/tops-winterwear/014-street.jpg"
+   "poster": "posters/bulk/tops-winterwear/014-street.jpg",
+   "details": [
+    {
+     "uv": [
+      0.348,
+      0.05
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.764,
+      0.59
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.725,
+      0.822
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "15",
@@ -2287,7 +4771,30 @@
     1065
    ],
    "grade": "A",
-   "poster": "posters/bulk/tops-winterwear/015-varsity.jpg"
+   "poster": "posters/bulk/tops-winterwear/015-varsity.jpg",
+   "details": [
+    {
+     "uv": [
+      0.349,
+      0.295
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.537,
+      0.4
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.248,
+      0.685
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "16",
@@ -2308,7 +4815,30 @@
     512
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/016-stories.jpg"
+   "poster": "posters/bulk/tops-winterwear/016-stories.jpg",
+   "details": [
+    {
+     "uv": [
+      0.517,
+      0.298
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.474,
+      0.498
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.798,
+      0.785
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "17",
@@ -2329,7 +4859,30 @@
     907
    ],
    "grade": "A",
-   "poster": "posters/bulk/tops-winterwear/017-sage.jpg"
+   "poster": "posters/bulk/tops-winterwear/017-sage.jpg",
+   "details": [
+    {
+     "uv": [
+      0.494,
+      0.06
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.416,
+      0.358
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.774,
+      0.73
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "19",
@@ -2350,7 +4903,30 @@
     839
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/019-warm.jpg"
+   "poster": "posters/bulk/tops-winterwear/019-warm.jpg",
+   "details": [
+    {
+     "uv": [
+      0.525,
+      0.092
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.744,
+      0.548
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.509,
+      0.658
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "20",
@@ -2371,7 +4947,30 @@
     709
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/020-preppy.jpg"
+   "poster": "posters/bulk/tops-winterwear/020-preppy.jpg",
+   "details": [
+    {
+     "uv": [
+      0.224,
+      0.198
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.161,
+      0.44
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.749,
+      0.845
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "21",
@@ -2392,7 +4991,30 @@
     1061
    ],
    "grade": "A",
-   "poster": "posters/bulk/tops-winterwear/021-sleek.jpg"
+   "poster": "posters/bulk/tops-winterwear/021-sleek.jpg",
+   "details": [
+    {
+     "uv": [
+      0.476,
+      0.075
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.515,
+      0.43
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.48,
+      0.658
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "22",
@@ -2413,7 +5035,30 @@
     823
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/022-sunny.jpg"
+   "poster": "posters/bulk/tops-winterwear/022-sunny.jpg",
+   "details": [
+    {
+     "uv": [
+      0.582,
+      0.305
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.495,
+      0.365
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.644,
+      0.905
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "24",
@@ -2434,7 +5079,30 @@
     888
    ],
    "grade": "A",
-   "poster": "posters/bulk/tops-winterwear/024-sporty.jpg"
+   "poster": "posters/bulk/tops-winterwear/024-sporty.jpg",
+   "details": [
+    {
+     "uv": [
+      0.701,
+      0.29
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.691,
+      0.36
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.938,
+      0.895
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "25",
@@ -2455,7 +5123,30 @@
     662
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/025-cheri.jpg"
+   "poster": "posters/bulk/tops-winterwear/025-cheri.jpg",
+   "details": [
+    {
+     "uv": [
+      0.503,
+      0.068
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.531,
+      0.362
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.22,
+      0.658
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "27",
@@ -2476,7 +5167,30 @@
     877
    ],
    "grade": "A",
-   "poster": "posters/bulk/tops-winterwear/027-dreamy.jpg"
+   "poster": "posters/bulk/tops-winterwear/027-dreamy.jpg",
+   "details": [
+    {
+     "uv": [
+      0.494,
+      0.265
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.487,
+      0.41
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.753,
+      0.708
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "28",
@@ -2497,7 +5211,30 @@
     989
    ],
    "grade": "A",
-   "poster": "posters/bulk/tops-winterwear/028-chill.jpg"
+   "poster": "posters/bulk/tops-winterwear/028-chill.jpg",
+   "details": [
+    {
+     "uv": [
+      0.506,
+      0.165
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.739,
+      0.482
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.945,
+      0.928
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "29",
@@ -2518,7 +5255,30 @@
     819
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/029-bomber.jpg"
+   "poster": "posters/bulk/tops-winterwear/029-bomber.jpg",
+   "details": [
+    {
+     "uv": [
+      0.568,
+      0.135
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.475,
+      0.36
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.521,
+      0.67
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "30",
@@ -2539,7 +5299,30 @@
     842
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/030-knit.jpg"
+   "poster": "posters/bulk/tops-winterwear/030-knit.jpg",
+   "details": [
+    {
+     "uv": [
+      0.248,
+      0.268
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.324,
+      0.395
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.369,
+      0.715
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "31",
@@ -2560,7 +5343,30 @@
     638
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/031-cobalt.jpg"
+   "poster": "posters/bulk/tops-winterwear/031-cobalt.jpg",
+   "details": [
+    {
+     "uv": [
+      0.548,
+      0.152
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.218,
+      0.482
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.218,
+      0.67
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "32",
@@ -2581,7 +5387,30 @@
     723
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/032-edge.jpg"
+   "poster": "posters/bulk/tops-winterwear/032-edge.jpg",
+   "details": [
+    {
+     "uv": [
+      0.814,
+      0.295
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.842,
+      0.358
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.513,
+      0.712
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "33",
@@ -2602,7 +5431,30 @@
     711
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/033-retro.jpg"
+   "poster": "posters/bulk/tops-winterwear/033-retro.jpg",
+   "details": [
+    {
+     "uv": [
+      0.4,
+      0.198
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.252,
+      0.488
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.059,
+      0.858
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "34",
@@ -2623,7 +5475,30 @@
     886
    ],
    "grade": "A",
-   "poster": "posters/bulk/tops-winterwear/034-comfy.jpg"
+   "poster": "posters/bulk/tops-winterwear/034-comfy.jpg",
+   "details": [
+    {
+     "uv": [
+      0.638,
+      0.078
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.519,
+      0.402
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.776,
+      0.68
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "36",
@@ -2644,7 +5519,30 @@
     926
    ],
    "grade": "A",
-   "poster": "posters/bulk/tops-winterwear/top-campus-sweatshirt.jpg"
+   "poster": "posters/bulk/tops-winterwear/top-campus-sweatshirt.jpg",
+   "details": [
+    {
+     "uv": [
+      0.421,
+      0.268
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.5,
+      0.432
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.196,
+      0.658
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "39",
@@ -2665,7 +5563,30 @@
     675
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/039-iconic.jpg"
+   "poster": "posters/bulk/tops-winterwear/039-iconic.jpg",
+   "details": [
+    {
+     "uv": [
+      0.272,
+      0.22
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.256,
+      0.372
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.724,
+      0.658
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "40",
@@ -2686,7 +5607,30 @@
     831
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/040-blush.jpg"
+   "poster": "posters/bulk/tops-winterwear/040-blush.jpg",
+   "details": [
+    {
+     "uv": [
+      0.479,
+      0.078
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.872,
+      0.378
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.863,
+      0.84
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "41",
@@ -2707,7 +5651,30 @@
     509
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/041-coral.jpg"
+   "poster": "posters/bulk/tops-winterwear/041-coral.jpg",
+   "details": [
+    {
+     "uv": [
+      0.473,
+      0.12
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.762,
+      0.388
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.674,
+      0.768
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "45",
@@ -2728,7 +5695,30 @@
     1365
    ],
    "grade": "A",
-   "poster": "posters/bulk/tops-winterwear/045-stripes.jpg"
+   "poster": "posters/bulk/tops-winterwear/045-stripes.jpg",
+   "details": [
+    {
+     "uv": [
+      0.625,
+      0.178
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.249,
+      0.507
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.783,
+      0.728
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "46",
@@ -2749,7 +5739,30 @@
     1253
    ],
    "grade": "A",
-   "poster": "posters/bulk/tops-winterwear/046-tie-up.jpg"
+   "poster": "posters/bulk/tops-winterwear/046-tie-up.jpg",
+   "details": [
+    {
+     "uv": [
+      0.236,
+      0.168
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.872,
+      0.368
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.92,
+      0.738
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "49",
@@ -2770,7 +5783,30 @@
     684
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/winter-leather-jacket.jpg"
+   "poster": "posters/bulk/tops-winterwear/winter-leather-jacket.jpg",
+   "details": [
+    {
+     "uv": [
+      0.618,
+      0.312
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.291,
+      0.382
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.535,
+      0.665
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "58",
@@ -2791,7 +5827,30 @@
     644
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/058-hoodie.jpg"
+   "poster": "posters/bulk/tops-winterwear/058-hoodie.jpg",
+   "details": [
+    {
+     "uv": [
+      0.493,
+      0.178
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.158,
+      0.365
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.78,
+      0.83
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "59",
@@ -2812,7 +5871,30 @@
     697
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/059-calm.jpg"
+   "poster": "posters/bulk/tops-winterwear/059-calm.jpg",
+   "details": [
+    {
+     "uv": [
+      0.474,
+      0.058
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.847,
+      0.42
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.865,
+      0.66
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "60",
@@ -2833,7 +5915,30 @@
     1032
    ],
    "grade": "A",
-   "poster": "posters/bulk/tops-winterwear/060-zip.jpg"
+   "poster": "posters/bulk/tops-winterwear/060-zip.jpg",
+   "details": [
+    {
+     "uv": [
+      0.446,
+      0.28
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.522,
+      0.358
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.767,
+      0.658
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "61",
@@ -2854,7 +5959,30 @@
     941
    ],
    "grade": "A",
-   "poster": "posters/bulk/tops-winterwear/061-layers.jpg"
+   "poster": "posters/bulk/tops-winterwear/061-layers.jpg",
+   "details": [
+    {
+     "uv": [
+      0.484,
+      0.055
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.773,
+      0.435
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.791,
+      0.66
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "62",
@@ -2875,7 +6003,30 @@
     1021
    ],
    "grade": "A",
-   "poster": "posters/bulk/tops-winterwear/062-polished.jpg"
+   "poster": "posters/bulk/tops-winterwear/062-polished.jpg",
+   "details": [
+    {
+     "uv": [
+      0.503,
+      0.132
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.505,
+      0.538
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.307,
+      0.712
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "64",
@@ -2896,7 +6047,30 @@
     619
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/064-latte.jpg"
+   "poster": "posters/bulk/tops-winterwear/064-latte.jpg",
+   "details": [
+    {
+     "uv": [
+      0.479,
+      0.128
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.167,
+      0.398
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.844,
+      0.658
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "69",
@@ -2917,7 +6091,30 @@
     1014
    ],
    "grade": "A",
-   "poster": "posters/bulk/tops-winterwear/069-forest.jpg"
+   "poster": "posters/bulk/tops-winterwear/069-forest.jpg",
+   "details": [
+    {
+     "uv": [
+      0.551,
+      0.05
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.872,
+      0.358
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.732,
+      0.92
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "70",
@@ -2938,7 +6135,30 @@
     848
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/070-sweet.jpg"
+   "poster": "posters/bulk/tops-winterwear/070-sweet.jpg",
+   "details": [
+    {
+     "uv": [
+      0.488,
+      0.27
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.492,
+      0.578
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.238,
+      0.682
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "71",
@@ -2959,7 +6179,30 @@
     818
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/071-team.jpg"
+   "poster": "posters/bulk/tops-winterwear/071-team.jpg",
+   "details": [
+    {
+     "uv": [
+      0.413,
+      0.298
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.494,
+      0.458
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.271,
+      0.845
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "108",
@@ -2980,7 +6223,30 @@
     629
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/108-artsy.jpg"
+   "poster": "posters/bulk/tops-winterwear/108-artsy.jpg",
+   "details": [
+    {
+     "uv": [
+      0.419,
+      0.278
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.519,
+      0.615
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.519,
+      0.655
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "113",
@@ -3001,7 +6267,30 @@
     839
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/113-block.jpg"
+   "poster": "posters/bulk/tops-winterwear/113-block.jpg",
+   "details": [
+    {
+     "uv": [
+      0.475,
+      0.068
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.185,
+      0.448
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.859,
+      0.912
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "114",
@@ -3022,7 +6311,30 @@
     785
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/114-move.jpg"
+   "poster": "posters/bulk/tops-winterwear/114-move.jpg",
+   "details": [
+    {
+     "uv": [
+      0.52,
+      0.172
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.207,
+      0.378
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.053,
+      0.9
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "116",
@@ -3043,7 +6355,30 @@
     698
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/116-paris.jpg"
+   "poster": "posters/bulk/tops-winterwear/116-paris.jpg",
+   "details": [
+    {
+     "uv": [
+      0.52,
+      0.285
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.67,
+      0.358
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.23,
+      0.7
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "117",
@@ -3064,7 +6399,30 @@
     730
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/117-mood.jpg"
+   "poster": "posters/bulk/tops-winterwear/117-mood.jpg",
+   "details": [
+    {
+     "uv": [
+      0.498,
+      0.298
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.502,
+      0.542
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.745,
+      0.93
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "118",
@@ -3085,7 +6443,30 @@
     811
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/118-rock.jpg"
+   "poster": "posters/bulk/tops-winterwear/118-rock.jpg",
+   "details": [
+    {
+     "uv": [
+      0.374,
+      0.215
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.403,
+      0.598
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.656,
+      0.688
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "122",
@@ -3106,7 +6487,30 @@
     754
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/122-pure.jpg"
+   "poster": "posters/bulk/tops-winterwear/122-pure.jpg",
+   "details": [
+    {
+     "uv": [
+      0.293,
+      0.108
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.707,
+      0.612
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.731,
+      0.908
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "146",
@@ -3127,7 +6531,30 @@
     695
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/146-wild.jpg"
+   "poster": "posters/bulk/tops-winterwear/146-wild.jpg",
+   "details": [
+    {
+     "uv": [
+      0.173,
+      0.285
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.878,
+      0.515
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.211,
+      0.65
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "215",
@@ -3148,7 +6575,30 @@
     736
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/215-cute.jpg"
+   "poster": "posters/bulk/tops-winterwear/215-cute.jpg",
+   "details": [
+    {
+     "uv": [
+      0.529,
+      0.235
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.214,
+      0.528
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.157,
+      0.698
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "263",
@@ -3169,7 +6619,30 @@
     562
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/263-simple.jpg"
+   "poster": "posters/bulk/tops-winterwear/263-simple.jpg",
+   "details": [
+    {
+     "uv": [
+      0.481,
+      0.06
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.778,
+      0.38
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.493,
+      0.678
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "267",
@@ -3190,7 +6663,30 @@
     599
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/267-city.jpg"
+   "poster": "posters/bulk/tops-winterwear/267-city.jpg",
+   "details": [
+    {
+     "uv": [
+      0.515,
+      0.168
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.508,
+      0.415
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.183,
+      0.852
+     ],
+     "label": "FINISH"
+    }
+   ]
   },
   {
    "id": "268",
@@ -3211,7 +6707,30 @@
     770
    ],
    "grade": "B",
-   "poster": "posters/bulk/tops-winterwear/268-check.jpg"
+   "poster": "posters/bulk/tops-winterwear/268-check.jpg",
+   "details": [
+    {
+     "uv": [
+      0.177,
+      0.218
+     ],
+     "label": "CUT & SHAPE"
+    },
+    {
+     "uv": [
+      0.213,
+      0.582
+     ],
+     "label": "FABRIC"
+    },
+    {
+     "uv": [
+      0.21,
+      0.655
+     ],
+     "label": "FINISH"
+    }
+   ]
   }
  ],
  "combos": [

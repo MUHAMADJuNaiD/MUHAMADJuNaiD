@@ -1,9 +1,343 @@
 [
  {
-  "name": "reel-gloss-puffer-v2",
+  "name": "blouses-shirts-057-noir",
+  "product": "57",
+  "template": "hero3"
+ },
+ {
+  "name": "blouses-shirts-073-bold",
+  "product": "73",
+  "template": "hero3"
+ },
+ {
+  "name": "blouses-shirts-121-essential",
+  "product": "121",
+  "template": "hero3"
+ },
+ {
+  "name": "blouses-shirts-127-mocha",
+  "product": "127",
+  "template": "hero3"
+ },
+ {
+  "name": "blouses-shirts-136-boho",
+  "product": "136",
+  "template": "hero3"
+ },
+ {
+  "name": "blouses-shirts-138-sheer",
+  "product": "138",
+  "template": "hero3"
+ },
+ {
+  "name": "blouses-shirts-141-royal",
+  "product": "141",
+  "template": "hero3"
+ },
+ {
+  "name": "blouses-shirts-204-tied",
+  "product": "204",
+  "template": "hero3"
+ },
+ {
+  "name": "blouses-shirts-270-azure",
+  "product": "270",
+  "template": "hero3"
+ },
+ {
+  "name": "blouses-shirts-273-caramel",
+  "product": "273",
+  "template": "hero3"
+ },
+ {
+  "name": "blouses-shirts-330-shape",
+  "product": "330",
+  "template": "hero3"
+ },
+ {
+  "name": "bottoms-043-straight",
+  "product": "43",
+  "template": "hero3"
+ },
+ {
+  "name": "bottoms-044-olive",
+  "product": "44",
+  "template": "hero3"
+ },
+ {
+  "name": "bottoms-051-track",
+  "product": "51",
+  "template": "hero3"
+ },
+ {
+  "name": "bottoms-052-sky",
+  "product": "52",
+  "template": "hero3"
+ },
+ {
+  "name": "bottoms-053-cargo",
+  "product": "53",
+  "template": "hero3"
+ },
+ {
+  "name": "bottoms-055-denim",
+  "product": "55",
+  "template": "hero3"
+ },
+ {
+  "name": "bottoms-074-candy",
+  "product": "74",
+  "template": "hero3"
+ },
+ {
+  "name": "bottoms-078-utility",
+  "product": "78",
+  "template": "hero3"
+ },
+ {
+  "name": "bottoms-080-indigo",
+  "product": "80",
+  "template": "hero3"
+ },
+ {
+  "name": "bottoms-084-sand",
+  "product": "84",
+  "template": "hero3"
+ },
+ {
+  "name": "bottoms-086-blue",
+  "product": "86",
+  "template": "hero3"
+ },
+ {
+  "name": "bottoms-092-groovy",
+  "product": "92",
+  "template": "hero3"
+ },
+ {
+  "name": "bottoms-093-wide",
+  "product": "93",
+  "template": "hero3"
+ },
+ {
+  "name": "bottoms-111-palazzo",
+  "product": "111",
+  "template": "hero3"
+ },
+ {
+  "name": "bottoms-112-parachute",
+  "product": "112",
+  "template": "hero3"
+ },
+ {
+  "name": "bottoms-130-fuchsia",
+  "product": "130",
+  "template": "hero3"
+ },
+ {
+  "name": "bottoms-131-race",
+  "product": "131",
+  "template": "hero3"
+ },
+ {
+  "name": "bottoms-134-everyday",
+  "product": "134",
+  "template": "hero3"
+ },
+ {
+  "name": "bottoms-139-ivory",
+  "product": "139",
+  "template": "hero3"
+ },
+ {
+  "name": "bottoms-140-champagne",
+  "product": "140",
+  "template": "hero3"
+ },
+ {
+  "name": "bottoms-164-golden",
+  "product": "164",
+  "template": "hero3"
+ },
+ {
+  "name": "bottoms-311-ombre",
+  "product": "311",
+  "template": "hero3"
+ },
+ {
+  "name": "bottoms-312-twist",
+  "product": "312",
+  "template": "hero3"
+ },
+ {
+  "name": "coords-dresses-119-matchy",
+  "product": "119",
+  "template": "hero3"
+ },
+ {
+  "name": "coords-dresses-120-lounge",
+  "product": "120",
+  "template": "hero3"
+ },
+ {
+  "name": "coords-dresses-125-cream",
+  "product": "125",
+  "template": "hero3"
+ },
+ {
+  "name": "coords-dresses-126-elegant",
+  "product": "126",
+  "template": "hero3"
+ },
+ {
+  "name": "coords-dresses-129-smart",
+  "product": "129",
+  "template": "hero3"
+ },
+ {
+  "name": "coords-dresses-135-one",
+  "product": "135",
+  "template": "hero3"
+ },
+ {
+  "name": "coords-dresses-137-peach",
+  "product": "137",
+  "template": "hero3"
+ },
+ {
+  "name": "coords-dresses-147-rose",
+  "product": "147",
+  "template": "hero3"
+ },
+ {
+  "name": "coords-dresses-188-white",
+  "product": "188",
+  "template": "hero3"
+ },
+ {
+  "name": "coords-dresses-189-crisp",
+  "product": "189",
+  "template": "hero3"
+ },
+ {
+  "name": "coords-dresses-201-boss",
+  "product": "201",
+  "template": "hero3"
+ },
+ {
+  "name": "coords-dresses-272-navy",
+  "product": "272",
+  "template": "hero3"
+ },
+ {
+  "name": "coords-dresses-276-zebra",
+  "product": "276",
+  "template": "hero3"
+ },
+ {
+  "name": "coords-dresses-277-electric",
+  "product": "277",
+  "template": "hero3"
+ },
+ {
+  "name": "coords-dresses-293-bloom",
+  "product": "293",
+  "template": "hero3"
+ },
+ {
+  "name": "coords-dresses-297-rust",
+  "product": "297",
+  "template": "hero3"
+ },
+ {
+  "name": "coords-dresses-315-romance",
+  "product": "315",
+  "template": "hero3"
+ },
+ {
+  "name": "eastern-190-grace",
+  "product": "190",
+  "template": "hero3"
+ },
+ {
+  "name": "eastern-197-festive",
+  "product": "197",
+  "template": "hero3"
+ },
+ {
+  "name": "eastern-271-heritage",
+  "product": "271",
+  "template": "hero3"
+ },
+ {
+  "name": "eastern-274-print",
+  "product": "274",
+  "template": "hero3"
+ },
+ {
+  "name": "eastern-275-monochrome",
+  "product": "275",
+  "template": "hero3"
+ },
+ {
+  "name": "flats-jewellery-008-star",
+  "product": "8",
+  "template": "hero3"
+ },
+ {
+  "name": "flats-jewellery-185-step",
+  "product": "185",
+  "template": "hero3"
+ },
+ {
+  "name": "handbags-212-cherry",
+  "product": "212",
+  "template": "hero3"
+ },
+ {
+  "name": "handbags-214-luxe",
+  "product": "214",
+  "template": "hero3"
+ },
+ {
+  "name": "handbags-224-midnight",
+  "product": "224",
+  "template": "hero3"
+ },
+ {
+  "name": "sunglasses-096-bold",
+  "product": "96",
+  "template": "hero3"
+ },
+ {
+  "name": "sunglasses-100-pilot",
+  "product": "100",
+  "template": "hero3"
+ },
+ {
+  "name": "sunglasses-264-aviator",
+  "product": "264",
+  "template": "hero3"
+ },
+ {
+  "name": "sunglasses-292-shades",
+  "product": "292",
+  "template": "hero3"
+ },
+ {
+  "name": "sunglasses-303-round",
+  "product": "303",
+  "template": "hero3"
+ },
+ {
+  "name": "sunglasses-305-tortoise",
+  "product": "305",
+  "template": "hero3"
+ },
+ {
+  "name": "tops-winterwear-000-gloss",
   "product": "0",
-  "palette": "lime-violet",
-  "hookLine": "WINTER, BUT MAKE IT SHINE.",
+  "template": "hero3",
   "calls": [
    {
     "uv": [
@@ -38,9 +372,101 @@
     "side": "l"
    }
   ],
-  "template": "hero2",
-  "override": {
-   "coverAt": 12.6
-  }
+  "palette": "lime-violet"
+ },
+ {
+  "name": "tops-winterwear-001-layer",
+  "product": "1",
+  "template": "hero3"
+ },
+ {
+  "name": "tops-winterwear-004-classic",
+  "product": "4",
+  "template": "hero3"
+ },
+ {
+  "name": "tops-winterwear-006-cozy",
+  "product": "6",
+  "template": "hero3"
+ },
+ {
+  "name": "tops-winterwear-011-easy",
+  "product": "11",
+  "template": "hero3"
+ },
+ {
+  "name": "tops-winterwear-014-street",
+  "product": "14",
+  "template": "hero3"
+ },
+ {
+  "name": "tops-winterwear-015-varsity",
+  "product": "15",
+  "template": "hero3"
+ },
+ {
+  "name": "tops-winterwear-017-sage",
+  "product": "17",
+  "template": "hero3"
+ },
+ {
+  "name": "tops-winterwear-021-sleek",
+  "product": "21",
+  "template": "hero3"
+ },
+ {
+  "name": "tops-winterwear-024-sporty",
+  "product": "24",
+  "template": "hero3"
+ },
+ {
+  "name": "tops-winterwear-027-dreamy",
+  "product": "27",
+  "template": "hero3"
+ },
+ {
+  "name": "tops-winterwear-028-chill",
+  "product": "28",
+  "template": "hero3"
+ },
+ {
+  "name": "tops-winterwear-034-comfy",
+  "product": "34",
+  "template": "hero3"
+ },
+ {
+  "name": "tops-winterwear-036-campus",
+  "product": "36",
+  "template": "hero3"
+ },
+ {
+  "name": "tops-winterwear-045-stripes",
+  "product": "45",
+  "template": "hero3"
+ },
+ {
+  "name": "tops-winterwear-046-tie-up",
+  "product": "46",
+  "template": "hero3"
+ },
+ {
+  "name": "tops-winterwear-060-zip",
+  "product": "60",
+  "template": "hero3"
+ },
+ {
+  "name": "tops-winterwear-061-layers",
+  "product": "61",
+  "template": "hero3"
+ },
+ {
+  "name": "tops-winterwear-062-polished",
+  "product": "62",
+  "template": "hero3"
+ },
+ {
+  "name": "tops-winterwear-069-forest",
+  "product": "69",
+  "template": "hero3"
  }
 ]

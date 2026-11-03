@@ -11,6 +11,7 @@ const MIME = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css
   '.webp': 'image/webp', '.ttf': 'font/ttf', '.woff2': 'font/woff2' };
 const data = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/products.json')));
 const PAL = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/palettes.json')));
+const BRAND = fs.existsSync(path.join(ROOT, 'data/brand.json')) ? JSON.parse(fs.readFileSync(path.join(ROOT, 'data/brand.json'))) : {};
 const byId = Object.fromEntries(data.products.map(p => [p.id, p]));
 
 // Turn a short reel entry into the full template config (product data + palette are filled in automatically)
@@ -18,7 +19,7 @@ function buildCfg(r) {
   const p = byId[String(r.product)]; if (!p) throw new Error('unknown product ' + r.product);
   const pal = PAL[r.palette || p.palette];
   return Object.assign({
-    img: p.img, h: 2.12, float: true, dur: r.template === 'hero2' ? 14 : 16,
+    img: p.img, h: 2.12, float: true, dur: (r.template === 'hero2' || r.template === 'hero3') ? 14 : 16, folder: p.folder, brand: BRAND, details: p.details || [],
     pal: { bg: pal.bg, bg2: pal.bg2, word: pal.word, ink: pal.ink, pod: pal.word, btnink: pal.btnink },
     cat: p.cat, word: p.word, hookLine: '', kick: p.kicker, head: p.head, desc: p.desc,
     chip: p.chip || ['', pal.word], calls: [], comment: p.word,
@@ -43,7 +44,7 @@ async function main() {
     const out = path.join(outDir, (r.name || `reel-${r.product}`) + '.mp4');
     // resume: skip reels that are already finished (the cover is written last)
     if (fs.existsSync(out) && fs.existsSync(out.replace('.mp4', '-cover.jpg'))) { console.log('skip (already done) ' + out); continue; }
-    const page = await browser.newPage({ viewport: { width: 1440, height: 2560 } });
+    const page = await browser.newPage({ viewport: r.template === 'hero3' ? { width: 1728, height: 2160 } : { width: 1440, height: 2560 } });
     await page.addInitScript(c => { window.REEL_CFG = c; }, cfg);
     page.on('pageerror', e => console.log('pageerror:', e.message));
     await page.goto(`http://127.0.0.1:${port}/${r.template || 'hero'}.html`);

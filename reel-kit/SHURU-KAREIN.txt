@@ -1,38 +1,24 @@
-OUTLOOK STYLES REEL KIT v2 - SHURU KAREIN (bina credits ke)
+OUTLOOK STYLES REEL KIT v3 - SHURU KAREIN (bina credits ke)
 =========================================================
-Is folder mein: 160 HD products + data + template v1 (hero) aur v2 (hero2)
-+ MUSIC aur SOUND EFFECTS (audio folder) - sab automatic lagte hain.
+NAYA v3 "STORY REEL":  4:5 (1728 x 2160, 2K), 30 fps, ~14 second
+  1) Andhera + spotlight: "OUTLOOK STYLES - SOMETHING NEW IS COMING" (product ki parchhaai)
+  2) Lights on: product apne rang mein, peeche 3D word
+  3) Details: magnifying lens product ki 3 asli details dikhata hai (har product ke liye khud chuni gayi)
+  4) Colour chip + naam + headline
+  5) Shop: "NOW LIVE ON OUR WEBSITE  outlookstyles.com", @outlook_.styles, DM TO ORDER,
+     Delivery all over Pakistan + Jasmine Mall address
+  Product hamesha CENTER mein. Sound effects kam: har sound sirf ek dafa.
 
-EK DAFA SETUP (agar pehle kar chuke hain to dobara zaroorat nahi,
-sirf naya folder hai to "1-SETUP" phir chalayein):
-  Windows: "1-SETUP-WINDOWS.bat" double-click (agar kahe dobara chalayein, to dobara).
-  Mac:     "1-SETUP-MAC.command" double-click.
+BRAND INFO badalni ho (website / address / instagram): "data/brand.json" Notepad mein kholein.
+
+SETUP: agar naya folder hai to pehle "1-SETUP-WINDOWS.bat" ek dafa chalayein.
 
 REELS BANANA:
-  1) "reels.json" Notepad mein kholein. Har reel ki ek line, misaal:
-     [
-       { "product": "0",   "template": "hero2" },
-       { "product": "212", "template": "hero2" },
-       { "product": "36",  "template": "hero2", "music": "02-luxe-night-120bpm.mp3" }
-     ]
-     - Aakhri line ke baad comma NAHI.
-     - Product number = poster file ka shuru wala number (posters/bulk/...  036-campus.jpg = 36),
-       ya data/products.json mein "id".
-  2) Windows: "2-MAKE-REELS-WINDOWS.bat"   |   Mac: "2-MAKE-REELS-MAC.command"
-  3) "out" folder mein har reel ki 3 files:
-       naam.mp4            -> music + sound effects ke saath (seedha post karein)
-       naam-sfx-only.mp4   -> sirf sound effects (Instagram pe trending gaana khud lagane ke liye)
-       naam-cover.jpg      -> cover / thumbnail
+  - "reels.json" mein pehle se saari reels ki list hai (template "hero3").
+  - "2-MAKE-REELS-FAST-GPU-WINDOWS.bat" (ya normal "2-MAKE-REELS-WINDOWS.bat") chalayein.
+  - Reels "out" folder mein:  naam.mp4 (music+sfx) | naam-sfx-only.mp4 | naam-cover.jpg
+  - Beech mein band kar sakte hain (Ctrl+C ya X). Dobara chalayein to bani hui reels skip hongi.
 
-MUSIC:
-  - "music" na likhein to khud choose hota hai (product ke rang/category ke hisaab se).
-  - Apna music: royalty-free MP3 "audio/music" folder mein daalein aur naam "music" mein likhein.
-    (Pixabay Music / YouTube Audio Library - 120 BPM tracks best. Bollywood gaane NAHI.)
-  - Music bilkul nahi chahiye: "music": false   |   koi sound nahi: "sound": false
-
-OPTIONAL: "hookLine": "WINTER, BUT MAKE IT SHINE."   (hook ke neeche chhoti line)
-          "calls": [...]  feature callouts (reels.json ki gloss puffer misaal dekhein)
-
-TIME: ek reel ~8-10 min (graphics card ho to "2-MAKE-REELS-FAST-GPU-WINDOWS.bat" se tez).
-      20-30 reels ek saath likh kar raat ko chala dein.
-MASLA: error aaye to window ka screenshot bhej dein.
+APNI LIST: reels.json mein sirf ye likhein:  { "product": "36", "template": "hero3" },
+  (product number = poster file ka shuru wala number. Aakhri line ke baad comma nahi.)
+  Music khud chuni jaati hai; apni chahiye to: "music": "02-luxe-night-120bpm.mp3"
