@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Outlook Styles Listing Image</title>
+<link rel="stylesheet" href="../../reel-kit/assets/fonts.css">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:2048px;height:2048px;overflow:hidden;background:#fff}
+  #c{position:relative;width:2048px;height:2048px;overflow:hidden;font-family:'Montserrat',sans-serif}
+  .abs{position:absolute}
+  .crop{position:absolute;overflow:hidden}
+  .crop img{position:absolute;display:block}
+  .pf{font-family:'Playfair Display',serif}
+  .cap{font-weight:700;letter-spacing:.3em;text-transform:uppercase}
+  .pill{display:inline-block;font-weight:700;letter-spacing:.2em;border-radius:999px}
+  .star{position:absolute}
+</style>
+</head>
+<body>
+<div id="c"></div>
+<script>
+// One page, four looks: ?mode=main|poster|detail|info  (job data in window.JOB, set by render.js)
+const J = window.JOB, P = J.pal, MODE = new URLSearchParams(location.search).get('mode');
+const S = 2048, c = document.getElementById('c');
+const hex = h => [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16) / 255);
+const lum = h => { const [r, g, b] = hex(h).map(v => v <= .03928 ? v / 12.92 : Math.pow((v + .055) / 1.055, 2.4)); return .2126 * r + .7152 * g + .0722 * b; };
+const contrast = (a, b) => { const x = lum(a), y = lum(b); return (Math.max(x, y) + .05) / (Math.min(x, y) + .05); };
+const STAR = 'M50 0 C54 38 62 46 100 50 C62 54 54 62 50 100 C46 62 38 54 0 50 C38 46 46 38 50 0Z';
+const star = (x, y, s, col, op = 1) => `<svg class="star" style="left:${x}px;top:${y}px;width:${s}px;height:${s}px;opacity:${op}" viewBox="0 0 100 100"><path d="${STAR}" fill="${col}"/></svg>`;
+const title = s => s.replace(/^THE /, '').toLowerCase().replace(/(^|[\s-])\w/g, m => m.toUpperCase());
+const catName = s => s.charAt(0) + s.slice(1).toLowerCase();
+const [bx0, by0, bx1, by1] = J.bbox, bw = bx1 - bx0, bh = by1 - by0;
+// product box: draws the trimmed cut-out so it fits (w x h) centred on (cx, cy); returns its rect
+function product(cx, cy, w, h, extra = '') {
+  const k = Math.min(w / bw, h / bh), dw = bw * k, dh = bh * k, x = cx - dw / 2, y = cy - dh / 2;
+  return { html: `<div class="crop" style="left:${x}px;top:${y}px;width:${dw}px;height:${dh}px;${extra}">
+    <img src="${J.img}" style="left:${-bx0 * k}px;top:${-by0 * k}px;width:${J.size[0] * k}px;height:${J.size[1] * k}px"></div>`, x, y, w: dw, h: dh };
+}
+function cropTile(cr, x, y, w, h, extra = '') {
+  const [sx, sy, sw, sh] = cr, k = Math.max(w / sw, h / sh);
+  const ox = sx * k - (sw * k - w) / 2, oy = sy * k - (sh * k - h) / 2;
+  return `<div class="crop" style="left:${x}px;top:${y}px;width:${w}px;height:${h}px;${extra}">
+    <img src="${J.img}" style="left:${-ox}px;top:${-oy}px;width:${J.size[0] * k}px;height:${J.size[1] * k}px"></div>`;
+}
+const shadow = (cx, y, w, op = .28) => `<div class="abs" style="left:${cx - w / 2}px;top:${y - w * .045}px;width:${w}px;height:${w * .09}px;border-radius:50%;
+  background:radial-gradient(closest-side, rgba(0,0,0,${op}), rgba(0,0,0,${op * .4}) 55%, rgba(0,0,0,0));filter:blur(6px)"></div>`;
+// accent colours that read on a light card
+const onLight = [P.word, P.btn, P.bg, P.ink, '#1A1A1A'].find(x => contrast(x, '#FFFFFF') >= 3.2);
+const head = J.head.replace(/<b>/g, `<b style="color:${P.word}">`);
+
+if (MODE === 'main') {
+  // clean marketplace image: white background, product ~86 % of the frame, soft contact shadow
+  const p = product(S / 2, S / 2 - 10, 1740, 1740, 'filter:drop-shadow(0 18px 26px rgba(0,0,0,.10))');
+  c.innerHTML = `<div class="abs" style="inset:0;background:#FFFFFF"></div>${shadow(S / 2, p.y + p.h + 4, p.w * .82, .16)}${p.html}`;
+}
+
+if (MODE === 'poster') {
+  // square "Colour Pop" poster in the product's approved palette
+  const wd = J.word.length, fs = Math.min(560, 1760 / (wd * .74));
+  const deep = `color-mix(in srgb, ${P.word} 62%, #000)`;
+  let ext = ''; for (let i = 1; i <= 14; i++) ext += `${i * .9}px ${i * 1.1}px 0 ${deep},`;
+  const p = product(S / 2, 1050, 1500, 1180, 'filter:drop-shadow(0 30px 34px rgba(0,0,0,.28)) drop-shadow(0 6px 8px rgba(0,0,0,.18))');
+  c.innerHTML = `
+   <div class="abs" style="inset:0;background:radial-gradient(circle at 50% 46%, ${P.bg2} 0, ${P.bg} 62%, color-mix(in srgb, ${P.bg} 82%, #000) 100%)"></div>
+   <div class="abs" style="left:50%;top:420px;width:1500px;height:1500px;margin-left:-750px;border-radius:50%;background:radial-gradient(closest-side, color-mix(in srgb, ${P.bg2} 70%, #fff) , rgba(255,255,255,0));opacity:.55"></div>
+   <div class="abs cap" style="left:110px;right:110px;top:96px;display:flex;justify-content:space-between;align-items:center;color:${P.ink};font-size:34px">
+     <span>NEW IN</span><span style="font-size:44px;letter-spacing:.42em">OUTLOOK STYLES</span>
+     <span class="pill" style="border:3px solid currentColor;padding:12px 26px;font-size:28px">${J.cat}</span></div>
+   <div class="abs" style="left:110px;right:110px;top:176px;height:3px;background:${P.ink};opacity:.45"></div>
+   <div class="abs pf" style="left:0;right:0;top:${330 - fs * .18}px;text-align:center;font-weight:900;font-size:${fs}px;line-height:1;color:${P.word};
+     letter-spacing:-.01em;text-shadow:${ext}0 40px 60px rgba(0,0,0,.25)">${J.word}</div>
+   ${shadow(S / 2, p.y + p.h + 6, p.w * .9, .34)}${p.html}
+   <div class="abs" style="left:0;right:0;top:1688px;text-align:center;color:${P.ink}">
+     <div class="pf" style="font-style:italic;font-weight:600;font-size:112px;line-height:1">${head}</div>
+     <div style="margin-top:44px"><span class="pill" style="background:${P.btn};color:${P.btnink};font-size:40px;padding:30px 70px 28px 76px;
+       box-shadow:0 16px 34px rgba(0,0,0,.28), inset 0 3px 0 rgba(255,255,255,.3)">DM TO ORDER &nbsp;&rarr;</span></div>
+   </div>
+   <div class="abs cap" style="left:0;right:0;bottom:44px;text-align:center;font-size:26px;color:${P.ink};opacity:.85">Delivery all over Pakistan</div>
+   ${star(1700, 470, 90, P.word)}${star(250, 760, 56, P.word, .9)}${star(1780, 1330, 46, P.ink, .5)}${star(200, 1420, 40, P.word, .7)}`;
+}
+
+if (MODE === 'detail') {
+  // close-ups straight from the HD photo (max ~1.12x, so they stay sharp)
+  const cr = J.crops, [tw, th] = J.tile, bg = P.bg2, txt = lum(bg) > .3 ? '#1A1A1A' : '#FFFFFF';
+  let tiles = '';
+  const box = 'background:#fff;border-radius:36px;box-shadow:0 26px 50px rgba(0,0,0,.22);border:10px solid #fff';
+  if (cr.length >= 2 && !J.wide) {
+    const gap = 60, x0 = (S - (tw * 2 + gap)) / 2, y = 360 + (1320 - th) / 2;
+    tiles = cropTile(cr[0], x0, y, tw, th, box) + cropTile(cr[1], x0 + tw + gap, y, tw, th, box);
+  } else if (cr.length >= 2 && J.wide) {
+    const x = (S - tw) / 2; tiles = cropTile(cr[0], x, 380, tw, th, box) + cropTile(cr[1], x, 380 + th + 56, tw, th, box);
+  } else if (J.wide) {
+    // one wide crop on top, full product underneath
+    const k = Math.min(1848 / tw, 1), w = tw * k, h = th * k;
+    const p = product(S / 2, 1460, 1500, 560, 'filter:drop-shadow(0 18px 24px rgba(0,0,0,.2))');
+    tiles = (cr[0] ? cropTile(cr[0], (S - w) / 2, 400, w, h, box) : '') + p.html;
+  } else {
+    // one crop: big tile beside a small full product reference
+    const k = Math.min(1180 / tw, 1360 / th, 1.0), w = tw * k, h = th * k;
+    const p = product(1610, 1040, 640, 1300, 'filter:drop-shadow(0 18px 24px rgba(0,0,0,.2))');
+    tiles = (cr[0] ? cropTile(cr[0], 150 + (1180 - w) / 2, 360 + (1360 - h) / 2, w, h, box) : '') + p.html;
+  }
+  c.innerHTML = `
+   <div class="abs" style="inset:0;background:radial-gradient(circle at 50% 50%, ${bg}, color-mix(in srgb, ${bg} 86%, ${P.bg}) 80%)"></div>
+   <div class="abs" style="left:0;right:0;top:110px;text-align:center">
+     <div class="cap" style="font-size:30px;color:${contrast(P.ink, bg) >= 3 ? P.ink : txt};opacity:.85">${J.kick}</div>
+     <div class="pf" style="font-weight:900;font-size:120px;line-height:1.05;color:${contrast(P.word, bg) >= 2.6 ? P.word : onLight}">The Details</div></div>
+   ${tiles}
+   <div class="abs cap" style="left:0;right:0;bottom:120px;text-align:center;font-size:30px;color:${txt};opacity:.8">Real product photo &nbsp;•&nbsp; Outlook Styles</div>
+   ${star(1830, 150, 70, contrast(P.word, bg) >= 2.6 ? P.word : onLight, .9)}${star(150, 1820, 48, contrast(P.word, bg) >= 2.6 ? P.word : onLight, .7)}`;
+}
+
+if (MODE === 'info') {
+  // info card: name, description, colour chip, key features, how to order
+  let feats = J.desc.replace(/\.$/, '').split(/,\s*|\s+with\s+|\s+and\s+|\s+in\s+(?=a\s|an\s)/i).map(s => s.trim().replace(/^(a|an)\s+/i, '')).filter(Boolean)
+    .map(s => s.charAt(0).toUpperCase() + s.slice(1));
+  if (feats.length < 2) feats = [];
+  const pillBg = onLight, pillInk = contrast(pillBg, '#FFFFFF') >= contrast(pillBg, '#1A1A1A') ? '#FFFFFF' : '#1A1A1A';
+  const ink = '#1A1A1A', acc = onLight;
+  const p = product(560, 1010, 720, 1300, 'filter:drop-shadow(0 22px 28px rgba(0,0,0,.18))');
+  c.innerHTML = `
+   <div class="abs" style="inset:0;background:${P.bg}"></div>
+   <div class="abs" style="left:70px;top:70px;right:70px;bottom:70px;background:#FFFFFF;border-radius:56px;box-shadow:0 30px 70px rgba(0,0,0,.22)"></div>
+   <div class="abs" style="left:130px;top:130px;width:860px;height:1788px;border-radius:40px;background:radial-gradient(circle at 50% 45%, #FFFFFF, color-mix(in srgb, ${lum(P.bg2) > .25 ? P.bg2 : P.word} 30%, #fff) 85%)"></div>
+   ${shadow(560, p.y + p.h + 4, p.w * .85, .2)}${p.html}
+   <div class="abs" style="left:1070px;top:190px;width:860px;color:${ink}">
+     <div class="cap" style="font-size:28px;color:${acc}">Outlook Styles &nbsp;•&nbsp; ${catName(J.cat)}</div>
+     <div class="pf" style="font-weight:900;font-size:${title(J.kick).length > 16 ? 96 : 112}px;line-height:1.02;margin-top:26px">${title(J.kick)}</div>
+     <div style="font-size:44px;line-height:1.38;font-weight:500;margin-top:34px;color:#333">${J.desc}</div>
+     <div style="height:3px;background:${acc};opacity:.35;margin:56px 0 48px"></div>
+     <div class="cap" style="font-size:28px;color:#666">Colour</div>
+     <div style="display:flex;align-items:center;gap:30px;margin-top:22px">
+       <div style="width:110px;height:110px;border-radius:24px;background:${J.chip[1]};box-shadow:0 10px 22px rgba(0,0,0,.2), inset 0 0 0 4px rgba(255,255,255,.6)"></div>
+       <div style="font-size:52px;font-weight:700">${J.chip[0]}</div></div>
+     <div class="cap" style="font-size:28px;color:#666;margin-top:56px">Category</div>
+     <div style="font-size:48px;font-weight:700;margin-top:18px">${catName(J.cat)}</div>
+     ${feats.length ? `<div class="cap" style="font-size:28px;color:#666;margin-top:56px">Highlights</div>` : ''}
+     <div style="margin-top:20px">${feats.slice(0, 4).map(f => `<div style="display:flex;gap:26px;align-items:flex-start;font-size:44px;line-height:1.3;font-weight:600;margin:16px 0">
+       <span style="flex:none;width:22px;height:22px;border-radius:50%;background:${acc};margin-top:17px"></span><span>${f}</span></div>`).join('')}</div>
+   </div>
+   <div class="abs" style="left:1070px;width:860px;bottom:150px;color:${ink}">
+     <div class="cap" style="font-size:28px;color:#666;margin-bottom:26px">DM for size &amp; details</div>
+     <span class="pill" style="background:${pillBg};color:${pillInk};font-size:40px;padding:30px 64px 28px 70px;box-shadow:0 14px 30px rgba(0,0,0,.22)">DM TO ORDER &nbsp;&rarr;</span>
+     <div class="cap" style="font-size:28px;margin-top:40px;color:#444">Delivery all over Pakistan</div></div>`;
+}
+
+Promise.all([document.fonts.ready, ...[...document.images].map(i => i.decode().catch(() => {}))]).then(() => { window.READY = true; });
+</script>
+</body>
+</html>

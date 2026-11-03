@@ -1,0 +1,5024 @@
+[
+{
+"id": "7",
+"slug": "wrap-blouse",
+"img": "../../reel-kit/products/7.webp",
+"size": [
+1986,
+2400
+],
+"bbox": [
+5,
+12,
+1976,
+2389
+],
+"crops": [
+[
+936,
+772,
+803,
+1178
+],
+[
+172,
+644,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "BLOUSES",
+"kick": "THE WRAP BLOUSE",
+"word": "SATIN",
+"head": "Soft glam, <b>all day.</b>",
+"desc": "Liquid satin with a draped wrap front.",
+"chip": [
+"Blush Satin",
+"#D9B6B0"
+],
+"pal": {
+"bg": "#6A1430",
+"bg2": "#8C2245",
+"word": "#FFAFC5",
+"ink": "#FFEEF2",
+"btn": "#FFAFC5",
+"btnink": "#6A1430",
+"acc": "#FFAFC5",
+"shape": "#FFAFC5"
+}
+},
+{
+"id": "47",
+"slug": "piped-top",
+"img": "../../reel-kit/products/47.webp",
+"size": [
+1733,
+2400
+],
+"bbox": [
+6,
+17,
+1729,
+2387
+],
+"crops": [
+[
+428,
+508,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "BLOUSES",
+"kick": "THE PIPED TOP",
+"word": "CAMEL",
+"head": "Camel <b>crush.</b>",
+"desc": "Boxy short-sleeve top with black piping.",
+"chip": [
+"Camel",
+"#C09363"
+],
+"pal": {
+"bg": "#0E4F47",
+"bg2": "#17695E",
+"word": "#FFA9BC",
+"ink": "#FFF3EA",
+"btn": "#FFA9BC",
+"btnink": "#0E4F47",
+"acc": "#FFA9BC",
+"shape": "#17695E"
+}
+},
+{
+"id": "67",
+"slug": "fitted-top",
+"img": "../../reel-kit/products/67.webp",
+"size": [
+1507,
+2400
+],
+"bbox": [
+4,
+4,
+1503,
+2394
+],
+"crops": [
+[
+380,
+264,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "BLOUSES",
+"kick": "THE FITTED TOP",
+"word": "WINE",
+"head": "Wine <b>o&rsquo;clock.</b>",
+"desc": "Cropped fitted top in deep maroon.",
+"chip": [
+"Wine",
+"#6C2A3A"
+],
+"pal": {
+"bg": "#C9B6F2",
+"bg2": "#DCCEFA",
+"word": "#3D1A6E",
+"ink": "#24113F",
+"btn": "#3D1A6E",
+"btnink": "#F1EAFF",
+"acc": "#3D1A6E",
+"shape": "#B9A2EC"
+}
+},
+{
+"id": "121",
+"slug": "ruffle-top",
+"img": "../../reel-kit/products/121.webp",
+"size": [
+1512,
+2400
+],
+"bbox": [
+3,
+3,
+1508,
+2167
+],
+"crops": [
+[
+340,
+8,
+803,
+1178
+],
+[
+704,
+1124,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "BLOUSES",
+"kick": "THE RUFFLE TOP",
+"word": "ESSENTIAL",
+"head": "Little black <b>top.</b>",
+"desc": "Fitted top with fluttered shoulders.",
+"chip": [
+"Black",
+"#1E1E1E"
+],
+"pal": {
+"bg": "#F4BFCB",
+"bg2": "#FBDDE4",
+"word": "#B5121F",
+"ink": "#3E0A12",
+"btn": "#B5121F",
+"btnink": "#FFF2F4",
+"acc": "#B5121F",
+"shape": "#F9D3DC"
+}
+},
+{
+"id": "127",
+"slug": "tie-blouse",
+"img": "../../reel-kit/products/127.webp",
+"size": [
+1344,
+2400
+],
+"bbox": [
+4,
+3,
+1340,
+2400
+],
+"crops": [
+[
+64,
+676,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "BLOUSES",
+"kick": "THE TIE BLOUSE",
+"word": "MOCHA",
+"head": "Mocha <b>mood.</b>",
+"desc": "Satin-feel blouse with a lace-up neckline.",
+"chip": [
+"Mocha",
+"#703930"
+],
+"pal": {
+"bg": "#E6C88E",
+"bg2": "#F2DDB2",
+"word": "#141414",
+"ink": "#141414",
+"btn": "#141414",
+"btnink": "#F2DDB2",
+"acc": "#141414",
+"shape": "#D7B472"
+}
+},
+{
+"id": "132",
+"slug": "lace-shirt",
+"img": "../../reel-kit/products/132.webp",
+"size": [
+2251,
+2400
+],
+"bbox": [
+5,
+0,
+2248,
+2396
+],
+"crops": [
+[
+1172,
+280,
+803,
+1178
+],
+[
+408,
+144,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "BLOUSES",
+"kick": "THE LACE SHIRT",
+"word": "LACE",
+"head": "Lace <b>affair.</b>",
+"desc": "Short-sleeve navy lace shirt with pearl trim.",
+"chip": [
+"Navy Lace",
+"#33354B"
+],
+"pal": {
+"bg": "#FF7A2F",
+"bg2": "#FF9A55",
+"word": "#3E1606",
+"ink": "#2A0E03",
+"btn": "#3E1606",
+"btnink": "#FFE3CC",
+"acc": "#3E1606",
+"shape": "#FFC23D"
+}
+},
+{
+"id": "133",
+"slug": "layered-top",
+"img": "../../reel-kit/products/133.webp",
+"size": [
+1429,
+2397
+],
+"bbox": [
+5,
+3,
+1422,
+2392
+],
+"crops": [
+[
+112,
+1168,
+803,
+1178
+],
+[
+36,
+40,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "BLOUSES",
+"kick": "THE LAYERED TOP",
+"word": "MINIMAL",
+"head": "Less <b>is more.</b>",
+"desc": "Double-layer sleeveless top in charcoal.",
+"chip": [
+"Charcoal",
+"#2B2D32"
+],
+"pal": {
+"bg": "#FF5C9D",
+"bg2": "#FF86B6",
+"word": "#FFE14D",
+"ink": "#2A0016",
+"btn": "#FFE14D",
+"btnink": "#2A0016",
+"acc": "#FFE14D",
+"shape": "#FF77AE"
+}
+},
+{
+"id": "136",
+"slug": "crochet-top",
+"img": "../../reel-kit/products/136.webp",
+"size": [
+1531,
+2400
+],
+"bbox": [
+3,
+0,
+1527,
+2396
+],
+"crops": [
+[
+244,
+128,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "BLOUSES",
+"kick": "THE CROCHET TOP",
+"word": "BOHO",
+"head": "Boho <b>days.</b>",
+"desc": "Sheer navy crochet top with side ties.",
+"chip": [
+"Navy",
+"#34374F"
+],
+"pal": {
+"bg": "#FFD54A",
+"bg2": "#FFE480",
+"word": "#1F3BD1",
+"ink": "#151A33",
+"btn": "#1F3BD1",
+"btnink": "#FFFFFF",
+"acc": "#1F3BD1",
+"shape": "#FFC61F"
+}
+},
+{
+"id": "138",
+"slug": "organza-jacket",
+"img": "../../reel-kit/products/138.webp",
+"size": [
+2035,
+2398
+],
+"bbox": [
+6,
+3,
+2031,
+2394
+],
+"crops": [
+[
+832,
+260,
+803,
+1178
+],
+[
+68,
+372,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "BLOUSES",
+"kick": "THE ORGANZA JACKET",
+"word": "SHEER",
+"head": "Peachy <b>keen.</b>",
+"desc": "Sheer organza jacket with puff sleeves.",
+"chip": [
+"Peach",
+"#E0BAAB"
+],
+"pal": {
+"bg": "#1B36C9",
+"bg2": "#3554E6",
+"word": "#F3F6FF",
+"ink": "#F3F6FF",
+"btn": "#F3F6FF",
+"btnink": "#1B36C9",
+"acc": "#FFFFFF",
+"shape": "#2A47DA"
+}
+},
+{
+"id": "141",
+"slug": "chain-blouse",
+"img": "../../reel-kit/products/141.webp",
+"size": [
+1915,
+2400
+],
+"bbox": [
+4,
+6,
+1911,
+2396
+],
+"crops": [
+[
+904,
+540,
+803,
+1178
+],
+[
+140,
+536,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "BLOUSES",
+"kick": "THE CHAIN BLOUSE",
+"word": "ROYAL",
+"head": "Royal <b>blue.</b>",
+"desc": "Blue blouse with chain and print detail.",
+"chip": [
+"Royal Blue",
+"#1F4A98"
+],
+"pal": {
+"bg": "#E6C88E",
+"bg2": "#F2DDB2",
+"word": "#141414",
+"ink": "#141414",
+"btn": "#141414",
+"btnink": "#F2DDB2",
+"acc": "#141414",
+"shape": "#D7B472"
+}
+},
+{
+"id": "161",
+"slug": "bubble-top",
+"img": "../../reel-kit/products/161.webp",
+"size": [
+2060,
+2312
+],
+"bbox": [
+6,
+14,
+2051,
+2304
+],
+"crops": [
+[
+652,
+556,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "BLOUSES",
+"kick": "THE BUBBLE TOP",
+"word": "BUBBLY",
+"head": "Bubbly <b>vibes.</b>",
+"desc": "Off-shoulder top with bubble texture.",
+"chip": [
+"Peach",
+"#C57458"
+],
+"pal": {
+"bg": "#14213D",
+"bg2": "#22345E",
+"word": "#FFD66B",
+"ink": "#F6F1E3",
+"btn": "#FFD66B",
+"btnink": "#14213D",
+"acc": "#FFD66B",
+"shape": "#22345E"
+}
+},
+{
+"id": "198",
+"slug": "chiffon-blouse",
+"img": "../../reel-kit/products/198.webp",
+"size": [
+1790,
+2400
+],
+"bbox": [
+6,
+4,
+1785,
+2394
+],
+"crops": [
+[
+456,
+752,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "BLOUSES",
+"kick": "THE CHIFFON BLOUSE",
+"word": "DREAMY",
+"head": "Dreamy <b>chiffon.</b>",
+"desc": "Smocked chiffon blouse with a lace front.",
+"chip": [
+"Apricot",
+"#B67863"
+],
+"pal": {
+"bg": "#3B2218",
+"bg2": "#5A3426",
+"word": "#FFB58A",
+"ink": "#FCEBDD",
+"btn": "#FFB58A",
+"btnink": "#3B2218",
+"acc": "#FFB58A",
+"shape": "#5A3426"
+}
+},
+{
+"id": "204",
+"slug": "tie-front-shirt",
+"img": "../../reel-kit/products/204.webp",
+"size": [
+1882,
+2397
+],
+"bbox": [
+4,
+2,
+1879,
+2393
+],
+"crops": [
+[
+852,
+128,
+803,
+1178
+],
+[
+88,
+532,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "BLOUSES",
+"kick": "THE TIE-FRONT SHIRT",
+"word": "TIED",
+"head": "Tied <b>up nicely.</b>",
+"desc": "Black shirt with a knotted hem.",
+"chip": [
+"Black",
+"#2C262B"
+],
+"pal": {
+"bg": "#EC5B2A",
+"bg2": "#F57A45",
+"word": "#18285E",
+"ink": "#FFF3EA",
+"btn": "#18285E",
+"btnink": "#FFF3EA",
+"acc": "#FFF3EA",
+"shape": "#D84A1C"
+}
+},
+{
+"id": "273",
+"slug": "smocked-blouse",
+"img": "../../reel-kit/products/273.webp",
+"size": [
+1952,
+2400
+],
+"bbox": [
+4,
+5,
+1948,
+2395
+],
+"crops": [
+[
+560,
+756,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "BLOUSES",
+"kick": "THE SMOCKED BLOUSE",
+"word": "CARAMEL",
+"head": "Caramel <b>glow.</b>",
+"desc": "Satin blouse with lace inset, smocked waist.",
+"chip": [
+"Caramel",
+"#A17853"
+],
+"pal": {
+"bg": "#0D0D0D",
+"bg2": "#262420",
+"word": "#E2BE6E",
+"gold": "1",
+"ink": "#F4ECDC",
+"btn": "#D9B25F",
+"btnink": "#0D0D0D",
+"acc": "#D9B25F",
+"shape": "#1E1C19"
+}
+},
+{
+"id": "43",
+"slug": "straight-jeans",
+"img": "../../reel-kit/products/43.webp",
+"size": [
+1245,
+2394
+],
+"bbox": [
+7,
+13,
+1240,
+2386
+],
+"crops": [
+[
+232,
+80,
+803,
+1178
+],
+[
+332,
+1196,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "BOTTOMS",
+"kick": "THE STRAIGHT JEANS",
+"word": "STRAIGHT",
+"head": "Straight <b>talk.</b>",
+"desc": "High-rise straight-leg in mid wash.",
+"chip": [
+"Mid Wash",
+"#344C66"
+],
+"pal": {
+"bg": "#F4E7CC",
+"bg2": "#FBF3E2",
+"word": "#0E5A43",
+"ink": "#1C2A22",
+"btn": "#0E5A43",
+"btnink": "#F4E7CC",
+"acc": "#B88A2E",
+"shape": "#EAD6AE"
+}
+},
+{
+"id": "44",
+"slug": "olive-trousers",
+"img": "../../reel-kit/products/44.webp",
+"size": [
+1150,
+2396
+],
+"bbox": [
+3,
+8,
+1145,
+2390
+],
+"crops": [
+[
+120,
+16,
+803,
+1178
+],
+[
+20,
+1200,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "BOTTOMS",
+"kick": "THE OLIVE TROUSERS",
+"word": "OLIVE",
+"head": "Olive <b>you.</b>",
+"desc": "Wide-leg trousers in olive twill.",
+"chip": [
+"Olive",
+"#5A5130"
+],
+"pal": {
+"bg": "#F4BFCB",
+"bg2": "#FBDDE4",
+"word": "#B5121F",
+"ink": "#3E0A12",
+"btn": "#B5121F",
+"btnink": "#FFF2F4",
+"acc": "#B5121F",
+"shape": "#F9D3DC"
+}
+},
+{
+"id": "50",
+"slug": "flare-jeans",
+"img": "../../reel-kit/products/50.webp",
+"size": [
+822,
+2400
+],
+"bbox": [
+5,
+6,
+818,
+2394
+],
+"crops": [
+[
+104,
+20,
+585,
+1178
+],
+[
+124,
+1208,
+585,
+1178
+]
+],
+"wide": false,
+"tile": [
+655,
+1319
+],
+"up": 1.12,
+"cat": "BOTTOMS",
+"kick": "THE FLARE JEANS",
+"word": "FLARE",
+"head": "Flare <b>for drama.</b>",
+"desc": "Dark-wash flares with a high rise.",
+"chip": [
+"Dark Wash",
+"#15263E"
+],
+"pal": {
+"bg": "#F2D27A",
+"bg2": "#F8E4A8",
+"word": "#B4441C",
+"ink": "#3A1F10",
+"btn": "#3A1F10",
+"btnink": "#F8E4A8",
+"acc": "#B4441C",
+"shape": "#3A1F10"
+}
+},
+{
+"id": "52",
+"slug": "wide-leg-jeans",
+"img": "../../reel-kit/products/52.webp",
+"size": [
+1212,
+2395
+],
+"bbox": [
+5,
+7,
+1203,
+2388
+],
+"crops": [
+[
+208,
+44,
+803,
+1178
+],
+[
+72,
+1192,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "BOTTOMS",
+"kick": "THE WIDE-LEG JEANS",
+"word": "SKY",
+"head": "Sky <b>high.</b>",
+"desc": "Light-wash wide-leg jeans.",
+"chip": [
+"Light Wash",
+"#7A8C98"
+],
+"pal": {
+"bg": "#B3162A",
+"bg2": "#CF2B3F",
+"word": "#F6EAD2",
+"ink": "#FFF6E8",
+"btn": "#13224A",
+"btnink": "#F6EAD2",
+"acc": "#F6EAD2",
+"shape": "#13224A"
+}
+},
+{
+"id": "55",
+"slug": "wide-leg-jeans",
+"img": "../../reel-kit/products/55.webp",
+"size": [
+1221,
+2396
+],
+"bbox": [
+8,
+8,
+1212,
+2388
+],
+"crops": [
+[
+212,
+20,
+803,
+1178
+],
+[
+308,
+1200,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "BOTTOMS",
+"kick": "THE WIDE-LEG JEANS",
+"word": "DENIM",
+"head": "Find <b>your fit.</b>",
+"desc": "High-rise, mid-wash, full-length wide leg.",
+"chip": [
+"Mid Wash",
+"#4D6E96"
+],
+"pal": {
+"bg": "#EC5B2A",
+"bg2": "#F57A45",
+"word": "#18285E",
+"ink": "#FFF3EA",
+"btn": "#18285E",
+"btnink": "#FFF3EA",
+"acc": "#FFF3EA",
+"shape": "#D84A1C"
+}
+},
+{
+"id": "75",
+"slug": "classic-jeans",
+"img": "../../reel-kit/products/75.webp",
+"size": [
+977,
+2400
+],
+"bbox": [
+6,
+14,
+971,
+2395
+],
+"crops": [
+[
+124,
+96,
+694,
+1178
+],
+[
+180,
+1212,
+694,
+1178
+]
+],
+"wide": false,
+"tile": [
+777,
+1319
+],
+"up": 1.12,
+"cat": "BOTTOMS",
+"kick": "THE CLASSIC JEANS",
+"word": "CLASSIC",
+"head": "Forever <b>classic.</b>",
+"desc": "Light-wash straight-leg jeans.",
+"chip": [
+"Vintage Blue",
+"#809AAD"
+],
+"pal": {
+"bg": "#3B2218",
+"bg2": "#5A3426",
+"word": "#FFB58A",
+"ink": "#FCEBDD",
+"btn": "#FFB58A",
+"btnink": "#3B2218",
+"acc": "#FFB58A",
+"shape": "#5A3426"
+}
+},
+{
+"id": "76",
+"slug": "chain-joggers",
+"img": "../../reel-kit/products/76.webp",
+"size": [
+984,
+2393
+],
+"bbox": [
+7,
+4,
+978,
+2389
+],
+"crops": [
+[
+272,
+12,
+699,
+1178
+],
+[
+76,
+1128,
+699,
+1178
+]
+],
+"wide": false,
+"tile": [
+782,
+1319
+],
+"up": 1.12,
+"cat": "BOTTOMS",
+"kick": "THE CHAIN JOGGERS",
+"word": "CHAIN",
+"head": "Chain <b>reaction.</b>",
+"desc": "Black joggers with chain and button trim.",
+"chip": [
+"Black",
+"#212121"
+],
+"pal": {
+"bg": "#D2E86A",
+"bg2": "#E6F49E",
+"word": "#5A2BD6",
+"ink": "#1B1530",
+"btn": "#5A2BD6",
+"btnink": "#F2EEFF",
+"acc": "#5A2BD6",
+"shape": "#5A2BD6"
+}
+},
+{
+"id": "78",
+"slug": "cargo-jeans",
+"img": "../../reel-kit/products/78.webp",
+"size": [
+995,
+2400
+],
+"bbox": [
+3,
+5,
+992,
+2396
+],
+"crops": [
+[
+32,
+16,
+712,
+1178
+],
+[
+20,
+1196,
+712,
+1178
+]
+],
+"wide": false,
+"tile": [
+797,
+1319
+],
+"up": 1.12,
+"cat": "BOTTOMS",
+"kick": "THE CARGO JEANS",
+"word": "UTILITY",
+"head": "Utility <b>chic.</b>",
+"desc": "Light-wash denim with cargo pockets.",
+"chip": [
+"Ice Blue",
+"#8B9BA6"
+],
+"pal": {
+"bg": "#1E4D2B",
+"bg2": "#2B6A3B",
+"word": "#F7A8C4",
+"ink": "#FFF1E6",
+"btn": "#F7A8C4",
+"btnink": "#1E4D2B",
+"acc": "#F7A8C4",
+"shape": "#2B6A3B"
+}
+},
+{
+"id": "80",
+"slug": "stitch-jeans",
+"img": "../../reel-kit/products/80.webp",
+"size": [
+1268,
+2400
+],
+"bbox": [
+4,
+4,
+1264,
+2397
+],
+"crops": [
+[
+268,
+12,
+803,
+1178
+],
+[
+236,
+1204,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "BOTTOMS",
+"kick": "THE STITCH JEANS",
+"word": "INDIGO",
+"head": "Deep <b>indigo.</b>",
+"desc": "Wide-leg dark denim, contrast stitching.",
+"chip": [
+"Indigo",
+"#1A1E27"
+],
+"pal": {
+"bg": "#EC5B2A",
+"bg2": "#F57A45",
+"word": "#18285E",
+"ink": "#FFF3EA",
+"btn": "#18285E",
+"btnink": "#FFF3EA",
+"acc": "#FFF3EA",
+"shape": "#D84A1C"
+}
+},
+{
+"id": "81",
+"slug": "grey-jeans",
+"img": "../../reel-kit/products/81.webp",
+"size": [
+1119,
+2397
+],
+"bbox": [
+3,
+4,
+1114,
+2394
+],
+"crops": [
+[
+144,
+24,
+799,
+1178
+],
+[
+248,
+1200,
+799,
+1178
+]
+],
+"wide": false,
+"tile": [
+894,
+1319
+],
+"up": 1.12,
+"cat": "BOTTOMS",
+"kick": "THE GREY JEANS",
+"word": "SMOKE",
+"head": "Smoke <b>show.</b>",
+"desc": "Wide-leg jeans in a smoke-grey wash.",
+"chip": [
+"Smoke Grey",
+"#2A2A2A"
+],
+"pal": {
+"bg": "#C9B6F2",
+"bg2": "#DCCEFA",
+"word": "#3D1A6E",
+"ink": "#24113F",
+"btn": "#3D1A6E",
+"btnink": "#F1EAFF",
+"acc": "#3D1A6E",
+"shape": "#B9A2EC"
+}
+},
+{
+"id": "83",
+"slug": "bleach-jeans",
+"img": "../../reel-kit/products/83.webp",
+"size": [
+1157,
+2400
+],
+"bbox": [
+6,
+9,
+1153,
+2394
+],
+"crops": [
+[
+216,
+80,
+803,
+1178
+],
+[
+292,
+1200,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "BOTTOMS",
+"kick": "THE BLEACH JEANS",
+"word": "BREEZE",
+"head": "Easy <b>breezy.</b>",
+"desc": "Relaxed wide-leg in bleach blue.",
+"chip": [
+"Bleach Blue",
+"#7B8D99"
+],
+"pal": {
+"bg": "#0D0D0D",
+"bg2": "#262420",
+"word": "#E2BE6E",
+"gold": "1",
+"ink": "#F4ECDC",
+"btn": "#D9B25F",
+"btnink": "#0D0D0D",
+"acc": "#D9B25F",
+"shape": "#1E1C19"
+}
+},
+{
+"id": "86",
+"slug": "true-blue-jeans",
+"img": "../../reel-kit/products/86.webp",
+"size": [
+908,
+2398
+],
+"bbox": [
+4,
+3,
+905,
+2394
+],
+"crops": [
+[
+128,
+12,
+648,
+1178
+],
+[
+164,
+1204,
+648,
+1178
+]
+],
+"wide": false,
+"tile": [
+725,
+1319
+],
+"up": 1.12,
+"cat": "BOTTOMS",
+"kick": "THE TRUE BLUE JEANS",
+"word": "BLUE",
+"head": "Born <b>in blue.</b>",
+"desc": "Classic straight jeans in true blue.",
+"chip": [
+"True Blue",
+"#284464"
+],
+"pal": {
+"bg": "#E9DCC9",
+"bg2": "#F4ECE0",
+"word": "#2340C8",
+"ink": "#1C1A17",
+"btn": "#2340C8",
+"btnink": "#FFFFFF",
+"acc": "#2340C8",
+"shape": "#DDCCB4"
+}
+},
+{
+"id": "87",
+"slug": "red-cargo",
+"img": "../../reel-kit/products/87.webp",
+"size": [
+929,
+2400
+],
+"bbox": [
+5,
+0,
+922,
+2395
+],
+"crops": [
+[
+64,
+12,
+660,
+1178
+],
+[
+240,
+1208,
+660,
+1178
+]
+],
+"wide": false,
+"tile": [
+739,
+1319
+],
+"up": 1.12,
+"cat": "BOTTOMS",
+"kick": "THE RED CARGO",
+"word": "SCARLET",
+"head": "Scarlet <b>street.</b>",
+"desc": "Red cargo trousers with flap pockets.",
+"chip": [
+"Scarlet",
+"#A8292E"
+],
+"pal": {
+"bg": "#BFE6D3",
+"bg2": "#D9F2E5",
+"word": "#7A1230",
+"ink": "#1E2A24",
+"btn": "#7A1230",
+"btnink": "#FFF0F3",
+"acc": "#7A1230",
+"shape": "#A8DAC2"
+}
+},
+{
+"id": "88",
+"slug": "seventies-flare",
+"img": "../../reel-kit/products/88.webp",
+"size": [
+933,
+2168
+],
+"bbox": [
+6,
+6,
+929,
+2161
+],
+"crops": [
+[
+96,
+12,
+664,
+1178
+]
+],
+"wide": false,
+"tile": [
+743,
+1319
+],
+"up": 1.12,
+"cat": "BOTTOMS",
+"kick": "THE SEVENTIES FLARE",
+"word": "SEVENTIES",
+"head": "Seventies <b>flare.</b>",
+"desc": "Mid-wash flares with a fitted thigh.",
+"chip": [
+"Mid Blue",
+"#2C415C"
+],
+"pal": {
+"bg": "#F4E7CC",
+"bg2": "#FBF3E2",
+"word": "#0E5A43",
+"ink": "#1C2A22",
+"btn": "#0E5A43",
+"btnink": "#F4E7CC",
+"acc": "#B88A2E",
+"shape": "#EAD6AE"
+}
+},
+{
+"id": "89",
+"slug": "panel-trousers",
+"img": "../../reel-kit/products/89.webp",
+"size": [
+788,
+1762
+],
+"bbox": [
+8,
+8,
+780,
+1755
+],
+"crops": [
+[
+116,
+104,
+555,
+1178
+]
+],
+"wide": false,
+"tile": [
+621,
+1319
+],
+"up": 1.12,
+"cat": "BOTTOMS",
+"kick": "THE PANEL TROUSERS",
+"word": "EDGY",
+"head": "Edgy <b>lines.</b>",
+"desc": "Wide trousers with contrast side panels.",
+"chip": [
+"Black &amp; Grey",
+"#3A3A3B"
+],
+"pal": {
+"bg": "#F4BFCB",
+"bg2": "#FBDDE4",
+"word": "#B5121F",
+"ink": "#3E0A12",
+"btn": "#B5121F",
+"btnink": "#FFF2F4",
+"acc": "#B5121F",
+"shape": "#F9D3DC"
+}
+},
+{
+"id": "92",
+"slug": "stretch-flare",
+"img": "../../reel-kit/products/92.webp",
+"size": [
+926,
+2400
+],
+"bbox": [
+2,
+65,
+923,
+2396
+],
+"crops": [
+[
+120,
+96,
+663,
+1178
+],
+[
+136,
+1212,
+663,
+1178
+]
+],
+"wide": false,
+"tile": [
+742,
+1319
+],
+"up": 1.12,
+"cat": "BOTTOMS",
+"kick": "THE STRETCH FLARE",
+"word": "GROOVY",
+"head": "Groovy, <b>baby.</b>",
+"desc": "Stretch flare jeans in classic blue.",
+"chip": [
+"Classic Blue",
+"#2C4662"
+],
+"pal": {
+"bg": "#E6C88E",
+"bg2": "#F2DDB2",
+"word": "#141414",
+"ink": "#141414",
+"btn": "#141414",
+"btnink": "#F2DDB2",
+"acc": "#141414",
+"shape": "#D7B472"
+}
+},
+{
+"id": "110",
+"slug": "sailor-trousers",
+"img": "../../reel-kit/products/110.webp",
+"size": [
+839,
+2400
+],
+"bbox": [
+5,
+0,
+833,
+2394
+],
+"crops": [
+[
+88,
+12,
+596,
+1178
+],
+[
+16,
+1208,
+596,
+1178
+]
+],
+"wide": false,
+"tile": [
+667,
+1319
+],
+"up": 1.12,
+"cat": "BOTTOMS",
+"kick": "THE SAILOR TROUSERS",
+"word": "SAILOR",
+"head": "Ahoy, <b>chic.</b>",
+"desc": "High-waist wide trousers, gold buttons.",
+"chip": [
+"Black",
+"#1D1D1D"
+],
+"pal": {
+"bg": "#B4472A",
+"bg2": "#C95E3E",
+"word": "#FCE8CF",
+"ink": "#FFF5EA",
+"btn": "#FCE8CF",
+"btnink": "#B4472A",
+"acc": "#FCE8CF",
+"shape": "#9C3A20"
+}
+},
+{
+"id": "111",
+"slug": "palazzo",
+"img": "../../reel-kit/products/111.webp",
+"size": [
+965,
+2400
+],
+"bbox": [
+4,
+5,
+962,
+2396
+],
+"crops": [
+[
+188,
+16,
+689,
+1178
+],
+[
+248,
+1132,
+689,
+1178
+]
+],
+"wide": false,
+"tile": [
+771,
+1319
+],
+"up": 1.12,
+"cat": "BOTTOMS",
+"kick": "THE PALAZZO",
+"word": "PALAZZO",
+"head": "Palazzo, <b>please.</b>",
+"desc": "Flowing wide-leg palazzo pants.",
+"chip": [
+"Black",
+"#232325"
+],
+"pal": {
+"bg": "#F2D27A",
+"bg2": "#F8E4A8",
+"word": "#B4441C",
+"ink": "#3A1F10",
+"btn": "#3A1F10",
+"btnink": "#F8E4A8",
+"acc": "#B4441C",
+"shape": "#3A1F10"
+}
+},
+{
+"id": "134",
+"slug": "everyday-trousers",
+"img": "../../reel-kit/products/134.webp",
+"size": [
+941,
+2400
+],
+"bbox": [
+4,
+9,
+939,
+2313
+],
+"crops": [
+[
+68,
+16,
+673,
+1178
+],
+[
+28,
+1132,
+673,
+1178
+]
+],
+"wide": false,
+"tile": [
+753,
+1319
+],
+"up": 1.12,
+"cat": "BOTTOMS",
+"kick": "THE EVERYDAY TROUSERS",
+"word": "EVERYDAY",
+"head": "Every <b>single day.</b>",
+"desc": "Straight-leg trousers in black.",
+"chip": [
+"Black",
+"#1E1E1E"
+],
+"pal": {
+"bg": "#EC5B2A",
+"bg2": "#F57A45",
+"word": "#18285E",
+"ink": "#FFF3EA",
+"btn": "#18285E",
+"btnink": "#FFF3EA",
+"acc": "#FFF3EA",
+"shape": "#D84A1C"
+}
+},
+{
+"id": "139",
+"slug": "white-pleats",
+"img": "../../reel-kit/products/139.webp",
+"size": [
+1027,
+2400
+],
+"bbox": [
+6,
+4,
+1020,
+2396
+],
+"crops": [
+[
+136,
+16,
+730,
+1178
+],
+[
+52,
+1132,
+730,
+1178
+]
+],
+"wide": false,
+"tile": [
+817,
+1319
+],
+"up": 1.12,
+"cat": "SKIRTS",
+"kick": "THE WHITE PLEATS",
+"word": "IVORY",
+"head": "Ivory <b>dreams.</b>",
+"desc": "White pleated maxi with a gold chain belt.",
+"chip": [
+"Ivory",
+"#E6E7E6"
+],
+"pal": {
+"bg": "#B3162A",
+"bg2": "#CF2B3F",
+"word": "#F6EAD2",
+"ink": "#FFF6E8",
+"btn": "#13224A",
+"btnink": "#F6EAD2",
+"acc": "#F6EAD2",
+"shape": "#13224A"
+}
+},
+{
+"id": "140",
+"slug": "satin-pleats",
+"img": "../../reel-kit/products/140.webp",
+"size": [
+960,
+2398
+],
+"bbox": [
+3,
+9,
+955,
+2395
+],
+"crops": [
+[
+128,
+684,
+685,
+1178
+]
+],
+"wide": false,
+"tile": [
+767,
+1319
+],
+"up": 1.12,
+"cat": "SKIRTS",
+"kick": "THE SATIN PLEATS",
+"word": "CHAMPAGNE",
+"head": "Pop <b>the champagne.</b>",
+"desc": "Satin-sheen pleated maxi skirt.",
+"chip": [
+"Champagne",
+"#8E7258"
+],
+"pal": {
+"bg": "#0D0D0D",
+"bg2": "#262420",
+"word": "#E2BE6E",
+"gold": "1",
+"ink": "#F4ECDC",
+"btn": "#D9B25F",
+"btnink": "#0D0D0D",
+"acc": "#D9B25F",
+"shape": "#1E1C19"
+}
+},
+{
+"id": "164",
+"slug": "pleated-skirt",
+"img": "../../reel-kit/products/164.webp",
+"size": [
+1216,
+2400
+],
+"bbox": [
+2,
+2,
+1212,
+2397
+],
+"crops": [
+[
+336,
+36,
+803,
+1178
+],
+[
+196,
+1188,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "BOTTOMS",
+"kick": "THE PLEATED SKIRT",
+"word": "GOLDEN",
+"head": "Golden, <b>always.</b>",
+"desc": "Flowing black pleats with a gold chain belt.",
+"chip": [
+"Jet Black",
+"#16161A"
+],
+"pal": {
+"bg": "#E6C88E",
+"bg2": "#F2DDB2",
+"word": "#141414",
+"ink": "#141414",
+"btn": "#141414",
+"btnink": "#F2DDB2",
+"acc": "#141414",
+"shape": "#D7B472"
+}
+},
+{
+"id": "205",
+"slug": "leopard-trousers",
+"img": "../../reel-kit/products/205.webp",
+"size": [
+942,
+2400
+],
+"bbox": [
+5,
+6,
+937,
+2395
+],
+"crops": [
+[
+144,
+1168,
+671,
+1178
+],
+[
+144,
+48,
+671,
+1178
+]
+],
+"wide": false,
+"tile": [
+751,
+1319
+],
+"up": 1.12,
+"cat": "BOTTOMS",
+"kick": "THE LEOPARD TROUSERS",
+"word": "LEOPARD",
+"head": "Spot <b>on.</b>",
+"desc": "Wide trousers in snow-leopard print.",
+"chip": [
+"Snow Leopard",
+"#78726B"
+],
+"pal": {
+"bg": "#6A1430",
+"bg2": "#8C2245",
+"word": "#FFAFC5",
+"ink": "#FFEEF2",
+"btn": "#FFAFC5",
+"btnink": "#6A1430",
+"acc": "#FFAFC5",
+"shape": "#FFAFC5"
+}
+},
+{
+"id": "125",
+"slug": "knit-set",
+"img": "../../reel-kit/products/125.webp",
+"size": [
+927,
+2400
+],
+"bbox": [
+3,
+0,
+923,
+2391
+],
+"crops": [
+[
+104,
+172,
+662,
+1178
+]
+],
+"wide": false,
+"tile": [
+741,
+1319
+],
+"up": 1.12,
+"cat": "CO-ORDS",
+"kick": "THE KNIT SET",
+"word": "CREAM",
+"head": "Cream <b>of the crop.</b>",
+"desc": "Ivory knit maxi set with striped trims.",
+"chip": [
+"Ivory",
+"#C2BEAF"
+],
+"pal": {
+"bg": "#1E4D2B",
+"bg2": "#2B6A3B",
+"word": "#F7A8C4",
+"ink": "#FFF1E6",
+"btn": "#F7A8C4",
+"btnink": "#1E4D2B",
+"acc": "#F7A8C4",
+"shape": "#2B6A3B"
+}
+},
+{
+"id": "126",
+"slug": "long-shirt",
+"img": "../../reel-kit/products/126.webp",
+"size": [
+1347,
+2400
+],
+"bbox": [
+5,
+3,
+1341,
+2368
+],
+"crops": [
+[
+184,
+168,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "CO-ORDS",
+"kick": "THE LONG SHIRT",
+"word": "ELEGANT",
+"head": "Quietly <b>elegant.</b>",
+"desc": "Black long shirt with printed cuffs.",
+"chip": [
+"Black",
+"#1B1B1B"
+],
+"pal": {
+"bg": "#FF7A2F",
+"bg2": "#FF9A55",
+"word": "#3E1606",
+"ink": "#2A0E03",
+"btn": "#3E1606",
+"btnink": "#FFE3CC",
+"acc": "#3E1606",
+"shape": "#FFC23D"
+}
+},
+{
+"id": "129",
+"slug": "pinafore-set",
+"img": "../../reel-kit/products/129.webp",
+"size": [
+904,
+2398
+],
+"bbox": [
+5,
+4,
+898,
+2395
+],
+"crops": [
+[
+100,
+308,
+642,
+1178
+]
+],
+"wide": false,
+"tile": [
+719,
+1319
+],
+"up": 1.12,
+"cat": "CO-ORDS",
+"kick": "THE PINAFORE SET",
+"word": "SMART",
+"head": "Smart <b>girl.</b>",
+"desc": "Waistcoat, maxi skirt and white shirt.",
+"chip": [
+"Black &amp; White",
+"#111111"
+],
+"pal": {
+"bg": "#FF5C9D",
+"bg2": "#FF86B6",
+"word": "#FFE14D",
+"ink": "#2A0016",
+"btn": "#FFE14D",
+"btnink": "#2A0016",
+"acc": "#FFE14D",
+"shape": "#FF77AE"
+}
+},
+{
+"id": "135",
+"slug": "jumpsuit",
+"img": "../../reel-kit/products/135.webp",
+"size": [
+518,
+2400
+],
+"bbox": [
+2,
+3,
+516,
+2396
+],
+"crops": [
+[
+60,
+64,
+370,
+1178
+],
+[
+48,
+1180,
+370,
+1178
+]
+],
+"wide": false,
+"tile": [
+414,
+1319
+],
+"up": 1.12,
+"cat": "DRESSES",
+"kick": "THE JUMPSUIT",
+"word": "ONE",
+"head": "One <b>&amp; done.</b>",
+"desc": "Sleek sleeveless jumpsuit in black.",
+"chip": [
+"Black",
+"#262626"
+],
+"pal": {
+"bg": "#B4472A",
+"bg2": "#C95E3E",
+"word": "#FCE8CF",
+"ink": "#FFF5EA",
+"btn": "#FCE8CF",
+"btnink": "#B4472A",
+"acc": "#FCE8CF",
+"shape": "#9C3A20"
+}
+},
+{
+"id": "137",
+"slug": "peach-maxi",
+"img": "../../reel-kit/products/137.webp",
+"size": [
+783,
+2400
+],
+"bbox": [
+4,
+0,
+779,
+2397
+],
+"crops": [
+[
+116,
+464,
+558,
+1178
+]
+],
+"wide": false,
+"tile": [
+624,
+1319
+],
+"up": 1.12,
+"cat": "DRESSES",
+"kick": "THE PEACH MAXI",
+"word": "PEACH",
+"head": "Peaches <b>&amp; cream.</b>",
+"desc": "Sleeveless maxi with a drawstring waist.",
+"chip": [
+"Peach",
+"#C88E76"
+],
+"pal": {
+"bg": "#4E5A2E",
+"bg2": "#66753C",
+"word": "#FF9B4A",
+"ink": "#F7F1E1",
+"btn": "#FF9B4A",
+"btnink": "#2C3318",
+"acc": "#FF9B4A",
+"shape": "#66753C"
+}
+},
+{
+"id": "147",
+"slug": "shirt-dress",
+"img": "../../reel-kit/products/147.webp",
+"size": [
+853,
+2400
+],
+"bbox": [
+7,
+10,
+847,
+2395
+],
+"crops": [
+[
+108,
+172,
+604,
+1178
+]
+],
+"wide": false,
+"tile": [
+676,
+1319
+],
+"up": 1.12,
+"cat": "DRESSES",
+"kick": "THE SHIRT DRESS",
+"word": "ROSE",
+"head": "Rose <b>tinted.</b>",
+"desc": "Belted maxi shirt dress in dusty rose.",
+"chip": [
+"Dusty Rose",
+"#B08783"
+],
+"pal": {
+"bg": "#1B36C9",
+"bg2": "#3554E6",
+"word": "#F3F6FF",
+"ink": "#F3F6FF",
+"btn": "#F3F6FF",
+"btnink": "#1B36C9",
+"acc": "#FFFFFF",
+"shape": "#2A47DA"
+}
+},
+{
+"id": "188",
+"slug": "white-shirt",
+"img": "../../reel-kit/products/188.webp",
+"size": [
+1479,
+2398
+],
+"bbox": [
+4,
+2,
+1477,
+2398
+],
+"crops": [
+[
+368,
+1068,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "CO-ORDS",
+"kick": "THE WHITE SHIRT",
+"word": "WHITE",
+"head": "White <b>noise.</b>",
+"desc": "Textured long shirt in crisp white.",
+"chip": [
+"White",
+"#DADAD9"
+],
+"pal": {
+"bg": "#B3162A",
+"bg2": "#CF2B3F",
+"word": "#F6EAD2",
+"ink": "#FFF6E8",
+"btn": "#13224A",
+"btnink": "#F6EAD2",
+"acc": "#F6EAD2",
+"shape": "#13224A"
+}
+},
+{
+"id": "189",
+"slug": "white-co-ord",
+"img": "../../reel-kit/products/189.webp",
+"size": [
+1019,
+2396
+],
+"bbox": [
+4,
+2,
+1015,
+2393
+],
+"crops": [
+[
+108,
+772,
+727,
+1178
+]
+],
+"wide": false,
+"tile": [
+814,
+1319
+],
+"up": 1.12,
+"cat": "CO-ORDS",
+"kick": "THE WHITE CO-ORD",
+"word": "CRISP",
+"head": "Crisp <b>in white.</b>",
+"desc": "Textured shirt and trouser set.",
+"chip": [
+"White",
+"#DBDBDA"
+],
+"pal": {
+"bg": "#C2185B",
+"bg2": "#D63A75",
+"word": "#E6F56A",
+"ink": "#FFF0F5",
+"btn": "#E6F56A",
+"btnink": "#6A0B31",
+"acc": "#E6F56A",
+"shape": "#D63A75"
+}
+},
+{
+"id": "201",
+"slug": "pinstripe-set",
+"img": "../../reel-kit/products/201.webp",
+"size": [
+892,
+2397
+],
+"bbox": [
+2,
+2,
+892,
+2394
+],
+"crops": [
+[
+16,
+64,
+640,
+1178
+],
+[
+120,
+1196,
+640,
+1178
+]
+],
+"wide": false,
+"tile": [
+716,
+1319
+],
+"up": 1.12,
+"cat": "CO-ORDS",
+"kick": "THE PINSTRIPE SET",
+"word": "BOSS",
+"head": "Boss <b>mode.</b>",
+"desc": "Pinstripe shirt and trouser set.",
+"chip": [
+"Pinstripe",
+"#161616"
+],
+"pal": {
+"bg": "#F4BFCB",
+"bg2": "#FBDDE4",
+"word": "#B5121F",
+"ink": "#3E0A12",
+"btn": "#B5121F",
+"btnink": "#FFF2F4",
+"acc": "#B5121F",
+"shape": "#F9D3DC"
+}
+},
+{
+"id": "190",
+"slug": "embroidered-set",
+"img": "../../reel-kit/products/190.webp",
+"size": [
+1597,
+2400
+],
+"bbox": [
+3,
+3,
+1591,
+2395
+],
+"crops": [
+[
+380,
+136,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "EID EDIT",
+"kick": "THE EMBROIDERED SET",
+"word": "GRACE",
+"head": "Grace <b>in black.</b>",
+"desc": "Black co-ord with embroidered panels.",
+"chip": [
+"Black",
+"#202020"
+],
+"pal": {
+"bg": "#FF7A2F",
+"bg2": "#FF9A55",
+"word": "#3E1606",
+"ink": "#2A0E03",
+"btn": "#3E1606",
+"btnink": "#FFE3CC",
+"acc": "#3E1606",
+"shape": "#FFC23D"
+}
+},
+{
+"id": "197",
+"slug": "embroidered-co-ord",
+"img": "../../reel-kit/products/197.webp",
+"size": [
+1603,
+2397
+],
+"bbox": [
+11,
+3,
+1600,
+2395
+],
+"crops": [
+[
+392,
+136,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "EID EDIT",
+"kick": "THE EMBROIDERED CO-ORD",
+"word": "FESTIVE",
+"head": "Made for <b>Eid.</b>",
+"desc": "Navy two-piece with embroidered panels and cuffs.",
+"chip": [
+"Midnight Navy",
+"#1F2A4A"
+],
+"pal": {
+"bg": "#F4E7CC",
+"bg2": "#FBF3E2",
+"word": "#0E5A43",
+"ink": "#1C2A22",
+"btn": "#0E5A43",
+"btnink": "#F4E7CC",
+"acc": "#B88A2E",
+"shape": "#EAD6AE"
+}
+},
+{
+"id": "271",
+"slug": "kurta-set",
+"img": "../../reel-kit/products/271.webp",
+"size": [
+1015,
+2398
+],
+"bbox": [
+5,
+12,
+1008,
+2394
+],
+"crops": [
+[
+120,
+1164,
+722,
+1178
+],
+[
+128,
+44,
+722,
+1178
+]
+],
+"wide": false,
+"tile": [
+808,
+1319
+],
+"up": 1.12,
+"cat": "EID EDIT",
+"kick": "THE KURTA SET",
+"word": "HERITAGE",
+"head": "Rooted <b>in heritage.</b>",
+"desc": "Cinnamon kurta set, embroidered hems.",
+"chip": [
+"Cinnamon",
+"#754B39"
+],
+"pal": {
+"bg": "#BFE6D3",
+"bg2": "#D9F2E5",
+"word": "#7A1230",
+"ink": "#1E2A24",
+"btn": "#7A1230",
+"btnink": "#FFF0F3",
+"acc": "#7A1230",
+"shape": "#A8DAC2"
+}
+},
+{
+"id": "8",
+"slug": "star-locket",
+"img": "../../reel-kit/products/8.webp",
+"size": [
+1336,
+2400
+],
+"bbox": [
+7,
+0,
+1330,
+2397
+],
+"crops": [
+[
+268,
+1192,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "JEWELLERY",
+"kick": "THE STAR LOCKET",
+"word": "STAR",
+"head": "All in the <b>details.</b>",
+"desc": "Gold-tone starburst pendant with pearl drops.",
+"chip": [
+"Polished Gold",
+"#CFA75A"
+],
+"pal": {
+"bg": "#0D0D0D",
+"bg2": "#262420",
+"word": "#E2BE6E",
+"gold": "1",
+"ink": "#F4ECDC",
+"btn": "#D9B25F",
+"btnink": "#0D0D0D",
+"acc": "#D9B25F",
+"shape": "#1E1C19"
+}
+},
+{
+"id": "106",
+"slug": "crystal-hobo",
+"img": "../../reel-kit/products/106.webp",
+"size": [
+2387,
+2295
+],
+"bbox": [
+13,
+8,
+2376,
+2282
+],
+"crops": [
+[
+100,
+852,
+803,
+1178
+],
+[
+1512,
+924,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "HANDBAGS",
+"kick": "THE CRYSTAL HOBO",
+"word": "SHINE",
+"head": "Mini bag, <b>big mood.</b>",
+"desc": "Hand-set crystal mesh with a knotted handle.",
+"chip": [
+"Silver Crystal",
+"#C9CDD3"
+],
+"pal": {
+"bg": "#1B36C9",
+"bg2": "#3554E6",
+"word": "#F3F6FF",
+"ink": "#F3F6FF",
+"btn": "#F3F6FF",
+"btnink": "#1B36C9",
+"acc": "#FFFFFF",
+"shape": "#2A47DA"
+}
+},
+{
+"id": "206",
+"slug": "leopard-tote",
+"img": "../../reel-kit/products/206.webp",
+"size": [
+1481,
+2400
+],
+"bbox": [
+4,
+8,
+1475,
+2388
+],
+"crops": [
+[
+608,
+916,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "HANDBAGS",
+"kick": "THE LEOPARD TOTE",
+"word": "SAFARI",
+"head": "Safari <b>chic.</b>",
+"desc": "Leopard-print tote with sturdy handles.",
+"chip": [
+"Leopard",
+"#1A1718"
+],
+"pal": {
+"bg": "#E9DCC9",
+"bg2": "#F4ECE0",
+"word": "#2340C8",
+"ink": "#1C1A17",
+"btn": "#2340C8",
+"btnink": "#FFFFFF",
+"acc": "#2340C8",
+"shape": "#DDCCB4"
+}
+},
+{
+"id": "212",
+"slug": "saddle-bag",
+"img": "../../reel-kit/products/212.webp",
+"size": [
+1599,
+2400
+],
+"bbox": [
+5,
+11,
+1591,
+2391
+],
+"crops": [
+[
+312,
+1196,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "HANDBAGS",
+"kick": "THE SADDLE BAG",
+"word": "CHERRY",
+"head": "Cherry <b>on top.</b>",
+"desc": "Glossy red leather, sculpted gold hardware.",
+"chip": [
+"Cherry Red",
+"#B01C25"
+],
+"pal": {
+"bg": "#F4BFCB",
+"bg2": "#FBDDE4",
+"word": "#B5121F",
+"ink": "#3E0A12",
+"btn": "#B5121F",
+"btnink": "#FFF2F4",
+"acc": "#B5121F",
+"shape": "#F9D3DC"
+}
+},
+{
+"id": "214",
+"slug": "croc-top-handle",
+"img": "../../reel-kit/products/214.webp",
+"size": [
+2135,
+2400
+],
+"bbox": [
+6,
+0,
+2129,
+2391
+],
+"crops": [
+[
+1172,
+800,
+803,
+1178
+],
+[
+172,
+812,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "HANDBAGS",
+"kick": "THE CROC TOP-HANDLE",
+"word": "LUXE",
+"head": "Pure <b>luxe.</b>",
+"desc": "Croc-embossed top-handle with gold lock.",
+"chip": [
+"Oxblood Croc",
+"#4B1C1E"
+],
+"pal": {
+"bg": "#D2E86A",
+"bg2": "#E6F49E",
+"word": "#5A2BD6",
+"ink": "#1B1530",
+"btn": "#5A2BD6",
+"btnink": "#F2EEFF",
+"acc": "#5A2BD6",
+"shape": "#5A2BD6"
+}
+},
+{
+"id": "96",
+"slug": "square-shades",
+"img": "../../reel-kit/products/96.webp",
+"size": [
+2400,
+821
+],
+"bbox": [
+11,
+8,
+2390,
+807
+],
+"crops": [
+[
+116,
+20,
+1649,
+575
+]
+],
+"wide": true,
+"tile": [
+1846,
+644
+],
+"up": 1.12,
+"cat": "SUNGLASSES",
+"kick": "THE SQUARE SHADES",
+"word": "BOLD",
+"head": "Bold <b>moves.</b>",
+"desc": "Square frame with a metal brow bar.",
+"chip": [
+"Jet Black",
+"#201D24"
+],
+"pal": {
+"bg": "#FF5C9D",
+"bg2": "#FF86B6",
+"word": "#FFE14D",
+"ink": "#2A0016",
+"btn": "#FFE14D",
+"btnink": "#2A0016",
+"acc": "#FFE14D",
+"shape": "#FF77AE"
+}
+},
+{
+"id": "100",
+"slug": "pilot",
+"img": "../../reel-kit/products/100.webp",
+"size": [
+2400,
+887
+],
+"bbox": [
+5,
+11,
+2397,
+872
+],
+"crops": [
+[
+500,
+200,
+1649,
+619
+]
+],
+"wide": true,
+"tile": [
+1846,
+693
+],
+"up": 1.12,
+"cat": "SUNGLASSES",
+"kick": "THE PILOT",
+"word": "PILOT",
+"head": "Cleared <b>for takeoff.</b>",
+"desc": "Gunmetal aviator with dark lenses.",
+"chip": [
+"Gunmetal",
+"#3B312E"
+],
+"pal": {
+"bg": "#F4BFCB",
+"bg2": "#FBDDE4",
+"word": "#B5121F",
+"ink": "#3E0A12",
+"btn": "#B5121F",
+"btnink": "#FFF2F4",
+"acc": "#B5121F",
+"shape": "#F9D3DC"
+}
+},
+{
+"id": "0",
+"slug": "gloss-puffer",
+"img": "../../reel-kit/products/0.webp",
+"size": [
+2052,
+2400
+],
+"bbox": [
+4,
+6,
+2048,
+2395
+],
+"crops": [
+[
+880,
+336,
+803,
+1178
+],
+[
+116,
+540,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "WINTERWEAR",
+"kick": "THE GLOSS PUFFER",
+"word": "GLOSS",
+"head": "Shine on, <b>winter.</b>",
+"desc": "High-shine quilted puffer with a stand collar.",
+"chip": [
+"Gloss Black",
+"#121214"
+],
+"pal": {
+"bg": "#D2E86A",
+"bg2": "#E6F49E",
+"word": "#5A2BD6",
+"ink": "#1B1530",
+"btn": "#5A2BD6",
+"btnink": "#F2EEFF",
+"acc": "#5A2BD6",
+"shape": "#5A2BD6"
+}
+},
+{
+"id": "1",
+"slug": "knit-vest",
+"img": "../../reel-kit/products/1.webp",
+"size": [
+1693,
+2400
+],
+"bbox": [
+4,
+9,
+1688,
+2385
+],
+"crops": [
+[
+392,
+348,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "KNITWEAR",
+"kick": "THE KNIT VEST",
+"word": "LAYER",
+"head": "Layer <b>it up.</b>",
+"desc": "Sleeveless ribbed knit with a roll neck.",
+"chip": [
+"Olive",
+"#51442A"
+],
+"pal": {
+"bg": "#A9D3F5",
+"bg2": "#CBE5FA",
+"word": "#D2232A",
+"ink": "#0F2440",
+"btn": "#D2232A",
+"btnink": "#FFFFFF",
+"acc": "#D2232A",
+"shape": "#93C3EC"
+}
+},
+{
+"id": "4",
+"slug": "check-trench",
+"img": "../../reel-kit/products/4.webp",
+"size": [
+1192,
+2395
+],
+"bbox": [
+6,
+7,
+1184,
+2387
+],
+"crops": [
+[
+280,
+260,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "WINTERWEAR",
+"kick": "THE CHECK TRENCH",
+"word": "CLASSIC",
+"head": "Timeless <b>check.</b>",
+"desc": "Belted double-breasted coat in a heritage check.",
+"chip": [
+"Heritage Check",
+"#413732"
+],
+"pal": {
+"bg": "#F4BFCB",
+"bg2": "#FBDDE4",
+"word": "#B5121F",
+"ink": "#3E0A12",
+"btn": "#B5121F",
+"btnink": "#FFF2F4",
+"acc": "#B5121F",
+"shape": "#F9D3DC"
+}
+},
+{
+"id": "9",
+"slug": "tweed-jacket",
+"img": "../../reel-kit/products/9.webp",
+"size": [
+2160,
+2288
+],
+"bbox": [
+18,
+19,
+2148,
+2271
+],
+"crops": [
+[
+676,
+492,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "WINTERWEAR",
+"kick": "THE TWEED JACKET",
+"word": "TWEED",
+"head": "Old money <b>energy.</b>",
+"desc": "Textured tweed with a cream yoke and zip.",
+"chip": [
+"Grey Tweed",
+"#8D8B84"
+],
+"pal": {
+"bg": "#14213D",
+"bg2": "#22345E",
+"word": "#FFD66B",
+"ink": "#F6F1E3",
+"btn": "#FFD66B",
+"btnink": "#14213D",
+"acc": "#FFD66B",
+"shape": "#22345E"
+}
+},
+{
+"id": "11",
+"slug": "cropped-zip",
+"img": "../../reel-kit/products/11.webp",
+"size": [
+1729,
+2400
+],
+"bbox": [
+4,
+4,
+1726,
+2396
+],
+"crops": [
+[
+628,
+204,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "SWEATSHIRTS",
+"kick": "THE CROPPED ZIP",
+"word": "EASY",
+"head": "Easy <b>does it.</b>",
+"desc": "Cropped zip-up hoodie in soft fleece.",
+"chip": [
+"Stone Grey",
+"#707071"
+],
+"pal": {
+"bg": "#F4E7CC",
+"bg2": "#FBF3E2",
+"word": "#0E5A43",
+"ink": "#1C2A22",
+"btn": "#0E5A43",
+"btnink": "#F4E7CC",
+"acc": "#B88A2E",
+"shape": "#EAD6AE"
+}
+},
+{
+"id": "12",
+"slug": "fluffy-knit",
+"img": "../../reel-kit/products/12.webp",
+"size": [
+1762,
+2395
+],
+"bbox": [
+8,
+9,
+1743,
+2388
+],
+"crops": [
+[
+740,
+100,
+803,
+1178
+],
+[
+924,
+1216,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "KNITWEAR",
+"kick": "THE FLUFFY KNIT",
+"word": "SOFT",
+"head": "Soft <b>as a cloud.</b>",
+"desc": "Plush brushed knit with a notch neckline.",
+"chip": [
+"Snow White",
+"#D0CFC7"
+],
+"pal": {
+"bg": "#1B36C9",
+"bg2": "#3554E6",
+"word": "#F3F6FF",
+"ink": "#F3F6FF",
+"btn": "#F3F6FF",
+"btnink": "#1B36C9",
+"acc": "#FFFFFF",
+"shape": "#2A47DA"
+}
+},
+{
+"id": "15",
+"slug": "graphic-hoodie",
+"img": "../../reel-kit/products/15.webp",
+"size": [
+1839,
+2397
+],
+"bbox": [
+9,
+4,
+1830,
+2389
+],
+"crops": [
+[
+524,
+24,
+803,
+1178
+],
+[
+324,
+1140,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "SWEATSHIRTS",
+"kick": "THE GRAPHIC HOODIE",
+"word": "VARSITY",
+"head": "Sporty <b>in pink.</b>",
+"desc": "Fleece hoodie with a navy varsity print.",
+"chip": [
+"Blush Pink",
+"#D7A8A6"
+],
+"pal": {
+"bg": "#3B2218",
+"bg2": "#5A3426",
+"word": "#FFB58A",
+"ink": "#FCEBDD",
+"btn": "#FFB58A",
+"btnink": "#3B2218",
+"acc": "#FFB58A",
+"shape": "#5A3426"
+}
+},
+{
+"id": "16",
+"slug": "slogan-hoodie",
+"img": "../../reel-kit/products/16.webp",
+"size": [
+1538,
+2040
+],
+"bbox": [
+8,
+7,
+1532,
+2034
+],
+"crops": [
+[
+376,
+24,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "SWEATSHIRTS",
+"kick": "THE SLOGAN HOODIE",
+"word": "STORIES",
+"head": "Good <b>stories.</b>",
+"desc": "Bright red hoodie with a statement slogan.",
+"chip": [
+"Poppy Red",
+"#C22424"
+],
+"pal": {
+"bg": "#D2E86A",
+"bg2": "#E6F49E",
+"word": "#5A2BD6",
+"ink": "#1B1530",
+"btn": "#5A2BD6",
+"btnink": "#F2EEFF",
+"acc": "#5A2BD6",
+"shape": "#5A2BD6"
+}
+},
+{
+"id": "17",
+"slug": "sage-sweatshirt",
+"img": "../../reel-kit/products/17.webp",
+"size": [
+1990,
+2400
+],
+"bbox": [
+5,
+4,
+1980,
+2392
+],
+"crops": [
+[
+360,
+84,
+803,
+1178
+],
+[
+1120,
+592,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "SWEATSHIRTS",
+"kick": "THE SAGE SWEATSHIRT",
+"word": "SAGE",
+"head": "Calm <b>&amp; cosy.</b>",
+"desc": "Relaxed crew-neck with a script print.",
+"chip": [
+"Sage Green",
+"#818D6B"
+],
+"pal": {
+"bg": "#14213D",
+"bg2": "#22345E",
+"word": "#FFD66B",
+"ink": "#F6F1E3",
+"btn": "#FFD66B",
+"btnink": "#14213D",
+"acc": "#FFD66B",
+"shape": "#22345E"
+}
+},
+{
+"id": "19",
+"slug": "matte-puffer",
+"img": "../../reel-kit/products/19.webp",
+"size": [
+1895,
+2400
+],
+"bbox": [
+3,
+4,
+1890,
+2394
+],
+"crops": [
+[
+888,
+824,
+803,
+1178
+],
+[
+124,
+588,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "WINTERWEAR",
+"kick": "THE MATTE PUFFER",
+"word": "WARM",
+"head": "Stay <b>warm.</b>",
+"desc": "Matte quilted puffer with zip pockets.",
+"chip": [
+"Matte Black",
+"#252525"
+],
+"pal": {
+"bg": "#E6C88E",
+"bg2": "#F2DDB2",
+"word": "#141414",
+"ink": "#141414",
+"btn": "#141414",
+"btnink": "#F2DDB2",
+"acc": "#141414",
+"shape": "#D7B472"
+}
+},
+{
+"id": "21",
+"slug": "ribbed-zip",
+"img": "../../reel-kit/products/21.webp",
+"size": [
+1372,
+2399
+],
+"bbox": [
+2,
+5,
+1368,
+2395
+],
+"crops": [
+[
+268,
+116,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "SWEATSHIRTS",
+"kick": "THE RIBBED ZIP",
+"word": "SLEEK",
+"head": "Sleek <b>&amp; simple.</b>",
+"desc": "Fitted rib-knit with a full zip front.",
+"chip": [
+"Black",
+"#1B1B1B"
+],
+"pal": {
+"bg": "#EC5B2A",
+"bg2": "#F57A45",
+"word": "#18285E",
+"ink": "#FFF3EA",
+"btn": "#18285E",
+"btnink": "#FFF3EA",
+"acc": "#FFF3EA",
+"shape": "#D84A1C"
+}
+},
+{
+"id": "22",
+"slug": "cable-vest",
+"img": "../../reel-kit/products/22.webp",
+"size": [
+1649,
+2400
+],
+"bbox": [
+13,
+25,
+1642,
+2386
+],
+"crops": [
+[
+644,
+1144,
+803,
+1178
+],
+[
+756,
+24,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "KNITWEAR",
+"kick": "THE CABLE VEST",
+"word": "SUNNY",
+"head": "Hello, <b>sunshine.</b>",
+"desc": "Cable-knit V-neck vest in bright yellow.",
+"chip": [
+"Sunshine Yellow",
+"#EFBE13"
+],
+"pal": {
+"bg": "#0E4F47",
+"bg2": "#17695E",
+"word": "#FFA9BC",
+"ink": "#FFF3EA",
+"btn": "#FFA9BC",
+"btnink": "#0E4F47",
+"acc": "#FFA9BC",
+"shape": "#17695E"
+}
+},
+{
+"id": "27",
+"slug": "tie-dye-hoodie",
+"img": "../../reel-kit/products/27.webp",
+"size": [
+1571,
+2392
+],
+"bbox": [
+7,
+9,
+1563,
+2385
+],
+"crops": [
+[
+468,
+552,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "SWEATSHIRTS",
+"kick": "THE TIE-DYE HOODIE",
+"word": "DREAMY",
+"head": "Pink <b>dreams.</b>",
+"desc": "Cropped tie-dye hoodie with a butterfly patch.",
+"chip": [
+"Candy Pink",
+"#E2B0BA"
+],
+"pal": {
+"bg": "#4E5A2E",
+"bg2": "#66753C",
+"word": "#FF9B4A",
+"ink": "#F7F1E1",
+"btn": "#FF9B4A",
+"btnink": "#2C3318",
+"acc": "#FF9B4A",
+"shape": "#66753C"
+}
+},
+{
+"id": "28",
+"slug": "grey-puffer",
+"img": "../../reel-kit/products/28.webp",
+"size": [
+1859,
+2398
+],
+"bbox": [
+3,
+7,
+1855,
+2394
+],
+"crops": [
+[
+800,
+936,
+803,
+1178
+],
+[
+36,
+1048,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "WINTERWEAR",
+"kick": "THE GREY PUFFER",
+"word": "CHILL",
+"head": "Chill <b>mode.</b>",
+"desc": "Chevron-quilted puffer with a high collar.",
+"chip": [
+"Cloud Grey",
+"#6B6B6B"
+],
+"pal": {
+"bg": "#FFD54A",
+"bg2": "#FFE480",
+"word": "#1F3BD1",
+"ink": "#151A33",
+"btn": "#1F3BD1",
+"btnink": "#FFFFFF",
+"acc": "#1F3BD1",
+"shape": "#FFC61F"
+}
+},
+{
+"id": "29",
+"slug": "leather-bomber",
+"img": "../../reel-kit/products/29.webp",
+"size": [
+1817,
+2400
+],
+"bbox": [
+5,
+7,
+1812,
+2395
+],
+"crops": [
+[
+692,
+228,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "WINTERWEAR",
+"kick": "THE LEATHER BOMBER",
+"word": "BOMBER",
+"head": "Bold <b>in green.</b>",
+"desc": "Leather-look bomber with ribbed trims.",
+"chip": [
+"Bottle Green",
+"#26433E"
+],
+"pal": {
+"bg": "#C9B6F2",
+"bg2": "#DCCEFA",
+"word": "#3D1A6E",
+"ink": "#24113F",
+"btn": "#3D1A6E",
+"btnink": "#F1EAFF",
+"acc": "#3D1A6E",
+"shape": "#B9A2EC"
+}
+},
+{
+"id": "30",
+"slug": "cable-cardigan",
+"img": "../../reel-kit/products/30.webp",
+"size": [
+1739,
+2396
+],
+"bbox": [
+8,
+16,
+1725,
+2388
+],
+"crops": [
+[
+436,
+648,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "KNITWEAR",
+"kick": "THE CABLE CARDIGAN",
+"word": "KNIT",
+"head": "Knit <b>picked.</b>",
+"desc": "Chunky cable cardigan with wooden buttons.",
+"chip": [
+"Dove Grey",
+"#7B7E86"
+],
+"pal": {
+"bg": "#0D0D0D",
+"bg2": "#262420",
+"word": "#E2BE6E",
+"gold": "1",
+"ink": "#F4ECDC",
+"btn": "#D9B25F",
+"btnink": "#0D0D0D",
+"acc": "#D9B25F",
+"shape": "#1E1C19"
+}
+},
+{
+"id": "31",
+"slug": "collar-jacket",
+"img": "../../reel-kit/products/31.webp",
+"size": [
+1975,
+2393
+],
+"bbox": [
+5,
+5,
+1969,
+2388
+],
+"crops": [
+[
+392,
+584,
+803,
+1178
+],
+[
+1152,
+604,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "WINTERWEAR",
+"kick": "THE COLLAR JACKET",
+"word": "COBALT",
+"head": "Blue <b>crush.</b>",
+"desc": "Structured jacket with a rounded collar.",
+"chip": [
+"Cobalt",
+"#295BA7"
+],
+"pal": {
+"bg": "#E9DCC9",
+"bg2": "#F4ECE0",
+"word": "#2340C8",
+"ink": "#1C1A17",
+"btn": "#2340C8",
+"btnink": "#FFFFFF",
+"acc": "#2340C8",
+"shape": "#DDCCB4"
+}
+},
+{
+"id": "33",
+"slug": "stripe-polo",
+"img": "../../reel-kit/products/33.webp",
+"size": [
+1615,
+2393
+],
+"bbox": [
+9,
+4,
+1599,
+2384
+],
+"crops": [
+[
+332,
+100,
+803,
+1178
+],
+[
+28,
+1216,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "KNITWEAR",
+"kick": "THE STRIPE POLO",
+"word": "RETRO",
+"head": "Retro <b>stripes.</b>",
+"desc": "Cropped polo knit with cream stripes.",
+"chip": [
+"Chocolate",
+"#683F2B"
+],
+"pal": {
+"bg": "#A9D3F5",
+"bg2": "#CBE5FA",
+"word": "#D2232A",
+"ink": "#0F2440",
+"btn": "#D2232A",
+"btnink": "#FFFFFF",
+"acc": "#D2232A",
+"shape": "#93C3EC"
+}
+},
+{
+"id": "34",
+"slug": "henley-hoodie",
+"img": "../../reel-kit/products/34.webp",
+"size": [
+1869,
+2400
+],
+"bbox": [
+3,
+5,
+1865,
+2397
+],
+"crops": [
+[
+708,
+384,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "SWEATSHIRTS",
+"kick": "THE HENLEY HOODIE",
+"word": "COMFY",
+"head": "Comfy <b>Sundays.</b>",
+"desc": "Button-neck hoodie in heather fleece.",
+"chip": [
+"Heather Grey",
+"#A3A3A3"
+],
+"pal": {
+"bg": "#6A1430",
+"bg2": "#8C2245",
+"word": "#FFAFC5",
+"ink": "#FFEEF2",
+"btn": "#FFAFC5",
+"btnink": "#6A1430",
+"acc": "#FFAFC5",
+"shape": "#FFAFC5"
+}
+},
+{
+"id": "39",
+"slug": "houndstooth-knit",
+"img": "../../reel-kit/products/39.webp",
+"size": [
+1867,
+2393
+],
+"bbox": [
+12,
+10,
+1859,
+2386
+],
+"crops": [
+[
+384,
+364,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "KNITWEAR",
+"kick": "THE HOUNDSTOOTH KNIT",
+"word": "ICONIC",
+"head": "Instant <b>icon.</b>",
+"desc": "Classic houndstooth crew-neck sweater.",
+"chip": [
+"Houndstooth",
+"#BCB5AD"
+],
+"pal": {
+"bg": "#3B2218",
+"bg2": "#5A3426",
+"word": "#FFB58A",
+"ink": "#FCEBDD",
+"btn": "#FFB58A",
+"btnink": "#3B2218",
+"acc": "#FFB58A",
+"shape": "#5A3426"
+}
+},
+{
+"id": "40",
+"slug": "long-vest",
+"img": "../../reel-kit/products/40.webp",
+"size": [
+1265,
+2400
+],
+"bbox": [
+12,
+9,
+1253,
+2387
+],
+"crops": [
+[
+304,
+1188,
+803,
+1178
+],
+[
+352,
+60,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "KNITWEAR",
+"kick": "THE LONG VEST",
+"word": "BLUSH",
+"head": "Blush <b>crush.</b>",
+"desc": "Longline knit vest in soft blush.",
+"chip": [
+"Blush",
+"#C5ABA1"
+],
+"pal": {
+"bg": "#1E4D2B",
+"bg2": "#2B6A3B",
+"word": "#F7A8C4",
+"ink": "#FFF1E6",
+"btn": "#F7A8C4",
+"btnink": "#1E4D2B",
+"acc": "#F7A8C4",
+"shape": "#2B6A3B"
+}
+},
+{
+"id": "41",
+"slug": "light-puffer",
+"img": "../../reel-kit/products/41.webp",
+"size": [
+1792,
+2031
+],
+"bbox": [
+11,
+13,
+1781,
+2023
+],
+"crops": [
+[
+728,
+108,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "WINTERWEAR",
+"kick": "THE LIGHT PUFFER",
+"word": "CORAL",
+"head": "Light <b>&amp; bright.</b>",
+"desc": "Lightweight quilted puffer in coral.",
+"chip": [
+"Coral",
+"#C3544D"
+],
+"pal": {
+"bg": "#BFE6D3",
+"bg2": "#D9F2E5",
+"word": "#7A1230",
+"ink": "#1E2A24",
+"btn": "#7A1230",
+"btnink": "#FFF0F3",
+"acc": "#7A1230",
+"shape": "#A8DAC2"
+}
+},
+{
+"id": "45",
+"slug": "stripe-hoodie",
+"img": "../../reel-kit/products/45.webp",
+"size": [
+1517,
+2400
+],
+"bbox": [
+6,
+0,
+1508,
+2400
+],
+"crops": [
+[
+532,
+572,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "SWEATSHIRTS",
+"kick": "THE STRIPE HOODIE",
+"word": "STRIPES",
+"head": "Earn <b>your stripes.</b>",
+"desc": "Red and white striped zip hoodie.",
+"chip": [
+"Red Stripe",
+"#681A1E"
+],
+"pal": {
+"bg": "#F4E7CC",
+"bg2": "#FBF3E2",
+"word": "#0E5A43",
+"ink": "#1C2A22",
+"btn": "#0E5A43",
+"btnink": "#F4E7CC",
+"acc": "#B88A2E",
+"shape": "#EAD6AE"
+}
+},
+{
+"id": "46",
+"slug": "stripe-knit",
+"img": "../../reel-kit/products/46.webp",
+"size": [
+1502,
+2400
+],
+"bbox": [
+4,
+3,
+1499,
+2400
+],
+"crops": [
+[
+648,
+100,
+803,
+1178
+],
+[
+4,
+1216,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "KNITWEAR",
+"kick": "THE STRIPE KNIT",
+"word": "TIE-UP",
+"head": "Tie <b>it your way.</b>",
+"desc": "Striped V-neck knit with side ties.",
+"chip": [
+"Grey Stripe",
+"#444443"
+],
+"pal": {
+"bg": "#F2D27A",
+"bg2": "#F8E4A8",
+"word": "#B4441C",
+"ink": "#3A1F10",
+"btn": "#3A1F10",
+"btnink": "#F8E4A8",
+"acc": "#B4441C",
+"shape": "#3A1F10"
+}
+},
+{
+"id": "49",
+"slug": "leather-jacket",
+"img": "../../reel-kit/products/49.webp",
+"size": [
+1954,
+2392
+],
+"bbox": [
+4,
+53,
+1950,
+2386
+],
+"crops": [
+[
+576,
+88,
+803,
+1178
+],
+[
+748,
+1204,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "WINTERWEAR",
+"kick": "THE LEATHER JACKET",
+"word": "WINTER",
+"head": "Built for <b>the cold.</b>",
+"desc": "Quilted leather-look with a plush faux-fur collar.",
+"chip": [
+"Cocoa Brown",
+"#4A2E22"
+],
+"pal": {
+"bg": "#F2D27A",
+"bg2": "#F8E4A8",
+"word": "#B4441C",
+"ink": "#3A1F10",
+"btn": "#3A1F10",
+"btnink": "#F8E4A8",
+"acc": "#B4441C",
+"shape": "#3A1F10"
+}
+},
+{
+"id": "58",
+"slug": "classic-hoodie",
+"img": "../../reel-kit/products/58.webp",
+"size": [
+1819,
+2397
+],
+"bbox": [
+6,
+0,
+1819,
+2393
+],
+"crops": [
+[
+496,
+12,
+803,
+1178
+],
+[
+736,
+1128,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "SWEATSHIRTS",
+"kick": "THE CLASSIC HOODIE",
+"word": "HOODIE",
+"head": "Your <b>everyday.</b>",
+"desc": "Classic pullover hoodie in black fleece.",
+"chip": [
+"Black",
+"#1D1D1D"
+],
+"pal": {
+"bg": "#FF5C9D",
+"bg2": "#FF86B6",
+"word": "#FFE14D",
+"ink": "#2A0016",
+"btn": "#FFE14D",
+"btnink": "#2A0016",
+"acc": "#FFE14D",
+"shape": "#FF77AE"
+}
+},
+{
+"id": "59",
+"slug": "crew-sweater",
+"img": "../../reel-kit/products/59.webp",
+"size": [
+1639,
+2396
+],
+"bbox": [
+5,
+11,
+1633,
+2392
+],
+"crops": [
+[
+776,
+1104,
+803,
+1178
+],
+[
+12,
+1116,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "KNITWEAR",
+"kick": "THE CREW SWEATER",
+"word": "CALM",
+"head": "Quiet <b>luxury.</b>",
+"desc": "Soft crew-neck sweater in oatmeal grey.",
+"chip": [
+"Oatmeal",
+"#B0AAA2"
+],
+"pal": {
+"bg": "#0E4F47",
+"bg2": "#17695E",
+"word": "#FFA9BC",
+"ink": "#FFF3EA",
+"btn": "#FFA9BC",
+"btnink": "#0E4F47",
+"acc": "#FFA9BC",
+"shape": "#17695E"
+}
+},
+{
+"id": "62",
+"slug": "navy-jacket",
+"img": "../../reel-kit/products/62.webp",
+"size": [
+2202,
+2396
+],
+"bbox": [
+4,
+3,
+2202,
+2392
+],
+"crops": [
+[
+608,
+640,
+803,
+1178
+],
+[
+1368,
+616,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "WINTERWEAR",
+"kick": "THE NAVY JACKET",
+"word": "POLISHED",
+"head": "Polished, <b>always.</b>",
+"desc": "Collarless jacket with pearl-look buttons.",
+"chip": [
+"Navy",
+"#23272F"
+],
+"pal": {
+"bg": "#E6C88E",
+"bg2": "#F2DDB2",
+"word": "#141414",
+"ink": "#141414",
+"btn": "#141414",
+"btnink": "#F2DDB2",
+"acc": "#141414",
+"shape": "#D7B472"
+}
+},
+{
+"id": "64",
+"slug": "knit-hoodie",
+"img": "../../reel-kit/products/64.webp",
+"size": [
+1576,
+2396
+],
+"bbox": [
+6,
+5,
+1571,
+2390
+],
+"crops": [
+[
+656,
+236,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "SWEATSHIRTS",
+"kick": "THE KNIT HOODIE",
+"word": "LATTE",
+"head": "Latte <b>season.</b>",
+"desc": "Cropped zip knit hoodie in soft beige.",
+"chip": [
+"Latte",
+"#B6A18C"
+],
+"pal": {
+"bg": "#B3162A",
+"bg2": "#CF2B3F",
+"word": "#F6EAD2",
+"ink": "#FFF6E8",
+"btn": "#13224A",
+"btnink": "#F6EAD2",
+"acc": "#F6EAD2",
+"shape": "#13224A"
+}
+},
+{
+"id": "69",
+"slug": "funnel-neck",
+"img": "../../reel-kit/products/69.webp",
+"size": [
+1587,
+2398
+],
+"bbox": [
+4,
+3,
+1584,
+2392
+],
+"crops": [
+[
+592,
+52,
+803,
+1178
+],
+[
+644,
+1168,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "KNITWEAR",
+"kick": "THE FUNNEL NECK",
+"word": "FOREST",
+"head": "Into <b>the green.</b>",
+"desc": "Oversized half-zip with a funnel neck.",
+"chip": [
+"Forest Green",
+"#243B3F"
+],
+"pal": {
+"bg": "#F4BFCB",
+"bg2": "#FBDDE4",
+"word": "#B5121F",
+"ink": "#3E0A12",
+"btn": "#B5121F",
+"btnink": "#FFF2F4",
+"acc": "#B5121F",
+"shape": "#F9D3DC"
+}
+},
+{
+"id": "70",
+"slug": "contrast-cardigan",
+"img": "../../reel-kit/products/70.webp",
+"size": [
+1486,
+2400
+],
+"bbox": [
+4,
+4,
+1481,
+2395
+],
+"crops": [
+[
+296,
+356,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "KNITWEAR",
+"kick": "THE CONTRAST CARDIGAN",
+"word": "SWEET",
+"head": "Sweet <b>&amp; sharp.</b>",
+"desc": "Black cardigan with cream and pink trims.",
+"chip": [
+"Black &amp; Cream",
+"#191919"
+],
+"pal": {
+"bg": "#FFD54A",
+"bg2": "#FFE480",
+"word": "#1F3BD1",
+"ink": "#151A33",
+"btn": "#1F3BD1",
+"btnink": "#FFFFFF",
+"acc": "#1F3BD1",
+"shape": "#FFC61F"
+}
+},
+{
+"id": "71",
+"slug": "athletic-hoodie",
+"img": "../../reel-kit/products/71.webp",
+"size": [
+1989,
+2397
+],
+"bbox": [
+7,
+6,
+1983,
+2392
+],
+"crops": [
+[
+552,
+28,
+803,
+1178
+],
+[
+332,
+1144,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "SWEATSHIRTS",
+"kick": "THE ATHLETIC HOODIE",
+"word": "TEAM",
+"head": "Team <b>player.</b>",
+"desc": "Red hoodie with a varsity graphic.",
+"chip": [
+"Varsity Red",
+"#9A2D2F"
+],
+"pal": {
+"bg": "#BFE6D3",
+"bg2": "#D9F2E5",
+"word": "#7A1230",
+"ink": "#1E2A24",
+"btn": "#7A1230",
+"btnink": "#FFF0F3",
+"acc": "#7A1230",
+"shape": "#A8DAC2"
+}
+},
+{
+"id": "108",
+"slug": "abstract-knit",
+"img": "../../reel-kit/products/108.webp",
+"size": [
+2034,
+2400
+],
+"bbox": [
+9,
+16,
+2020,
+2388
+],
+"crops": [
+[
+616,
+788,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "KNITWEAR",
+"kick": "THE ABSTRACT KNIT",
+"word": "ARTSY",
+"head": "Wear <b>art.</b>",
+"desc": "Chunky knit with an abstract pattern.",
+"chip": [
+"Charcoal &amp; Cream",
+"#1A1A1A"
+],
+"pal": {
+"bg": "#D2E86A",
+"bg2": "#E6F49E",
+"word": "#5A2BD6",
+"ink": "#1B1530",
+"btn": "#5A2BD6",
+"btnink": "#F2EEFF",
+"acc": "#5A2BD6",
+"shape": "#5A2BD6"
+}
+},
+{
+"id": "113",
+"slug": "colour-block-hoodie",
+"img": "../../reel-kit/products/113.webp",
+"size": [
+1654,
+2398
+],
+"bbox": [
+4,
+3,
+1651,
+2393
+],
+"crops": [
+[
+672,
+344,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "SWEATSHIRTS",
+"kick": "THE COLOUR-BLOCK HOODIE",
+"word": "BLOCK",
+"head": "Block <b>party.</b>",
+"desc": "Cropped colour-block hoodie with a zip.",
+"chip": [
+"Navy &amp; Red",
+"#1A1A22"
+],
+"pal": {
+"bg": "#C9B6F2",
+"bg2": "#DCCEFA",
+"word": "#3D1A6E",
+"ink": "#24113F",
+"btn": "#3D1A6E",
+"btnink": "#F1EAFF",
+"acc": "#3D1A6E",
+"shape": "#B9A2EC"
+}
+},
+{
+"id": "114",
+"slug": "cropped-half-zip",
+"img": "../../reel-kit/products/114.webp",
+"size": [
+1914,
+2397
+],
+"bbox": [
+3,
+6,
+1909,
+2393
+],
+"crops": [
+[
+668,
+136,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "SWEATSHIRTS",
+"kick": "THE CROPPED HALF-ZIP",
+"word": "MOVE",
+"head": "On <b>the move.</b>",
+"desc": "Cropped half-zip sweatshirt in grey.",
+"chip": [
+"Light Grey",
+"#828281"
+],
+"pal": {
+"bg": "#0D0D0D",
+"bg2": "#262420",
+"word": "#E2BE6E",
+"gold": "1",
+"ink": "#F4ECDC",
+"btn": "#D9B25F",
+"btnink": "#0D0D0D",
+"acc": "#D9B25F",
+"shape": "#1E1C19"
+}
+},
+{
+"id": "116",
+"slug": "paris-sweatshirt",
+"img": "../../reel-kit/products/116.webp",
+"size": [
+2086,
+2397
+],
+"bbox": [
+4,
+4,
+2084,
+2391
+],
+"crops": [
+[
+728,
+28,
+803,
+1178
+],
+[
+328,
+1144,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "SWEATSHIRTS",
+"kick": "THE PARIS SWEATSHIRT",
+"word": "PARIS",
+"head": "Bonjour, <b>Paris.</b>",
+"desc": "Cobalt crew-neck with an outline print.",
+"chip": [
+"Cobalt Blue",
+"#214F9F"
+],
+"pal": {
+"bg": "#E9DCC9",
+"bg2": "#F4ECE0",
+"word": "#2340C8",
+"ink": "#1C1A17",
+"btn": "#2340C8",
+"btnink": "#FFFFFF",
+"acc": "#2340C8",
+"shape": "#DDCCB4"
+}
+},
+{
+"id": "117",
+"slug": "oversized-hoodie",
+"img": "../../reel-kit/products/117.webp",
+"size": [
+1482,
+2397
+],
+"bbox": [
+2,
+3,
+1477,
+2391
+],
+"crops": [
+[
+480,
+408,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "SWEATSHIRTS",
+"kick": "THE OVERSIZED HOODIE",
+"word": "MOOD",
+"head": "Oversized <b>mood.</b>",
+"desc": "Roomy pullover hoodie in black.",
+"chip": [
+"Black",
+"#191919"
+],
+"pal": {
+"bg": "#EC5B2A",
+"bg2": "#F57A45",
+"word": "#18285E",
+"ink": "#FFF3EA",
+"btn": "#18285E",
+"btnink": "#FFF3EA",
+"acc": "#FFF3EA",
+"shape": "#D84A1C"
+}
+},
+{
+"id": "118",
+"slug": "back-print-hoodie",
+"img": "../../reel-kit/products/118.webp",
+"size": [
+1636,
+2397
+],
+"bbox": [
+3,
+2,
+1633,
+2393
+],
+"crops": [
+[
+408,
+720,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "SWEATSHIRTS",
+"kick": "THE BACK-PRINT HOODIE",
+"word": "ROCK",
+"head": "Rock <b>on.</b>",
+"desc": "Black hoodie with a bold back graphic.",
+"chip": [
+"Black",
+"#1C1C1C"
+],
+"pal": {
+"bg": "#FF7A2F",
+"bg2": "#FF9A55",
+"word": "#3E1606",
+"ink": "#2A0E03",
+"btn": "#3E1606",
+"btnink": "#FFE3CC",
+"acc": "#3E1606",
+"shape": "#FFC23D"
+}
+},
+{
+"id": "122",
+"slug": "white-hoodie",
+"img": "../../reel-kit/products/122.webp",
+"size": [
+1738,
+2398
+],
+"bbox": [
+6,
+6,
+1731,
+2390
+],
+"crops": [
+[
+456,
+16,
+803,
+1178
+],
+[
+608,
+1136,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "SWEATSHIRTS",
+"kick": "THE WHITE HOODIE",
+"word": "PURE",
+"head": "Clean <b>slate.</b>",
+"desc": "Soft white hoodie with a kangaroo pocket.",
+"chip": [
+"Off White",
+"#A9A9A4"
+],
+"pal": {
+"bg": "#1B36C9",
+"bg2": "#3554E6",
+"word": "#F3F6FF",
+"ink": "#F3F6FF",
+"btn": "#F3F6FF",
+"btnink": "#1B36C9",
+"acc": "#FFFFFF",
+"shape": "#2A47DA"
+}
+},
+{
+"id": "146",
+"slug": "leopard-knit",
+"img": "../../reel-kit/products/146.webp",
+"size": [
+2013,
+2395
+],
+"bbox": [
+6,
+8,
+2002,
+2377
+],
+"crops": [
+[
+332,
+164,
+803,
+1178
+],
+[
+1092,
+488,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "KNITWEAR",
+"kick": "THE LEOPARD KNIT",
+"word": "WILD",
+"head": "Wild <b>at heart.</b>",
+"desc": "Fluffy leopard-print knit sweater.",
+"chip": [
+"Leopard",
+"#2D2A27"
+],
+"pal": {
+"bg": "#F4E7CC",
+"bg2": "#FBF3E2",
+"word": "#0E5A43",
+"ink": "#1C2A22",
+"btn": "#0E5A43",
+"btnink": "#F4E7CC",
+"acc": "#B88A2E",
+"shape": "#EAD6AE"
+}
+},
+{
+"id": "263",
+"slug": "crew-cardigan",
+"img": "../../reel-kit/products/263.webp",
+"size": [
+1520,
+2248
+],
+"bbox": [
+1,
+6,
+1516,
+2248
+],
+"crops": [
+[
+360,
+408,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "KNITWEAR",
+"kick": "THE CREW CARDIGAN",
+"word": "SIMPLE",
+"head": "Simply <b>soft.</b>",
+"desc": "Fine-knit cardigan with pearl buttons.",
+"chip": [
+"Pearl Grey",
+"#AAAAAA"
+],
+"pal": {
+"bg": "#6A1430",
+"bg2": "#8C2245",
+"word": "#FFAFC5",
+"ink": "#FFEEF2",
+"btn": "#FFAFC5",
+"btnink": "#6A1430",
+"acc": "#FFAFC5",
+"shape": "#FFAFC5"
+}
+},
+{
+"id": "268",
+"slug": "checker-cardigan",
+"img": "../../reel-kit/products/268.webp",
+"size": [
+1830,
+2400
+],
+"bbox": [
+14,
+12,
+1821,
+2387
+],
+"crops": [
+[
+348,
+508,
+803,
+1178
+]
+],
+"wide": false,
+"tile": [
+899,
+1319
+],
+"up": 1.12,
+"cat": "KNITWEAR",
+"kick": "THE CHECKER CARDIGAN",
+"word": "CHECK",
+"head": "Check<b>mate.</b>",
+"desc": "Chunky checkerboard knit cardigan.",
+"chip": [
+"Caramel Check",
+"#AF805A"
+],
+"pal": {
+"bg": "#14213D",
+"bg2": "#22345E",
+"word": "#FFD66B",
+"ink": "#F6F1E3",
+"btn": "#FFD66B",
+"btnink": "#14213D",
+"acc": "#FFD66B",
+"shape": "#22345E"
+}
+}
+]
