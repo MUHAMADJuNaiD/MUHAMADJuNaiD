@@ -3,24 +3,40 @@
 const fs = require('fs'), path = require('path');
 const { spawn } = require('child_process');
 const ROOT = __dirname, AUD = path.join(ROOT, 'audio');
+function hash(str) { let h = 2166136261; for (const c of str) { h ^= c.charCodeAt(0); h = Math.imul(h, 16777619); }
+  h ^= h >>> 16; h = Math.imul(h, 0x85ebca6b); h ^= h >>> 13; h = Math.imul(h, 0xc2b2ae35); h ^= h >>> 16; return h >>> 0; }
+const SFX = fs.existsSync(path.join(AUD, 'sfx')) ? fs.readdirSync(path.join(AUD, 'sfx')).filter(f => f.endsWith('.wav')) : [];
+const variants = base => SFX.filter(f => f === base + '.wav' || f.startsWith(base + '--v'));
+// choose one sound per slot: alternatives + variants, seeded by the product, no sound repeated inside one reel
+function resolve(cues, salt) {
+  const used = new Set();
+  return cues.map(([at, names, v], i) => {
+    const alts = (Array.isArray(names) ? names : [names]).filter(n => variants(n).length);
+    const free = alts.filter(n => !used.has(n) || n === 'camera-shutter'); const pool = free.length ? free : alts; if (!pool.length) return null;
+    const base = pool[hash(salt + '|' + i) % pool.length]; used.add(base);
+    const vs = variants(base); return [at, vs[hash(salt + '|v' + i) % vs.length].replace(/\.wav$/, ''), v];
+  }).filter(Boolean);
+}
 
 // Cue sheets: [seconds, sound, volume]. Times match each template's timeline.
 const CUES = {
   hero: [[0, 'riser', .5], [1.42, 'boom-slam', 1], [2.8, 'whoosh', .8], [3.35, 'pop', .9], [4.55, 'shimmer', .7],
     [6.6, 'whoosh', .6], [6.95, 'click', .8], [7.7, 'click', .8], [8.45, 'click', .8], [9.2, 'click', .8],
     [10.6, 'whoosh', .6], [10.8, 'chime', .6], [11.0, 'pop', .7], [13.0, 'swoosh-reverse', .7], [13.75, 'pop', .9], [14.2, 'chime', .5]],
-  // v4: per-story cue sheets - few, different sounds, each used once, kept quiet
+  // v4: per-story cue sheets. Every slot has alternatives; each reel picks its own (never the same sound twice in one reel).
   hero4: (calls, cfg) => {
     const TL = { drop: [1.4, 1.0, 4.4, 8.0, 10.4], unbox: [1.95, 1.0, 4.5, 8.1, 10.4], season: [1.8, 1.1, 4.4, 8.0, 10.4],
       colour: [2.2, 1.1, 4.7, 8.3, 10.5], runway: [1.5, 1.1, 4.4, 8.0, 10.4] }[cfg.story || 'drop'];
-    const [rv, rd, lens, , shop] = TL, re = rv + rd, colour = lens + 3.6;
-    const intro = { drop: [[0, 'riser', .13], [re - .25, 'shimmer', .2], [re + .05, 'boom-slam', .18]],
-      unbox: [[.05, 'whoosh-long', .13], [.98, 'pop', .24], [1.78, 'shimmer', .2]],
-      season: [[0, 'riser', .12], [.4, 'chime', .12], [rv + .1, 'shimmer', .2]],
-      colour: [[.1, 'whoosh-long', .13], [1.95, 'pop', .22], [2.3, 'shimmer', .2]],
-      runway: [[0, 'riser', .12], [.62, 'click', .16], [re - .05, 'boom-slam', .18]] }[cfg.story || 'drop'];
-    const tail = [[lens - .1, 'whoosh', .16], [colour + .5, cfg.story === 'season' ? 'pop' : 'chime', .15], [shop - .1, 'swoosh-reverse', .17],
-      [shop + .75, cfg.story === 'runway' ? 'pop' : 'click', .22]];
+    const [rv, rd, lens, , shop] = TL, re = rv + rd, colour = lens + 3.6, winter = cfg.folder === 'tops-winterwear';
+    const intro = {
+      drop:   [[0, ['riser', 'bass-hit'], .13], [re - .25, ['shimmer', 'sparkle-sweep'], .2], [re + .05, ['boom-slam', 'bass-hit'], .18]],
+      unbox:  [[.05, ['whoosh-long', 'whoosh'], .13], [.98, ['pop', 'bass-hit'], .22], [1.2, ['paper-rustle'], .2], [1.78, ['sparkle-sweep', 'shimmer'], .2]],
+      season: [[0, winter ? ['wind'] : ['riser', 'sparkle-sweep'], .16], [.4, ['chime', 'bell-hit'], .12], [rv + .1, ['shimmer', 'sparkle-sweep'], .2]],
+      colour: [[.1, ['whoosh-long', 'riser'], .13], [1.9, ['pluck-up', 'pop'], .2], [2.3, ['shimmer', 'sparkle-sweep'], .2]],
+      runway: [[0, ['riser', 'bass-hit'], .12], [.35, ['camera-shutter'], .2], [.8, ['camera-shutter'], .14], [1.22, ['camera-shutter'], .17], [re - .05, ['boom-slam', 'bass-hit'], .16]],
+    }[cfg.story || 'drop'];
+    const tail = [[lens - .1, ['whoosh', 'swoosh-reverse', 'snap'], .16], [colour + .5, ['chime', 'bell-hit', 'pluck-up', 'sparkle-sweep'], .15],
+      [shop - .1, ['swoosh-reverse', 'whoosh-long', 'whoosh'], .17], [shop + .75, ['click', 'pop', 'snap'], .22]];
     return intro.concat(tail);
   },
   // v3: few, different sounds - each used once, only on story beats
@@ -41,12 +57,12 @@ const CUES = {
 };
 const DARK = ['black-gold', 'wine-blush', 'navy-butter', 'choc-peach', 'teal-blush', 'forest-pink', 'olive-orange', 'cherry-brand', 'cobalt-ice'];
 function pickMusic(r, cfg, product) {
-  const files = fs.existsSync(path.join(AUD, 'music')) ? fs.readdirSync(path.join(AUD, 'music')).filter(f => /\.(mp3|wav|m4a)$/i.test(f)).sort() : [];
-  if (!files.length) return null;
-  if (r.music && r.music !== 'auto') return path.join(AUD, 'music', r.music);
-  const want = DARK.includes(r.palette || (product && product.palette)) ? 'luxe'
-    : product && /blouses|coords|eastern/.test(product.folder) ? 'soft' : 'house';
-  return path.join(AUD, 'music', files.find(f => f.includes(want)) || files[0]);
+  const dir = path.join(AUD, 'music'); if (!fs.existsSync(dir)) return null;
+  if (r.music && r.music !== 'auto') return path.join(dir, r.music);
+  const cat = fs.existsSync(path.join(dir, 'tracks.json')) ? JSON.parse(fs.readFileSync(path.join(dir, 'tracks.json'))).filter(x => fs.existsSync(path.join(dir, x.file))) : [];
+  const folder = product && product.folder, fit = cat.filter(x => x.fits.includes(folder)), pool = fit.length ? fit : cat;
+  if (pool.length) return path.join(dir, pool[hash(String(r.product) + '|music') % pool.length].file);
+  const files = fs.readdirSync(dir).filter(f => /\.(mp3|wav|m4a)$/i.test(f)).sort(); return files.length ? path.join(dir, files[0]) : null;
 }
 function run(args) {
   return new Promise((res, rej) => { const p = spawn('ffmpeg', args, { stdio: ['ignore', 'ignore', 'inherit'] });
@@ -72,7 +88,7 @@ async function mix(video, out, dur, cues, music) {
 // Called by batch.js after a reel is rendered (silent video). Replaces it with the sound versions.
 async function addAudio(video, r, cfg, product) {
   if (r.sound === false) return;
-  const tpl = r.template || 'hero', cues = typeof CUES[tpl] === 'function' ? CUES[tpl]((cfg.calls || []).length, cfg) : (CUES[tpl] || CUES.hero);
+  const tpl = r.template || 'hero', cues = resolve(typeof CUES[tpl] === 'function' ? CUES[tpl]((cfg.calls || []).length, cfg) : (CUES[tpl] || CUES.hero), String(r.product) + (r.seed || ''));
   const silent = video.replace(/\.mp4$/, '-silent.mp4'); fs.renameSync(video, silent);
   const music = r.music === false ? null : pickMusic(r, cfg, product);
   await mix(silent, video, cfg.dur, cues, music);

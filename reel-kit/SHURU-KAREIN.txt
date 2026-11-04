@@ -13,7 +13,10 @@ Har reel ki apni STORY + apni ENTRY animation + alag transitions/details/camera:
  ENTRY (8): drop, twirl, slices, dissolve, curtain, rise (box), portal, slide (runway)
  DETAILS: magnifying lens YA side card (3 asli details, khud chuni hui)
  Aakhir: NOW LIVE ON OUR WEBSITE outlookstyles.com, @outlook_.styles, DM TO ORDER, address.
- Sound: har story ke alag, kam aur halke sound effects (har sound sirf ek dafa).
+ MUSIC: 33 alag tracks (house, disco, garage, lo-fi, trap, synthwave, afro, luxe, soft, cinematic).
+        reels.json mein har reel ka apna track: ek track zyada se zyada 3 milte-julte products pe.
+ SOUND EFFECTS: har story ke apne (runway = camera shutter, unbox = kaghaz, winter = hawa ...),
+        har reel alag version chunti hai, ek reel mein koi sound do dafa nahi, awaaz halki.
 
 BRAND INFO: "data/brand.json" (website / address / instagram).
 SETUP: naya folder hai to pehle "1-SETUP-WINDOWS.bat" ek dafa.
@@ -25,6 +28,7 @@ REELS BANANA:
   - Beech mein band karein to dobara chalane pe bani hui reels skip.
   - NOTE: purani v2/v3 reels "out" se hata dein (warna same naam wali skip ho jayengi).
 
-APNI REEL: { "product": "36", "template": "hero4" }   -> story khud chuni jayegi
+APNI REEL: { "product": "36", "template": "hero4" }   -> story aur music khud chune jayenge
+           "music": "lofi-1-86bpm.mp3"   -> khud music chunein (audio/music folder se)
            { "product": "36", "template": "hero4", "story": "unbox" }   -> khud story chunein
            "reveal": "twirl" / "slices" / "dissolve" / "curtain" / "drop"  (drop/season stories ke liye)

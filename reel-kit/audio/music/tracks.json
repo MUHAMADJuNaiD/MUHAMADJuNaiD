@@ -1,0 +1,428 @@
+[
+ {
+  "file": "house-1-122bpm.mp3",
+  "style": "house",
+  "bpm": 122,
+  "mode": "min",
+  "mood": "upbeat",
+  "energy": "high",
+  "fits": [
+   "tops-winterwear",
+   "bottoms",
+   "sunglasses"
+  ]
+ },
+ {
+  "file": "house-2-124bpm.mp3",
+  "style": "house",
+  "bpm": 124,
+  "mode": "maj",
+  "mood": "upbeat",
+  "energy": "high",
+  "fits": [
+   "tops-winterwear",
+   "bottoms",
+   "sunglasses"
+  ]
+ },
+ {
+  "file": "house-3-120bpm.mp3",
+  "style": "house",
+  "bpm": 120,
+  "mode": "min",
+  "mood": "upbeat",
+  "energy": "high",
+  "fits": [
+   "tops-winterwear",
+   "bottoms",
+   "sunglasses"
+  ]
+ },
+ {
+  "file": "disco-1-118bpm.mp3",
+  "style": "disco",
+  "bpm": 118,
+  "mode": "maj",
+  "mood": "fun",
+  "energy": "high",
+  "fits": [
+   "bottoms",
+   "blouses-shirts",
+   "coords-dresses"
+  ]
+ },
+ {
+  "file": "disco-2-116bpm.mp3",
+  "style": "disco",
+  "bpm": 116,
+  "mode": "min",
+  "mood": "fun",
+  "energy": "high",
+  "fits": [
+   "bottoms",
+   "blouses-shirts",
+   "coords-dresses"
+  ]
+ },
+ {
+  "file": "disco-3-120bpm.mp3",
+  "style": "disco",
+  "bpm": 120,
+  "mode": "maj",
+  "mood": "fun",
+  "energy": "high",
+  "fits": [
+   "bottoms",
+   "blouses-shirts",
+   "coords-dresses"
+  ]
+ },
+ {
+  "file": "garage-1-128bpm.mp3",
+  "style": "garage",
+  "bpm": 128,
+  "mode": "min",
+  "mood": "cool",
+  "energy": "high",
+  "fits": [
+   "tops-winterwear",
+   "bottoms"
+  ]
+ },
+ {
+  "file": "garage-2-130bpm.mp3",
+  "style": "garage",
+  "bpm": 130,
+  "mode": "min",
+  "mood": "cool",
+  "energy": "high",
+  "fits": [
+   "tops-winterwear",
+   "bottoms"
+  ]
+ },
+ {
+  "file": "garage-3-126bpm.mp3",
+  "style": "garage",
+  "bpm": 126,
+  "mode": "maj",
+  "mood": "cool",
+  "energy": "high",
+  "fits": [
+   "tops-winterwear",
+   "bottoms"
+  ]
+ },
+ {
+  "file": "lofi-1-86bpm.mp3",
+  "style": "lofi",
+  "bpm": 86,
+  "mode": "maj",
+  "mood": "chill",
+  "energy": "low",
+  "fits": [
+   "blouses-shirts",
+   "tops-winterwear",
+   "coords-dresses"
+  ]
+ },
+ {
+  "file": "lofi-2-90bpm.mp3",
+  "style": "lofi",
+  "bpm": 90,
+  "mode": "maj",
+  "mood": "chill",
+  "energy": "low",
+  "fits": [
+   "blouses-shirts",
+   "tops-winterwear",
+   "coords-dresses"
+  ]
+ },
+ {
+  "file": "lofi-3-84bpm.mp3",
+  "style": "lofi",
+  "bpm": 84,
+  "mode": "min",
+  "mood": "chill",
+  "energy": "low",
+  "fits": [
+   "blouses-shirts",
+   "tops-winterwear",
+   "coords-dresses"
+  ]
+ },
+ {
+  "file": "trap-1-140bpm.mp3",
+  "style": "trap",
+  "bpm": 140,
+  "mode": "min",
+  "mood": "bold",
+  "energy": "high",
+  "fits": [
+   "handbags",
+   "sunglasses",
+   "tops-winterwear"
+  ]
+ },
+ {
+  "file": "trap-2-144bpm.mp3",
+  "style": "trap",
+  "bpm": 144,
+  "mode": "min",
+  "mood": "bold",
+  "energy": "high",
+  "fits": [
+   "handbags",
+   "sunglasses",
+   "tops-winterwear"
+  ]
+ },
+ {
+  "file": "trap-3-138bpm.mp3",
+  "style": "trap",
+  "bpm": 138,
+  "mode": "min",
+  "mood": "bold",
+  "energy": "high",
+  "fits": [
+   "handbags",
+   "sunglasses",
+   "tops-winterwear"
+  ]
+ },
+ {
+  "file": "synthwave-1-104bpm.mp3",
+  "style": "synthwave",
+  "bpm": 104,
+  "mode": "min",
+  "mood": "retro",
+  "energy": "mid",
+  "fits": [
+   "sunglasses",
+   "tops-winterwear",
+   "bottoms"
+  ]
+ },
+ {
+  "file": "synthwave-2-108bpm.mp3",
+  "style": "synthwave",
+  "bpm": 108,
+  "mode": "maj",
+  "mood": "retro",
+  "energy": "mid",
+  "fits": [
+   "sunglasses",
+   "tops-winterwear",
+   "bottoms"
+  ]
+ },
+ {
+  "file": "synthwave-3-100bpm.mp3",
+  "style": "synthwave",
+  "bpm": 100,
+  "mode": "min",
+  "mood": "retro",
+  "energy": "mid",
+  "fits": [
+   "sunglasses",
+   "tops-winterwear",
+   "bottoms"
+  ]
+ },
+ {
+  "file": "afro-1-108bpm.mp3",
+  "style": "afro",
+  "bpm": 108,
+  "mode": "maj",
+  "mood": "warm",
+  "energy": "mid",
+  "fits": [
+   "bottoms",
+   "eastern",
+   "coords-dresses"
+  ]
+ },
+ {
+  "file": "afro-2-106bpm.mp3",
+  "style": "afro",
+  "bpm": 106,
+  "mode": "min",
+  "mood": "warm",
+  "energy": "mid",
+  "fits": [
+   "bottoms",
+   "eastern",
+   "coords-dresses"
+  ]
+ },
+ {
+  "file": "afro-3-110bpm.mp3",
+  "style": "afro",
+  "bpm": 110,
+  "mode": "maj",
+  "mood": "warm",
+  "energy": "mid",
+  "fits": [
+   "bottoms",
+   "eastern",
+   "coords-dresses"
+  ]
+ },
+ {
+  "file": "luxe-1-92bpm.mp3",
+  "style": "luxe",
+  "bpm": 92,
+  "mode": "min",
+  "mood": "luxury",
+  "energy": "mid",
+  "fits": [
+   "handbags",
+   "flats-jewellery",
+   "coords-dresses",
+   "eastern"
+  ]
+ },
+ {
+  "file": "luxe-2-96bpm.mp3",
+  "style": "luxe",
+  "bpm": 96,
+  "mode": "min",
+  "mood": "luxury",
+  "energy": "mid",
+  "fits": [
+   "handbags",
+   "flats-jewellery",
+   "coords-dresses",
+   "eastern"
+  ]
+ },
+ {
+  "file": "luxe-3-90bpm.mp3",
+  "style": "luxe",
+  "bpm": 90,
+  "mode": "maj",
+  "mood": "luxury",
+  "energy": "mid",
+  "fits": [
+   "handbags",
+   "flats-jewellery",
+   "coords-dresses",
+   "eastern"
+  ]
+ },
+ {
+  "file": "soft-1-112bpm.mp3",
+  "style": "soft",
+  "bpm": 112,
+  "mode": "maj",
+  "mood": "elegant",
+  "energy": "low",
+  "fits": [
+   "blouses-shirts",
+   "coords-dresses",
+   "flats-jewellery"
+  ]
+ },
+ {
+  "file": "soft-2-116bpm.mp3",
+  "style": "soft",
+  "bpm": 116,
+  "mode": "maj",
+  "mood": "elegant",
+  "energy": "low",
+  "fits": [
+   "blouses-shirts",
+   "coords-dresses",
+   "flats-jewellery"
+  ]
+ },
+ {
+  "file": "soft-3-110bpm.mp3",
+  "style": "soft",
+  "bpm": 110,
+  "mode": "min",
+  "mood": "elegant",
+  "energy": "low",
+  "fits": [
+   "blouses-shirts",
+   "coords-dresses",
+   "flats-jewellery"
+  ]
+ },
+ {
+  "file": "cinematic-1-90bpm.mp3",
+  "style": "cinematic",
+  "bpm": 90,
+  "mode": "min",
+  "mood": "epic",
+  "energy": "mid",
+  "fits": [
+   "eastern",
+   "handbags",
+   "flats-jewellery",
+   "coords-dresses"
+  ]
+ },
+ {
+  "file": "cinematic-2-88bpm.mp3",
+  "style": "cinematic",
+  "bpm": 88,
+  "mode": "maj",
+  "mood": "epic",
+  "energy": "mid",
+  "fits": [
+   "eastern",
+   "handbags",
+   "flats-jewellery",
+   "coords-dresses"
+  ]
+ },
+ {
+  "file": "cinematic-3-94bpm.mp3",
+  "style": "cinematic",
+  "bpm": 94,
+  "mode": "min",
+  "mood": "epic",
+  "energy": "mid",
+  "fits": [
+   "eastern",
+   "handbags",
+   "flats-jewellery",
+   "coords-dresses"
+  ]
+ },
+ {
+  "file": "01-colour-pop-house-120bpm.mp3",
+  "style": "house",
+  "bpm": 120,
+  "mood": "",
+  "energy": "mid",
+  "fits": [
+   "tops-winterwear",
+   "sunglasses"
+  ]
+ },
+ {
+  "file": "02-luxe-night-120bpm.mp3",
+  "style": "luxe",
+  "bpm": 120,
+  "mood": "",
+  "energy": "mid",
+  "fits": [
+   "handbags",
+   "flats-jewellery"
+  ]
+ },
+ {
+  "file": "03-soft-glam-120bpm.mp3",
+  "style": "soft",
+  "bpm": 120,
+  "mood": "",
+  "energy": "mid",
+  "fits": [
+   "blouses-shirts",
+   "coords-dresses"
+  ]
+ }
+]
