@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Outlook Styles Story Engine v4</title>
+<link rel="stylesheet" href="assets/fonts.css">
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1728px;height:2160px;overflow:hidden;background:#000}
+  #stage{position:relative;width:1728px;height:2160px;overflow:hidden}
+  canvas{position:absolute;left:0;top:0;width:1728px;height:2160px}
+  .ov{position:absolute;inset:0;pointer-events:none;font-family:'Montserrat',sans-serif}
+  .mast{position:absolute;top:84px;left:130px;right:130px;display:flex;justify-content:space-between;align-items:center}
+  .mast .brand{font-weight:700;font-size:44px;letter-spacing:.42em;margin-right:-.42em}
+  .mast .side{font-weight:700;font-size:19px;letter-spacing:.3em;width:300px}
+  .mast .side.r{text-align:right}
+  .mast .side span{display:inline-block;padding:10px 18px;border:2.5px solid currentColor;border-radius:99px}
+  .rule{position:absolute;top:158px;left:130px;right:130px;height:3px;background:currentColor;opacity:.45}
+  .center{position:absolute;left:0;right:0;text-align:center}
+  .copy{position:absolute;left:130px;right:130px;top:1745px;text-align:center}
+  .kick{font-weight:700;font-size:24px;letter-spacing:.36em}
+  .head{font-family:'Playfair Display',serif;font-style:italic;font-weight:600;font-size:112px;line-height:1.04;margin:14px 0 12px;white-space:nowrap;text-shadow:0 8px 24px rgba(0,0,0,.16)}
+  .head b{font-weight:800}
+  .desc{font-size:30px;font-weight:500}
+  .lens{position:absolute;width:440px;height:440px;border-radius:50%;background-repeat:no-repeat;background-color:#fff;
+        box-shadow:0 30px 60px rgba(0,0,0,.35),0 0 0 10px #fff,0 0 0 14px var(--word)}
+  .lenslab{position:absolute;width:440px;text-align:center;font-weight:800;font-size:26px;letter-spacing:.24em}
+  .chip{position:absolute;width:210px;background:#FFFCF6;padding:13px 13px 0;box-shadow:0 30px 50px rgba(0,0,0,.35)}
+  .chip .sw{height:172px}
+  .chip .t1{font-size:12px;font-weight:700;letter-spacing:.24em;color:#1a1a1a;padding:14px 0 4px}
+  .chip .t2{font-size:17px;font-weight:700;letter-spacing:.1em;color:#1a1a1a;padding-bottom:15px;text-transform:uppercase}
+  .browser{display:inline-flex;align-items:center;gap:22px;background:#fff;color:#1a1a1a;border-radius:24px;padding:22px 40px 22px 30px;
+           box-shadow:0 26px 50px rgba(0,0,0,.3);font-weight:700;font-size:38px;letter-spacing:.02em}
+  .browser .dots{display:flex;gap:10px}
+  .browser .dots i{width:16px;height:16px;border-radius:50%;display:block}
+  .pill{display:inline-block;font-weight:800;font-size:32px;letter-spacing:.24em;padding:26px 54px 24px 60px;border-radius:99px;
+        box-shadow:0 16px 32px rgba(0,0,0,.28),inset 0 3px 0 rgba(255,255,255,.3)}
+  #dark{position:absolute;inset:0}
+  .kt{position:absolute;left:0;right:0;text-align:center;font-family:'Playfair Display',serif;font-weight:900;line-height:.95;white-space:nowrap}
+  .kt span{display:inline-block;will-change:transform}
+  .dcard{position:absolute;width:560px;height:560px;border-radius:36px;background-repeat:no-repeat;overflow:hidden;
+         box-shadow:0 36px 70px rgba(0,0,0,.35),0 0 0 10px #fff}
+  .dcard b{position:absolute;left:0;right:0;bottom:0;padding:18px 0 16px;text-align:center;font-family:Montserrat;font-weight:800;font-size:26px;letter-spacing:.24em;color:#fff;background:var(--word)}
+  #bars div{position:absolute;left:0;width:100%}
+</style>
+<script type="importmap">
+{"imports":{
+  "three":"./node_modules/three/build/three.module.js",
+  "three/addons/":"./node_modules/three/examples/jsm/",
+  "https://cdn.jsdelivr.net/npm/opentype.js@1.3.4/+esm":"./node_modules/opentype.js/dist/opentype.module.js"
+}}
+</script>
+</head>
+<body>
+<div id="stage">
+  <canvas id="c" width="1728" height="2160"></canvas>
+  <div class="ov" id="ov"></div>
+</div>
+<script type="module" src="hero4.js"></script>
+</body>
+</html>

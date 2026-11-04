@@ -9,6 +9,20 @@ const CUES = {
   hero: [[0, 'riser', .5], [1.42, 'boom-slam', 1], [2.8, 'whoosh', .8], [3.35, 'pop', .9], [4.55, 'shimmer', .7],
     [6.6, 'whoosh', .6], [6.95, 'click', .8], [7.7, 'click', .8], [8.45, 'click', .8], [9.2, 'click', .8],
     [10.6, 'whoosh', .6], [10.8, 'chime', .6], [11.0, 'pop', .7], [13.0, 'swoosh-reverse', .7], [13.75, 'pop', .9], [14.2, 'chime', .5]],
+  // v4: per-story cue sheets - few, different sounds, each used once, kept quiet
+  hero4: (calls, cfg) => {
+    const TL = { drop: [1.4, 1.0, 4.4, 8.0, 10.4], unbox: [1.95, 1.0, 4.5, 8.1, 10.4], season: [1.8, 1.1, 4.4, 8.0, 10.4],
+      colour: [2.2, 1.1, 4.7, 8.3, 10.5], runway: [1.5, 1.1, 4.4, 8.0, 10.4] }[cfg.story || 'drop'];
+    const [rv, rd, lens, , shop] = TL, re = rv + rd, colour = lens + 3.6;
+    const intro = { drop: [[0, 'riser', .13], [re - .25, 'shimmer', .2], [re + .05, 'boom-slam', .18]],
+      unbox: [[.05, 'whoosh-long', .13], [.98, 'pop', .24], [1.78, 'shimmer', .2]],
+      season: [[0, 'riser', .12], [.4, 'chime', .12], [rv + .1, 'shimmer', .2]],
+      colour: [[.1, 'whoosh-long', .13], [1.95, 'pop', .22], [2.3, 'shimmer', .2]],
+      runway: [[0, 'riser', .12], [.62, 'click', .16], [re - .05, 'boom-slam', .18]] }[cfg.story || 'drop'];
+    const tail = [[lens - .1, 'whoosh', .16], [colour + .5, cfg.story === 'season' ? 'pop' : 'chime', .15], [shop - .1, 'swoosh-reverse', .17],
+      [shop + .75, cfg.story === 'runway' ? 'pop' : 'click', .22]];
+    return intro.concat(tail);
+  },
   // v3: few, different sounds - each used once, only on story beats
   hero3: (calls) => {
     const lens = 4.3, c = [[0, 'riser', .14], [1.5, 'shimmer', .22], [2.15, 'boom-slam', .22], [lens - .1, 'whoosh', .18],
@@ -58,7 +72,7 @@ async function mix(video, out, dur, cues, music) {
 // Called by batch.js after a reel is rendered (silent video). Replaces it with the sound versions.
 async function addAudio(video, r, cfg, product) {
   if (r.sound === false) return;
-  const tpl = r.template || 'hero', cues = typeof CUES[tpl] === 'function' ? CUES[tpl]((cfg.calls || []).length) : (CUES[tpl] || CUES.hero);
+  const tpl = r.template || 'hero', cues = typeof CUES[tpl] === 'function' ? CUES[tpl]((cfg.calls || []).length, cfg) : (CUES[tpl] || CUES.hero);
   const silent = video.replace(/\.mp4$/, '-silent.mp4'); fs.renameSync(video, silent);
   const music = r.music === false ? null : pickMusic(r, cfg, product);
   await mix(silent, video, cfg.dur, cues, music);

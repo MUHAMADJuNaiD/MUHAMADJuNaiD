@@ -14,16 +14,27 @@ const PAL = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/palettes.json')));
 const BRAND = fs.existsSync(path.join(ROOT, 'data/brand.json')) ? JSON.parse(fs.readFileSync(path.join(ROOT, 'data/brand.json'))) : {};
 const byId = Object.fromEntries(data.products.map(p => [p.id, p]));
 
+// Variety for the v4 story engine: deterministic per product (same product -> same story on re-runs)
+function hash(str) { let h = 2166136261; for (const c of str) { h ^= c.charCodeAt(0); h = Math.imul(h, 16777619); }
+  h ^= h >>> 16; h = Math.imul(h, 0x85ebca6b); h ^= h >>> 13; h = Math.imul(h, 0xc2b2ae35); h ^= h >>> 16; return h >>> 0; }
+function variety(r) {
+  const H = k => hash(String(r.product) + '|' + k + '|' + (r.seed || ''));
+  const S = ['drop', 'unbox', 'season', 'colour', 'runway'], RV = ['drop', 'twirl', 'slices', 'dissolve', 'curtain'], TR = ['wipe', 'iris', 'bars'];
+  const story = r.story || S[H('story') % 5];
+  return { story, reveal: r.reveal || ({ unbox: 'rise', colour: 'portal', runway: 'slide' }[story] || RV[H('reveal') % 5]),
+    detail: ['lens', 'card'][H('detail') % 2], trans: [TR[H('t1') % 3], TR[H('t2') % 3]], camSign: H('cam') % 2 ? 1 : -1,
+    text: ['pop', 'slide', 'type'][H('text') % 3], seed: H('seed') % 997 };
+}
 // Turn a short reel entry into the full template config (product data + palette are filled in automatically)
 function buildCfg(r) {
   const p = byId[String(r.product)]; if (!p) throw new Error('unknown product ' + r.product);
   const pal = PAL[r.palette || p.palette];
   return Object.assign({
-    img: p.img, h: 2.12, float: true, dur: (r.template === 'hero2' || r.template === 'hero3') ? 14 : 16, folder: p.folder, brand: BRAND, details: p.details || [],
+    img: p.img, h: 2.12, float: true, dur: ['hero2', 'hero3', 'hero4'].includes(r.template) ? 14 : 16, folder: p.folder, brand: BRAND, details: p.details || [],
     pal: { bg: pal.bg, bg2: pal.bg2, word: pal.word, ink: pal.ink, pod: pal.word, btnink: pal.btnink },
     cat: p.cat, word: p.word, hookLine: '', kick: p.kicker, head: p.head, desc: p.desc,
     chip: p.chip || ['', pal.word], calls: [], comment: p.word,
-  }, r.override || {}, r.calls ? { calls: r.calls } : {}, r.hookLine ? { hookLine: r.hookLine } : {});
+  }, r.template === 'hero4' ? variety(r) : {}, r.override || {}, r.calls ? { calls: r.calls } : {}, r.hookLine ? { hookLine: r.hookLine } : {});
 }
 
 async function main() {
@@ -44,7 +55,7 @@ async function main() {
     const out = path.join(outDir, (r.name || `reel-${r.product}`) + '.mp4');
     // resume: skip reels that are already finished (the cover is written last)
     if (fs.existsSync(out) && fs.existsSync(out.replace('.mp4', '-cover.jpg'))) { console.log('skip (already done) ' + out); continue; }
-    const page = await browser.newPage({ viewport: r.template === 'hero3' ? { width: 1728, height: 2160 } : { width: 1440, height: 2560 } });
+    const page = await browser.newPage({ viewport: ['hero3', 'hero4'].includes(r.template) ? { width: 1728, height: 2160 } : { width: 1440, height: 2560 } });
     await page.addInitScript(c => { window.REEL_CFG = c; }, cfg);
     page.on('pageerror', e => console.log('pageerror:', e.message));
     await page.goto(`http://127.0.0.1:${port}/${r.template || 'hero'}.html`);
@@ -65,6 +76,7 @@ async function main() {
     await page.evaluate(t => window.renderAt(t), cfg.coverAt != null ? cfg.coverAt : cfg.dur * .72);
     await page.screenshot({ path: out.replace('.mp4', '-cover.jpg'), type: 'jpeg', quality: 95 });
     await page.close();
+    if (cfg.story) console.log(`   story: ${cfg.story} | reveal: ${cfg.reveal} | details: ${cfg.detail}`);
     console.log(`done ${out}  (${((Date.now() - t0) / 1000).toFixed(0)} s)`);
   }
   await browser.close(); server.close();
