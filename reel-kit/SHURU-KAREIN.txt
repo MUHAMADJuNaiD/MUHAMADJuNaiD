@@ -32,3 +32,13 @@ APNI REEL: { "product": "36", "template": "hero4" }   -> story aur music khud ch
            "music": "lofi-1-86bpm.mp3"   -> khud music chunein (audio/music folder se)
            { "product": "36", "template": "hero4", "story": "unbox" }   -> khud story chunein
            "reveal": "twirl" / "slices" / "dissolve" / "curtain" / "drop"  (drop/season stories ke liye)
+
+FINAL REELS + CAPTIONS (jab bhi chahein):
+  "3-COLLECT-FINAL-REELS-WINDOWS.bat" double-click (Mac: "3-COLLECT-FINAL-REELS-MAC.command").
+  -> "FINAL-REELS" folder banta hai:
+       naam.mp4            = post karne wali final reel (music + sound)
+       naam.txt            = us reel ka Instagram caption (copy-paste)
+       ALL-CAPTIONS.txt    = saare captions ek file mein
+       covers/             = har reel ka cover image
+  - Sirf POORI bani hui reels aati hain (adhuri skip). Files COPY hoti hain, "out" waisa hi rehta hai.
+  - Reels banti rahein to dobara chala dein - nayi reels add ho jayengi.
